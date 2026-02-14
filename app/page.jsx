@@ -1,4 +1,3 @@
-import SearchBar from "./components/SearchBar";
 import TermCard from "./components/TermCard";
 import { terms } from "../data/terms";
 import styles from "./homePage.module.css";

@@ -1,5 +1,6 @@
 import { Suspense } from "react";
-import BusquedaClient from "./BusquedaClient";
+import BusquedaClient from "./SearchCliet"
+
 
 export default function BusquedaPage() {
   return (
