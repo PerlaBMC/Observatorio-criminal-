@@ -1,0 +1,43 @@
+.cardCornatiner {
+    display: flex;
+    justify-content: space-around;
+    width: 100%
+}
+
+.cardStyle {
+ height: 500px;
+ width: 350px;
+ margin: 20px;
+ border-radius: 20px;
+ text-align: center;
+ padding: 10px;
+ background: #e0e0e0;
+ box-shadow: 10px 10px 10px #bebebe,
+               -10px -10px 10px #ffffff;
+}
+
+.cardImg {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.cardStyle h3{
+    color: rgb(175, 15, 15);
+    margin: 10px 0px 10px 0px;
+    font-weight: 500;
+}
+
+.cardStyle h4 {
+    font-weight: 400;
+}
+
+.cardStyle p{
+    margin: 5px 10px 15px 10px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.cardStyle a:hover{
+    text-shadow: 5px 5px 8px yellow;
+}

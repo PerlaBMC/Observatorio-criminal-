@@ -1,0 +1,12 @@
+[
+    {
+      "slug": "extorsion",
+      "titulo": "Extorsión",
+      "descripcion": "Delito consistente en obtener algo mediante amenazas."
+    },
+    {
+      "slug": "delincuencia-organizada",
+      "titulo": "Delincuencia Organizada",
+      "descripcion": "Agrupación de personas que cometen delitos de manera estructurada."
+    }
+  ]

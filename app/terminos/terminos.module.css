@@ -1,0 +1,43 @@
+.terminosPage {
+    padding: 3%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.terminosPage h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.terminosPage hr {
+    height: 3px;
+    background-color: red;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.terminosBanner {
+    width: 1200px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.seccionArt {
+    width: 100%;
+    padding: 0px 70px 0px 70px;
+}
+
+.seccionArt p{
+    text-align: justify;
+}
+
+.botonAtras {
+    width: 100%;
+    text-align: end;
+    text-decoration: underline red;
+    text-underline-offset: 10px;
+}

@@ -1,0 +1,48 @@
+.bannerHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    background: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1767924363/Que%CC%81n_3_c5wp9v.png");
+    color: aliceblue;
+}
+
+.h1Div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.589);
+    font-family: math;
+    font-size: larger;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannerInf {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 90px 20px 90px;
+    text-align: center;
+    color: black;
+}
+
+.bannerInf h3 {
+    font-weight: 300;
+}
+
+.bannerInf hr {
+    height: 3px;
+    background-color: red;
+    width: 95%;
+    margin-bottom: 10px;
+}

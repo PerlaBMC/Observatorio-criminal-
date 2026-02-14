@@ -1,0 +1,19 @@
+.forSerchBar {
+    display: flex; 
+    justify-content: flex-end;
+    gap: 10px
+}
+
+.inputSearchBar {
+    padding: 10px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+
+.buttonSearchBar {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 5px
+}

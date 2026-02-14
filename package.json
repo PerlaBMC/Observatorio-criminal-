@@ -1,0 +1,20 @@
+{
+  "name": "enciclopedia",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "dom": "^0.0.3",
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^7.9.6",
+    "rect": "^1.2.1",
+    "router": "^2.2.0",
+    "styled-components": "^6.1.19"
+  }
+}

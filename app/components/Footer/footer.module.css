@@ -1,0 +1,12 @@
+.footerStyle {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+
+
