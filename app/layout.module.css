@@ -6,3 +6,31 @@
     font-weight: lighter;
     padding: 15px
 }
+
+@media (min-width: 970px) and (max-width: 1250px) {
+.headerStyle h1 {
+font-size: x-large;
+}
+
+}
+
+@media (min-width: 750px) and (max-width: 970px) { 
+.headerStyle h1 {
+    font-size: x-large;
+}
+
+}
+
+@media (width <=749px) {
+.headerStyle {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.headerStyle h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+}

@@ -4,7 +4,7 @@
     align-items: center;
     height: 400px;
     text-align: center;
-    background: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1767924363/Que%CC%81n_3_c5wp9v.png");
+    background: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1771122689/BanneHomePage_rjginh.png");
     color: aliceblue;
 }
 
@@ -23,6 +23,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .bannerInf {
@@ -45,4 +46,26 @@
     background-color: red;
     width: 95%;
     margin-bottom: 10px;
+}
+
+@media (min-width: 970px) and (max-width: 1250px) {
+
+}
+    
+@media (min-width: 750px) and (max-width: 970px) { 
+.bannerHome {
+    background: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1771123140/Disen%CC%83o_sin_ti%CC%81tulo_11_ca4cn0.png");
+}
+}
+    
+@media (width <=749px) {
+
+.bannerHome {
+ background: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1771124898/Disen%CC%83o_sin_ti%CC%81tulo_12_s8cino.png");
+ background-size: 100%;
+}
+
+.bannerInf {
+    padding: 0%;
+}
 }

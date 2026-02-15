@@ -41,3 +41,35 @@
     text-decoration: underline red;
     text-underline-offset: 10px;
 }
+
+.cardStyle a:hover{
+    text-shadow: 5px 5px 8px yellow;
+}
+
+@media (min-width: 970px) and (max-width: 1250px) {
+
+}
+
+@media (min-width: 750px) and (max-width: 970px) { 
+
+
+}
+
+@media (width <=749px) { 
+.terminosBanner {
+    width: 450px;
+    height: auto;
+}
+
+.terminosBanner img {
+    width: 100%;
+}
+
+.terminosPage h2 {
+    font-size: 25px;
+}
+
+.seccionArt {
+    padding: 0px 10px 0px 10px;
+}
+}
