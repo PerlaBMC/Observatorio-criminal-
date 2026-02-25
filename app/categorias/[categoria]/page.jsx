@@ -1,5 +1,5 @@
-import { terms } from "../../../data/terms";
-import TermCard from "../../components/TermCard";
+import { terms } from "../../../data/terminos";
+import TermCard from "../../components/TermCard/TermCard";
 export default function Categoria({ params }) {
 	const cat = params.categoria;
 	const datos = terms.filter((t) => t.categoria === cat);

@@ -7,6 +7,10 @@
     padding: 15px
 }
 
+.headerStyle h1 {
+    font-weight: lighter;
+}
+
 @media (min-width: 970px) and (max-width: 1250px) {
 .headerStyle h1 {
 font-size: x-large;

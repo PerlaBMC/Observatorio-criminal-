@@ -1,0 +1,65 @@
+.cardContainer {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 450px;
+  width: 350px;
+}
+
+.cardContainer:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.cardImage {
+  object-fit: cover;
+}
+
+.categoryBadge {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: #b91c1c;
+  color: white;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.cardContent {
+  padding: 18px;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.cardDescription {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.cardMeta {
+  font-size: 0.75rem;
+  color: #777;
+  display: flex;
+  gap: 6px;
+}

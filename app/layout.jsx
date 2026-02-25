@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Suspense } from "react";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "./components/SearchBar/SearchBar";
 import styles from "./layout.module.css";
 import Footer from "./components/Footer/Footer";
 

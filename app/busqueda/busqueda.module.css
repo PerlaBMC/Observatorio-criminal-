@@ -1,0 +1,61 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    height: 650px;
+  }
+
+.espacio {
+    height: 3px;
+    background-color: red;
+    width: 95%;
+    margin: 10px 0px 10px 0px;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+  }
+  
+  .count {
+    color: #666;
+    margin-bottom: 25px;
+  }
+  
+  .noResults {
+    margin-top: 20px;
+    color: #999;
+  }
+  
+  .resultsGrid {
+    display: grid;
+    gap: 20px;
+  }
+
+  .resultCard:hover {
+    transform: translateY(-3px);
+    font-size: large;
+  }
+
+  .category {
+    font-size: 0.75rem;
+    background: #111;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 999px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+  
+  .relatedSection:hover {
+    font-size: large;
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 480px) { 
+  .title {
+    font-size: x-large;
+  }
+  }

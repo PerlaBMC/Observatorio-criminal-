@@ -1,75 +1,68 @@
-.terminosPage {
-    padding: 3%;
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
 
-.terminosPage h2 {
-    color: black;
-    font-size: 30px;
+  .subtitle {
+    color: brown;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+    transition: 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .cardTitle {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .badge {
+    font-size: 0.75rem;
+    background: #111;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 999px;
+    display: inline-block;
     margin-bottom: 10px;
-    width: 100%;
-    text-align: center;
-}
-
-.terminosPage hr {
-    height: 3px;
-    background-color: red;
-    width: 80%;
+  }
+  
+  .cardDescription {
+    font-size: 0.9rem;
     margin-bottom: 10px;
-}
+    color: #444;
+  }
+  
+  .level {
+    font-size: 0.75rem;
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
 
-.terminosBanner {
-    width: 1200px;
-    height: 350px;
-    margin-bottom: 20px;
-}
+  }
 
-.seccionArt {
-    width: 100%;
-    padding: 0px 70px 0px 70px;
-}
-
-.seccionArt p{
-    text-align: justify;
-}
-
-.botonAtras {
-    width: 100%;
-    text-align: end;
-    text-decoration: underline red;
-    text-underline-offset: 10px;
-}
-
-.cardStyle a:hover{
-    text-shadow: 5px 5px 8px yellow;
-}
-
-@media (min-width: 970px) and (max-width: 1250px) {
-
-}
-
-@media (min-width: 750px) and (max-width: 970px) { 
-
-
-}
-
-@media (width <=749px) { 
-.terminosBanner {
-    width: 450px;
-    height: auto;
-}
-
-.terminosBanner img {
-    width: 100%;
-}
-
-.terminosPage h2 {
-    font-size: 25px;
-}
-
-.seccionArt {
-    padding: 0px 10px 0px 10px;
-}
-}
+  @media (max-width: 480px) { 
+    
+  }

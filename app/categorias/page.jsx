@@ -1,4 +1,4 @@
-import { terms } from "../../data/terms";
+import { terms } from "../../data/terminos";
 export default function CategoriasPage() {
 	const categorias = [...new Set(terms.map((t) => t.categoria))];
 	return (
