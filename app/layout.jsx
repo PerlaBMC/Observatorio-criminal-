@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 			<body>
 				<header className={styles.headerStyle}>
 					<a href="/">
-						<img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1772309332/Logo_OC_3_iv1g7m.svg" alt="" />
+						<img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1772309631/Logo_OC_4_cvyigb.svg" alt="" />
 					</a>
 					<Suspense fallback={null}>
 						<SearchBar />
