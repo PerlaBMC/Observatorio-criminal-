@@ -108,6 +108,14 @@
   .relatedCard:hover {
     text-decoration: underline;
   }
+
+  .botonAtras {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-decoration: underline double red;
+    font-size: large;
+  }
   
   @media (max-width: 768px) {
 

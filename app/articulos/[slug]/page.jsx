@@ -104,7 +104,9 @@ export default function ArticuloPage({ params }) {
             </a>
           </div>
         </div>
-
+        <div className={styles.botonAtras}>
+          <a href="/">Atrás</a>
+        </div>
       </div>
 
       {/* SIDEBAR */}
@@ -123,7 +125,6 @@ export default function ArticuloPage({ params }) {
           </Link>
         ))}
       </aside>
-
     </article>
   );
 }
