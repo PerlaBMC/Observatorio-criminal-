@@ -2,6 +2,8 @@ import { articulos } from "../../../data/articulo";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import styles from "./articuloPage.module.css"
+import { FaFacebookSquare, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
+import { FaSquareXTwitter, FaSquareWhatsapp } from "react-icons/fa6";
 
 export default function ArticuloPage({ params }) {
   const articulo = articulos.find(
@@ -19,7 +21,7 @@ export default function ArticuloPage({ params }) {
       a.metadata.slug !== slug
   ).slice(0, 3);
 
-  const currentUrl = `https://tusitio.com/articulos/${slug}`; 
+  const currentUrl = `https://observatorio-criminal.vercel.app/articulos/${slug}`; 
   // 
 
   return (
@@ -86,22 +88,31 @@ export default function ArticuloPage({ params }) {
               href={`https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`}
               target="_blank"
             >
-              Facebook
+              <FaFacebookSquare />
             </a>
 
             <a
               href={`https://twitter.com/intent/tweet?url=${currentUrl}&text=${metadata.titulo}`}
               target="_blank"
             >
-              Twitter
+              <FaSquareXTwitter />
             </a>
 
             <a
               href={`https://wa.me/?text=${metadata.titulo} ${currentUrl}`}
               target="_blank"
             >
-              WhatsApp
+              <FaSquareWhatsapp />
             </a>
+
+            <a
+              href={`https://www.linkedin.com/sharing/share-offsite/?url=${currentUrl}&title=${metadata.titulo}`}
+              target="_blank"
+            >
+              <FaLinkedin />
+            </a>
+
+
           </div>
         </div>
         <div className={styles.botonAtras}>
