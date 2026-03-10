@@ -22,6 +22,14 @@
     margin: 5%;
 }
 
+.botonAtras {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-decoration: underline double red;
+    font-size: large;
+}
+
 @media (width <=749px) {
 .aboutUs h2{
     font-size: larger;

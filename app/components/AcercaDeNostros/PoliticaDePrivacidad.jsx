@@ -105,6 +105,9 @@ const PoliticaDePrivacidad = () => {
 					manejo de información en este sitio web, puedes comunicarte a través
 					de los medios de contacto disponibles en la plataforma.
 				</p>
+				<div className={styles.botonAtras}>
+					<a href="/">Atrás</a>
+				</div>
 			</div>
 		</>
 	);

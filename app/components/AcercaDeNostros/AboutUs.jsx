@@ -59,16 +59,17 @@ const AboutUs = () => {
 				</div>
 				<h2>Divulgación del conocimiento criminológico</h2>
 				<p>
-					Uno de nuestros principales objetivos consiste en acercar el conocimiento criminológico a un público amplio.
-					Para lograrlo, la plataforma presenta información compleja mediante un
-					lenguaje claro y accesible, sin perder el rigor analítico que
-					caracteriza al estudio de la criminología.
+					Uno de nuestros principales objetivos consiste en acercar el
+					conocimiento criminológico a un público amplio. Para lograrlo, la
+					plataforma presenta información compleja mediante un lenguaje claro y
+					accesible, sin perder el rigor analítico que caracteriza al estudio de
+					la criminología.
 				</p>
 				<p>
-					De esta manera, la divulgación del conocimiento nos permite ampliar la comprensión social
-					sobre los fenómenos delictivos y fomenta una discusión pública más
-					informada sobre los problemas relacionados con la violencia, la
-					delincuencia y las políticas de seguridad.
+					De esta manera, la divulgación del conocimiento nos permite ampliar la
+					comprensión social sobre los fenómenos delictivos y fomenta una
+					discusión pública más informada sobre los problemas relacionados con
+					la violencia, la delincuencia y las políticas de seguridad.
 				</p>
 				<h2>Principales temas de análisis</h2>
 				<p>
@@ -76,12 +77,12 @@ const AboutUs = () => {
 					diversas áreas del estudio de la criminalidad, entre ellas:
 				</p>{" "}
 				<div className={styles.lista}>
-				<li>Criminología y análisis del delito</li>
-				<li>Violencia y seguridad pública</li>
-				<li>Crimen organizado</li>
-				<li>Factores sociales de la delincuencia</li>
-				<li>Prevención del delito</li>
-				<li>Política criminal y sistema de justicia</li>
+					<li>Criminología y análisis del delito</li>
+					<li>Violencia y seguridad pública</li>
+					<li>Crimen organizado</li>
+					<li>Factores sociales de la delincuencia</li>
+					<li>Prevención del delito</li>
+					<li>Política criminal y sistema de justicia</li>
 				</div>
 				<br />
 				<p>
@@ -105,6 +106,9 @@ const AboutUs = () => {
 					así como de los desafíos que enfrentan las sociedades contemporáneas
 					en materia de seguridad y justicia.
 				</p>
+				<div className={styles.botonAtras}>
+					<a href="/">Atrás</a>
+				</div>
 			</div>
 		</>
 	);

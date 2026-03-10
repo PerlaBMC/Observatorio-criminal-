@@ -108,6 +108,9 @@ const TerminosCondiciones = () => {
 					periódicamente para reflejar cambios en el funcionamiento del sitio o
 					en la legislación aplicable.
 				</p>
+				<div className={styles.botonAtras}>
+					<a href="/">Atrás</a>
+				</div>
 			</div>
 		</>
 	);
