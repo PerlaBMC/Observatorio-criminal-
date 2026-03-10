@@ -37,4 +37,8 @@ font-size: x-large;
     margin-bottom: 10px;
     font-size: x-large;
 }
+
+.headerStyle a {
+    margin-bottom: 10px;
+}
 }

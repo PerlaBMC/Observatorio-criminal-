@@ -1,6 +1,5 @@
 import ArticuloCard from "./components/ArticuloCard/ArticuloCard";
 import { articulos } from "../data/articulo"; // 👈 FALTABA ESTO
-
 import styles from "./homePage.module.css";
 
 export default function Home() {

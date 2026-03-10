@@ -55,3 +55,23 @@
     align-items: center;
 }
 
+@media (width <=749px) {
+.footerStyle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerStyle section {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+}
+
+.socialMedia p{
+    visibility: hidden;
+}
+
+.acercaDeNosotros div{
+    margin-bottom: 5px;
+}
+
+}

@@ -8,6 +8,11 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="es">
 			<head>
+				<link
+					rel="icon"
+					type="image/svg+xml"
+					href="https://res.cloudinary.com/dujrua0vo/image/upload/v1773022207/Observatorio_criminolo%CC%81gico_1_jeqy2n.svg"
+				/>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
 				<link
@@ -18,7 +23,10 @@ export default function RootLayout({ children }) {
 			<body>
 				<header className={styles.headerStyle}>
 					<a href="/">
-						<img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1772309907/Logo_OC_1_srb352.svg" alt="Logo" />
+						<img
+							src="https://res.cloudinary.com/dujrua0vo/image/upload/v1772309907/Logo_OC_1_srb352.svg"
+							alt="Logo"
+						/>
 					</a>
 					<Suspense fallback={null}>
 						<SearchBar />
