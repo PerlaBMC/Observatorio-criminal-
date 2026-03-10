@@ -12,8 +12,8 @@ export default function TerminoPage({ params }) {
 	// 🔥 Buscar artículos relacionados por etiquetas
 	const articulosRelacionados = articulos.filter((art) =>
 		art.metadata?.etiquetas?.some((etiqueta) =>
-			etiqueta.toLowerCase().includes(termino.nombre.toLowerCase())
-		)
+			etiqueta.toLowerCase().includes(termino.nombre.toLowerCase()),
+		),
 	);
 
 	return (
@@ -58,12 +58,18 @@ export default function TerminoPage({ params }) {
 					<ul className={styles.list}>
 						{articulosRelacionados.map((art) => (
 							<li key={art.metadata.slug}>
-								<Link href={`/articulos/${art.metadata.slug}`}>
+								<Link
+									href={`/articulos/${art.metadata.slug}`}
+									className={styles.linkArt}
+								>
 									{art.metadata.titulo}
 								</Link>
 							</li>
 						))}
 					</ul>
+					<div className={styles.botonAtras}>
+						<a href="/">Atrás</a>
+					</div>
 				</>
 			)}
 		</article>

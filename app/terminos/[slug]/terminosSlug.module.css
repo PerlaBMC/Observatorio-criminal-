@@ -38,3 +38,14 @@
     line-height: 1.6;
   }
   
+  .linkArt:hover {
+  text-decoration: underline solid brown;
+  }
+
+  .botonAtras {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-decoration: underline double red;
+    font-size: large;
+}

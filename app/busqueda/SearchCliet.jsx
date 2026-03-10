@@ -44,7 +44,7 @@ export default function BusquedaClient() {
               href={`/terminos/${termino.slug}`}
               className={styles.resultCard}
             >
-              <h3>{termino.nombre}</h3>
+              <h3 className={styles.tituloTermino}>{termino.nombre}</h3>
               <p>{termino.definicionCorta}..</p>
               {/*<span className={styles.category}>
                 {termino.categoria}
@@ -53,6 +53,9 @@ export default function BusquedaClient() {
           </div>
         );
       })}
+      			<div className={styles.botonAtras}>
+				<a href="/">Atrás</a>
+			</div>
     </section>
   );
 }

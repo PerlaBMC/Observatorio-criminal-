@@ -31,6 +31,10 @@
     gap: 20px;
   }
 
+  .tituloTermino {
+    color: brown;
+  }
+
   .resultCard:hover {
     transform: translateY(-3px);
     font-size: large;
@@ -45,6 +49,14 @@
     display: inline-block;
     margin-top: 8px;
   }
+
+.botonAtras {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-decoration: underline double red;
+    font-size: large;
+}
   
   .relatedSection:hover {
     font-size: large;
