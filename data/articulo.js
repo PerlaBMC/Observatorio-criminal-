@@ -36,7 +36,7 @@ export const articulos = [
 
     media: {
       imagenPrincipal: "https://res.cloudinary.com/dujrua0vo/image/upload/v1768103773/KKILLER_zyuzhs.png",
-      banner: "https://res.cloudinary.com/dujrua0vo/image/upload/v1771732390/BannerArtPage_rv73cw.png",
+      banner: "https://res.cloudinary.com/dujrua0vo/image/upload/v1773277186/BannerArtPage_1_fdmzgb.png",
       altImagen: "Ilustración conceptual de perfilación criminal"
     },
 
