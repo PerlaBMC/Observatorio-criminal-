@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
 				<header className={styles.headerStyle}>
 					<a href="/">
 						<img
-							src="https://res.cloudinary.com/dujrua0vo/image/upload/v1772309907/Logo_OC_1_srb352.svg"
+							src="https://res.cloudinary.com/dujrua0vo/image/upload/v1774244384/Logo_OC_3_cuwqze.svg"
 							alt="Logo"
 						/>
 					</a>

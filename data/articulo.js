@@ -212,5 +212,172 @@ export const articulos = [
         texto: "En México no existe un protocolo único nacional."
       }
     ]
+  },
+  {
+    metadata: {
+      id: "art-002",
+      slug: "criminologia-en-mexico",
+      titulo: "La criminología en México: funciones, alcances y retos actuales",
+      categoria: {
+        principal: "investigacion-criminologica",
+        label: "Investigación criminológica"
+      },
+      etiquetas: [
+        "criminología",
+        "criminologos en méxico",
+        "análisis conductual",
+        "violencia",
+        "sistema penitenciario",
+        "política criminal"
+      ],
+      fechaPublicacion: "2026-03-23",
+      autor: "Perla Mondragón",
+      tiempoLectura: 13 ,
+      estado: "publicado"
+    },
+
+    clasificacion: {
+      area: "Delincuencia en México",
+      subarea: "Análisis conductual",
+      nivel: "Divulgativo",
+      region: "México"
+    },
+
+    seo: {
+      metaTitle: "La criminología en México: funciones, alcances y retos actuales",
+      metaDescription:
+        "La función de criminólogo en México, qué hace, donde se desempeña, cuales son los retos para la materia."
+    },
+
+    media: {
+      imagenPrincipal: "https://res.cloudinary.com/dujrua0vo/image/upload/v1769187955/KKILLER_1_hn4wbn.png",
+      banner: "https://res.cloudinary.com/dujrua0vo/image/upload/v1774314149/BannerArtPage_2_yaz5a5.png",
+      altImagen: "Ilustración conceptual de la criminología en México"
+    },
+
+    resumen:
+      "En México, entender la violencia no es opcional: la criminología se enfrenta al reto de descifrar sus raíces para transformar el rumbo del país con decisiones verdaderamente informadas.",
+
+    contenido: [
+      {
+        tipo: "subtitulo",
+        variante: "introduccion",
+        texto: "El reto de comprender la violencia en México: claves criminológicas para entender sus causas y transformar su impacto"
+      },
+      {
+        tipo: "parrafo",
+        texto: "La criminología es una ciencia social de carácter multidisciplinario que estudia el fenómeno delictivo de manera integral, abarcando no solo el delito y a quien lo comete, sino también a la víctima, los contextos en los que ocurre y los mecanismos de control social que buscan contenerlo. Su enfoque trasciende la visión punitiva tradicional, ya que no se limita a analizar el castigo, sino que se centra en comprender las causas, dinámicas y consecuencias de la conducta criminal."
+      },
+      {
+        tipo: "parrafo",
+        texto: "En este sentido, su objetivo principal no radica únicamente en sancionar, sino en explicar por qué ocurren los delitos, identificar los factores de riesgo que los propician y, a partir de ello, diseñar estrategias de prevención e intervención que resulten efectivas y sostenibles en el tiempo. Esta perspectiva permite transitar de respuestas reactivas hacia modelos preventivos basados en evidencia, donde el conocimiento científico orienta la acción pública."
+      },
+      {
+        tipo: "parrafo",
+        texto: "En México, la criminología desempeña un papel clave para entender la complejidad del fenómeno delictivo y el impacto de la violencia en distintos niveles de la vida social. Más allá del análisis del crimen en sí, esta disciplina examina de forma articulada las causas sociales, económicas, psicológicas e institucionales que lo originan y lo reproducen. Esto incluye factores como la desigualdad, la descomposición del tejido social, la impunidad, la debilidad institucional y la presencia de estructuras criminales organizadas."
+      },
+      {
+        tipo: "parrafo",
+        texto: "En un contexto marcado por la delincuencia organizada, las brechas de desigualdad y diversas formas de violencia estructural, la criminología se consolida como una herramienta indispensable para la toma de decisiones informadas. Su aportación permite diseñar políticas públicas más eficaces, fortalecer los sistemas de seguridad y justicia, y orientar intervenciones que no solo atiendan las consecuencias del delito, sino que incidan directamente en sus causas, contribuyendo así a una reducción real y sostenida de la criminalidad."
+      },
+      {
+        tipo: "subtitulo",
+        texto: "Funciones actuales de la criminología en México"
+      },
+      {
+        tipo: "parrafo",
+        texto: "En la práctica profesional, el criminólogo en México desempeña funciones sustantivas en diversos ámbitos del sistema de justicia y seguridad, consolidándose como un perfil técnico indispensable para la toma de decisiones informadas. Entre sus principales atribuciones destacan el análisis de conductas delictivas, la evaluación de riesgos procesales, la elaboración de diagnósticos criminológicos y la participación en el diseño e implementación de estrategias de prevención del delito. Su intervención permite incorporar criterios científicos y metodológicos en procesos que, de otro modo, podrían depender exclusivamente de valoraciones jurídicas o discrecionales."
+      },
+      {
+        tipo: "parrafo",
+        texto: "Una de sus funciones más relevantes se vincula con la evaluación de riesgos procesales, entendida como un procedimiento técnico-administrativo orientado a estimar la probabilidad de que una persona imputada se sustraiga de la acción de la justicia, obstaculice el desarrollo de la investigación o represente un riesgo para la víctima durante el proceso penal. Este análisis cobra especial importancia en el marco del sistema penal acusatorio, donde la imposición de medidas cautelares debe responder a criterios de necesidad, proporcionalidad y respeto a los derechos humanos."
+      },
+      {
+        tipo: "parrafo",
+        texto: "De conformidad con el artículo 168 del Código Nacional de Procedimientos Penales, la autoridad debe considerar diversos indicadores para determinar el riesgo de sustracción, elemento clave para decidir la procedencia de medidas cautelares como la prisión preventiva. En este contexto, el criminólogo evalúa factores como el arraigo domiciliario, familiar y social, la estabilidad laboral, el entorno comunitario, así como la capacidad real de la persona para abandonar su lugar de residencia o permanecer oculta. Este análisis no solo se limita a la identificación de riesgos, sino que también permite proponer alternativas viables a la privación de la libertad."
+      }, 
+      {
+        tipo: "parrafo",
+        texto: "Cuando se determina que el imputado no presenta un riesgo significativo de sustracción ni constituye una amenaza para la víctima o la sociedad, es posible optar por medidas cautelares distintas a la prisión preventiva. Este enfoque contribuye a evitar el uso excesivo de dicha medida, privilegiando soluciones más acordes con el principio de presunción de inocencia. El propio Código Nacional de Procedimientos Penales contempla un amplio catálogo de medidas que pueden ser impuestas por la autoridad judicial, tales como la exhibición de una garantía económica, el embargo de bienes, la inmovilización de cuentas bancarias o la prohibición de salir del país o de una determinada localidad, entre otras."
+      },
+      {
+        tipo: "parrafo",
+        texto: "En el ámbito institucional, las evaluaciones de riesgo procesal son realizadas principalmente por las Unidades Estatales de Supervisión a Medidas Cautelares y Suspensión Condicional del Proceso (UMECAS), las cuales elaboran perfiles integrales de las personas imputadas a partir de información socioeconómica, antecedentes procesales y comportamiento previo. Estos informes son puestos a disposición del Ministerio Público y la defensa, quienes los utilizan como insumo para argumentar ante el Juez de Control la necesidad —o no— de imponer una medida cautelar. Con base en estos elementos y en los argumentos de las partes, la autoridad judicial determina la procedencia y alcance de las medidas."
+      },
+      {
+        tipo: "parrafo",
+        texto: "Para garantizar la calidad y legitimidad de estas evaluaciones, el criminólogo debe apegarse a criterios estrictamente técnicos y objetivos. Esto implica la recopilación sistemática de información verificable, la realización de entrevistas estructuradas y el análisis de indicadores de riesgo reales, como antecedentes de conductas violentas, ausencia de redes de apoyo familiar, consumo problemático de sustancias o historial delictivo comprobable. En contraste, resulta éticamente inadmisible sustentar conclusiones en apreciaciones subjetivas o prejuicios, como asociar automáticamente la capacidad económica o la frecuencia de viajes con un mayor riesgo procesal, ya que ello vulnera los principios de imparcialidad y rigor científico."
+      },
+      {
+        tipo: "parrafo",
+        texto: "Finalmente, el campo de acción del criminólogo no se limita al ámbito institucional. De manera independiente, también puede intervenir como perito particular en la elaboración de metaperitajes, especialmente en aquellos casos donde la defensa considera que el informe de riesgo procesal emitido por la UMECAS presenta omisiones, inconsistencias o valoraciones cuestionables. Esta posibilidad fortalece el principio de contradicción y contribuye a un equilibrio procesal más justo, al permitir la revisión técnica de los dictámenes que inciden directamente en la libertad personal de los imputados."
+      },
+      {
+        tipo: "subtitulo",
+        texto: "La criminología en el sistema penitenciario mexicano"
+      },
+      {
+        tipo: "parrafo",
+        texto: "Dentro del sistema penitenciario mexicano, la función del criminólogo ha sido —y continúa siendo— fundamental para la gestión adecuada de la población penitenciaria y la preservación de la gobernabilidad institucional. Antes de la entrada en vigor de la Ley Nacional de Ejecución Penal en 2016, el criminólogo desempeñaba un papel central en la clasificación de las personas de nuevo ingreso a los centros penitenciarios, con el objetivo de ubicarlas en el módulo correspondiente conforme a su perfil de riesgo. Para ello, realizaba entrevistas iniciales exhaustivas en las que recababa información sobre los antecedentes de vida, posibles vínculos con pandillas o grupos criminales, conductas para y antisociales —como el consumo de sustancias o la participación en actos violentos tanto dentro como fuera del entorno penitenciario—, así como su disposición al tratamiento."
+      },
+      {
+        tipo: "parrafo",
+        texto: "A partir de esta información, el criminólogo establecía parámetros técnicos para evaluar el nivel de riesgo de cada persona, considerando variables como la capacidad criminal, la adaptabilidad social y la peligrosidad. Este proceso no solo respondía a criterios de orden administrativo, sino que tenía como propósito esencial prevenir conflictos, reducir riesgos y garantizar la seguridad tanto de la población penitenciaria como del personal, contribuyendo así a la estabilidad interna de los centros."
+      },
+      {
+        tipo: "parrafo",
+        texto: "De manera paralela, el criminólogo supervisaba el desarrollo del tratamiento técnico progresivo, participando en procesos de evaluación y análisis multidisciplinario para verificar el cumplimiento de las actividades asignadas. Estas incluían componentes educativos, laborales, deportivos, psicológicos y de seguridad, todos orientados a un objetivo superior: la reinserción social efectiva de la persona privada de la libertad."
+      },
+      {
+        tipo: "parrafo",
+        texto: "Con la entrada en vigor de la Ley Nacional de Ejecución Penal en 2016, se introdujeron cambios relevantes en el sistema, tanto en el lenguaje —al sustituir términos como “interno” por “persona privada de la libertad”— como en el enfoque, al reemplazar el tratamiento técnico progresivo por el plan de actividades. A partir de estas modificaciones, algunos especialistas interpretaron que la figura del criminólogo había perdido relevancia al no ser mencionada de forma expresa en la legislación. No obstante, esta apreciación resulta limitada frente a la realidad operativa de los centros penitenciarios."
+      },
+      {
+        tipo: "parrafo",
+        texto: "En la práctica, el criminólogo sigue siendo un actor clave. Si bien las entrevistas iniciales han dejado de tener un carácter formalmente clasificatorio, continúan siendo herramientas indispensables para conocer el perfil integral de las personas que ingresan al sistema. A través de estas, es posible identificar factores de riesgo, necesidades específicas de atención, posibles conflictos derivados de pertenencia a grupos antagónicos, así como requerimientos de intervención médica o psiquiátrica, especialmente en casos de consumo o abstinencia de sustancias."
+      },
+      {
+        tipo: "parrafo",
+        texto: "Asimismo, el seguimiento y evaluación del avance en el plan de actividades permiten al criminólogo emitir valoraciones técnicas relevantes en procesos judiciales, como la solicitud de medidas cautelares, beneficios preliberacionales o traslados entre centros penitenciarios. De esta manera, su labor se mantiene alineada con la finalidad del sistema penitenciario: garantizar que el trabajo multidisciplinario se oriente al cumplimiento de los cinco ejes rectores establecidos en el artículo 18 de la Constitución Política de los Estados Unidos Mexicanos, asegurando condiciones que favorezcan una reinserción social efectiva y sostenible."
+      }, 
+      {
+        tipo: "subtitulo",
+        texto: "Retos y desafíos de la criminología en México"
+      },
+      {
+        tipo: "parrafo",
+        texto: "Uno de los principales retos de la criminología en México radica en su limitada incorporación en los procesos de toma de decisiones públicas, especialmente en espacios estratégicos como la Cámara de Diputados, donde se diseñan, discuten y aprueban reformas en materia de seguridad y justicia. Esta ausencia no es menor: restringe la posibilidad de evolucionar de una política criminal predominantemente reactiva —centrada en el endurecimiento de penas y el incremento del catálogo de delitos— hacia una política criminológica integral, preventiva y sustentada en evidencia empírica. En la práctica, esto perpetúa respuestas coyunturales frente al delito, en lugar de atender sus causas estructurales y dinámicas territoriales."
+      },
+      {
+        tipo: "parrafo",
+        texto: "La inclusión del criminólogo en la planeación, implementación y evaluación de políticas públicas permitiría robustecer el enfoque técnico de las decisiones legislativas y administrativas. A través de metodologías científicas, análisis estadísticos y estudios de campo, el criminólogo identifica patrones delictivos, factores de riesgo y contextos de vulnerabilidad que anteceden a la conducta criminal. Esta capacidad de anticipación resulta clave para diseñar intervenciones focalizadas que reduzcan la probabilidad de que determinadas conductas escalen hacia delitos tipificados, optimizando así el uso de recursos públicos y fortaleciendo la prevención situacional y social."
+      },
+      {
+        tipo: "parrafo",
+        texto: "Además, el criminólogo aporta herramientas de evaluación de impacto que permiten medir la efectividad real de las políticas de seguridad, evitando la reproducción de estrategias ineficaces o meramente simbólicas. En este sentido, su participación contribuye a contrarrestar el denominado “fetichismo de la ley”: la tendencia a privilegiar la producción normativa y el aumento de sanciones como respuesta automática frente a la inseguridad, sin considerar su viabilidad operativa ni sus efectos reales en la disminución de la criminalidad."
+      },
+      {
+        tipo: "parrafo",
+        texto: "Integrar la perspectiva criminológica en el diseño de políticas públicas no solo fortalece la calidad técnica de las decisiones, sino que también promueve un enfoque más racional, preventivo y sostenible de la seguridad. En un contexto como el mexicano, marcado por altos niveles de violencia y complejidad delictiva, resulta indispensable transitar hacia modelos de gobernanza que incorporen conocimiento especializado, prioricen la evidencia sobre la coyuntura política y coloquen la prevención del delito como eje central de la estrategia de seguridad."
+      }
+    ],
+
+    referencias: [
+      {
+        autor: "Ressler, Robert",
+        titulo: "Whoever Fights Monsters",
+        año: 1992,
+        fuente: "Libro",
+        url: ""
+      }
+    ],
+
+    notas: [
+      {
+        id: 1,
+        texto: "En México no existe un protocolo único nacional."
+      }
+    ]
   }
+
 ];
