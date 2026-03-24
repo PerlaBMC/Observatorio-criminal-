@@ -217,7 +217,7 @@ export const articulos = [
     metadata: {
       id: "art-002",
       slug: "criminologia-en-mexico",
-      titulo: "La criminología en México: funciones, alcances y retos actuales",
+      titulo: "La criminología en México: funciones, alcances y retos",
       categoria: {
         principal: "investigacion-criminologica",
         label: "Investigación criminológica"
@@ -256,7 +256,7 @@ export const articulos = [
     },
 
     resumen:
-      "En México, entender la violencia no es opcional: la criminología se enfrenta al reto de descifrar sus raíces para transformar el rumbo del país con decisiones verdaderamente informadas.",
+      "En México, entender la violencia no es opcional: la criminología se enfrenta al reto de descifrar sus raíces para transformar el rumbo del país",
 
     contenido: [
       {
