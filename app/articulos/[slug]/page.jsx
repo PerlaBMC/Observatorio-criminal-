@@ -1,38 +1,52 @@
 import { articulos } from "../../../data/articulo";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import styles from "./articuloPage.module.css"
-import { FaFacebookSquare, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
+import styles from "./articuloPage.module.css";
+import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter, FaSquareWhatsapp } from "react-icons/fa6";
 
 export default function ArticuloPage({ params }) {
+  // 🧠 Normalizar slug (maneja array + espacios + mayúsculas)
+  const slugParam = Array.isArray(params.slug)
+    ? params.slug[0]
+    : params.slug;
+
+  const normalize = (str) => str?.toLowerCase().trim();
+
   const articulo = articulos.find(
-    (a) => a.metadata.slug === params.slug
+    (a) => normalize(a.metadata.slug) === normalize(slugParam)
   );
-  if (!articulo) return notFound();
+
+  // 🔴 Si no encuentra → 404 real (ya no falso positivo)
+  if (!articulo) {
+    console.log("❌ No encontrado:", slugParam);
+    console.log(
+      "Disponibles:",
+      articulos.map((a) => a.metadata.slug)
+    );
+    return notFound();
+  }
 
   const { metadata, media, contenido } = articulo;
   const slug = metadata.slug;
 
-  // 🔥 Artículos relacionados (misma categoría, excluyendo el actual)
-  const relacionados = articulos.filter(
-    (a) =>
-      a.metadata.categoria.principal === metadata.categoria.principal &&
-      a.metadata.slug !== slug
-  ).slice(0, 3);
+  // 🔥 Relacionados (corregido acceso a slug)
+  const relacionados = articulos
+    .filter(
+      (a) =>
+        a.metadata.categoria.principal ===
+          metadata.categoria.principal &&
+        normalize(a.metadata.slug) !== normalize(slug)
+    )
+    .slice(0, 3);
 
-  const currentUrl = `https://observatorio-criminal.vercel.app/articulos/${slug}`; 
-  // 
+  const currentUrl = `https://observatorio-criminal.vercel.app/articulos/${slug}`;
 
   return (
     <article className={styles.articleWrapper}>
-
       {/* CONTENIDO PRINCIPAL */}
       <div className={styles.mainContent}>
-        
-        <h1 className={styles.title}>
-          {metadata.titulo}
-        </h1>
+        <h1 className={styles.title}>{metadata.titulo}</h1>
 
         <div className={styles.meta}>
           <span className={styles.category}>
@@ -41,10 +55,14 @@ export default function ArticuloPage({ params }) {
           <span>{metadata.fechaPublicacion}</span>
           <span>•</span>
           <span>{metadata.tiempoLectura} minutos</span>
-        </div> 
+        </div>
 
         <div className={styles.imageWrapper}>
-          <img src={media.banner} alt={metadata.titulo} className={styles.heroImage}/>
+          <img
+            src={media.banner}
+            alt={metadata.titulo}
+            className={styles.heroImage}
+          />
         </div>
 
         <div className={styles.content}>
@@ -79,7 +97,7 @@ export default function ArticuloPage({ params }) {
           })}
         </div>
 
-        {/* 🔗 BOTONES COMPARTIR */}
+        {/* 🔗 COMPARTIR */}
         <div className={styles.shareSection}>
           <p>Compartir:</p>
 
@@ -106,17 +124,16 @@ export default function ArticuloPage({ params }) {
             </a>
 
             <a
-              href={`https://www.linkedin.com/sharing/share-offsite/?url=${currentUrl}&title=${metadata.titulo}`}
+              href={`https://www.linkedin.com/sharing/share-offsite/?url=${currentUrl}`}
               target="_blank"
             >
               <FaLinkedin />
             </a>
-
-
           </div>
         </div>
+
         <div className={styles.botonAtras}>
-          <a href="/">Atrás</a>
+          <Link href="/">Atrás</Link>
         </div>
       </div>
 
@@ -128,8 +145,8 @@ export default function ArticuloPage({ params }) {
 
         {relacionados.map((rel) => (
           <Link
-            key={rel.slug}
-            href={`/articulos/${rel.slug}`}
+            key={rel.metadata.slug}
+            href={`/articulos/${rel.metadata.slug}`}
             className={styles.relatedCard}
           >
             <p>{rel.metadata.titulo}</p>
