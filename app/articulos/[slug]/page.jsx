@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "./articuloPage.module.css";
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter, FaSquareWhatsapp } from "react-icons/fa6";
+import { FaBook } from "react-icons/fa";
 
 export default function ArticuloPage({ params }) {
   // 🧠 Normalizar slug (maneja array + espacios + mayúsculas)
@@ -149,7 +150,7 @@ export default function ArticuloPage({ params }) {
             href={`/articulos/${rel.metadata.slug}`}
             className={styles.relatedCard}
           >
-            <p>{rel.metadata.titulo}</p>
+            <p> <FaBook className={styles.boockIcon}/> {rel.metadata.titulo}</p>
           </Link>
         ))}
       </aside>

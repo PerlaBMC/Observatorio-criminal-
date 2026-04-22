@@ -663,4 +663,306 @@ export const articulos = [
 			},
 		],
 	},
+	{
+		metadata: {
+			id: "art-004",
+			slug: "criminal-o-delincuente",
+			titulo:
+				"Criminal o delincuente ¿cómo se forma uno?",
+			categoria: {
+				principal: "investigacion-criminologica",
+				label: "Investigación criminológica",
+			},
+			etiquetas: [
+				"criminología",
+				"criminal",
+				"análisis conductual",
+				"delincuente",
+				"monstruo",
+				"feminicida",
+			],
+			fechaPublicacion: "2026-04-22",
+			autor: "Perla Mondragón",
+			tiempoLectura: 13,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Análisis conductual",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Criminal o delincuente ¿cómo se forma uno?",
+			metaDescription:
+				"cual es la diferencia entre un criminal y un delincuente",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1776887563/Observatorio_criminal_6_gazk9y.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1776887563/BannerArtPage_3_slo6hd.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"¿Los criminales nacen o se hacen? Entender el origen de la conducta delictiva no justifica el delito: permite prevenirlo y romper ciclos de violencia.",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto:
+					"¿Los criminales nacen o se hacen? La pregunta sigue vigente, pero abre otra igual de relevante: ¿es lo mismo un criminal que un delincuente? Entender el origen de la conducta delictiva no justifica el delito; permite analizar sus matices, diferenciar perfiles y comprender qué hay detrás de cada caso para prevenir y romper ciclos de violencia.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para comprender qué hay detrás de la mente de una persona que afecta gravemente a la sociedad mediante conductas reprochables, es necesario partir de una delimitación conceptual clara. En primer lugar, conviene definir qué es un delincuente. De acuerdo con el Diccionario de la Lengua Española, se trata de aquella persona que ha cometido un delito, entendido como una acción u omisión que infringe la ley penal de un Estado y que conlleva una sanción. En el ámbito jurídico se le denomina sujeto activo del delito; sin embargo, desde una perspectiva estrictamente legal, el término “delincuente” sólo es plenamente aplicable a quien ha sido declarado culpable mediante una sentencia firme tras un debido proceso. Antes de ello, se utilizan denominaciones como imputado, procesado o acusado, dependiendo la etapa procesal.",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Desde la criminología, resulta fundamental distinguir entre los conceptos de delincuente y criminal, ya que, aunque en el lenguaje cotidiano suelen emplearse como sinónimos, existe una diferencia relevante. El delincuente es, en sentido estricto, quien comete un delito tipificado por la ley; en cambio, el término criminal suele asociarse a conductas de carácter violento que atentan contra bienes jurídicos fundamentales como la vida o la integridad, independientemente de su formal tipificación.",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"En el plano lingüístico, el Diccionario de la Real Academia Española define “criminal” como aquel que ha cometido o intentado cometer un crimen, vinculando el concepto con la noción de “impulso criminal”. Bajo esta óptica, y en relación con la teoría del iter criminis, es posible sostener que la cualidad de “criminal” puede proyectarse incluso desde fases tempranas del proceso delictivo. Es decir, desde la etapa de ideación —ubicada en la fase interna del delito— donde surge el pensamiento o la intención de delinquir, aunque esta aún no se haya materializado en una conducta punible.",
+			},
+				{
+				tipo: "subtitulo",
+				texto:
+					"Fases y etapas del iter Criminis ",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"El análisis del iter criminis no solo permite clasificar jurídicamente las conductas, sino también entender el proceso evolutivo del delito. Mientras el Derecho penal interviene principalmente en la fase externa, la criminología amplía el enfoque hacia la fase interna, donde se gestan las verdaderas causas del comportamiento delictivo.",
+			},
+				{
+				tipo: "subtitulo",
+				texto:
+					"Fase interna del iter criminis",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"La fase interna constituye el punto de partida del iter criminis y se desarrolla exclusivamente en el ámbito psíquico del individuo. En esta etapa no existe aún una manifestación externa de la conducta, por lo que, desde la óptica del Derecho penal, carece de relevancia jurídica y no es punible. Sin embargo, para la criminología, esta fase resulta crucial, ya que permite analizar los procesos cognitivos, emocionales y contextuales que dan origen a la conducta delictiva.",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Las etapas que la integran son:",
+			},
+			{
+				tipo: "lista",
+				items: [
+				"Ideación: Es el momento en que surge la idea delictiva. Puede originarse de manera espontánea o como resultado de factores estructurales (entorno social, exposición a violencia, necesidades económicas) o individuales (rasgos de personalidad, impulsividad, aprendizaje previo). Aquí se configura el primer esbozo del acto criminal.",
+				"Deliberación: En esta etapa, el individuo desarrolla mentalmente el plan delictivo, valorando medios, oportunidades y posibles consecuencias. Es también el punto donde puede presentarse un conflicto interno entre normas, valores y deseos. La deliberación no siempre es racional; en muchos casos está influida por distorsiones cognitivas que justifican o minimizan la gravedad del acto.",
+				"Decisión: Finalmente, el sujeto resuelve ejecutar la conducta. Este momento implica un quiebre en la inhibición moral o legal, consolidando la intención delictiva. Desde la criminología, este punto es clave porque marca la transición de la posibilidad al compromiso con la acción."	
+				],
+			},
+				{
+				tipo: "subtitulo",
+				texto:
+					"Fase externa del iter criminis",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"La fase externa inicia cuando la intención se traduce en conductas observables. A partir de este momento, los actos adquieren relevancia jurídica, ya que pueden ser perseguidos y sancionados por el sistema penal. Esta fase permite identificar con mayor claridad la peligrosidad, capacidad operativa y grado de desarrollo de la conducta delictiva.",
+			},
+				{
+				tipo: "lista",
+				items:[
+				"Actos preparatorios: El sujeto comienza a materializar las condiciones necesarias para la comisión del delito (adquisición de herramientas, vigilancia de la víctima, planeación logística). Por regla general, estos actos no son punibles, salvo en casos específicos donde la ley los tipifica expresamente debido a su peligrosidad (por ejemplo, en delitos relacionados con terrorismo o delincuencia organizada).",
+				"Ejecución (tentativa): Aquí se inicia directamente la realización del delito. La conducta ya se orienta de manera inequívoca hacia la consumación, aunque no se logre el resultado final por causas ajenas a la voluntad del autor. En esta etapa, el Derecho penal reconoce la tentativa como punible, dado que el bien jurídico ya ha sido puesto en riesgo.",
+				"Consumación: Se produce cuando el delito se realiza plenamente y se actualizan todos los elementos del tipo penal. El resultado previsto por el autor se concreta, lo que da lugar a la responsabilidad penal completa y, generalmente, a sanciones más severas.",
+				"Agotamiento: Esta fase va más allá de la consumación y se refiere al momento en que el autor obtiene el beneficio o satisface la finalidad que motivó el delito. Aunque no siempre tiene implicaciones jurídicas adicionales, resulta de gran interés criminológico, ya que permite comprender la motivación final del comportamiento y evaluar su posible repetición."	
+				]
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Este entendimiento resulta fundamental para diseñar estrategias de prevención, ya que intervenir en las etapas tempranas —particularmente en la ideación y deliberación— puede evitar que la conducta llegue a materializarse, reduciendo así el impacto social del fenómeno criminal.",
+			},
+						{
+				tipo: "subtitulo",
+				texto:
+					"Pero… ¿Cómo se forma un criminal?",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Para la criminología y la política criminal, comprender el origen de la conducta delictiva no es un ejercicio meramente teórico, sino una necesidad estratégica. Anticipar las conductas antes de su materialización —incluso desde las primeras fases del iter criminis— representa una de las vías más efectivas para reducir los índices de violencia y delincuencia.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Esta cuestión nos remite inevitablemente al clásico debate: ¿los criminales nacen o se hacen? Aunque no existe una respuesta absoluta, hoy se reconoce que el comportamiento humano —incluido el delictivo— debe entenderse desde un enfoque bio-psico-social. Esto implica que la conducta antisocial no responde a una causa única, sino a la interacción dinámica de múltiples factores que, en conjunto, pueden favorecer su aparición.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Desde esta perspectiva, resulta más preciso afirmar que los criminales no nacen, sino que se configuran a lo largo de su desarrollo a partir de la convergencia de distintos elementos de riesgo.",
+			},
+						{
+				tipo: "subtitulo",
+				texto:
+					"Dimensión biológica:",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					" En este plano, se ha explorado la existencia de ciertas predisposiciones genéticas que pueden influir en la conducta, sin que ello implique determinismo. No existe un “gen del crimen”; sin embargo, sí se han identificado factores como variaciones en el gen MAOA —relacionado con la regulación de neurotransmisores como la serotonina— que, en interacción con entornos adversos, pueden aumentar la propensión a conductas agresivas. Asimismo, los procesos epigenéticos derivados de experiencias traumáticas (como el maltrato infantil o la exposición prolongada a la violencia) pueden modificar la expresión genética, incrementando la vulnerabilidad a respuestas impulsivas o violentas. En este sentido, la biología establece condiciones de posibilidad, pero es el entorno el que modula su expresión.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Otro elemento relevante es la predisposición a las adicciones (Trastornos por Consumo de Sustancias), cuya heredabilidad se estima entre un 30% y 70%. Esta vulnerabilidad puede traducirse en mayor riesgo de consumo, especialmente en individuos expuestos desde etapas tempranas, incluso durante la gestación. Si bien no es un factor determinante, sí constituye un componente de riesgo significativo al asociarse con conductas impulsivas y desinhibidas.",
+			},
+						{
+				tipo: "subtitulo",
+				texto:
+					"Dimensión psicológica:",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Las experiencias individuales, particularmente aquellas de carácter traumático, desempeñan un papel central en la configuración de la conducta. La ausencia de intervención o acompañamiento adecuado frente a estos eventos puede generar secuelas profundas: alteraciones en la regulación emocional, distorsiones cognitivas y dificultades en la construcción de vínculos sanos.",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Esto puede manifestarse en patrones como baja tolerancia a la frustración, impulsividad, escasa empatía, egocentrismo o una tendencia a atribuir la responsabilidad de los conflictos a factores externos (extrapunición). En muchos casos, estas características no surgen de manera espontánea, sino como mecanismos de adaptación a entornos hostiles.",
+			},
+				{
+				tipo: "subtitulo",
+				texto:
+					"Dimensión social:",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Los factores sociales suelen actuar como los principales detonantes de la conducta delictiva. Entornos marcados por la violencia —ya sea en el ámbito familiar o comunitario— incrementan significativamente la probabilidad de reproducir estos patrones en la vida adulta, perpetuando ciclos intergeneracionales de violencia.",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Asimismo, el contexto socioeconómico influye de manera relevante. La desigualdad, la exclusión social y la presión derivada de modelos de consumo pueden generar frustración y propiciar conductas anómicas, donde el individuo justifica medios ilegítimos para alcanzar objetivos socialmente valorados, como el éxito económico o el reconocimiento.",
+			},
+				{
+				tipo: "subtitulo",
+				texto:
+					"El caso del “Monstruo de Ecatepec”",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Para aterrizar los conceptos desarrollados, resulta pertinente analizar un caso paradigmático en México: el de Juan Carlos Hernández Bejar, quien junto a su pareja Patricia Martínez fue detenido en 2018 por su participación en el asesinato de una mujer, así como por el secuestro e intento de comercialización de su hija de dos meses de edad. A estos hechos se sumaron múltiples investigaciones que lo vincularon con entre 10 y 20 posibles feminicidios, además de declaraciones en las que ambos admitieron haber cometido actos de canibalismo contra algunas de sus víctimas.",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Desde el punto de vista jurídico, no existe duda sobre su calidad de delincuentes: tras el proceso penal correspondiente, fueron encontrados culpables y condenados a penas acumulativas que superan los 300 años de prisión. Sin embargo, desde una perspectiva criminológica, conocer la sentencia resulta insuficiente. La pregunta central no es únicamente qué hicieron, sino por qué lo hicieron.",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Responder a esta interrogante implica ir más allá de la fase interna del iter criminis, es decir, incluso antes de la ideación delictiva, para analizar los elementos que conformaron su estructura bio-psico-social. Comprender el origen de conductas tan extremas como el feminicidio serial o la antropofagia exige explorar la historia de vida del perpetrador y los factores que moldearon su desarrollo.",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Dimensión biológica: ",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"Dentro de los antecedentes referidos por el propio sujeto, destaca un traumatismo craneoencefálico sufrido en la infancia tras una caída de considerable altura. Posteriormente, manifestó experimentar alucinaciones visuales y auditivas. Si bien un golpe en la cabeza no determina por sí mismo una conducta criminal, sí puede generar alteraciones neurológicas relevantes, especialmente si no recibe atención médica adecuada.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El posible daño en la corteza prefrontal —región encargada de funciones como la toma de decisiones, el control de impulsos, la planificación y la empatía— puede traducirse en una disminución de los frenos inhibitorios, favoreciendo conductas impulsivas, desorganizadas o violentas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"A esto se suma el consumo temprano de sustancias psicoactivas, como inhalantes, marihuana y cocaína durante la adolescencia, lo que pudo haber agravado la vulnerabilidad neuropsicológica.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Dimensión psicológica:",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"En este plano, sobresale un marcado conflicto con la figura materna. El propio Hernández Bejar manifestó un profundo odio hacia las mujeres, acompañado de amenazas explícitas de continuar agrediéndolas. Este discurso no puede entenderse de forma aislada.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En su relato, refiere experiencias de abandono, infidelidad por parte de su madre y, de manera particularmente relevante, abuso sexual durante la infancia por parte de una persona cercana. Estos eventos traumáticos, no atendidos, pueden generar distorsiones en la construcción de la identidad, la sexualidad y los vínculos afectivos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La misoginia expresada podría interpretarse como una proyección de resentimiento, dolor y deseo de control frente a figuras femeninas asociadas a experiencias negativas, configurando así un patrón de violencia dirigido.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"Dimensión social:",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En el ámbito social, su trayectoria refleja un proceso de exclusión y desestructuración. Presentó bajo rendimiento académico, abandono escolar y una inserción laboral precaria e inestable. Desde los 16 años se desvinculó de su núcleo familiar, lo que redujo aún más sus redes de apoyo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Este tipo de trayectorias, caracterizadas por la marginalidad, la falta de oportunidades y la ausencia de contención institucional o comunitaria, incrementan la probabilidad de consolidar estilos de vida desviados, especialmente cuando convergen con factores biológicos y psicológicos de riesgo.",
+			},
+				{
+				tipo: "parrafo",
+				texto:
+					"El caso del “Monstruo de Ecatepec” no debe analizarse desde el morbo o la excepcionalidad, sino como un ejemplo extremo de cómo la acumulación de factores de riesgo puede derivar en conductas altamente violentas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"No se trata de justificar el delito, sino de comprender sus causas. Solo a partir de este entendimiento es posible diseñar estrategias de prevención efectivas que actúen antes de la fase de ejecución del delito, interviniendo en contextos de vulnerabilidad, atendiendo traumas no resueltos y fortaleciendo los entornos sociales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En última instancia, este caso refuerza una idea central a lo largo de la investigación: la conducta criminal no surge de manera espontánea ni aislada, sino que es el resultado de un proceso complejo y progresivo. Identificar ese proceso a tiempo es, quizá, la herramienta más poderosa para evitar que historias como esta se repitan.",
+			},
+		],
+
+		referencias: [
+			{
+				autor: "Ressler, Robert",
+				titulo: "Whoever Fights Monsters",
+				año: 1992,
+				fuente: "Libro",
+				url: "",
+			},
+		],
+
+		notas: [
+			{
+				id: 4,
+				texto: "En México no existe un protocolo único nacional.",
+			},
+		],
+	},
 ];

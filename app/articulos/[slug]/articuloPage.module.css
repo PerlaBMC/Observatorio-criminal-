@@ -51,6 +51,7 @@
     line-height: 1.7;
     font-size: 1rem;
     color: #333;
+    text-align: justify;
   }
   
   .paragraph {
@@ -96,7 +97,11 @@
     font-size: 1.1rem;
     margin-bottom: 20px;
   }
-  
+
+  .boockIcon {
+    color: #111;
+  }
+
   .relatedCard {
     display: block;
     margin-bottom: 15px;
@@ -106,7 +111,7 @@
   }
   
   .relatedCard:hover {
-    text-decoration: underline;
+    text-decoration: underline red;
   }
 
   .botonAtras {
@@ -196,6 +201,7 @@
   
     .content {
       font-size: 0.9rem;
+      margin: 0% 2% 0% 2%;
     }
   
     .subtitle {
