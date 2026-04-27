@@ -965,4 +965,319 @@ export const articulos = [
 			},
 		],
 	},
+	{
+		metadata: {
+			id: "art-005",
+			slug: "reclutamiento-forzado",
+			titulo:
+				"Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes",
+			categoria: {
+				principal: "crimen-organizado",
+				label: "Crimen Organizado",
+			},
+			etiquetas: [
+				"narcotráfico",
+				"crimen organizado",
+				"cárteles",
+				"delincuente",
+				"sicario",
+				"reclutamiento",
+				"reclutamiento forzado"
+			],
+			fechaPublicacion: "2026-04-27",
+			autor: "Perla Mondragón",
+			tiempoLectura: 10,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Crimen organizado",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes?",
+			metaDescription:
+				"cómo operan los grupos criminales",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/Observatorio_criminal_7_iofyvz.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/BannerArtPage_4_zeuwaq.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"El reclutamiento criminal no responde a un único método, detrás de las cifras existen historias que duelen",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto:
+					"En México, hablar de violencia e inseguridad ha dejado de ser una exageración para convertirse en una realidad que, en muchos casos, supera la ficción. Entre estos fenómenos, el reclutamiento forzado por parte del crimen organizado se ha consolidado como uno de los más preocupantes y, al mismo tiempo, menos comprendidos."
+			},
+			{
+				tipo: "parrafo",
+				texto:
+				"Detrás de las cifras existen historias que duelen: jóvenes que desaparecen tras acudir a una supuesta entrevista de trabajo, niños y adolescentes que son captados a través de videojuegos como Roblox o mediante redes sociales como TikTok, y comunidades enteras donde estas prácticas comienzan a volverse recurrentes. No se trata de casos aislados, sino de un patrón que evidencia la capacidad de adaptación de los grupos criminales y la vulnerabilidad de ciertos sectores de la población."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Frente a este panorama, resulta inevitable cuestionarnos: ¿cómo funciona realmente el reclutamiento criminal en México?"
+			},
+					{
+				tipo: "subtitulo",
+				texto:
+				"¿Qué es el reclutamiento forzado?"
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Cuando se habla de reclutamiento forzado en el contexto del crimen organizado, no se trata únicamente de la incorporación violenta de personas a estas estructuras. En realidad, el fenómeno es más complejo y opera en distintos niveles que van desde la coerción directa hasta formas más sutiles de captación."
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"El reclutamiento forzado puede entenderse como el proceso mediante el cual una persona es obligada, engañada o presionada a integrarse a una organización criminal, ya sea a través de amenazas, violencia, manipulación o falsas promesas. Sin embargo, reducirlo únicamente al uso de la fuerza sería simplificar un problema que, en muchos casos, se construye a partir de condiciones sociales previas."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"En este sentido, es importante diferenciar tres formas principales de reclutamiento:"
+			},
+				{
+				tipo: "lista",
+				items: [
+				"Reclutamiento forzado directo, donde existe privación de la libertad, amenazas o violencia física.",
+				"Reclutamiento inducido, en el que la persona es manipulada mediante engaños, ofertas laborales falsas o promesas económicas.",
+				"Reclutamiento normalizado, donde la integración al crimen ocurre en contextos donde la violencia y la ilegalidad forman parte de la vida cotidiana."
+				],
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Esta distinción permite entender que no todas las víctimas llegan al crimen organizado por las mismas vías, pero sí comparten un elemento en común: la vulnerabilidad frente a estructuras que saben identificar, explotar y convertir esas condiciones en oportunidades de captación."
+			},
+				{
+				tipo: "subtitulo",
+				texto:
+				"¿Cómo recluta el crimen organizado en México?"
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"El reclutamiento criminal en México no responde a un único método. Por el contrario, se trata de un proceso dinámico que se adapta al contexto social, tecnológico y económico de las víctimas. Lejos de la idea tradicional del secuestro como única vía, hoy los grupos criminales combinan estrategias que van desde el engaño hasta la manipulación digital."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Una de las formas más comunes es el engaño a través de ofertas laborales falsas. Jóvenes en búsqueda de empleo son contactados mediante redes sociales o plataformas de vacantes con propuestas atractivas: sueldos elevados, requisitos mínimos y contratación inmediata. Sin embargo, al acudir a entrevistas o puntos de encuentro, muchos son privados de la libertad y obligados a integrarse a actividades delictivas."
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"Otra modalidad creciente es la captación mediante redes sociales y plataformas digitales. Aplicaciones como TikTok, Facebook o incluso espacios de interacción en videojuegos se han convertido en canales donde los reclutadores identifican perfiles vulnerables. A través de la construcción de confianza, promesas de dinero o sentido de pertenencia, logran establecer vínculos que posteriormente facilitan la incorporación al crimen organizado."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"También existe el reclutamiento por entorno social, donde amigos, familiares o conocidos que ya forman parte de estas estructuras funcionan como intermediarios. En comunidades donde la presencia del crimen organizado es constante, esta forma de captación tiende a normalizarse, diluyendo la percepción de riesgo."
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"En los casos más extremos, se mantiene el uso de la violencia directa, mediante secuestros, amenazas o desplazamiento forzado. Estas prácticas suelen emplearse cuando los grupos necesitan cubrir funciones específicas o reforzar sus filas en contextos de conflicto."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Lo que une a todas estas modalidades es su capacidad de adaptación. El crimen organizado no recluta al azar: identifica contextos de vulnerabilidad, detecta necesidades y construye estrategias a medida. Por ello, entender cómo operan estos mecanismos no solo permite dimensionar el problema, sino también visibilizar que detrás de cada caso existe una estructura que actúa de forma sistemática."
+			},
+					{
+				tipo: "subtitulo",
+				texto:
+				"¿Por qué los jóvenes son el principal objetivo?"
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"El reclutamiento criminal en México no es aleatorio. Los grupos delictivos no eligen a sus integrantes por casualidad, sino a partir de perfiles específicos que responden a condiciones de vulnerabilidad social, económica y emocional. En este contexto, los jóvenes se convierten en el principal objetivo."
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"Una de las razones más evidentes es la falta de oportunidades reales. En muchas regiones del país, el acceso a empleo digno, educación de calidad o movilidad social es limitado. Frente a este panorama, las promesas de dinero rápido y estabilidad económica que ofrece el crimen organizado pueden resultar especialmente atractivas, sobre todo cuando las alternativas legales parecen inexistentes."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"A esto se suma la búsqueda de identidad y pertenencia, una característica propia de la etapa juvenil. Los grupos criminales no solo ofrecen ingresos, sino también reconocimiento, estatus y una aparente “familia”. Para muchos jóvenes que crecen en entornos de abandono o desintegración familiar, esta estructura puede llenar vacíos emocionales importantes."
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"Otro factor clave es la normalización de la violencia. En comunidades donde la presencia del crimen organizado es constante, la ilegalidad deja de percibirse como una excepción y comienza a formar parte de la vida cotidiana. Esto reduce las barreras morales y facilita que la integración a estas dinámicas sea vista como una opción viable."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Además, existe una alta exposición a contenidos que glorifican el delito, desde música hasta redes sociales, donde se proyecta una imagen distorsionada del estilo de vida criminal: poder, dinero, respeto. Esta narrativa influye en la percepción de riesgo y contribuye a que el ingreso a estas estructuras no siempre se perciba como una amenaza inmediata."
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"Finalmente, los jóvenes representan un recurso funcional para el crimen organizado: son más fáciles de influir, tienen mayor capacidad de adaptación y, en muchos casos, son considerados reemplazables. Esta lógica utilitaria revela una de las dimensiones más crudas del problema: las personas no son vistas como individuos, sino como piezas dentro de una estructura."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Entender por qué los jóvenes son el principal objetivo no implica justificar su participación, sino reconocer que el reclutamiento criminal se construye sobre condiciones estructurales que van mucho más allá de una decisión individual."
+			},
+					{
+				tipo: "subtitulo",
+				texto:
+				"Factores que facilitan el reclutamiento criminal en México"
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"El reclutamiento criminal no surge de manera aislada ni espontánea. Por el contrario, se sostiene sobre una serie de condiciones estructurales que crean el entorno propicio para que estas prácticas se desarrollen, se repitan y se perfeccionen con el tiempo."
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"Uno de los factores más determinantes es la desigualdad social y la exclusión económica. En contextos donde amplios sectores de la población carecen de acceso a empleo formal, educación o servicios básicos, el crimen organizado encuentra terreno fértil para ofrecer alternativas que, aunque ilegales, parecen resolver necesidades inmediatas. Esta lógica no solo facilita la captación, sino que también reduce la resistencia a integrarse a estas estructuras."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"A ello se suma la debilidad institucional. La falta de presencia efectiva del Estado en ciertas regiones, así como la desconfianza hacia las autoridades, limita la capacidad de prevención y respuesta. Cuando las instituciones no logran garantizar seguridad, justicia o desarrollo, el crimen organizado ocupa esos vacíos, no solo como actor delictivo, sino también como figura de control territorial."
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"Otro elemento clave es la desintegración del tejido social. Entornos marcados por violencia intrafamiliar, abandono, consumo de sustancias o falta de redes de apoyo generan condiciones de vulnerabilidad que pueden ser explotadas por los grupos criminales. En estos contextos, el reclutamiento no se percibe como una ruptura, sino como una continuidad del entorno."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"La impunidad también juega un papel central. La baja probabilidad de sanción frente a delitos relacionados con el reclutamiento, desaparición o trata de personas envía un mensaje claro: estas prácticas pueden llevarse a cabo con consecuencias limitadas. Esto no solo incentiva su repetición, sino que permite su expansión."
+			},
+
+					{
+				tipo: "parrafo",
+				texto:
+				"Asimismo, la adaptación tecnológica del crimen organizado ha transformado las formas de captación. El uso de redes sociales, plataformas digitales y espacios virtuales permite ampliar el alcance del reclutamiento, reducir riesgos para los perpetradores y acceder a perfiles cada vez más diversos."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Finalmente, la normalización cultural de la violencia y la ilegalidad actúa como un factor transversal. Cuando el delito se integra en la vida cotidiana, ya sea a través de discursos, prácticas o representaciones sociales, se debilitan los mecanismos de rechazo colectivo y se facilita la reproducción de estas dinámicas."
+			},
+					{
+				tipo: "parrafo",
+				texto:
+				"En conjunto, estos factores no solo explican por qué ocurre el reclutamiento criminal, sino también por qué resulta tan difícil de erradicar. No se trata de un problema individual, sino de un fenómeno que se construye y se sostiene desde múltiples dimensiones."
+			},
+				{
+				tipo: "subtitulo",
+				texto:
+				"Consecuencias reales del reclutamiento criminal"
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Hablar del reclutamiento criminal sin abordar sus consecuencias sería perpetuar una visión incompleta del fenómeno. Lejos de las narrativas que lo presentan como una vía rápida hacia el dinero o el poder, la realidad es considerablemente más cruda."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Para quienes son reclutados, las posibilidades de salir de estas estructuras son mínimas. En muchos casos, las personas son utilizadas para realizar actividades de alto riesgo como vigilancia, transporte de drogas o participación directa en actos violentos. Esto las convierte en objetivos constantes, tanto de grupos rivales como de las propias organizaciones a las que pertenecen."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"La violencia interna es otro elemento frecuente. El control dentro de estos grupos suele ejercerse mediante castigos extremos, amenazas o ejecuciones, especialmente cuando existe desobediencia, errores o intentos de escape. En este sentido, quienes son reclutados no solo enfrentan riesgos externos, sino también dentro de la propia estructura criminal."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"A ello se suma una lógica de reemplazo constante. Las personas reclutadas son vistas como recursos desechables, lo que implica que su vida útil dentro de la organización puede ser corta. Esta dinámica explica, en parte, la necesidad permanente de captar nuevos integrantes."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"En el plano social, las consecuencias trascienden al individuo. Familias enteras quedan marcadas por la desaparición, la violencia o la estigmatización. Comunidades completas experimentan un deterioro progresivo del tejido social, donde el miedo, la desconfianza y la normalización del delito se vuelven parte de la vida cotidiana."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Así, el reclutamiento criminal no solo destruye trayectorias individuales, sino que reproduce ciclos de violencia que afectan de manera profunda y sostenida a la sociedad."
+			},
+					{
+				tipo: "subtitulo",
+				texto:
+				"¿Se puede prevenir el reclutamiento criminal?"
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Abordar el reclutamiento criminal desde la prevención implica reconocer que no existe una solución única ni inmediata. Se trata de un fenómeno complejo que requiere estrategias integrales capaces de intervenir en los distintos niveles donde se origina y se reproduce."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"En primer lugar, es fundamental fortalecer las condiciones sociales y económicas. El acceso a educación, empleo digno y oportunidades reales de desarrollo reduce significativamente la vulnerabilidad frente a las estrategias de captación del crimen organizado. No se trata solo de ofrecer alternativas, sino de hacerlas viables y sostenibles."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"La reconstrucción del tejido social es otro eje clave. Espacios comunitarios, redes de apoyo y entornos familiares estables funcionan como factores de protección frente al reclutamiento. Cuando existen vínculos sólidos, la probabilidad de que una persona sea captada disminuye considerablemente."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Asimismo, es necesario reforzar la presencia institucional y la confianza en las autoridades. Sin mecanismos efectivos de denuncia, protección y justicia, cualquier estrategia preventiva pierde fuerza. La impunidad no solo permite que el problema continúe, sino que lo normaliza."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"En el ámbito digital, se vuelve urgente desarrollar estrategias de prevención y concientización. Informar sobre las formas de reclutamiento en redes sociales, identificar señales de riesgo y promover el uso seguro de plataformas digitales son medidas cada vez más necesarias, especialmente entre jóvenes."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Finalmente, la prevención también pasa por una transformación cultural. Cuestionar las narrativas que glorifican la violencia y el crimen, así como promover referentes alternativos, es fundamental para debilitar el atractivo simbólico de estas estructuras."
+			},
+				{
+				tipo: "parrafo",
+				texto:
+				"Prevenir el reclutamiento criminal no es una tarea sencilla ni de corto plazo. Sin embargo, entender cómo funciona, por qué ocurre y cuáles son sus consecuencias es un primer paso indispensable para enfrentarlo de manera más efectiva."
+			},
+		],
+
+		referencias: [
+			{
+				autor: "Ressler, Robert",
+				titulo: "Whoever Fights Monsters",
+				año: 1992,
+				fuente: "Libro",
+				url: "",
+			},
+		],
+
+		notas: [
+			{
+				id: 5,
+				texto: "En México no existe un protocolo único nacional.",
+			},
+		],
+	},
 ];
