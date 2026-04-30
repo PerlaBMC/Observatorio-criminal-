@@ -4,8 +4,8 @@ import styles from "./homePage.module.css";
 
 export default function Home() {
 
-  //const populares = terms.slice(0, 3);
-  //const recientes = terms.slice(3, 6);
+  const populares = articulos.slice(0, 3);
+  const recientes = articulos.slice(3, 6);
 
   return (
     <div className={styles.homeDiv}>
@@ -22,7 +22,7 @@ export default function Home() {
 
       {/* Términos populares */}
       <div className={styles.cardContainer}>
-      {articulos.map((articulo) => (
+      {populares.map((articulo) => (
           <ArticuloCard
             key={articulo.metadata.slug}
             articulo={articulo}
@@ -43,7 +43,14 @@ export default function Home() {
         </h3>
         <hr />
       </section>
-
+      <div className={styles.cardContainer}>
+      {recientes.map((articulo) => (
+          <ArticuloCard
+            key={articulo.metadata.slug}
+            articulo={articulo}
+          />
+        ))}
+      </div>
 
 
     </div>
