@@ -727,7 +727,7 @@ export const articulos = [
 				{
 				tipo: "parrafo",
 				texto:
-					"Desde la criminología, resulta fundamental distinguir entre los conceptos de delincuente y criminal, ya que, aunque en el lenguaje cotidiano suelen emplearse como sinónimos, existe una diferencia relevante. El delincuente es, en sentido estricto, quien comete un delito tipificado por la ley; en cambio, el término criminal suele asociarse a conductas de carácter violento que atentan contra bienes jurídicos fundamentales como la vida o la integridad, independientemente de su formal tipificación.",
+					"Desde la criminología, resulta fundamental distinguir entre los conceptos delincuente y criminal, ya que, aunque en el lenguaje cotidiano suelen emplearse como sinónimos, existe una diferencia relevante. El delincuente es, en sentido estricto, quien comete un delito tipificado por la ley; en cambio, el término criminal suele asociarse a conductas de carácter violento que atentan contra bienes jurídicos fundamentales como la vida o la integridad, independientemente de su formal tipificación.",
 			},
 				{
 				tipo: "parrafo",
@@ -917,7 +917,7 @@ export const articulos = [
 					"La misoginia expresada podría interpretarse como una proyección de resentimiento, dolor y deseo de control frente a figuras femeninas asociadas a experiencias negativas, configurando así un patrón de violencia dirigido.",
 			},
 			{
-				tipo: "subtitulo",
+				tipo: "parrafo",
 				texto:
 					"Dimensión social:",
 			},
@@ -1280,7 +1280,7 @@ export const articulos = [
 			},
 		],
 	},
-		{
+	{
 		metadata: {
 			id: "art-006",
 			slug: "apologia-delito",
@@ -1571,6 +1571,186 @@ export const articulos = [
 				tipo: "parrafo",
 				texto:
 				"Comprender cómo funciona este fenómeno no implica censurar, sino cuestionar. Porque en la medida en que una sociedad normaliza aquello que debería generar rechazo, también redefine los límites de lo que está dispuesta a tolerar."
+			},
+		],
+	},
+		{
+		metadata: {
+			id: "art-007",
+			slug: "extorsion-mexico",
+			titulo:
+				"Extorsión en México: cómo funciona el cobro de piso y su impacto en la vida cotidiana",
+			categoria: {
+				principal: "seguridad-publica",
+				label: "Seguridad pública",
+			},
+			etiquetas: [
+				"extorsión",
+				"cobro de piso",
+				"gota a gota",
+				"derecho de piso",
+			],
+			fechaPublicacion: "2026-05-03",
+			autor: "Perla Mondragón",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Extorsión en México: cómo funciona el cobro de piso y su impacto en la vida cotidiana",
+			metaDescription:
+				"cómo funciona el cobro de piso",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777851111/Observatorio_criminal_9_vjoqcw.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777851066/BannerArtPage_6_wjejro.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto:
+					"En México, la violencia no siempre se manifiesta a través de hechos visibles o de alto impacto mediático. En muchos casos, opera de forma silenciosa, constante y profundamente invasiva. "
+			},
+			{
+				tipo: "parrafo",
+				texto: "La extorsión, particularmente en su modalidad de cobro de piso, se ha convertido en uno de los mecanismos más efectivos de control por parte del crimen organizado, no solo sobre actividades económicas, sino sobre la vida cotidiana de miles de personas."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Detrás de cada negocio que cierra de manera repentina, de cada comerciante que modifica sus horarios o de cada decisión tomada con cautela, existe una lógica de presión que rara vez se denuncia, pero que se experimenta todos los días. No se trata únicamente de una transacción económica ilegal, sino de la imposición de un orden basado en el miedo."			
+			},
+				{
+				tipo: "parrafo",
+				texto: "La extorsión no solo extrae recursos, también transforma comportamientos. Fragmenta comunidades, debilita la confianza y normaliza la violencia como parte del entorno. En este contexto, el silencio deja de ser una omisión y se convierte en una estrategia de supervivencia."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Frente a este panorama, resulta necesario ir más allá de la definición del delito y preguntarnos: ¿cómo funciona realmente la extorsión en México y qué efectos tiene en una sociedad que aprende a vivir bajo amenaza?"			
+			},
+				{
+				tipo: "subtitulo",
+				texto: "¿Qué es la extorsión y el cobro de piso?"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La extorsión es un delito que implica la obtención de un beneficio a través de la intimidación, la amenaza o la presión. Sin embargo, en el contexto mexicano, este fenómeno ha evolucionado hasta convertirse en un sistema estructurado de control territorial y económico."			
+			},
+						{
+				tipo: "parrafo",
+				texto: "El llamado cobro de piso representa una de sus formas más visibles. A través de pagos periódicos, grupos criminales imponen a comerciantes, empresarios o trabajadores la obligación de entregar una parte de sus ingresos a cambio de “protección”, o más bien, de no ejercer violencia en su contra."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "A diferencia de otras actividades delictivas, la extorsión no requiere necesariamente de grandes despliegues de fuerza. Su eficacia radica en la credibilidad de la amenaza. Basta con que exista la posibilidad real de daño para que el mecanismo funcione."			
+			},
+				{
+				tipo: "parrafo",
+				texto: "En este sentido, la extorsión no solo es un delito económico, sino una herramienta de control social que redefine las reglas bajo las cuales operan comunidades enteras."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Cómo opera la extorsión en la vida cotidiana?"			
+			},
+				{
+				tipo: "parrafo",
+				texto: "La extorsión no es un evento aislado, sino una práctica que se integra en la rutina de quienes la padecen. Su operación se adapta al contexto y puede manifestarse de distintas formas, desde llamadas telefónicas hasta visitas directas en establecimientos."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En muchos casos, el primer contacto ocurre a través de una advertencia: una llamada, un mensaje o la presencia de un intermediario que establece las condiciones. A partir de ese momento, se fija una cuota, una periodicidad y, sobre todo, una consecuencia en caso de incumplimiento."			
+			},
+						{
+				tipo: "parrafo",
+				texto: "Lo más significativo no es solo el pago, sino el cambio de comportamiento que genera. Comerciantes que reducen horarios, negocios que dejan de crecer para no llamar la atención, trabajadores que limitan su movilidad. La extorsión se traduce en autocensura económica y social."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Con el tiempo, esta dinámica deja de percibirse como una anomalía y comienza a asumirse como parte del funcionamiento normal del entorno."			
+			},
+				{
+				tipo: "subtitulo",
+				texto: "¿Por qué es tan difícil denunciar la extorsión en México?"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "A pesar de su amplia presencia, la extorsión es uno de los delitos menos denunciados. Esta aparente contradicción no responde a la indiferencia, sino a una lógica de riesgo donde denunciar puede percibirse como más peligroso que guardar silencio."			
+			},
+				{
+				tipo: "parrafo",
+				texto: "El principal factor es el miedo a represalias. Cuando la amenaza proviene de actores que tienen presencia real en el territorio, la posibilidad de sufrir violencia no es una hipótesis lejana, sino una experiencia conocida dentro de la comunidad. En este contexto, denunciar implica exponerse."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "A ello se suma la desconfianza en las instituciones. La percepción de que las autoridades no pueden proteger eficazmente a las víctimas, o incluso que pueden estar infiltradas, debilita cualquier incentivo para acudir a instancias formales. La denuncia, en lugar de representar una solución, puede convertirse en un riesgo adicional."			
+			},
+						{
+				tipo: "parrafo",
+				texto: "También influye la normalización del delito. Cuando la extorsión se vuelve recurrente, deja de percibirse como un evento excepcional y comienza a asumirse como parte del entorno. Esta adaptación no implica aceptación, sino una forma de sobrevivir dentro de un contexto adverso."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "El resultado es un círculo complejo: el miedo inhibe la denuncia, la falta de denuncia reduce la visibilidad del problema y esa invisibilidad facilita su permanencia."			
+			},
+				{
+				tipo: "parrafo",
+				texto: "Impacto económico y social: una violencia que no siempre se ve"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La extorsión no solo afecta a quienes pagan, sino que tiene efectos que se expanden a nivel comunitario. Su impacto económico es inmediato: negocios que operan con márgenes reducidos, aumentos en precios para compensar pérdidas o, en muchos casos, el cierre definitivo de establecimientos."			
+			},
+				{
+				tipo: "parrafo",
+				texto: "Sin embargo, el daño más profundo es social. La extorsión erosiona la confianza entre personas, limita la colaboración y transforma la forma en que se habita el espacio público. Decisiones cotidianas —abrir un negocio, contratar personal, invertir— dejan de basarse en oportunidades y comienzan a definirse por el riesgo."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta dinámica contribuye a la fragmentación social. Las comunidades dejan de operar como redes de apoyo y se convierten en entornos donde predomina la cautela, el silencio y la desconfianza. El miedo no solo protege, también aísla."			
+			},
+						{
+				tipo: "parrafo",
+				texto: "Además, el control económico que ejercen los grupos criminales les permite influir en mercados locales, fijar precios e incluso decidir qué actividades pueden o no desarrollarse en determinadas zonas. De esta forma, la extorsión se convierte en un mecanismo de regulación informal que sustituye, en la práctica, funciones que corresponderían al Estado."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Se puede prevenir la extorsión?"			
+			},
+				{
+				tipo: "parrafo",
+				texto: "Hablar de prevención en un contexto como este implica reconocer que no existe una solución simple ni inmediata. Sin embargo, sí es posible identificar acciones que, en conjunto, pueden reducir la vulnerabilidad frente a este delito."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En el plano institucional, es fundamental fortalecer los mecanismos de denuncia segura y protección a víctimas. Sin garantías reales, cualquier estrategia pierde credibilidad. La prevención comienza por generar condiciones donde denunciar no implique un riesgo mayor."			
+			},
+				{
+				tipo: "parrafo",
+				texto: "A nivel social, la organización comunitaria puede funcionar como un factor de protección. Redes de comerciantes, asociaciones vecinales y mecanismos de comunicación entre afectados permiten compartir información, detectar patrones y reducir el aislamiento que favorece a los extorsionadores."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En el ámbito individual, la información es clave. Conocer las formas en que opera la extorsión, identificar señales de riesgo y actuar con cautela frente a contactos sospechosos puede marcar la diferencia, especialmente en modalidades como la extorsión telefónica o digital."			
+			},
+						{
+				tipo: "parrafo",
+				texto: "Finalmente, cualquier estrategia preventiva debe ir acompañada de una reconstrucción del tejido social. Sin confianza, sin comunidad y sin alternativas reales, el miedo seguirá siendo el principal mecanismo de control."			
 			},
 		],
 	},

@@ -6,7 +6,7 @@ const TerminosCondiciones = () => {
 			<div className={styles.aboutUs}>
 				<h2>Términos y Condiciones de Uso</h2>
 				<p>
-					El acceso y uso del sitio web Observatorio Criminológico implica la
+					El acceso y uso del sitio web Observatorio Criminal implica la
 					aceptación de los presentes términos y condiciones. Al navegar por
 					esta plataforma, el usuario reconoce haber leído, comprendido y
 					aceptado las disposiciones aquí establecidas.
@@ -17,10 +17,9 @@ const TerminosCondiciones = () => {
 				</p>
 				<h2>Uso del sitio web</h2>
 				<p>
-					Observatorio Criminológico es una plataforma dedicada a la
-					investigación, análisis y divulgación de información sobre
-					criminología, violencia, delincuencia, crimen organizado y seguridad
-					pública.
+					Observatorio Criminal es una plataforma dedicada a la investigación,
+					análisis y divulgación de información sobre criminología, violencia,
+					delincuencia, crimen organizado y seguridad pública.
 				</p>
 				<p>
 					El contenido publicado tiene fines informativos, académicos y de
@@ -36,14 +35,14 @@ const TerminosCondiciones = () => {
 				</p>
 				<h2>Propiedad intelectual</h2>
 				<p>
-					Todos los contenidos publicados en Observatorio Criminológico,
-					incluyendo textos, artículos, análisis, imágenes, gráficos, diseño y
-					estructura del sitio, se encuentran protegidos por las leyes de
-					propiedad intelectual.
+					Todos los contenidos publicados en Observatorio Criminal, incluyendo
+					textos, artículos, análisis, imágenes, gráficos, diseño y estructura
+					del sitio, se encuentran protegidos por las leyes de propiedad
+					intelectual.
 				</p>
 				<p>
 					Salvo que se indique lo contrario, los contenidos pertenecen a
-					Observatorio Criminológico o se utilizan con las autorizaciones
+					Observatorio Criminal o se utilizan con las autorizaciones
 					correspondientes.
 				</p>
 				<p>
@@ -61,7 +60,7 @@ const TerminosCondiciones = () => {
 					La información publicada en este sitio tiene un carácter informativo y
 					analítico. Aunque se procura que los contenidos sean precisos y estén
 					basados en investigación y fuentes confiables, Observatorio
-					Criminológico no garantiza que toda la información se encuentre libre
+					Criminal no garantiza que toda la información se encuentre libre
 					de errores o que esté completamente actualizada en todo momento.
 				</p>
 				<p>
@@ -71,9 +70,9 @@ const TerminosCondiciones = () => {
 				<h2>Enlaces a sitios externos</h2>
 				<p>
 					Este sitio puede contener enlaces a páginas web de terceros con fines
-					informativos o de referencia. Observatorio Criminológico no controla
-					ni se responsabiliza por el contenido, políticas o prácticas de
-					privacidad de dichos sitios externos.
+					informativos o de referencia. Observatorio Criminal no controla ni se
+					responsabiliza por el contenido, políticas o prácticas de privacidad
+					de dichos sitios externos.
 				</p>
 				<p>
 					Se recomienda a los usuarios revisar los términos y políticas de cada
@@ -99,15 +98,59 @@ const TerminosCondiciones = () => {
 				</p>
 				<h2>Modificaciones del sitio y de los términos</h2>
 				<p>
-					Observatorio Criminológico se reserva el derecho de modificar,
-					actualizar o eliminar contenidos del sitio web en cualquier momento y
-					sin previo aviso.
+					Observatorio Criminal se reserva el derecho de modificar, actualizar o
+					eliminar contenidos del sitio web en cualquier momento y sin previo
+					aviso.
 				</p>
 				<p>
 					Asimismo, estos términos y condiciones pueden actualizarse
 					periódicamente para reflejar cambios en el funcionamiento del sitio o
 					en la legislación aplicable.
 				</p>
+				<h2>Finalidad informativa del contenido</h2>
+
+				<p>
+					Los contenidos publicados en Observatorio Criminal tienen una
+					finalidad estrictamente informativa, analítica, académica y de
+					divulgación.
+				</p>
+
+				<p>
+					Ningún artículo, análisis, referencia o estudio presentado en esta
+					plataforma debe interpretarse como promoción, apología, incentivo o
+					justificación de actividades ilícitas, conductas delictivas o actos de
+					violencia.
+				</p>
+
+				<p>
+					La exposición de casos, estructuras criminales, dinámicas delictivas o
+					fenómenos relacionados con violencia responde exclusivamente a
+					objetivos de análisis criminológico, comprensión contextual y
+					reflexión crítica.
+				</p>
+				<h2>Publicidad y servicios de terceros</h2>
+
+				<p>
+					El sitio puede incorporar servicios publicitarios, herramientas
+					analíticas o tecnologías proporcionadas por terceros.
+				</p>
+
+				<p>
+					La visualización de publicidad dentro del sitio no implica respaldo,
+					recomendación o validación de los productos, servicios o contenidos
+					promocionados por anunciantes externos.
+				</p>
+				<h2>Contacto</h2>
+
+				<p>
+					Para consultas relacionadas con estos términos y condiciones,
+					solicitudes editoriales o aclaraciones legales, puede establecerse
+					contacto a través de:
+				</p>
+
+				<div className={styles.contacto}>
+					<a href="mailto:ocriminologico@gmail.com">ocriminologico@gmail.com</a>
+				</div>
 				<div className={styles.botonAtras}>
 					<a href="/">Atrás</a>
 				</div>

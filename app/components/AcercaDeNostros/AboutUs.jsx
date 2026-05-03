@@ -8,7 +8,7 @@ const AboutUs = () => {
 				<h2>Acerca de nosotros</h2>
 				<p>
 					{" "}
-					Observatorio Criminológico es una plataforma dedicada a la
+					Observatorio Criminal es una plataforma dedicada a la
 					investigación, análisis y divulgación de información sobre
 					criminología, violencia, delincuencia, crimen organizado y seguridad
 					pública. Nuestro objetivo es contribuir a una comprensión más profunda
@@ -30,7 +30,7 @@ const AboutUs = () => {
 					expandirse.
 				</p>
 				<p>
-					Ante este panorama, Observatorio Criminológico busca ofrecer un
+					Ante este panorama, Observatorio Criminal busca ofrecer un
 					espacio donde sea posible analizar y comprender la criminalidad con
 					mayor profundidad, más allá de la cobertura de los hechos. El
 					propósito es aportar contexto, análisis y reflexión desde una
@@ -73,7 +73,7 @@ const AboutUs = () => {
 				</p>
 				<h2>Principales temas de análisis</h2>
 				<p>
-					Observatorio Criminológico desarrolla contenidos relacionados con
+					Observatorio Criminal desarrolla contenidos relacionados con
 					diversas áreas del estudio de la criminalidad, entre ellas:
 				</p>{" "}
 				<div className={styles.lista}>
@@ -92,7 +92,7 @@ const AboutUs = () => {
 				</p>
 				<h2>El conocimiento como herramienta contra la violencia</h2>
 				<p>
-					Observatorio Criminológico parte de la convicción de que el
+					Observatorio Criminal parte de la convicción de que el
 					conocimiento es una de las herramientas más poderosas para enfrentar
 					la violencia, la delincuencia y la injusticia social. Comprender las
 					causas del delito, analizar sus dinámicas y difundir información
@@ -106,6 +106,105 @@ const AboutUs = () => {
 					así como de los desafíos que enfrentan las sociedades contemporáneas
 					en materia de seguridad y justicia.
 				</p>
+				<h2>Política editorial</h2>
+
+<p>
+Observatorio Criminal es una plataforma independiente dedicada a la
+investigación, análisis y divulgación de contenidos relacionados con la
+criminología, la violencia, la delincuencia, el crimen organizado y la
+seguridad pública.
+</p>
+
+<p>
+Todos los contenidos publicados tienen una finalidad estrictamente
+informativa, académica y analítica. El propósito del sitio es contribuir a
+la comprensión crítica de los fenómenos delictivos mediante el análisis de
+sus causas, dinámicas, implicaciones sociales e impacto institucional.
+</p>
+
+<p>
+La información presentada se desarrolla a partir de revisión documental,
+análisis criminológico, consulta de fuentes públicas verificables y estudio
+de referencias especializadas cuando el tema así lo requiere.
+</p>
+
+<p>
+Observatorio Criminal no promueve, glorifica, justifica ni incentiva actos
+delictivos, conductas violentas o actividades ilícitas. El tratamiento de
+casos, estructuras criminales, dinámicas de violencia o contextos
+delictivos tiene como único objetivo su análisis desde una perspectiva
+criminológica, preventiva y social.
+</p>
+
+<p>
+El sitio busca presentar contenidos redactados con rigor, claridad y
+responsabilidad, evitando enfoques sensacionalistas, apologéticos o
+especulativos.
+</p>
+
+<p>
+Cuando se abordan hechos de actualidad, casos públicos o fenómenos
+criminales específicos, el análisis procura ofrecer contexto, reflexión y
+elementos explicativos que permitan una comprensión más profunda del
+problema, más allá de la cobertura inmediata de los acontecimientos.
+</p>
+
+<p>
+Observatorio Criminal mantiene un compromiso con la divulgación ética del
+conocimiento criminológico, promoviendo el análisis informado y la
+discusión responsable sobre seguridad, justicia y prevención del delito.
+</p>
+<h2>Equipo editorial</h2>
+
+<p>
+Los contenidos publicados en Observatorio Criminal son desarrollados por un
+equipo editorial especializado en investigación, análisis y divulgación de
+temas relacionados con criminología, seguridad pública, violencia y
+fenómenos delictivos contemporáneos.
+</p>
+
+<p>
+El proyecto integra conocimientos interdisciplinarios orientados al estudio
+crítico de la criminalidad, con un enfoque centrado en el análisis, la
+prevención y la comprensión estructural de los fenómenos delictivos.
+</p>
+
+<p>
+La plataforma mantiene un compromiso permanente con la rigurosidad
+analítica, la verificación de información pública y la divulgación ética
+del conocimiento criminológico.
+</p>
+<h2>Contacto</h2>
+
+<p>
+Observatorio Criminal mantiene un compromiso con la divulgación responsable
+del conocimiento criminológico y con la construcción de un espacio de
+análisis serio sobre criminalidad, seguridad pública y fenómenos de
+violencia.
+</p>
+
+<p>
+Para consultas, observaciones, propuestas de colaboración, correcciones
+editoriales o cualquier comunicación relacionada con los contenidos
+publicados, puedes ponerte en contacto a través del siguiente correo:
+</p>
+
+<div className={styles.contacto}>
+	<a href="mailto:ocriminologico@gmail.com">
+		ocriminologico@gmail.com
+	</a>
+</div>
+
+<p>
+Todas las comunicaciones son revisadas bajo criterios editoriales y serán
+atendidas en la medida de las posibilidades operativas de la plataforma.
+</p>
+
+<p>
+Observatorio Criminal agradece el interés, la retroalimentación y las
+aportaciones orientadas al fortalecimiento del análisis criminológico y la
+divulgación informada.
+</p>
 				<div className={styles.botonAtras}>
 					<a href="/">Atrás</a>
 				</div>

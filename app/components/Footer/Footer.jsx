@@ -1,4 +1,5 @@
 import styles from "./footer.module.css";
+import Link from "next/link";
 import {
 	FaFacebookSquare,
 	FaInstagramSquare,
@@ -6,70 +7,94 @@ import {
 	FaYoutube,
 } from "react-icons/fa";
 import {
-	MdOutlineSecurityUpdateWarning,
 	MdOutlineSecurity,
+	MdOutlineSecurityUpdateWarning,
 } from "react-icons/md";
 import { FaHeadSideVirus } from "react-icons/fa";
-import Link from "next/link";
 
 const Footer = () => {
 	return (
-		<>
-			<div className={styles.footerStyle}>
-				<section className={styles.imgFooter}>
+		<footer className={styles.footer}>
+			<div className={styles.container}>
+
+				{/* BRAND */}
+				<section className={styles.brand}>
 					<img
-						src="https://res.cloudinary.com/dujrua0vo/image/upload/v1772939366/Disen%CC%83o_sin_ti%CC%81tulo_15_wrmyfg.png"
-						alt=""
+						src="https://res.cloudinary.com/dwzbls5ib/image/upload/v1777844773/Observatorio_criminolo%CC%81gico_pym7gb.png"
+						alt="Observatorio Criminal"
 					/>
+
+					<h3>Observatorio Criminal</h3>
+
+					<p>
+						Plataforma independiente de análisis criminológico,
+						seguridad pública y divulgación especializada.
+					</p>
 				</section>
-				<section className={styles.acercaDeNosotros}>
-					<div>
-					<Link href="/about-us"><FaHeadSideVirus className={styles.iconRed} /> Acerca de nosotros </Link>
-					</div>
-					<div>
-						<a href="/politica-privacidad">
-							<MdOutlineSecurity className={styles.iconRed} /> Políticas de
-							provacidad
-						</a>
-					</div>
-					<div>
-						<a href="/terminos-condiciones">
-							<MdOutlineSecurityUpdateWarning className={styles.iconRed} />{" "}
-							Terminos y condiciones
-						</a>
-					</div>
+
+				{/* ENLACES */}
+				<section className={styles.links}>
+					<h4>Información institucional</h4>
+
+					<Link href="/about-us">
+						<FaHeadSideVirus /> Acerca de nosotros
+					</Link>
+
+					<Link href="/politica-privacidad">
+						<MdOutlineSecurity /> Política de privacidad
+					</Link>
+
+					<Link href="/terminos-condiciones">
+						<MdOutlineSecurityUpdateWarning /> Términos y condiciones
+					</Link>
 				</section>
-				<section className={styles.socialMedia}>
-					<p>Siguenos en redes</p>
-					<div className={styles.iconsMedia}>
+
+				{/* REDES */}
+				<section className={styles.social}>
+					<h4>Síguenos</h4>
+
+					<div className={styles.icons}>
 						<a
 							href="https://www.facebook.com/profile.php?id=61583579730066"
-							target="blanck"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
-							<FaFacebookSquare className={styles.iconFooter} />
+							<FaFacebookSquare />
 						</a>
+
 						<a
 							href="https://www.instagram.com/crimienciclopedia/"
-							target="blanck"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
-							<FaInstagramSquare className={styles.iconFooter} />
+							<FaInstagramSquare />
 						</a>
+
 						<a
 							href="https://www.tiktok.com/@observatorio.crim?_r=1&_t=ZS-94X6NygxDBl"
-							target="blanck"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
-							<FaTiktok className={styles.iconFooter} />
+							<FaTiktok />
 						</a>
+
 						<a
 							href="https://www.youtube.com/channel/UCVbz6QKhn0NBWPm-eO-KB_Q"
-							target="blanck"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
-							<FaYoutube className={styles.iconRed} />
+							<FaYoutube />
 						</a>
 					</div>
 				</section>
 			</div>
-		</>
+
+			<div className={styles.bottom}>
+				<p>
+					© 2026 Observatorio Criminal · Todos los derechos reservados
+				</p>
+			</div>
+		</footer>
 	);
 };
 

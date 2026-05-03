@@ -6,7 +6,7 @@ const PoliticaDePrivacidad = () => {
 			<div className={styles.aboutUs}>
 				<h2>Política de Privacidad</h2>
 				<p>
-					En Observatorio Criminológico valoramos y respetamos la privacidad de
+					En Observatorio Criminal valoramos y respetamos la privacidad de
 					las personas que visitan nuestro sitio web. La presente política de
 					privacidad tiene como finalidad informar de manera clara cómo se
 					recopila, utiliza y protege la información que los usuarios
@@ -18,7 +18,7 @@ const PoliticaDePrivacidad = () => {
 				</p>
 				<h2>Información que recopilamos</h2>
 				<p>
-					Observatorio Criminológico puede recopilar información de forma
+					Observatorio Criminal puede recopilar información de forma
 					automática cuando los usuarios navegan por el sitio web. Esta
 					información puede incluir datos técnicos como:
 				</p>
@@ -26,7 +26,6 @@ const PoliticaDePrivacidad = () => {
 					<li>Dirección IP</li>
 					<li>Tipo de navegador</li>
 					<li>Sistema operativo</li>
-					<li>Páginas visitadas dentro del sitio</li>
 					<li>Páginas visitadas dentro del sitio</li>
 					<li>Fecha y hora de acceso</li>
 					<br />
@@ -61,7 +60,7 @@ const PoliticaDePrivacidad = () => {
 				</p>
 				<h2>Servicios de terceros</h2>
 				<p>
-					Observatorio Criminológico puede utilizar servicios de terceros que
+					Observatorio Criminal puede utilizar servicios de terceros que
 					ayudan a analizar el tráfico del sitio web o mostrar publicidad. Estos
 					servicios pueden recopilar información de acuerdo con sus propias
 					políticas de privacidad.
@@ -80,17 +79,17 @@ const PoliticaDePrivacidad = () => {
 				</p>
 				<h2>Protección de la información</h2>
 				<p>
-					Observatorio Criminológico adopta medidas razonables para proteger la
+					Observatorio Criminal adopta medidas razonables para proteger la
 					información recopilada y evitar accesos no autorizados, alteraciones o
 					divulgación indebida de los datos.
 				</p>
 				<p>
 					No obstante, es importante recordar que ningún sistema de transmisión
-					o almacenamießnto de información en internet es completamente seguro.
+					o almacenamiento de información en internet es completamente seguro.
 				</p>
 				<h2>Cambios en la política de privacidad</h2>
 				<p>
-					Observatorio Criminológico se reserva el derecho de actualizar o
+					Observatorio Criminal se reserva el derecho de actualizar o
 					modificar esta política de privacidad en cualquier momento con el fin
 					de adaptarla a cambios legales, técnicos o de funcionamiento del
 					sitio.
@@ -99,12 +98,35 @@ const PoliticaDePrivacidad = () => {
 					Se recomienda a los usuarios revisar periódicamente esta sección para
 					mantenerse informados sobre cualquier actualización.
 				</p>
-				<h2>Contacto</h2>
-				<p>
-					Si tienes preguntas sobre esta política de privacidad o sobre el
-					manejo de información en este sitio web, puedes comunicarte a través
-					de los medios de contacto disponibles en la plataforma.
-				</p>
+				<h2>Publicidad y Google AdSense</h2>
+
+<p>
+Este sitio puede utilizar servicios publicitarios proporcionados por
+terceros, incluyendo Google AdSense, con el objetivo de mostrar anuncios
+relevantes para los usuarios.
+</p>
+
+<p>
+Google y sus socios pueden utilizar cookies para personalizar anuncios en
+función de las visitas previas del usuario a este y otros sitios web.
+</p>
+
+<p>
+Los usuarios pueden consultar cómo Google utiliza la información recopilada
+a través de sus servicios publicitarios en la política oficial de Google.
+</p>
+<h2>Contacto</h2>
+
+<p>
+Si tienes preguntas relacionadas con esta política de privacidad o sobre el
+tratamiento de información dentro del sitio, puedes escribir a:
+</p>
+
+<div className={styles.contacto}>
+	<a href="mailto:ocriminologico@gmail.com">
+		ocriminologico@gmail.com
+	</a>
+</div>
 				<div className={styles.botonAtras}>
 					<a href="/">Atrás</a>
 				</div>

@@ -1,76 +1,130 @@
-.bannerHome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    text-align: center;
-    background: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1771122689/BanneHomePage_rjginh.png");
-    color: aliceblue;
+/* HERO */
+.hero {
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
-.h1Div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 400px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.589);
-    font-family: math;
-    font-size: larger;
+.heroOverlay {
+  background: linear-gradient(
+    90deg,
+    rgba(0,0,0,0.85) 40%,
+    rgba(0,0,0,0.2)
+  );
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  color: white;
+  max-width: 100%;
 }
 
-.cardContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
+.heroCategory {
+  color: #ff4d4d;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
+.heroOverlay h1 {
+  font-size: 44px;
+  margin: 10px 0;
+  font-family: "Lora", serif;
+}
+
+.cta {
+  margin-top: 20px;
+  background: #8b0000;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  width: fit-content;
+}
+
+/* DESTACADO */
+.destacadoSection {
+  padding: 60px;
+  background: white;
+}
+
+.destacadoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.destacadoGrid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.badge {
+  color: #8b0000;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.meta {
+  display: flex;
+  gap: 10px;
+  color: gray;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.button {
+  background: transparent;
+  border: 1px solid #8b0000;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* GRID */
+.section {
+  padding: 60px;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* BANNER */
 .bannerInf {
-    height: 300px;
+  background: #111;
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.bannerContent h2 {
+  font-family: "Lora", serif;
+}
+
+/* RESPONSIVE */
+@media (width <=768px) {
+.destacadoGrid {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+  .section {
+    padding: 24px;
+  }
+
+  .cardGrid {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 90px 20px 90px;
-    text-align: center;
-    color: black;
-}
+    overflow-x: auto;
+    gap: 16px;
+    padding: 0 16px 12px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
 
-.bannerInf h3 {
-    font-weight: 300;
-}
-
-.bannerInf hr {
-    height: 3px;
-    background-color: red;
-    width: 95%;
-    margin-bottom: 10px;
-}
-
-@media (min-width: 970px) and (max-width: 1250px) {
-
-}
-    
-@media (min-width: 750px) and (max-width: 970px) { 
-.bannerHome {
-    background: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1771123140/Disen%CC%83o_sin_ti%CC%81tulo_11_ca4cn0.png");
-}
-}
-    
-@media (width <=749px) {
-
-.bannerHome {
- background: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1771124898/Disen%CC%83o_sin_ti%CC%81tulo_12_s8cino.png");
- background-size: 100%;
-}
-
-.bannerInf {
-    padding: 7%;
-}
-
-.bannerInf h3{
-    margin-bottom: 5px;
-}
+  .cardGrid::-webkit-scrollbar {
+    display: none;
+  }
 }
