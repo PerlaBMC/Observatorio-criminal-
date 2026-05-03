@@ -1619,7 +1619,7 @@ export const articulos = [
 		},
 
 		resumen:
-			"",
+			"La extorsión no es un evento aislado, sino una práctica que se integra en la rutina de quienes la padecen",
 
 		contenido: [
 			{
