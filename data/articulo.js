@@ -717,7 +717,12 @@ export const articulos = [
 				tipo: "subtitulo",
 				variante: "introduccion",
 				texto:
-					"¿Los criminales nacen o se hacen? La pregunta sigue vigente, pero abre otra igual de relevante: ¿es lo mismo un criminal que un delincuente? Entender el origen de la conducta delictiva no justifica el delito; permite analizar sus matices, diferenciar perfiles y comprender qué hay detrás de cada caso para prevenir y romper ciclos de violencia.",
+					"¿Los criminales nacen o se hacen? La pregunta sigue vigente y abre otra igual de relevante: ¿es lo mismo un criminal que un delincuente? ",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Entender el origen de la conducta delictiva no justifica el delito; permite analizar sus matices, diferenciar perfiles y comprender qué hay detrás de cada caso para prevenir y romper ciclos de violencia.",
 			},
 			{
 				tipo: "parrafo",
@@ -1020,7 +1025,12 @@ export const articulos = [
 				tipo: "subtitulo",
 				variante: "introduccion",
 				texto:
-					"En México, hablar de violencia e inseguridad ha dejado de ser una exageración para convertirse en una realidad que, en muchos casos, supera la ficción. Entre estos fenómenos, el reclutamiento forzado por parte del crimen organizado se ha consolidado como uno de los más preocupantes y, al mismo tiempo, menos comprendidos."
+					"En México, hablar de violencia e inseguridad ha dejado de ser una exageración para convertirse en una realidad que, en muchos casos, supera la ficción. "
+			},
+						{
+				tipo: "parrafo",
+				texto:
+				"Entre estos fenómenos, el reclutamiento forzado por parte del crimen organizado se ha consolidado como uno de los más preocupantes y, al mismo tiempo, menos comprendidos."
 			},
 			{
 				tipo: "parrafo",
@@ -1337,7 +1347,12 @@ export const articulos = [
 				tipo: "subtitulo",
 				variante: "introduccion",
 				texto:
-					"En la actualidad, la violencia ha dejado de ser únicamente un fenómeno que se padece en las calles para convertirse también en un contenido que se consume, se reproduce y, en muchos casos, se normaliza. Lo que antes se percibía como ajeno o marginal, hoy forma parte del entretenimiento cotidiano: canciones que narran vidas criminales como historias de éxito, series que colocan a capos de la droga como protagonistas admirables y una estética que asocia el delito con poder, dinero y reconocimiento."
+					"En la actualidad, la violencia ha dejado de ser únicamente un fenómeno que se padece en las calles para convertirse también en un contenido que se consume, se reproduce y, en muchos casos, se normaliza. "
+			},
+			{
+				tipo: "parrafo",
+				texto:
+				"Lo que antes se percibía como ajeno o marginal, hoy forma parte del entretenimiento cotidiano: canciones que narran vidas criminales como historias de éxito, series que colocan a capos de la droga como protagonistas admirables y una estética que asocia el delito con poder, dinero y reconocimiento.",
 			},
 			{
 				tipo: "parrafo",
@@ -1574,7 +1589,7 @@ export const articulos = [
 			},
 		],
 	},
-		{
+	{
 		metadata: {
 			id: "art-007",
 			slug: "extorsion-mexico",
@@ -1751,6 +1766,764 @@ export const articulos = [
 						{
 				tipo: "parrafo",
 				texto: "Finalmente, cualquier estrategia preventiva debe ir acompañada de una reconstrucción del tejido social. Sin confianza, sin comunidad y sin alternativas reales, el miedo seguirá siendo el principal mecanismo de control."			
+			},
+		],
+	},
+	{
+		metadata: {
+			id: "art-008",
+			slug: "municipios-violentos",
+			titulo:
+				"Violencia en México: por qué algunos estados enfrentan mayores niveles de violencia",
+			categoria: {
+				principal: "seguridad-publica",
+				label: "Seguridad pública",
+			},
+			etiquetas: [
+				"extorsión",
+				"cobro de piso",
+				"gota a gota",
+				"derecho de piso",
+				"asaltos",
+				"homicidios",
+				"indice de violencia",
+				"municipios mas vioelntos"
+			],
+			fechaPublicacion: "2026-05-06",
+			autor: "Perla Mondragón",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Violencia en México: por qué algunos estados enfrentan mayores niveles de violencia",
+			metaDescription:
+				"por qué hay estados o municipios mas violentos",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1778097595/Observatorio_criminal_10_efckvs.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1778097595/BannerArtPage_7_aygtyz.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"Reducir la discusión a un ranking de estados violentos simplifica un fenómeno mucho más complejo",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto:
+					"En México, hablar de violencia suele traducirse en cifras, mapas de incidencia delictiva y listas que clasifican a determinados territorios como los más peligrosos del país. "
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sin embargo, reducir la discusión a un ranking de estados violentos simplifica un fenómeno que responde a múltiples factores sociales, económicos y políticos."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia no surge de manera espontánea ni se distribuye al azar. Detrás de cada entidad que concentra altos niveles de inseguridad existen dinámicas territoriales complejas: disputas criminales, debilidad institucional, desigualdad estructural, economías ilícitas y contextos sociales que facilitan la reproducción del delito."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Más allá de identificar qué estados registran mayores índices de violencia, resulta necesario preguntarnos qué condiciones influyen para que un territorio sea considerado peligroso y por qué ciertos contextos parecen más propensos a la persistencia de estos fenómenos."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Comprender esta realidad implica mirar más allá de las estadísticas y analizar las estructuras que hacen posible que la violencia se mantenga."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Qué hace que un estado sea considerado violento?"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Determinar si un estado puede considerarse violento va mucho más allá de contabilizar delitos registrados o analizar estadísticas oficiales de incidencia criminal. Aunque con frecuencia la discusión pública se centra en cifras de homicidios, desapariciones o enfrentamientos armados, la violencia territorial es un fenómeno mucho más complejo que no siempre se refleja por completo en los registros institucionales."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Desde una perspectiva criminológica, un estado puede considerarse violento cuando convergen condiciones estructurales que permiten la permanencia de dinámicas delictivas capaces de alterar de forma sostenida la vida cotidiana, debilitar las instituciones y modificar la relación entre sociedad, autoridad y territorio."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los indicadores más utilizados para medir esta realidad es la tasa de homicidios dolosos, ya que permite dimensionar la intensidad de la violencia letal en una entidad. Sin embargo, este criterio resulta insuficiente cuando se analiza de manera aislada."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Para comprender con mayor precisión el nivel real de violencia también deben observarse otros factores, como:"			
+			},
+			{
+				tipo: "lista",
+				items:[
+				"La incidencia de desapariciones, secuestros y extorsiones",
+				"La presencia y capacidad operativa de grupos criminales",
+				"Los desplazamientos forzados",
+				"La percepción ciudadana de inseguridad",
+				"La capacidad institucional para prevenir, investigar y responder eficazmente ante el delito"
+				]
+			},
+			{
+				tipo: "parrafo",
+				texto: "A estos elementos se suma un componente especialmente relevante: la cifra negra."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La cifra negra hace referencia a todos aquellos delitos que no son denunciados o que, aun siendo denunciados, no derivan en registros formales dentro del sistema de procuración de justicia. Este fenómeno representa una de las principales limitaciones para dimensionar la violencia real en un territorio."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Su existencia responde, en gran medida, a la profunda desconfianza que amplios sectores de la población mantienen hacia las autoridades."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta desconfianza no surge de manera arbitraria. En muchos casos se encuentra respaldada por experiencias históricas y contextos donde la corrupción, la impunidad y la colusión entre actores institucionales y estructuras criminales han debilitado gravemente la legitimidad del Estado."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando la ciudadanía percibe que denunciar puede resultar inútil, riesgoso o incluso contraproducente, opta por el silencio como mecanismo de autoprotección."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En escenarios particularmente complejos, esta desconfianza se intensifica ante la sospecha —o la certeza— de que ciertas autoridades mantienen vínculos directos con organizaciones criminales, ya sea mediante protección institucional, filtración de información, omisión deliberada o participación activa en actividades ilícitas."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Un ejemplo reciente de esta problemática puede observarse en la Operación Enjambre, estrategia que derivó en la detención de decenas de servidores públicos y mandos municipales presuntamente vinculados con delitos como extorsión, secuestro, homicidio y colaboración con grupos criminales en diversas entidades del país. El caso expuso una realidad largamente señalada por comunidades afectadas: la violencia no siempre opera al margen de las instituciones, sino que en determinados contextos puede encontrar protección o reproducción desde estructuras de poder formal."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Este tipo de episodios no solo revela fallas institucionales; también profundiza la percepción ciudadana de indefensión y refuerza la decisión de no denunciar."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Como consecuencia, existen territorios donde las estadísticas oficiales pueden sugerir niveles moderados de violencia, mientras en la práctica prevalecen dinámicas de control criminal sostenidas mediante extorsión sistemática, cooptación territorial, desplazamiento silencioso o imposición de reglas informales."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En este sentido, catalogar a un estado como violento no implica únicamente medir cuántos delitos ocurren, sino evaluar hasta qué punto actores criminales —con o sin respaldo institucional— han logrado alterar el funcionamiento social, limitar libertades y sustituir parcial o totalmente funciones que corresponden al Estado."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Comprender esta complejidad resulta indispensable para evitar diagnósticos incompletos y reconocer que, en materia de violencia, aquello que no se denuncia también forma parte esencial de la realidad."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Cuando la violencia se refleja en el territorio: la infraestructura urbana como síntoma de inseguridad"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia y la inseguridad no solo se manifiestan a través de estadísticas, denuncias o hechos delictivos visibles. En muchos casos, también dejan huellas materiales en el espacio urbano."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La forma en que se construyen, deterioran o abandonan ciertos entornos puede ofrecer indicios relevantes sobre las dinámicas sociales que atraviesan un territorio. Desde una perspectiva criminológica, el estado físico de una comunidad no es un elemento accesorio, sino un componente que puede reflejar procesos más profundos de fragmentación social, debilitamiento institucional y normalización del desorden."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando un estado, municipio o colonia presenta altos niveles de inseguridad, con frecuencia esto se proyecta en su infraestructura cotidiana: calles deterioradas, alumbrado público deficiente, fachadas abandonadas, viviendas invadidas o improvisadamente ocupadas, acumulación de grafitis, cableado irregular, comercio informal desbordado y espacios públicos visiblemente descuidados."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Estos elementos, observados de forma aislada, podrían interpretarse como simples problemas urbanos o administrativos. Sin embargo, cuando se presentan de manera sistemática y persistente, pueden constituir lo que en criminología se identifica como espacios anómicos."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Un espacio anómico es aquel donde las normas formales pierden capacidad de regulación efectiva y son sustituidas, parcial o totalmente, por dinámicas informales de convivencia, control o supervivencia. En estos contextos, la ausencia visible del orden institucional crea condiciones donde ciertas prácticas ilegales o irregulares dejan de percibirse como excepcionales y comienzan a integrarse en la vida cotidiana."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La presencia de medidores alterados, conexiones eléctricas improvisadas que sugieren robo de energía, automóviles visiblemente desmantelados en vía pública, proliferación de establecimientos de autopartes de dudosa procedencia o concentración excesiva de casas de empeño pueden funcionar como indicadores contextuales de economías informales o ilícitas que prosperan en entornos con baja supervisión estatal."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Lo mismo ocurre con la expansión descontrolada del comercio informal, particularmente cuando este ocupa espacios públicos sin regulación aparente y se desarrolla bajo esquemas de tolerancia institucional prolongada. Aunque no todo comercio informal está vinculado a dinámicas delictivas, su proliferación masiva en ausencia de regulación puede reflejar vacíos de gobernabilidad que, en determinados contextos, facilitan otras formas de ilegalidad."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Estas observaciones encuentran sustento teórico en la teoría de las ventanas rotas, desarrollada por James Q. Wilson y George L. Kelling."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta teoría plantea que los signos visibles de abandono, deterioro o desorden en el espacio público —como ventanas rotas, basura acumulada, grafitis no atendidos o infraestructura descuidada— envían un mensaje implícito de ausencia de control social e institucional. Cuando estos signos permanecen sin atención, pueden generar una percepción de permisividad que favorece la aparición o escalamiento de conductas antisociales y delictivas."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "El principio central no sostiene que una pared grafiteada provoque directamente delitos graves, sino que el deterioro sostenido puede comunicar que ciertas transgresiones carecen de consecuencias, debilitando progresivamente las barreras simbólicas que contienen otras formas de desorden."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Aplicado al contexto mexicano, esta lectura resulta particularmente útil para comprender cómo la inseguridad también se expresa en la configuración urbana."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Colonias donde predominan viviendas abandonadas, alumbrado deficiente, escasa presencia institucional y deterioro físico suelen convertirse en entornos donde el miedo se normaliza y donde ciertas dinámicas criminales encuentran mayores posibilidades de consolidación."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La infraestructura urbana, en este sentido, actúa como un espejo parcial de las condiciones sociales y políticas de un territorio."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "No se trata de afirmar que toda zona deteriorada es necesariamente violenta ni que todo espacio con comercio informal constituye un foco delictivo. Hacerlo implicaría caer en simplificaciones injustas."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Lo relevante es reconocer que, cuando múltiples indicadores de abandono, informalidad y desorden convergen de manera persistente, pueden revelar procesos de debilitamiento institucional que favorecen contextos de inseguridad."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Observar el territorio permite, muchas veces, identificar aquello que las estadísticas no alcanzan a mostrar."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En sociedades donde la cifra negra oculta buena parte de la violencia real, el espacio urbano se convierte en un lenguaje silencioso que expresa tensiones, omisiones y formas cotidianas de convivencia con la inseguridad."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Más allá de las cifras: por qué algunos estados no logran romper los ciclos de violencia"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando se analiza la violencia territorial en México, existe una tendencia recurrente a interpretarla como una sucesión de episodios aislados: un repunte de homicidios, un cambio de grupo criminal dominante o una crisis de seguridad coyuntural. Sin embargo, esta lectura resulta insuficiente para explicar por qué determinadas entidades permanecen durante años atrapadas en escenarios persistentes de inseguridad."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La permanencia de altos niveles de violencia no suele responder únicamente a la presencia de organizaciones criminales. En realidad, es resultado de la convergencia de múltiples factores estructurales que, al interactuar y reforzarse mutuamente, dificultan cualquier proceso sostenido de transformación."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Comprender por qué algunos estados no logran romper estos ciclos implica analizar las condiciones que permiten que la violencia no solo aparezca, sino que se reproduzca y adapte con el tiempo."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Debilidad institucional acumulada"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los factores más determinantes es la fragilidad institucional."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia tiende a consolidarse en territorios donde las capacidades del Estado resultan insuficientes para prevenir, contener e investigar eficazmente las dinámicas delictivas."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esto no se limita a la falta de elementos policiales o recursos operativos. También incluye problemas como la alta rotación de mandos, estrategias de seguridad discontinuas, improvisación administrativa, ausencia de profesionalización y una limitada coordinación entre distintos niveles de gobierno."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando cada administración redefine prioridades sin continuidad técnica ni diagnósticos territoriales sólidos, las políticas de seguridad suelen perder consistencia."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta discontinuidad genera vacíos que pueden ser aprovechados por actores criminales para reconfigurar su presencia y fortalecer mecanismos de control local."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia, en estos contextos, encuentra condiciones institucionales favorables para persistir."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Economías criminales que sostienen la violencia"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La inseguridad tampoco puede entenderse sin observar los incentivos económicos que la sostienen."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En muchos estados, la violencia no constituye un fin en sí mismo, sino una herramienta funcional para proteger actividades ilícitas altamente rentables."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Extorsión, cobro territorial, robo de combustible, narcomenudeo, tráfico de personas, control de rutas logísticas o apropiación de mercados locales son ejemplos de economías criminales que requieren mecanismos constantes de intimidación y control."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia opera entonces como una forma de regulación informal."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sirve para delimitar territorios, inhibir competencia, disciplinar poblaciones y asegurar flujos económicos ilegales."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Mientras estas estructuras generen beneficios sostenidos y enfrenten bajos costos institucionales, su permanencia seguirá siendo funcional para quienes las controlan."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La adaptación social a la inseguridad"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los efectos más complejos de los contextos prolongados de violencia es la capacidad de adaptación social."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando la inseguridad se mantiene durante largos periodos, las comunidades desarrollan mecanismos cotidianos para convivir con ella."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cambiar rutas habituales, modificar horarios, evitar ciertos espacios, limitar actividades económicas, reducir interacción comunitaria o abstenerse de denunciar son formas de ajuste que permiten disminuir riesgos inmediatos."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sin embargo, estas prácticas también generan un efecto profundo: la normalización del riesgo."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Lo que inicialmente se percibe como una alteración excepcional termina integrándose como parte del funcionamiento ordinario del entorno."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia deja de asumirse como una ruptura del orden y comienza a interpretarse como una condición estructural de la vida cotidiana."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Este proceso debilita la capacidad colectiva de cuestionar o resistir ciertas dinámicas, favoreciendo su permanencia."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La pérdida progresiva de legitimidad del Estado"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Otro elemento central es el deterioro de la legitimidad institucional."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando la ciudadanía deja de percibir al Estado como garante efectivo de seguridad, justicia y protección, se produce una ruptura profunda en la relación entre autoridad y sociedad."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta pérdida de confianza puede derivar en múltiples respuestas: la omisión silenciosa, la justicia informal, la tolerancia pragmática frente a ciertos actores criminales o incluso la búsqueda de esquemas paralelos de protección."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En contextos extremos, esto puede traducirse en formas de gobernanza informal donde las reglas dejan de emanar exclusivamente de instituciones legales y comienzan a coexistir con mecanismos impuestos por estructuras criminales o poderes fácticos."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando esto ocurre, revertir la violencia se vuelve especialmente complejo, porque el problema ya no se limita a la seguridad pública, sino que alcanza dimensiones políticas y sociales mucho más profundas."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La reproducción intergeneracional de la violencia"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Quizá uno de los indicadores más preocupantes de un ciclo consolidado de inseguridad es su reproducción entre generaciones."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando niñas, niños y jóvenes crecen en entornos donde la violencia forma parte del paisaje cotidiano, las fronteras entre legalidad, informalidad e ilegalidad tienden a difuminarse."			
+			},
+						{
+				tipo: "parrafo",
+				texto: "La exposición prolongada a contextos donde predominan el miedo, la impunidad o la presencia constante de estructuras criminales modifica percepciones, expectativas y formas de comprender el orden social."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En estos escenarios, la violencia deja de percibirse como una anomalía. Se convierte en referencia."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esto resulta especialmente grave porque amplía las probabilidades de que ciertas prácticas se reproduzcan cultural y socialmente, dificultando la transformación estructural del territorio."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Una violencia que se perpetúa desde la estructura"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La permanencia de la violencia en ciertos estados no responde únicamente a hechos delictivos aislados ni puede explicarse por la acción de un solo actor."			
+			},
+						{
+				tipo: "parrafo",
+				texto: "Se trata de fenómenos complejos sostenidos por debilidades institucionales, incentivos económicos, adaptación social, pérdida de legitimidad y procesos de reproducción cultural que, al converger, crean entornos donde la inseguridad encuentra condiciones para mantenerse."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Por ello, transformar estos territorios exige mucho más que respuestas reactivas o incrementos temporales de fuerza pública."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Implica intervenir sobre las estructuras que permiten que la violencia siga siendo una constante."			
+			},
+		],
+	},
+	{
+		metadata: {
+			id: "art-009",
+			slug: "victimas-en-mexico",
+			titulo:
+				"¿Quiénes son víctimas ante la ley en México y cómo exigir justicia?",
+			categoria: {
+				principal: "seguridad-publica",
+				label: "Seguridad pública",
+			},
+			etiquetas: [
+				"victimas",
+				"ley general de victimas",
+				"victimas directas",
+				"vicitmas indirectas",
+				"victimologoa",
+				"victimizacon",
+			],
+			fechaPublicacion: "2026-05-08",
+			autor: "Perla Mondragón",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"¿Quiénes son víctimas ante la ley en México y cómo exigir justicia?",
+			metaDescription:
+				"que hacer en caso de ser vicitma de un delito",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1778278312/Observatorio_criminal_11_kp40nr.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1778278312/BannerArtPage_8_aavedo.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"Durante las últimas décadas, fenómenos de violencia estructural han dejado una profunda huella",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto:
+					"En México, hablar de violencia implica referirse no sólo a la persistencia de delitos de alto impacto, sino también a la creciente complejidad de las consecuencias que estos generan en el tejido social."
+			},
+			{
+				tipo: "parrafo",
+				texto: " Durante las últimas décadas, fenómenos como el feminicidio, la desaparición de personas, el homicidio doloso, la trata y diversas expresiones de violencia estructural han dejado una profunda huella institucional que rebasa las estadísticas oficiales y se manifiesta en miles de familias enfrentadas a la incertidumbre, la burocracia y, en numerosos casos, a la ausencia de respuestas efectivas por parte del Estado."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cada expediente abierto por la comisión de un delito representa mucho más que una carpeta de investigación. Detrás de cada número existe una historia de ruptura: proyectos de vida interrumpidos, familias obligadas a modificar radicalmente su cotidianidad y personas que, además de afrontar el daño provocado por el delito, deben aprender a desenvolverse dentro de un sistema jurídico complejo, frecuentemente opaco y marcado por rezagos estructurales."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia no termina con la consumación del hecho delictivo. Para muchas personas, ese momento constituye apenas el inicio de un proceso prolongado de búsqueda de justicia, verdad y reparación. Es precisamente en ese punto donde el concepto jurídico de víctima adquiere una relevancia central."
+			},
+						{
+				tipo: "parrafo",
+				texto: "En el debate público suele asumirse que la víctima es únicamente quien sufrió directamente una agresión. Sin embargo, desde una perspectiva jurídica y victimológica, la afectación generada por un delito suele extenderse hacia núcleos familiares, redes de cuidado e incluso personas cuya intervención en la búsqueda de justicia las coloca en situación de riesgo."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Con el propósito de reconocer esta realidad, el Estado mexicano incorporó mecanismos normativos orientados a garantizar protección, representación y reparación a las personas afectadas por delitos y violaciones a derechos humanos."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La principal herramienta jurídica para ello es la Ley General de Víctimas."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Conocer su alcance no constituye únicamente una cuestión técnica. En muchos casos, representa la diferencia entre enfrentar un proceso institucional desde la incertidumbre o hacerlo con herramientas legales suficientes para exigir respuestas."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La Ley General de Víctimas: una respuesta jurídica frente al daño"
+			},
+			{
+				tipo: "parrafo",
+				texto: "La promulgación de la Ley General de Víctimas respondió a una necesidad histórica de reconocer que el sistema de justicia no puede limitarse a investigar y sancionar delitos, sino que debe atender integralmente a quienes padecen sus consecuencias."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Su construcción normativa parte de una premisa fundamental: el daño causado por un delito no desaparece con la sola apertura de una investigación ministerial."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Las víctimas requieren acompañamiento, representación, medidas de protección y garantías efectivas que permitan restituir, en la medida de lo posible, las condiciones vulneradas."
+			},
+			{
+				tipo: "parrafo",
+				texto: "En este sentido, la ley establece un modelo de atención basado en cinco ejes esenciales: asistencia inmediata, protección institucional, acceso a la verdad, acceso a la justicia y reparación integral."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Uno de sus aportes más significativos consiste en romper con una visión restrictiva según la cual una persona sólo podría ser considerada víctima una vez que existiera una sentencia firme."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "El marco jurídico mexicano reconoce que la afectación puede y debe ser atendida desde etapas iniciales, sin supeditar la protección a la conclusión del proceso penal."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esto resulta particularmente relevante en delitos cuya investigación puede extenderse durante largos periodos, como ocurre con desapariciones, feminicidios o violaciones graves a derechos humanos."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La ley, además, reconoce que el impacto del delito rara vez recae sobre una sola persona."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Su diseño incorpora una visión amplia de victimización, compatible con los desarrollos contemporáneos de la victimología y con estándares internacionales de derechos humanos."
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Quién es víctima ante la ley mexicana?"
+			},
+						{
+				tipo: "parrafo",
+				texto: "Comprender quién puede ser reconocido legalmente como víctima constituye uno de los primeros pasos para activar mecanismos institucionales de protección."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La Ley General de Víctimas establece diversas categorías, cada una con implicaciones jurídicas específicas."
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La víctima directa: el daño inmediato"
+			},
+						{
+				tipo: "parrafo",
+				texto: "Se considera víctima directa a la persona que ha sufrido una afectación física, psicológica, emocional, patrimonial o una vulneración sustancial de sus derechos fundamentales como consecuencia inmediata de un delito o de una violación a derechos humanos."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Aquí se ubican quienes sobreviven a agresiones físicas, violencia sexual, secuestro, tentativa de feminicidio, lesiones dolosas, extorsión u otras conductas delictivas."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La característica principal de esta categoría es la relación inmediata entre el hecho victimizante y la afectación sufrida."
+			},
+						{
+				tipo: "parrafo",
+				texto: "No obstante, limitar la comprensión jurídica del daño únicamente a esta figura implicaría desconocer la dimensión expansiva de la violencia."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La víctima indirecta: cuando el daño alcanza a la familia"
+			},
+			{
+				tipo: "parrafo",
+				texto: "La victimología contemporánea ha demostrado que los efectos del delito suelen proyectarse más allá de la persona directamente agredida."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Por ello, la legislación mexicana reconoce como víctimas indirectas a familiares o personas con vínculo inmediato que resienten consecuencias derivadas del hecho delictivo."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La relevancia práctica de esta categoría es particularmente visible en contextos de desaparición, homicidio o feminicidio."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La madre que inicia una búsqueda institucional tras la desaparición de su hijo, los hijos de una víctima de feminicidio o la pareja de una persona privada arbitrariamente de la vida también enfrentan daños concretos: afectaciones emocionales severas, desgaste económico, alteraciones en su vida cotidiana e incluso exposición a riesgos derivados de su exigencia de justicia."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Reconocer jurídicamente esta afectación implica admitir que el delito produce ondas expansivas que transforman entornos completos."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La víctima potencial: el riesgo derivado del acompañamiento"
+			},
+			{
+				tipo: "parrafo",
+				texto: "Existe además una tercera categoría frecuentemente ignorada: la víctima potencial."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Se trata de personas cuya integridad o derechos pueden verse amenazados por auxiliar a una víctima, colaborar con autoridades o participar activamente en procesos de búsqueda y denuncia."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Testigos amenazados, familiares intimidados o personas acompañantes que enfrentan represalias institucionales o criminales entran dentro de este supuesto."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Su reconocimiento legal responde a una realidad observable en numerosos contextos de violencia: exigir justicia también puede generar riesgos."
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Cuando la víctima es un familiar: cómo activar mecanismos institucionales"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Una de las situaciones más frecuentes en México es aquella en la que familiares deben asumir la carga operativa y jurídica de impulsar investigaciones."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esto ocurre especialmente en casos de desaparición, homicidio y feminicidio."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Frente a ello, el primer paso consiste en formalizar la denuncia y exigir la apertura inmediata de una carpeta de investigación."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Aunque esta obligación recae en la autoridad ministerial, en la práctica muchas familias enfrentan dilaciones, omisiones o negativas informales."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Por ello resulta indispensable exigir constancia documental del inicio del procedimiento, identificación del agente responsable y datos claros para seguimiento."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Sin estos elementos, cualquier exigencia posterior se debilita."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Una vez iniciada la investigación, los familiares deben solicitar su reconocimiento como víctimas indirectas."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Este acto jurídico es mucho más que una formalidad administrativa."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Su otorgamiento habilita facultades concretas: acceso a información, posibilidad de intervenir procesalmente, recepción de asesoría jurídica, solicitud de medidas de protección y participación activa en decisiones relevantes del procedimiento."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando esta calidad no es reconocida oportunamente, las familias suelen quedar relegadas a una posición pasiva frente al proceso."
+			},
+			{
+				tipo: "subtitulo",
+				texto: "El derecho a representación: asesor jurídico público o privado"
+			},
+						{
+				tipo: "parrafo",
+				texto: "Uno de los mecanismos más relevantes previstos por la Ley General de Víctimas es el acceso a representación jurídica especializada."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "En teoría, ninguna víctima debería enfrentar sola el sistema penal. Para ello existen dos vías principales."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La primera es la representación pública, proporcionada a través de la Comisión Ejecutiva de Atención a Víctimas y sus equivalentes estatales. Estos asesores jurídicos tienen la obligación de acompañar técnicamente a la víctima, vigilar actuaciones ministeriales, formular solicitudes de investigación, intervenir en audiencias y promover acciones orientadas a la protección de derechos."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Solicitar este acompañamiento requiere acreditar identidad, vínculo con la víctima cuando corresponda y proporcionar información mínima sobre el caso. Su acceso no depende de capacidad económica, ya que debe ser un trámite gratuito."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La segunda vía es la contratación de representación privada."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Aunque implica costos, puede resultar estratégica en casos complejos, especialmente cuando existen indicios de negligencia institucional, omisiones investigativas o necesidad de impulsar litigio constitucional mediante amparo."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Lo importante es comprender que la designación de asesoría privada no excluye el acceso a otros mecanismos de atención reconocidos por la ley."			
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Qué hacer cuando las autoridades no responden?"
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los mayores desafíos para víctimas y familiares en México es enfrentar la inercia institucional."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Las omisiones, retrasos injustificados, falta de comunicación y negativa de diligencias constituyen problemáticas recurrentes."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Ante ello, la exigencia debe trasladarse del plano informal al jurídico. Toda solicitud relevante debe formularse por escrito."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Solicitar entrevistas, análisis periciales, revisión de videograbaciones, actos de búsqueda o líneas específicas de investigación mediante documentos formales genera constancia y permite construir evidencia de posibles omisiones."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Asimismo, resulta fundamental documentar reuniones con agentes ministeriales y requerir información verificable sobre avances."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando persiste la falta de actuación, pueden activarse mecanismos de control mediante quejas administrativas, intervención de organismos públicos de derechos humanos o, en casos graves, juicio de amparo."
+			},
+			{
+				tipo: "parrafo",
+				texto: "El amparo ha adquirido particular relevancia en contextos donde la omisión institucional compromete derechos fundamentales, especialmente en investigaciones relacionadas con desaparición de personas."
+			},
+						{
+				tipo: "subtitulo",
+				texto: "Justicia para las víctimas: una obligación, no una concesión"			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los errores más frecuentes en la percepción pública consiste en asumir que la atención institucional hacia víctimas constituye un acto de buena voluntad estatal."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Jurídicamente, esto es incorrecto. El acceso a información, la representación legal, la protección contra revictimización, la participación procesal y la reparación integral son derechos exigibles."
+			},
+						{
+				tipo: "parrafo",
+				texto: "No dependen de discrecionalidad administrativa. Reconocer esta diferencia resulta fundamental."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Una víctima informada no solicita favores institucionales. Exige cumplimiento normativo."
+			},
+			{
+				tipo: "parrafo",
+				texto: "En un país donde amplios sectores continúan enfrentando barreras estructurales para acceder a justicia, el conocimiento jurídico se convierte también en una forma de resistencia frente a la impunidad."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Porque cuando el delito fractura vidas, conocer la ley puede representar el primer paso para comenzar a reconstruirlas."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "La Comisión Ejecutiva de Atención a Víctimas es el principal organismo federal encargado de brindar atención, orientación, acompañamiento jurídico y medidas de ayuda a personas afectadas por delitos o violaciones a derechos humanos."
+			},
+			{
+				tipo: "parrafo",
+				texto: "A través de esta instancia pueden solicitarse:"
+			},
+			{
+				tipo: "lista",
+				items:[
+				"Asesoría jurídica gratuita",
+				"Orientación sobre derechos",
+				"Acompañamiento institucional",
+				"Inscripción al Registro Nacional de Víctimas cuando corresponda",
+				"Canalización para atención psicológica o médica"
+				]
+			},
+			{
+				tipo: "parrafo",
+				texto: "Además del órgano federal, diversas entidades federativas cuentan con comisiones locales de atención a víctimas que operan bajo atribuciones similares."			
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando el hecho delictivo ocurrió en ámbito estatal, suele ser recomendable acudir inicialmente a la comisión local correspondiente."
 			},
 		],
 	},

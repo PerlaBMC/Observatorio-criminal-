@@ -3,6 +3,7 @@ import Categorias from "./categoria/Categorias";
 import { articulos } from "../data/articulo"; 
 import styles from "./homePage.module.css";
 import Equipo from "./components/Equipo/Equipo";
+import ObservatorioIntro from "./components/ObservatorioIntro/ObservatorioIntro";
 import Link from "next/link";
 
 export default function Home() {
@@ -55,7 +56,7 @@ export default function Home() {
           </div>
         </section>
       )}
-
+      <ObservatorioIntro/>
 
       {/* DESTACADO PRO */}
       {destacado && (
