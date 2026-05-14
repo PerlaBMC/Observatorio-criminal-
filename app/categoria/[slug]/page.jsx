@@ -52,6 +52,7 @@ export default function CategoriaPage({ params }) {
 
 								<div className={styles.meta}>
 									<span>{articulo.metadata.fechaPublicacion}</span>
+									<span> • </span>
 									<span>{articulo.metadata.tiempoLectura} min</span>
 								</div>
 							</div>

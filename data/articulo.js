@@ -2527,4 +2527,306 @@ export const articulos = [
 			},
 		],
 	},
+	{
+		metadata: {
+			id: "art-010",
+			slug: "fragmentacion-criminal",
+			titulo:
+				"Fragmentación criminal: cuando la caída de un liderazgo empeora el conflicto",
+			categoria: {
+				principal: "crimen-organizado",
+				label: "Crimen organizado",
+			},
+			etiquetas: [
+				"victimas",
+				"Carteles mexicanos",
+				"celulas criminales",
+				"fragmentación de grupos criminales",
+				"Mencho",
+				"El Mayo",
+				"El Chapo"
+			],
+			fechaPublicacion: "2026-05-13",
+			autor: "Perla Mondragón",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Fragmentación criminal: cuando la caída de un liderazgo empeora el conflicto",
+			metaDescription:
+				"que pasa después de la captura de líderes criminales",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1778718951/Observatorio_criminal_11_iwlgmg.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1778718951/BannerArtPage_8_nnm5zw.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"El vacío de poder se convierte en un factor criminógeno por sí mismo",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto:"Cada vez que un gobierno anuncia la captura o muerte de un líder criminal, el discurso público suele construirse alrededor de una narrativa de triunfo. "	
+			},
+			{
+				tipo: "parrafo",
+				texto: "Las imágenes de operativos, los comunicados institucionales y la cobertura mediática presentan el hecho como un golpe decisivo contra una organización delictiva. La lógica parece sencilla: si se elimina a la figura que dirige una estructura criminal, dicha estructura inevitablemente se debilitará."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sin embargo, la experiencia acumulada en distintos contextos de violencia organizada ha demostrado que la realidad rara vez es tan lineal. En numerosas regiones, la caída de un liderazgo no produce estabilidad inmediata, sino una etapa de incertidumbre caracterizada por reacomodos internos, disputas territoriales y aumento de violencia. Lo que aparenta ser el cierre de un conflicto puede convertirse, en realidad, en el inicio de una fase más fragmentada y difícil de contener."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta contradicción constituye uno de los fenómenos más relevantes dentro de la criminología contemporánea: la fragmentación criminal."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Lejos de representar únicamente una ruptura organizativa, la fragmentación implica la transformación completa de las dinámicas de poder dentro del ecosistema criminal. Cambian las alianzas, se redefinen las jerarquías y emergen nuevos actores cuya prioridad inmediata no es necesariamente consolidar estabilidad, sino sobrevivir, expandirse y demostrar fuerza."
+			},
+			{
+				tipo: "parrafo",
+				texto: "En este escenario, el vacío de poder se convierte en un factor criminógeno por sí mismo."	
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Cuando una estructura pierde cohesión"
+			},
+			{
+				tipo: "parrafo",
+				texto: "Las organizaciones criminales suelen analizarse desde el exterior como bloques homogéneos y perfectamente coordinados. Sin embargo, internamente operan mediante equilibrios complejos sostenidos por liderazgos, incentivos económicos, pactos de lealtad y mecanismos de control disciplinario."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Aunque estas estructuras desarrollan actividades ilícitas profundamente lesivas, muchas de ellas requieren cierto grado de estabilidad interna para mantener operaciones sostenidas. El tráfico de mercancías ilegales, las redes financieras clandestinas, la corrupción institucional o el control territorial dependen, en buena medida, de la capacidad de coordinación entre distintos niveles operativos."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando la figura que centraliza autoridad desaparece, ese equilibrio comienza a deteriorarse."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "La fragmentación criminal ocurre precisamente en ese punto: cuando la organización pierde cohesión y múltiples actores intentan ocupar espacios de poder antes subordinados a una sola autoridad. Mandos regionales, operadores financieros, jefes armados y células locales empiezan a competir entre sí por recursos, influencia y control territorial."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La disputa no siempre responde a una ideología o a un proyecto común. En muchos casos, se trata simplemente de sobrevivencia criminal."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La ausencia de una autoridad capaz de contener conflictos internos genera un ambiente donde la violencia adquiere un nuevo significado. Ya no sólo se utiliza contra enemigos externos o instituciones del Estado; ahora funciona también como mecanismo de legitimación interna."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Quien demuestra mayor capacidad de intimidación, control armado o generación de ingresos puede posicionarse como nuevo referente de poder."	
+			},
+			{
+				tipo: "subtitulo",
+				texto: "El vacío de poder como detonante de violencia"
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los principales errores dentro del debate público sobre seguridad consiste en asumir que la violencia criminal depende exclusivamente de la existencia de grandes estructuras organizadas. La realidad demuestra que, en muchos casos, la fragmentación puede producir escenarios todavía más agresivos."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Cuando un liderazgo desaparece, el territorio previamente controlado entra en disputa. Ninguna facción posee legitimidad absoluta ni control total, por lo que cada grupo intenta consolidarse rápidamente antes de ser desplazado por rivales internos o externos."
+			},
+			{
+				tipo: "parrafo",
+				texto: "En este contexto, la violencia se acelera."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "Los enfrentamientos dejan de responder únicamente a estrategias de largo plazo y comienzan a desarrollarse bajo lógicas inmediatas e impulsivas. La prioridad ya no es administrar estabilidad operativa, sino impedir la pérdida de influencia."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esto genera múltiples efectos simultáneos: aumento de homicidios, desplazamientos forzados, presión sobre comunidades locales y expansión de delitos de impacto cotidiano."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La población civil suele convertirse en el principal espacio de presión."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Comerciantes, transportistas, pequeños negocios y habitantes de zonas vulnerables quedan atrapados entre facciones que buscan financiarse rápidamente o demostrar capacidad de control territorial. La extorsión y el cobro de piso adquieren entonces un papel central, no sólo como fuente económica, sino como mecanismo simbólico de dominación."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "La fragmentación transforma el paisaje de violencia. Lo que antes podía operar mediante estructuras relativamente centralizadas comienza a dispersarse en múltiples focos de conflicto simultáneo."
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La mutación de las economías criminales"
+			},
+						{
+				tipo: "parrafo",
+				texto: "Otro efecto importante de la fragmentación criminal es la transformación de las actividades ilícitas."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Las organizaciones consolidadas suelen desarrollar economías criminales complejas que requieren logística, financiamiento y redes de corrupción relativamente sofisticadas. Sin embargo, cuando una estructura se divide, muchas de sus células pierden acceso a esos recursos."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "La consecuencia inmediata es la diversificación forzada hacia delitos más inmediatos y depredatorios."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Las células fragmentadas necesitan mantener ingresos rápidos para financiar armamento, operadores y expansión territorial. Ante la pérdida de capacidad financiera, recurren con mayor frecuencia a actividades que afectan directamente a la población local."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Esto explica por qué algunas regiones experimentan incrementos repentinos en extorsión, secuestro, robo violento o control coercitivo de actividades económicas después de procesos de ruptura interna."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia deja de estar parcialmente concentrada en disputas estratégicas y comienza a infiltrarse en la vida cotidiana."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "Desde una perspectiva social, este cambio resulta profundamente significativo. La ciudadanía no percibe únicamente un incremento abstracto de violencia; percibe la expansión tangible de mecanismos de control criminal sobre espacios comunitarios."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La fragmentación no sólo altera el equilibrio entre grupos delictivos. También modifica la relación entre violencia y sociedad."
+			},
+						{
+				tipo: "subtitulo",
+				texto: "El problema de las “victorias” incompletas"
+			},
+			{
+				tipo: "parrafo",
+				texto: "Desde el ámbito institucional, la captura de un liderazgo representa un logro operativo importante. Negar su relevancia sería simplificar el problema en sentido contrario. Sin embargo, el verdadero desafío aparece después del operativo."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "La pregunta central no es únicamente si el Estado logró neutralizar a una figura criminal, sino si posee la capacidad suficiente para administrar las consecuencias posteriores."
+			},
+			{
+				tipo: "parrafo",
+				texto: "En numerosos casos, las instituciones consiguen desarticular parcialmente una estructura sin contar con mecanismos sólidos para estabilizar el territorio afectado. Esto genera vacíos de autoridad que pueden ser aprovechados por nuevas facciones o grupos rivales."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La ausencia de estrategias posteriores permite que el conflicto se reconfigure."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Por ello, diversos especialistas en seguridad han advertido que las acciones enfocadas exclusivamente en “descabezar” organizaciones criminales pueden producir resultados limitados cuando no van acompañadas de inteligencia financiera, fortalecimiento institucional local y recuperación sostenida del tejido social."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "La seguridad no depende únicamente de capturas espectaculares. Depende también de la capacidad del Estado para impedir que cada fractura criminal produzca nuevas formas de violencia."
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Fragmentación y adaptación criminal"
+			},
+						{
+				tipo: "parrafo",
+				texto: "Uno de los aspectos más inquietantes de este fenómeno es la capacidad adaptativa de las organizaciones criminales."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Con frecuencia, el debate público asume que estas estructuras funcionan como sistemas rígidos cuya supervivencia depende exclusivamente de sus líderes visibles. Sin embargo, muchas organizaciones poseen redes flexibles capaces de mutar rápidamente ante escenarios de presión institucional."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "La fragmentación no siempre significa desaparición. En ocasiones representa transformación."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Algunas células se independizan, otras se reorganizan bajo nuevos liderazgos y otras terminan fusionándose con actores externos. El ecosistema criminal se vuelve más disperso, menos predecible y mucho más difícil de contener."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Paradójicamente, la desarticulación parcial puede generar un entorno donde existen más actores violentos compitiendo simultáneamente."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Este escenario complica tanto la respuesta institucional como la percepción social del conflicto. La ciudadanía deja de enfrentar una estructura identificable y comienza a convivir con múltiples expresiones fragmentadas de violencia que operan bajo dinámicas cambiantes."	
+			},
+			{
+				tipo: "subtitulo",
+				texto: "México y la fragmentación criminal: lecciones históricas y riesgos contemporáneos"
+			},
+			{
+				tipo: "parrafo",
+				texto: "La historia reciente de México ofrece múltiples ejemplos de cómo la desarticulación de estructuras criminales puede derivar en escenarios de violencia más complejos. Lejos de tratarse únicamente de un fenómeno teórico, la fragmentación criminal ha moldeado buena parte de la evolución de la seguridad pública en el país durante las últimas décadas."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Uno de los antecedentes más significativos ocurrió tras la desintegración del antiguo Cártel de Guadalajara durante los años ochenta. Aunque su debilitamiento representó un punto de quiebre importante dentro de la estrategia estatal contra el narcotráfico, la caída de aquella estructura no produjo una disminución inmediata de las dinámicas criminales. Por el contrario, abrió paso a una reconfiguración territorial y operativa que transformó profundamente el mapa de la delincuencia organizada en México."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La fragmentación de esa organización dio origen al fortalecimiento de distintos grupos regionales que comenzaron a disputar rutas, corredores estratégicos y espacios de influencia. La violencia dejó de concentrarse alrededor de una estructura relativamente centralizada y comenzó a dispersarse entre múltiples actores con intereses propios."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "Aquella transición marcó el inicio de una etapa donde las organizaciones criminales adquirieron mayor autonomía regional y diversificaron tanto sus métodos operativos como sus fuentes de financiamiento. El fenómeno no sólo modificó las dinámicas del narcotráfico; también alteró la relación entre violencia, territorio y gobernabilidad local."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Con el paso de los años, México experimentó un proceso progresivo de atomización criminal. Las disputas entre organizaciones, sumadas a fracturas internas y estrategias de “descabezamiento”, contribuyeron a la aparición de células más pequeñas, más flexibles y, en muchos casos, más violentas."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Esa lógica continúa siendo visible en escenarios contemporáneos."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los casos más recientes puede observarse en el contexto de violencia registrado en Sinaloa tras la detención de Ismael 'El Mayo' Zambada. Más allá del impacto operativo de la captura, distintos sectores han advertido que el principal riesgo posterior radica en los procesos de reacomodo interno y disputa entre facciones vinculadas a la estructura sinaloense."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "El problema no se limita a la ausencia de un liderazgo histórico. Lo verdaderamente delicado es la incertidumbre que emerge cuando una organización con amplias redes territoriales pierde uno de sus principales puntos de equilibrio interno."
+			},
+			{
+				tipo: "parrafo",
+				texto: "En contextos de esta naturaleza, los grupos subordinados comienzan a redefinir alianzas, medir capacidades y disputar espacios de poder. La violencia se intensifica no únicamente como confrontación armada, sino también como mecanismo de presión territorial y demostración de fuerza."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Las consecuencias para la población civil suelen ser inmediatas: incremento en percepción de inseguridad, interrupción de actividades económicas, desplazamientos temporales y debilitamiento de la estabilidad cotidiana."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La situación refleja una constante dentro de los procesos de fragmentación criminal: la captura de una figura relevante puede representar simultáneamente un éxito institucional y el inicio de una etapa particularmente inestable para el territorio afectado."	
+			},
+			{
+				tipo: "parrafo",
+				texto: "Bajo esa misma lógica, diversos especialistas en seguridad han comenzado a plantear escenarios hipotéticos sobre las posibles consecuencias que podría generar una eventual desarticulación del Cártel Jalisco Nueva Generación tras la muerte o captura de Nemesio Oseguera Cervantes."
+			},
+			{
+				tipo: "parrafo",
+				texto: "El interés alrededor de este escenario no responde únicamente al peso actual de dicha organización, sino a la magnitud territorial y operativa que ha desarrollado durante los últimos años. A diferencia de estructuras regionales más limitadas, el grupo mantiene presencia en múltiples entidades, redes financieras complejas y capacidad de adaptación operativa."
+			},
+						{
+				tipo: "parrafo",
+				texto: "En escenarios de fragmentación profunda, el principal desafío para el Estado no consiste únicamente en ejecutar operativos de alto impacto, sino en impedir que el vacío posterior derive en una multiplicación de actores violentos difíciles de contener."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Ese es, precisamente, uno de los aprendizajes más importantes que ha dejado la evolución de la violencia organizada en México: desarticular una estructura criminal no equivale automáticamente a pacificar un territorio."	
+			},
+		],
+	},
 ];
