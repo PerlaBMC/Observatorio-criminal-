@@ -698,7 +698,7 @@ export const articulos = [
 			metaTitle:
 				"Criminal o delincuente ¿cómo se forma uno?",
 			metaDescription:
-				"cual es la diferencia entre un criminal y un delincuente",
+				"Cual es la diferencia entre un criminal y un delincuente",
 		},
 
 		media: {
@@ -1006,7 +1006,7 @@ export const articulos = [
 			metaTitle:
 				"Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes?",
 			metaDescription:
-				"cómo operan los grupos criminales",
+				"Cómo operan los grupos criminales",
 		},
 
 		media: {
@@ -1328,7 +1328,7 @@ export const articulos = [
 			metaTitle:
 				"Apología del delito: ¿cómo se normaliza la violencia?",
 			metaDescription:
-				"narcocultura y romantizacion del delito",
+				"Narcocultura y romantizacion del delito",
 		},
 
 		media: {
@@ -1622,7 +1622,7 @@ export const articulos = [
 			metaTitle:
 				"Extorsión en México: cómo funciona el cobro de piso y su impacto en la vida cotidiana",
 			metaDescription:
-				"cómo funciona el cobro de piso",
+				"Cómo funciona el cobro de piso",
 		},
 
 		media: {
@@ -1806,7 +1806,7 @@ export const articulos = [
 			metaTitle:
 				"Violencia en México: por qué algunos estados enfrentan mayores niveles de violencia",
 			metaDescription:
-				"por qué hay estados o municipios mas violentos",
+				"Por qué hay estados o municipios mas violentos",
 		},
 
 		media: {
@@ -2198,7 +2198,7 @@ export const articulos = [
 			metaTitle:
 				"¿Quiénes son víctimas ante la ley en México y cómo exigir justicia?",
 			metaDescription:
-				"que hacer en caso de ser vicitma de un delito",
+				"Que hacer en caso de ser vicitma de un delito",
 		},
 
 		media: {
@@ -2563,7 +2563,7 @@ export const articulos = [
 			metaTitle:
 				"Fragmentación criminal: cuando la caída de un liderazgo empeora el conflicto",
 			metaDescription:
-				"que pasa después de la captura de líderes criminales",
+				"Qué pasa después de la captura de líderes criminales",
 		},
 
 		media: {
@@ -2827,6 +2827,544 @@ export const articulos = [
 				tipo: "parrafo",
 				texto: "Ese es, precisamente, uno de los aprendizajes más importantes que ha dejado la evolución de la violencia organizada en México: desarticular una estructura criminal no equivale automáticamente a pacificar un territorio."	
 			},
+		],
+	},
+	{
+		metadata: {
+			id: "art-011",
+			slug: "narcotrafico-terrorismo",
+			titulo:
+				"Del narcotráfico al terrorismo criminal: cómo la violencia organizada transformó el miedo en una forma de control social",
+			categoria: {
+				principal: "crimen-organizado",
+				label: "Crimen organizado",
+			},
+			etiquetas: [
+				"narcotrafico",
+				"narcotráfico",
+				"terrorismo",
+				"fragmentación de grupos criminales",
+				"Mencho",
+				"El Mayo",
+				"El Chapo",
+				"Carteles mexicanos",
+				"CJNG",
+				"Cártel de Sinaloa"
+			],
+			fechaPublicacion: "2026-06-1",
+			autor: "Perla Mondragón",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Narcotráfico en México",
+			metaDescription:
+				"Como el narcotrafico paso a ser terrorismo",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1780355859/Observatorio_criminal_12_igz66k.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1780354109/BannerArtPage_9_bn0vsn.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"Diversas regiones de México viven bajo escenarios donde el miedo dejó de ser una consecuencia y paso a ser una herramienta",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto: "Durante décadas, el narcotráfico en México operó bajo una lógica distinta a la que hoy domina amplias regiones del país. "
+			},
+			{
+				tipo: "parrafo",
+				texto: "Aunque desde sus primeras etapas existieron actos de violencia, corrupción y control territorial, gran parte de las estructuras criminales tradicionales buscaban mantener un perfil relativamente discreto. El negocio dependía de la clandestinidad, de acuerdos informales de coexistencia y de una violencia focalizada que evitará atraer niveles excesivos de atención institucional o presión social."
+			},
+			{
+				tipo: "parrafo",
+				texto: "En distintas zonas del país comenzó a construirse la percepción de que existía una especie de “código” criminal no escrito. Bajo esa narrativa, los grupos delictivos limitaban sus confrontaciones a rivales directos, procuraban no involucrar abiertamente a familias ajenas al conflicto y evitaban ataques indiscriminados contra población civil. Aunque dicha imagen suele romantizarse retrospectivamente y omite múltiples episodios históricos de brutalidad, sí refleja una diferencia importante respecto a las dinámicas actuales: el crimen organizado contemporáneo ha expandido la violencia más allá de sus antiguos márgenes operativos."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Hoy, diversas regiones de México viven bajo escenarios donde el miedo dejó de ser una consecuencia secundaria del conflicto y se convirtió en una herramienta deliberada de control territorial."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La transformación no ocurrió de manera repentina. Fue el resultado de décadas de fragmentación criminal, disputas territoriales, militarización del conflicto, diversificación de economías ilícitas y debilitamiento institucional en múltiples niveles del Estado."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Comprender por qué actualmente ciertos sectores comienzan a utilizar términos asociados al terrorismo criminal exige analizar precisamente esa evolución histórica."
+			},
+			{
+				tipo: "parrafo",
+				texto: ""
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Los primeros modelos del narcotráfico y la lógica de discreción"
+			},
+			{
+				tipo: "parrafo",
+				texto: "Las primeras grandes estructuras del narcotráfico mexicano surgieron bajo condiciones muy distintas a las actuales. Durante buena parte del siglo XX, el negocio ilícito operó mediante redes relativamente centralizadas que privilegiaban el bajo perfil, la corrupción estratégica y la estabilidad operativa."
+			},
+						{
+				tipo: "parrafo",
+				texto: "El antiguo Cártel de Guadalajara representa uno de los ejemplos más emblemáticos de aquella etapa. Más que una estructura caótica basada únicamente en confrontación armada, funcionaba como un sistema de coordinación criminal donde distintos operadores mantenían acuerdos territoriales y financieros orientados a reducir conflictos internos."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Eso no significa que existiera ausencia de violencia. La hubo, y en algunos casos alcanzó niveles profundamente graves. Sin embargo, gran parte de la lógica operativa priorizaba evitar confrontaciones abiertas que alteraran el funcionamiento del negocio ilícito."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La violencia tendía a concentrarse en ajustes internos, disputas específicas o represalias focalizadas. El principal interés consistía en preservar estabilidad suficiente para garantizar rutas, protección institucional y continuidad financiera."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Con el tiempo, esa dinámica comenzó a deteriorarse."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La fragmentación criminal ocurrida tras la desarticulación de grandes estructuras centralizadas transformó el equilibrio previo. La aparición de múltiples organizaciones regionales, sumada al incremento de la presión estatal y la competencia territorial, generó escenarios mucho más inestables."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia dejó de ser únicamente un instrumento correctivo o estratégico. Comenzó a convertirse en una forma de comunicación y dominación social."
+			},
+						{
+				tipo: "subtitulo",
+				texto: "El colapso del supuesto “código” criminal"
+			},
+			{
+				tipo: "parrafo",
+				texto: "La idea de un antiguo narcotráfico que “respetaba” a la población civil suele aparecer constantemente en conversaciones sociales y narrativas populares. Sin embargo, ese concepto requiere analizarse con cuidado."
+			},
+						{
+				tipo: "parrafo",
+				texto: "En gran medida, dicho “código” no respondía necesariamente a principios éticos, sino a cálculos operativos. Mantener bajo nivel de exposición pública reducía presión institucional y permitía preservar relaciones de corrupción o tolerancia local."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Mientras menos visible fuera el conflicto, más sostenible resultaba el negocio."
+			},
+			{
+				tipo: "parrafo",
+				texto: "El problema comenzó cuando las organizaciones criminales evolucionaron hacia estructuras más fragmentadas, militarizadas y territorialmente expansivas. La competencia dejó de centrarse exclusivamente en rutas de tráfico y comenzó a extenderse hacia control social, economías locales y dominio comunitario."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Con ello también cambió la función de la violencia."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Las organizaciones ya no sólo buscaban eliminar rivales. Comenzaron a utilizar el miedo como mecanismo permanente de control territorial. Las amenazas colectivas, las demostraciones públicas de fuerza, la intimidación comunitaria y la presión sobre actividades económicas se volvieron herramientas sistemáticas para imponer autoridad."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia dejó de ocultarse."
+			},
+						{
+				tipo: "parrafo",
+				texto: "En distintos territorios comenzó a normalizarse la presencia de bloqueos, incendios provocados, extorsiones masivas, desapariciones, desplazamientos forzados y ataques dirigidos no únicamente contra enemigos armados, sino también contra comunidades enteras consideradas estratégicas para el control regional."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La consecuencia más grave fue la ruptura progresiva entre crimen organizado y sociedad civil. Lo que antes podía percibirse como un conflicto relativamente contenido comenzó a infiltrarse directamente en la vida cotidiana."
+			},
+						{
+				tipo: "subtitulo",
+				texto: "Cuando el miedo se convierte en una herramienta de poder"
+			},
+			{
+				tipo: "parrafo",
+				texto: "La utilización sistemática del terror como mecanismo de control es uno de los elementos que ha llevado a distintos analistas y gobiernos a utilizar conceptos vinculados al terrorismo criminal para describir ciertas dinámicas contemporáneas del narcotráfico."
+			},
+						{
+				tipo: "parrafo",
+				texto: "El objetivo ya no consiste únicamente en proteger mercados ilícitos. En numerosos casos, las organizaciones buscan influir sobre el comportamiento colectivo mediante intimidación constante."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La población civil deja entonces de ser un actor ajeno al conflicto y se convierte en parte del escenario de presión."
+			},
+						{
+				tipo: "parrafo",
+				texto: "El impacto puede observarse en diversas regiones de México donde la violencia ha alterado profundamente la vida comunitaria. Estados como Sinaloa, Guanajuato, Jalisco, Michoacán y Guerrero han experimentado durante los últimos años episodios donde la violencia criminal rebasa la confrontación entre grupos rivales y comienza a impactar directamente el funcionamiento social."
+			},
+			{
+				tipo: "parrafo",
+				texto: "En algunas comunidades, las personas modifican horarios, rutas de movilidad o actividades económicas ante el temor constante de enfrentamientos, extorsiones o represalias. En otras, la presión criminal ha derivado en abandono de viviendas, cierre de negocios y desplazamientos colectivos."
+			},
+			{
+				tipo: "parrafo",
+				texto: "El miedo deja de ser excepcional y comienza a incorporarse a la rutina diaria."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Ese cambio resulta fundamental para comprender por qué el fenómeno actual genera tanta preocupación social. No se trata únicamente del incremento estadístico de violencia, sino de la capacidad del crimen organizado para alterar dinámicas comunitarias completas."
+			},
+			{
+				tipo: "subtitulo",
+				texto: "El desplazamiento forzado y la fractura del tejido social"
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los efectos más graves de esta transformación ha sido el desplazamiento forzado interno."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Aunque durante años este fenómeno recibió menor atención pública que otros indicadores de violencia, numerosas comunidades mexicanas han experimentado procesos de expulsión provocados por amenazas, disputas territoriales o control criminal."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Lo ocurrido recientemente en zonas de Chilapa de Álvarez volvió a evidenciar la dimensión humanitaria del problema. Familias enteras abandonaron sus hogares ante el temor generado por escenarios de violencia e inseguridad persistente."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Cuando una comunidad se ve obligada a desplazarse, el daño trasciende la pérdida material. Se rompe el arraigo territorial, se fracturan redes familiares y desaparecen formas básicas de estabilidad cotidiana."
+			},
+			{
+				tipo: "parrafo",
+				texto: "El desplazamiento también refleja otra realidad incómoda: existen territorios donde la población percibe que la capacidad de protección institucional resulta insuficiente frente al poder coercitivo de actores criminales."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Ese vacío profundiza el deterioro del tejido social."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Niños interrumpen procesos educativos, actividades económicas desaparecen y comunidades completas comienzan a vivir bajo condiciones prolongadas de incertidumbre."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La violencia organizada deja entonces de ser un fenómeno vinculado exclusivamente al narcotráfico para convertirse en un problema estructural de seguridad humana."
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La expansión del control criminal sobre la vida cotidiana"
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los cambios más significativos del crimen organizado contemporáneo es su diversificación."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Las organizaciones ya no dependen únicamente del tráfico de drogas. En muchos casos, expandieron su presencia hacia economías locales, control territorial y actividades cotidianas."
+			},
+						{
+				tipo: "parrafo",
+				texto: "El cobro de piso, la extorsión, la imposición de reglas comunitarias o la infiltración en sectores económicos generan formas de dominación que afectan directamente a la ciudadanía."
+			},
+			{
+				tipo: "parrafo",
+				texto: "En ciertas regiones, el crimen organizado dejó de operar únicamente como una red clandestina y comenzó a comportarse como una estructura paralela de control."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Eso explica por qué el impacto social actual resulta tan profundo. La violencia no sólo aparece en enfrentamientos visibles; también se manifiesta en silencios colectivos, miedo cotidiano y restricciones invisibles que alteran la vida pública."
+			},
+			{
+				tipo: "parrafo",
+				texto: "La normalización de esa presión constante representa uno de los riesgos más graves para cualquier sociedad."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Porque cuando el miedo se vuelve permanente, la violencia deja de percibirse como una emergencia excepcional y comienza a asumirse como parte natural del entorno."
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Comprender el problema sin romantizar el pasado"
+			},
+						{
+				tipo: "parrafo",
+				texto: "Analizar la evolución del narcotráfico no implica idealizar las estructuras criminales del pasado ni reproducir narrativas de falsa “honorabilidad” delictiva."
+			},
+			{
+				tipo: "parrafo",
+				texto: "El crimen organizado siempre produjo violencia, corrupción y daño social. La diferencia es que las dinámicas contemporáneas muestran niveles mucho más expansivos de fragmentación, control territorial e intimidación comunitaria."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La nostalgia alrededor de antiguos “códigos” criminales suele surgir porque amplios sectores perciben que la violencia actual perdió límites visibles. Sin embargo, esa percepción no debe confundirse con legitimación histórica de organizaciones ilícitas."
+			},
+			{
+				tipo: "parrafo",
+				texto: "El verdadero desafío consiste en comprender cómo evolucionó el conflicto hasta alcanzar escenarios donde comunidades enteras viven condicionadas por el miedo."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sólo entendiendo esa transformación resulta posible analizar con seriedad los riesgos que enfrenta México en materia de seguridad, gobernabilidad y reconstrucción social."
+			},
+			{
+				tipo: "parrafo",
+				texto: "Porque el problema ya no radica únicamente en la existencia de organizaciones criminales. Radica en la capacidad que han desarrollado para alterar territorios completos, desplazar comunidades y convertir la violencia en una herramienta cotidiana de control colectivo."
+			},
+		],
+	},
+		{
+		metadata: {
+			id: "art-012",
+			slug: "influencers-lavado-de-dinero",
+			titulo:
+				"¿Cómo pueden los influencers facilitar el lavado de dinero de redes criminales?",
+			categoria: {
+				principal: "crimen-organizado",
+				label: "Crimen organizado",
+			},
+			etiquetas: [
+				"narcotrafico",
+				"narcotráfico",
+				"lavado de dinero",
+				"blanqueo de activos",
+				"Chino Antráx",
+				"El Mayo",
+				"El Chapo",
+				"Carteles mexicanos",
+				"CJNG",
+				"Cártel de Sinaloa",
+				"Emma Coronel",
+				"Narcoinfluencers"
+			],
+			fechaPublicacion: "2026-06-1",
+			autor: "Perla Mondragón",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Narcotráfico en México",
+			metaDescription:
+				"La popularidad convertida en un mecanismo de legitimación.",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1780360382/Observatorio_criminal_13_hessnu.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1780360382/BannerArtPage_10_yhnetn.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			" La atención pública se concentra en la imagen aspiracional y no necesariamente en el origen de los recursos que sostienen ese estilo de vida.",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto: "El lavado de dinero es el proceso mediante el cual recursos obtenidos a través de actividades ilícitas son introducidos dentro de circuitos aparentemente legales para ocultar su origen real."
+			},
+                       {
+               tipo: "parrafo",
+               texto: "Su objetivo principal consiste en transformar capitales vinculados al narcotráfico, corrupción, extorsión, tráfico ilegal o delincuencia organizada en dinero que pueda utilizarse públicamente sin despertar sospechas inmediatas."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Históricamente, este proceso se realizaba mediante negocios fachada, inversiones inmobiliarias, empresas fantasma o estructuras financieras complejas diseñadas para dificultar el rastreo del dinero. Sin embargo, la transformación digital de la economía modificó profundamente estas dinámicas. Hoy, las redes sociales y la economía de la influencia abrieron nuevos espacios donde el prestigio público, la fama y la viralidad pueden convertirse en herramientas útiles para legitimar riqueza de origen incierto."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "En este nuevo escenario, algunos influencers y figuras digitales comenzaron a ocupar un lugar delicado dentro de las discusiones sobre seguridad financiera y crimen organizado."
+           },
+           {
+               tipo: "parrafo",
+               texto: "El problema no radica únicamente en la ostentación visible de riqueza, sino en la capacidad que poseen ciertos perfiles para normalizar ingresos difíciles de explicar bajo la apariencia de éxito digital. Vehículos de lujo, propiedades, joyería, viajes o grandes cantidades de efectivo pueden presentarse públicamente como resultado de “emprendimiento”, “monetización” o “colaboraciones comerciales”, incluso cuando la trazabilidad financiera resulta poco clara."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "La popularidad se convierte entonces en un mecanismo de legitimación."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Mientras más seguidores posee una figura pública, más fácil resulta justificar niveles elevados de gasto mediante narrativas relacionadas con publicidad, patrocinios o negocios digitales. La atención pública se concentra en la imagen aspiracional y no necesariamente en el origen de los recursos que sostienen ese estilo de vida."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Ese entorno representa una oportunidad particularmente atractiva para redes criminales interesadas en mezclar dinero ilícito con economías digitales difíciles de supervisar en tiempo real."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "La economía de la influencia y los nuevos riesgos financieros"
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Las plataformas digitales transformaron la manera en que circula el dinero. Actualmente, un creador de contenido puede recibir ingresos por publicidad, campañas comerciales, donaciones, eventos, sorteos, monetización de plataformas, criptomonedas o colaboraciones privadas."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La amplitud de estos mecanismos genera un ecosistema financiero mucho más flexible —y en algunos casos más opaco— que los modelos económicos tradicionales."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Precisamente por ello, distintas autoridades e investigadores comenzaron a advertir que las redes sociales pueden funcionar como espacios útiles para operaciones de legitimación financiera. No necesariamente porque todos los influencers participen conscientemente en actividades ilícitas, sino porque la informalidad y velocidad del entorno digital dificultan identificar el origen real de ciertos capitales."
+           },
+           {
+               tipo: "parrafo",
+               texto: "En algunos casos, basta con establecer vínculos comerciales ambiguos con empresas, patrocinadores o figuras relacionadas indirectamente con economías criminales."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Las organizaciones delictivas comprendieron progresivamente que la legitimidad social también tiene valor estratégico. Asociarse con figuras populares permite reducir percepción de riesgo, normalizar presencia pública y proyectar una imagen aspiracional alrededor de recursos cuya procedencia permanece oculta."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La influencia digital deja entonces de ser únicamente entretenimiento. Se convierte también en un espacio potencial de construcción simbólica de poder económico."
+           },
+                       {
+               tipo: "subtitulo",
+               texto: "El caso de Sinaloa y la exposición pública de la narcocultura"
+           },
+           {
+               tipo: "parrafo",
+               texto: "La relación entre redes sociales, crimen organizado y legitimación simbólica adquirió especial notoriedad en estados como Sinaloa, donde durante años algunas figuras vinculadas al entorno criminal comenzaron a construir presencia pública a través de plataformas digitales."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Uno de los casos más conocidos fue el de José Rodrigo Aréchiga Gamboa, identificado como integrante de una célula vinculada al Cártel de Sinaloa. A diferencia de antiguos operadores criminales que procuraban mantener perfiles discretos, su imagen pública se desarrolló bajo una lógica completamente distinta: exhibición constante de lujo, armamento, vehículos exclusivos y estilos de vida asociados al poder criminal."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Las redes sociales comenzaron a funcionar no sólo como escaparate personal, sino también como una herramienta de posicionamiento simbólico."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "La exposición digital generaba atención, notoriedad y consumo mediático alrededor de una figura criminal convertida prácticamente en personaje de internet. Fotografías, contenidos virales y publicaciones relacionadas con riqueza ostentosa circularon ampliamente entre usuarios jóvenes, contribuyendo a la construcción de una narrativa donde el dinero ilícito aparecía desvinculado de sus consecuencias reales."
+           },
+           {
+               tipo: "parrafo",
+               texto: "El problema iba mucho más allá de la imagen individual."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "La monetización indirecta de esa exposición —a través de notoriedad pública, consumo cultural o posicionamiento mediático— mostraba cómo las plataformas digitales podían convertirse en espacios donde la narcocultura adquiría capacidad de influencia masiva."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Al mismo tiempo, ese tipo de contenido contribuía a normalizar estilos de vida asociados a economías criminales sin mostrar el impacto humano detrás de esas estructuras: homicidios, desplazamientos forzados, desapariciones, extorsión y deterioro comunitario."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La violencia desaparecía de la narrativa visual, mientras el lujo permanecía en primer plano."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "Cuando la ostentación reemplaza al anonimato criminal"
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Uno de los cambios más importantes dentro de las dinámicas contemporáneas del crimen organizado es precisamente el abandono progresivo del anonimato."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Durante décadas, gran parte de las estructuras criminales privilegiaban perfiles discretos porque la clandestinidad representaba una ventaja operativa. La exposición pública implicaba riesgos institucionales, mediáticos y financieros."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Sin embargo, la expansión de redes sociales alteró esa lógica."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La notoriedad comenzó a convertirse en una forma de capital simbólico. Mostrar riqueza extrema, acceso exclusivo y capacidad económica ya no sólo generaba admiración en ciertos sectores digitales; también funcionaba como demostración pública de poder."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "En algunos contextos, la visibilidad dejó de ser un riesgo y comenzó a percibirse como herramienta de influencia."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Ese cambio resulta particularmente delicado porque transforma la relación cultural entre violencia y aspiración económica. Las nuevas generaciones consumen imágenes de lujo desligadas de las consecuencias sociales que sostienen muchas economías ilícitas."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "La criminalidad deja de percibirse únicamente como amenaza y empieza a mezclarse con narrativas aspiracionales de éxito rápido, fama digital y reconocimiento social."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Ahí es donde la línea entre entretenimiento, apología y legitimación simbólica comienza a volverse peligrosa."
+           },
+                       {
+               tipo: "subtitulo",
+               texto: "El lavado de dinero ya no depende únicamente de empresas fachada"
+           },
+           {
+               tipo: "parrafo",
+               texto: "Tradicionalmente, el lavado de dinero se asociaba a negocios físicos diseñados para ocultar operaciones ilícitas. Hoy, sin embargo, la legitimación puede construirse también mediante influencia cultural."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La economía digital ofrece ventajas particularmente útiles para actores criminales: pagos difíciles de rastrear, colaboraciones privadas, monetización internacional y mercados donde el valor económico muchas veces depende de métricas ambiguas como alcance, interacción o popularidad."
+           },
+           {
+               tipo: "parrafo",
+               texto: "¿Cuánto dinero puede generar realmente un influencer? La respuesta suele ser variable y difícil de verificar externamente."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Esa ambigüedad crea condiciones donde ciertos ingresos pueden pasar desapercibidos bajo la apariencia de actividad digital legítima."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Por ello, distintos especialistas en seguridad financiera han comenzado a advertir que el verdadero desafío contemporáneo no consiste únicamente en rastrear dinero ilícito, sino también en comprender cómo las redes sociales pueden contribuir a construir legitimidad alrededor de capitales opacos."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Porque en la era digital, el lavado de dinero no sólo busca ocultar recursos. También busca normalizarlos socialmente."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "El riesgo de romantizar estructuras de violencia"
+           },
+
+                       {
+               tipo: "parrafo",
+               texto: "Analizar este fenómeno no implica criminalizar automáticamente a creadores de contenido ni asumir que toda ostentación digital proviene de actividades ilícitas. Tampoco significa que cualquier influencer vinculado indirectamente a entornos criminales participe conscientemente en operaciones de lavado."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Sin embargo, ignorar los riesgos también sería simplificar un problema profundamente complejo."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Las organizaciones criminales contemporáneas ya no buscan únicamente controlar rutas o mercados ilegales. También intentan influir culturalmente, construir legitimidad social y normalizar ciertos símbolos de poder económico."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Ese proceso resulta especialmente delicado en contextos donde amplios sectores juveniles enfrentan precariedad, falta de oportunidades y exposición constante a narrativas digitales de riqueza inmediata."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "La narcocultura encuentra terreno fértil precisamente ahí: cuando el lujo visible eclipsa las consecuencias humanas que sostienen esas economías ilícitas."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Y detrás de cada imagen viral de dinero, vehículos o fama construida alrededor del crimen organizado, existen comunidades atravesadas por violencia, desplazamiento forzado, miedo e inestabilidad social."
+           },
+                       {
+               tipo: "parrafo",
+               texto: "Comprender esa relación resulta fundamental para analizar cómo evolucionan las nuevas formas de legitimación criminal en la era digital."
+           },
+       
 		],
 	},
 ];
