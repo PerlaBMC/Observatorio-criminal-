@@ -2198,7 +2198,7 @@ export const articulos = [
 			metaTitle:
 				"¿Quiénes son víctimas ante la ley en México y cómo exigir justicia?",
 			metaDescription:
-				"Que hacer en caso de ser vicitma de un delito",
+				"Qué hacer en caso de ser vícitma de un delito",
 		},
 
 		media: {
@@ -3114,7 +3114,7 @@ export const articulos = [
 			},
 		],
 	},
-		{
+	{
 		metadata: {
 			id: "art-012",
 			slug: "influencers-lavado-de-dinero",
@@ -3366,5 +3366,644 @@ export const articulos = [
            },
        
 		],
+	},
+	{
+		metadata: {
+			id: "art-013",
+			slug: "Delincuencia-Juvenil",
+			titulo:
+				"Delincuencia juvenil en México: entre la vulnerabilidad social y la responsabilidad individual",
+			categoria: {
+				principal: "investigacion-criminologica",
+				label: "Investigación criminológica",
+			},
+			etiquetas: [
+				"delincuencia juvenil",
+				"niños sicarios",
+				"pollitos de colores en México",
+				"el ponchis",
+				"Chino Antráx",
+				"El Mayo",
+				"El Chapo",
+				"Carteles mexicanos",
+				"CJNG",
+				"Cártel de Sinaloa",
+				"Emma Coronel",
+				"Narcoinfluencers"
+			],
+			fechaPublicacion: "2026-06-23",
+			autor: "Perla Mondragón",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Delincuencia juvenil",
+			metaDescription:
+				"Una generación expuesta a nuevas formas de riesgo",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1782243198/Observatorio_criminal_14_yrnttc.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1782243235/BannerArtPage_13_br9nxj.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			" Detrás de cada caso existe una historia distinta, pero también patrones que se repiten con preocupante frecuencia",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto: "Cada vez que un menor de edad participa en un robo, una agresión, una extorsión o incluso en actividades relacionadas con la delincuencia organizada, surge una pregunta inevitable: ¿qué llevó a ese adolescente a tomar ese camino?"
+			},
+            {
+               tipo: "parrafo",
+               texto: "La respuesta rara vez puede reducirse a una sola causa. La delincuencia juvenil constituye uno de los fenómenos más complejos dentro de la criminología porque se encuentra en el punto de convergencia entre factores familiares, sociales, económicos, culturales e individuales. Detrás de cada caso existe una historia distinta, pero también patrones que se repiten con preocupante frecuencia en distintas regiones de México."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Durante décadas, la pobreza ha ocupado un lugar central dentro de las explicaciones sobre criminalidad juvenil. La falta de acceso a educación de calidad, oportunidades laborales limitadas, comunidades con altos índices de marginación y entornos marcados por la violencia pueden generar condiciones propicias para el desarrollo de conductas antisociales. Sin embargo, reducir el problema exclusivamente a la pobreza sería una simplificación insuficiente."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Millones de jóvenes mexicanos crecen en condiciones económicas adversas sin involucrarse en actividades delictivas. La carencia material, por sí sola, no explica por qué algunos adolescentes terminan vinculados al delito mientras otros desarrollan proyectos de vida legítimos pese a enfrentar obstáculos similares."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La realidad es más compleja."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "La delincuencia juvenil suele surgir cuando diversos factores de riesgo comienzan a acumularse y reforzarse mutuamente. La desintegración familiar, la ausencia de figuras de autoridad consistentes, el abandono escolar, el consumo problemático de sustancias, la exposición temprana a la violencia y la falta de supervisión parental forman parte de un conjunto de variables que pueden incrementar la vulnerabilidad de los menores frente a influencias negativas."
+           },
+           {
+               tipo: "parrafo",
+               texto: "A ello se suma un fenómeno particularmente relevante en la actualidad: la crisis de referentes sociales."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Muchos adolescentes crecen en un entorno donde los mensajes relacionados con el éxito, el reconocimiento y la riqueza se encuentran presentes de manera permanente. Las redes sociales, la publicidad digital, los contenidos audiovisuales y diversas expresiones culturales bombardean constantemente a los jóvenes con modelos de vida asociados al lujo, la fama y el consumo inmediato."
+           },
+           {
+               tipo: "parrafo",
+               texto: "El problema no radica en la aspiración legítima de mejorar las condiciones de vida. El riesgo aparece cuando la obtención de riqueza comienza a desvincularse del esfuerzo, la disciplina, la educación o el trabajo productivo."
+           },
+		               {
+               tipo: "subtitulo",
+               texto: "La cultura de la inmediatez y la construcción de expectativas irreales"
+           },
+           {
+               tipo: "parrafo",
+               texto: "Las nuevas generaciones se desarrollan en un contexto histórico donde la exposición a estilos de vida aspiracionales alcanza niveles sin precedentes."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Cada día, millones de adolescentes consumen contenido donde se exhiben vehículos de lujo, viajes exclusivos, ropa de diseñador y estilos de vida aparentemente perfectos. En muchos casos, el mensaje implícito no gira en torno al esfuerzo sostenido o al desarrollo profesional, sino a la obtención rápida de reconocimiento y beneficios económicos."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La lógica de las plataformas digitales favorece precisamente aquello que genera impacto visual inmediato."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "El éxito deja de medirse por la construcción gradual de capacidades y comienza a asociarse con la visibilidad pública. La popularidad adquiere valor económico, mientras que la paciencia y la formación a largo plazo pierden atractivo frente a narrativas de riqueza instantánea."
+           },
+           {
+               tipo: "parrafo",
+               texto: "En ese escenario, algunos jóvenes desarrollan expectativas poco realistas sobre los tiempos y medios necesarios para alcanzar estabilidad económica."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "La frustración aparece cuando la realidad cotidiana entra en conflicto con esas aspiraciones. Mientras las redes sociales muestran resultados extraordinarios, muchos adolescentes enfrentan limitaciones económicas, falta de oportunidades o contextos de exclusión."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Esa brecha entre expectativa y realidad puede convertirse en terreno fértil para la adopción de conductas de riesgo."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "La delincuencia organizada ha comprendido esta dinámica con notable eficacia."
+           },
+           {
+               tipo: "parrafo",
+               texto: "En diversas regiones del país, grupos criminales han explotado narrativas relacionadas con el poder económico, la pertenencia grupal y la obtención rápida de recursos para atraer a jóvenes vulnerables. No ofrecen únicamente dinero; ofrecen identidad, reconocimiento y una sensación de estatus que algunos adolescentes perciben como inaccesible por vías legales."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Detrás de esa promesa, sin embargo, suele encontrarse una realidad marcada por violencia, explotación, encarcelamiento o muerte prematura."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "Más allá de la pobreza: la importancia de los valores y la formación ética"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Hablar de delincuencia juvenil también obliga a abordar un tema que suele generar debate: la formación en valores."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La criminología contemporánea reconoce que las normas morales, la empatía, el respeto por los demás y la capacidad de asumir responsabilidad por los propios actos constituyen factores protectores frente a la conducta delictiva."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "La familia, la escuela y la comunidad desempeñan un papel fundamental en este proceso."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Cuando un adolescente crece en entornos donde las reglas son inconsistentes, la violencia se normaliza o la transgresión carece de consecuencias, las probabilidades de desarrollar conductas antisociales pueden incrementarse."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Esto no significa que exista una relación automática entre ausencia de valores y criminalidad. Tampoco implica responsabilizar exclusivamente a las familias por fenómenos profundamente estructurales. Sin embargo, resulta innegable que los procesos de socialización influyen en la forma en que los jóvenes interpretan conceptos como responsabilidad, legalidad y convivencia social."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La construcción de ciudadanía comienza mucho antes de cualquier intervención policial o judicial."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Por ello, las estrategias de prevención más efectivas suelen centrarse en fortalecer redes familiares, entornos escolares y espacios comunitarios capaces de ofrecer referentes positivos durante las etapas más críticas del desarrollo adolescente."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "¿Cómo funciona la justicia para adolescentes en México?"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Durante muchos años, los menores infractores fueron tratados bajo esquemas jurídicos que privilegiaban una visión tutelar del Estado. Con el tiempo, México transitó hacia un modelo más garantista que reconoce a niñas, niños y adolescentes como sujetos de derechos, incluso cuando participan en conductas tipificadas como delitos."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Actualmente, el sistema se encuentra regulado principalmente por la Ley Nacional del Sistema Integral de Justicia Penal para Adolescentes, la cual establece procedimientos especializados distintos a los aplicables para personas adultas."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Este modelo parte de una premisa fundamental: los adolescentes se encuentran en una etapa de desarrollo físico, emocional y psicológico que exige respuestas institucionales diferenciadas."
+           },
+           {
+               tipo: "parrafo",
+               texto: "El objetivo principal no consiste únicamente en sancionar conductas ilícitas, sino también en promover procesos de reintegración social que reduzcan la probabilidad de reincidencia."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "La intervención del sistema busca equilibrar dos necesidades fundamentales: proteger a la sociedad y reconocer que los adolescentes poseen mayores posibilidades de cambio que un adulto plenamente formado."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "Los grupos de edad y la responsabilidad penal de los menores"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "La legislación mexicana establece distintos niveles de intervención dependiendo de la edad del menor involucrado."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Los niños menores de doce años no pueden ser sujetos a responsabilidad penal. Cuando participan en conductas consideradas delictivas, las autoridades canalizan los casos hacia instituciones de asistencia, protección y desarrollo integral, priorizando medidas de apoyo familiar y atención especializada."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "La situación cambia a partir de los doce años."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Los adolescentes entre doce y menos de catorce años pueden ser sometidos a procedimientos especializados; sin embargo, las medidas aplicables privilegian la orientación, supervisión y acompañamiento socioeducativo."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Entre los catorce y menos de dieciséis años, así como entre los dieciséis y menos de dieciocho años, las autoridades cuentan con mayores facultades para imponer medidas de responsabilidad, aunque siempre bajo criterios diferenciados respecto al sistema penal de adultos."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Incluso en los casos más graves, la legislación establece límites específicos orientados a proteger los derechos de los adolescentes y favorecer procesos de reinserción."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "La lógica detrás de este modelo se sustenta en evidencia científica que demuestra que el cerebro humano continúa desarrollándose durante la adolescencia y la juventud temprana, especialmente en áreas relacionadas con el control de impulsos, la toma de decisiones y la evaluación de riesgos."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Me parece un apartado muy valioso para el enfoque que maneja Observatorio Criminal, porque introduce un debate complejo sin caer en posturas simplistas de 'mano dura' ni tampoco en la negación absoluta de la responsabilidad individual. Además, conecta bien con la idea central del artículo: comprender la delincuencia juvenil como un fenómeno donde convergen factores personales, familiares e institucionales."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Yo lo incorporaría después del apartado sobre los grupos de edad y antes del cierre sobre prevención."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "¿Debe existir una responsabilidad compartida entre adolescentes infractores y sus tutores?"
+           },
+		    {
+               tipo: "parrafo",
+               texto: "Uno de los debates más controvertidos dentro de la justicia para adolescentes gira en torno a una pregunta aparentemente sencilla: cuando un menor de edad comete un delito, ¿la responsabilidad debe recaer exclusivamente sobre él?"
+           },
+           {
+               tipo: "parrafo",
+               texto: "La legislación mexicana establece con claridad que la responsabilidad penal corresponde a quien realiza la conducta ilícita. Sin embargo, desde una perspectiva criminológica y social, el análisis difícilmente puede terminar ahí."
+           },
+		    {
+               tipo: "parrafo",
+               texto: "La conducta de un adolescente no surge en el vacío."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Los menores se desarrollan dentro de entornos familiares, escolares y comunitarios que influyen de manera decisiva en la construcción de valores, límites, mecanismos de autocontrol y formas de relacionarse con los demás. Cuando un joven participa de manera reiterada en actividades delictivas, resulta legítimo cuestionar si existieron omisiones, negligencias o incluso formas de tolerancia por parte de los adultos responsables de su cuidado."
+           },
+		   		    {
+               tipo: "parrafo",
+               texto: "Esto no significa trasladar automáticamente la responsabilidad penal hacia padres o tutores. Tampoco implica asumir que toda conducta delictiva juvenil es consecuencia directa de una mala crianza. La realidad demuestra que existen familias comprometidas cuyos hijos terminan involucrándose en actividades ilícitas debido a influencias externas, presión social o captación criminal."
+           },
+           {
+               tipo: "parrafo",
+               texto: "No obstante, también existen casos donde la ausencia total de supervisión, el abandono emocional, la normalización de la violencia o incluso la participación de familiares en actividades delictivas contribuyen directamente al desarrollo de trayectorias criminales tempranas."
+           },
+		    {
+               tipo: "parrafo",
+               texto: "Por ello, diversos especialistas han planteado la necesidad de fortalecer esquemas de corresponsabilidad dentro de los procesos de reinserción."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La lógica es relativamente sencilla: si el entorno familiar desempeñó un papel importante en la formación del problema, también debe participar activamente en la construcción de la solución."
+           },
+		       {
+               tipo: "parrafo",
+               texto: "Un proceso de reinserción difícilmente tendrá éxito cuando el adolescente regresa exactamente al mismo contexto que favoreció la conducta delictiva inicial. La intervención institucional no puede limitarse únicamente al menor. Debe incluir acompañamiento psicológico, fortalecimiento familiar, supervisión parental efectiva y mecanismos que obliguen a los tutores a involucrarse de manera activa en el proceso de cambio."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La reinserción no puede convertirse en una responsabilidad exclusiva del Estado cuando el entorno inmediato continúa reproduciendo las mismas condiciones de riesgo."
+           },
+		    {
+               tipo: "subtitulo",
+               texto: "Cuando el verdadero fracaso pertenece al mundo adulto"
+           },
+           {
+               tipo: "parrafo",
+               texto: "Al mismo tiempo, cualquier discusión sobre responsabilidad juvenil debe reconocer una realidad incómoda: existen casos donde los adolescentes infractores son, antes que nada, víctimas de profundas fallas familiares y sociales."
+           },
+		   		    {
+               tipo: "parrafo",
+               texto: "La historia reciente de México ofrece ejemplos que evidencian cómo la negligencia institucional, la violencia familiar y el abandono pueden moldear trayectorias de vida profundamente dañadas desde edades tempranas."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Uno de los casos que generó amplia discusión pública fue el de Karla Fernanda, una adolescente cuya historia puso sobre la mesa preguntas difíciles sobre los límites de la responsabilidad individual cuando existen antecedentes de vulnerabilidad extrema, abandono emocional y contextos familiares marcados por la violencia."
+           },
+		    {
+               tipo: "parrafo",
+               texto: "Casos como este obligan a reflexionar sobre una cuestión fundamental: ¿hasta qué punto puede exigirse un comportamiento socialmente adecuado a menores que crecieron sin acceso a referentes estables, protección efectiva o mecanismos saludables de desarrollo emocional?"
+           },
+           {
+               tipo: "parrafo",
+               texto: "La pregunta no busca justificar conductas ilícitas ni minimizar el daño causado a las víctimas. Lo que pretende es reconocer que, en determinadas circunstancias, la delincuencia juvenil puede ser también el resultado de múltiples omisiones acumuladas por parte de los adultos, las instituciones y la sociedad en general."
+           },
+		   	    {
+               tipo: "parrafo",
+               texto: "Cuando un adolescente pasa años expuesto a violencia, abandono, abuso o exclusión sistemática, el fracaso difícilmente puede atribuirse únicamente al momento en que comete un delito."
+           },
+           {
+               tipo: "parrafo",
+               texto: "En muchos casos, el fracaso ocurrió mucho antes."
+           },
+		    {
+               tipo: "subtitulo",
+               texto: "Cuando la minoría de edad se convierte en una herramienta para delinquir"
+           },
+           {
+               tipo: "parrafo",
+               texto: "Sin embargo, el panorama también presenta un escenario radicalmente distinto."
+           },
+		   		    {
+               tipo: "parrafo",
+               texto: "Las autoridades han documentado durante años casos donde adolescentes son incorporados deliberadamente a estructuras criminales debido a las ventajas operativas que representa su condición jurídica."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Diversos grupos de delincuencia organizada han utilizado menores para actividades relacionadas con vigilancia, transporte de drogas, extorsión, cobro de piso, homicidios y otras conductas de alta violencia, aprovechando que las sanciones aplicables son distintas a las previstas para adultos."
+           },
+		    {
+               tipo: "parrafo",
+               texto: "Algunos casos ampliamente conocidos, como el de El Cachetes y otros adolescentes relacionados con la estructura conocida como La Unión Tepito, evidenciaron una problemática particularmente compleja."
+           },
+           {
+               tipo: "parrafo",
+               texto: "En estos escenarios, la edad deja de ser únicamente un factor de protección jurídica y se convierte en un recurso estratégico para organizaciones criminales que identifican en los menores una oportunidad para reducir riesgos operativos."
+           },
+		       {
+               tipo: "parrafo",
+               texto: "La reincidencia aparece entonces como uno de los principales desafíos."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Cuando un adolescente participa reiteradamente en actividades delictivas, acumula antecedentes dentro del sistema especializado y regresa constantemente a los mismos círculos criminales, surge un debate legítimo sobre la capacidad real del modelo actual para equilibrar protección de derechos, reinserción y seguridad pública."
+           },
+		    {
+               tipo: "parrafo",
+               texto: "Ignorar esta realidad sería tan problemático como ignorar los casos donde los menores son víctimas de abandono y exclusión."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La delincuencia juvenil no puede analizarse desde una sola perspectiva. Existen adolescentes que llegan al sistema después de una vida marcada por la vulnerabilidad extrema y existen otros que desarrollan trayectorias criminales persistentes aprovechando conscientemente los límites jurídicos asociados a su edad."
+           },
+		   		    {
+               tipo: "parrafo",
+               texto: "Ambos escenarios requieren respuestas diferenciadas."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Confundirlos conduce inevitablemente a políticas públicas ineficaces."
+           },
+		    {
+               tipo: "subtitulo",
+               texto: "Entre la protección y la responsabilidad"
+           },
+           {
+               tipo: "parrafo",
+               texto: "El verdadero reto para cualquier sistema de justicia juvenil consiste en encontrar un equilibrio razonable entre dos principios fundamentales."
+           },
+		              {
+               tipo: "parrafo",
+               texto: "Por un lado, la obligación de reconocer que los adolescentes poseen una capacidad de desarrollo y cambio superior a la de un adulto plenamente formado. Por otro, la necesidad de evitar que la protección jurídica se transforme en un incentivo involuntario para la reincidencia o en una herramienta aprovechada por organizaciones criminales."
+           },
+		   		    {
+               tipo: "parrafo",
+               texto: "La solución probablemente no se encuentra ni en el endurecimiento indiscriminado de las sanciones ni en la ausencia de consecuencias efectivas."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Se encuentra en la construcción de modelos capaces de distinguir entre vulnerabilidad y aprovechamiento deliberado del sistema, entre abandono social y criminalidad persistente, entre adolescentes que necesitan protección urgente y aquellos que requieren intervenciones mucho más firmes para romper ciclos reiterados de violencia."
+           },
+		    {
+               tipo: "parrafo",
+               texto: "Porque comprender la delincuencia juvenil implica aceptar una realidad compleja: algunos menores llegan al delito después de haber sido abandonados por los adultos que debían protegerlos, mientras que otros aprenden a utilizar las debilidades del sistema como una ventaja operativa."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Y una política pública verdaderamente eficaz debe ser capaz de reconocer ambas realidades al mismo tiempo."
+           },
+		       {
+               tipo: "subtitulo",
+               texto: "El desafío de prevenir antes que castigar"
+           },
+           {
+               tipo: "parrafo",
+               texto: "El debate sobre delincuencia juvenil suele centrarse en las sanciones. Cada vez que un caso genera indignación pública, resurgen propuestas orientadas a endurecer castigos o reducir edades de responsabilidad penal."
+           },
+		    {
+               tipo: "parrafo",
+               texto: "Sin embargo, la evidencia criminológica muestra que el encarcelamiento por sí solo rara vez resuelve los factores que originan la conducta delictiva."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La prevención continúa siendo la herramienta más eficaz."
+           },
+		   		    {
+               tipo: "parrafo",
+               texto: "Reducir la deserción escolar, fortalecer entornos familiares, ampliar oportunidades educativas, generar espacios deportivos y culturales, atender problemas de salud mental y combatir la captación criminal de adolescentes son medidas que producen resultados más sostenibles que cualquier estrategia basada exclusivamente en la sanción."
+           },
+           {
+               tipo: "parrafo",
+               texto: "La delincuencia juvenil no surge de manera espontánea. Es el resultado de procesos sociales acumulativos que comienzan mucho antes del primer contacto con el sistema de justicia."
+           },
+		    {
+               tipo: "parrafo",
+               texto: "Por ello, la pregunta más importante no debería ser únicamente cómo castigar a los menores infractores, sino cómo evitar que miles de adolescentes lleguen a convertirse en ellos."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Porque cada joven que encuentra oportunidades legítimas para desarrollarse representa una victoria silenciosa para la seguridad pública, la cohesión social y el futuro del país."
+           },
+         ],
+	},
+	{
+		metadata: {
+			id: "art-014",
+			slug: "Trata-de-Personas",
+			titulo:
+				"¿Estamos buscando en el lugar correcto? La trata de personas como la hipótesis olvidada detrás de las desapariciones en México",
+			categoria: {
+				principal: "investigacion-criminologica",
+				label: "Investigación criminológica",
+			},
+			etiquetas: [
+				"Trata de personas en México",
+				"Tenancingo",
+				"Desaparición forzada",
+				"Trafico de personas",
+				"Explotación"
+			],
+			fechaPublicacion: "2026-07-14",
+			autor: "BMC",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Trata de personas en México",
+			metaDescription:
+				"Mientras México busca desaparecidos, las redes de trata permanecen casi invisibles.",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1784056732/Observatorio_criminal_15_ucd4j5.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1784056731/BannerArtPage_14_g4597w.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"Mientras México busca desaparecidos, las redes de trata permanecen casi invisibles.",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto: "Cada vez que una persona desaparece en México comienza una carrera contra el tiempo. "
+			},
+            {
+               tipo: "parrafo",
+               texto: "Las primeras horas suelen transcurrir entre llamadas telefónicas, mensajes que nunca obtienen respuesta, visitas a hospitales, recorridos por agencias ministeriales y publicaciones desesperadas en redes sociales con la esperanza de que alguien aporte un dato que permita reconstruir el último lugar donde fue vista. Para miles de familias, esa incertidumbre termina convirtiéndose en una forma permanente de vida."
+           },
+           {
+               tipo: "parrafo",
+               texto: "En ese proceso, la opinión pública y, en muchas ocasiones, las propias líneas iniciales de investigación suelen concentrarse en hipótesis relacionadas con el crimen organizado, los secuestros, los homicidios o las desapariciones forzadas, dado que estos son escenarios que lamentablemente forman parte de la realidad mexicana y que han marcado la agenda nacional durante las últimas dos décadas. Sin embargo, existe una posibilidad que permanece mucho menos visible y cuya verdadera dimensión continúa siendo difícil de medir: la trata de personas."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "No se trata de afirmar que toda persona desaparecida haya sido víctima de una red de trata. Esa conclusión sería irresponsable y carecería de sustento. El problema es precisamente el contrario: sabemos tan poco sobre la magnitud real de este delito que resulta imposible determinar cuántas desapariciones podrían estar relacionadas con organizaciones dedicadas a la explotación de personas. Mientras el país concentra buena parte de sus esfuerzos en combatir las expresiones más visibles de la violencia, existen estructuras criminales cuya mayor fortaleza consiste precisamente en permanecer ocultas."
+			},
+           {
+               tipo: "parrafo",
+               texto: "Esa invisibilidad representa una de sus principales ventajas operativas. A diferencia de otros delitos que generan escenas de violencia evidentes o desencadenan respuestas inmediatas de las autoridades, la trata de personas suele comenzar con un engaño cuidadosamente planeado. No necesita disparos, persecuciones o privaciones violentas de la libertad para consumarse. Basta una conversación aparentemente inofensiva, una oferta laboral atractiva, una relación sentimental construida con paciencia o una promesa de mejores oportunidades para que la víctima inicie, muchas veces por voluntad propia, un camino del que posteriormente le resultará extremadamente difícil escapar."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "El crimen perfecto no es el que deja más violencia, sino el que logra pasar desapercibido"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Cuando se habla de delincuencia organizada, el imaginario colectivo suele construirse alrededor de hombres armados, cargamentos de droga, enfrentamientos o bloqueos carreteros. Esa imagen, alimentada durante años por la cobertura mediática, ha provocado que otras expresiones del crimen organizado pasen prácticamente inadvertidas para buena parte de la sociedad."
+			},
+           {
+               tipo: "parrafo",
+               texto: "La trata de personas opera bajo una lógica completamente distinta. Su éxito depende precisamente de que nadie advierta que el delito ocurrió. Las organizaciones dedicadas a esta actividad no buscan generar notoriedad; buscan pasar desapercibidas el mayor tiempo posible. Mientras menos atención atraigan, mayores serán las posibilidades de mantener a las víctimas bajo control y prolongar su explotación."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Esta característica explica por qué organismos internacionales consideran a la trata como una de las economías criminales más rentables del mundo. A diferencia del tráfico de drogas, donde la mercancía se comercializa una sola vez, una persona sometida a explotación sexual, laboral, mendicidad forzada o cualquier otra modalidad puede generar ingresos de manera reiterada durante meses o incluso años. Desde la lógica financiera de estas organizaciones, la víctima deja de ser vista como un ser humano y se convierte en un recurso explotable cuya rentabilidad depende de permanecer invisible para las autoridades."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Paradójicamente, mientras las estrategias de seguridad suelen concentrarse en decomisos, aseguramientos o enfrentamientos contra organizaciones criminales, las redes de trata prosperan gracias al silencio. Su fortaleza no radica únicamente en la violencia que pueden ejercer, sino en la capacidad para mezclarse con actividades completamente cotidianas y utilizar espacios que cualquier ciudadano considera seguros."
+			},
+           {
+               tipo: "subtitulo",
+               texto: "El verdadero campo de reclutamiento ya no está en las calles, sino en internet"
+           },
+           {
+               tipo: "parrafo",
+               texto: "Durante muchos años la trata de personas estuvo asociada a secuestros o privaciones ilegales de la libertad cometidas mediante el uso de la fuerza. Aunque estos casos siguen existiendo, hoy representan sólo una parte del problema. Las organizaciones criminales entendieron que convencer resulta mucho más rentable que secuestrar."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Las redes sociales, las plataformas de empleo y las aplicaciones de mensajería modificaron por completo el proceso de captación. Actualmente es posible construir una empresa ficticia con apariencia completamente legítima, desarrollar campañas publicitarias dirigidas a jóvenes que buscan empleo, realizar entrevistas virtuales, alquilar oficinas por algunos días e incluso generar presencia digital suficiente para inspirar confianza."
+			},
+           {
+               tipo: "parrafo",
+               texto: "La víctima no percibe que está siendo seleccionada por una organización criminal. Cree estar participando en un proceso de reclutamiento como cualquier otro."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Esta transformación representa uno de los cambios más importantes en la evolución de la trata de personas. El tratante ya no necesita esperar en un callejón oscuro ni interceptar físicamente a la víctima. Ahora puede aparecer detrás de un perfil corporativo cuidadosamente diseñado, de una página de internet aparentemente profesional o de una vacante laboral que ofrece salarios muy superiores al promedio. La sofisticación tecnológica ha permitido que el engaño sustituya progresivamente a la violencia inicial como principal mecanismo de captación."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Precisamente por ello, las estrategias tradicionales de prevención comienzan a resultar insuficientes. Durante décadas enseñamos a las nuevas generaciones a desconfiar de personas desconocidas en espacios públicos; hoy resulta igualmente necesario aprender a verificar identidades digitales, empresas inexistentes y ofertas laborales cuya apariencia de legitimidad puede ocultar estructuras dedicadas a la explotación de personas."
+			},
+           {
+               tipo: "subtitulo",
+               texto: "México: un territorio donde convergen todos los factores de riesgo"
+           },
+           {
+               tipo: "parrafo",
+               texto: "Hablar de trata de personas en México implica entender un fenómeno que difícilmente puede explicarse a partir de un solo estado o de una única organización criminal. A diferencia de otros delitos donde el control territorial resulta determinante, las redes de trata funcionan como sistemas altamente dinámicos que aprovechan las diferencias económicas, sociales y geográficas entre distintas regiones del país. Su fortaleza no radica únicamente en la violencia que pueden ejercer, sino en la capacidad para mover personas a través de múltiples entidades, fragmentar las investigaciones y dificultar que las autoridades logren reconstruir el recorrido completo de una víctima."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "México reúne prácticamente todos los elementos que estas organizaciones necesitan para operar. Su ubicación geográfica lo convierte simultáneamente en país de origen, tránsito y destino de víctimas; sus más de tres mil kilómetros de frontera con Estados Unidos representan uno de los corredores migratorios más importantes del continente, mientras que la frontera sur mantiene un flujo constante de personas provenientes de Centro y Sudamérica que buscan llegar al norte. A ello se suma una movilidad interna igualmente intensa, donde miles de mexicanos cambian de residencia cada año por motivos laborales, educativos o familiares, haciendo cada vez más difícil distinguir un traslado legítimo de uno motivado por la coerción o el engaño."
+			},
+           {
+               tipo: "parrafo",
+               texto: "Este contexto se complementa con otros factores que incrementan la vulnerabilidad social: elevados niveles de informalidad laboral, profundas desigualdades económicas, acceso desigual a oportunidades educativas y un ecosistema digital donde diariamente se publican miles de ofertas de empleo cuya autenticidad rara vez es verificada por quienes buscan una oportunidad para mejorar su situación económica. Para las organizaciones criminales, esta combinación representa un entorno particularmente favorable, pues el reclutamiento ya no depende únicamente del uso de la fuerza; basta con identificar personas en condiciones de vulnerabilidad y ofrecerles exactamente aquello que necesitan escuchar."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Por esa razón, aunque cualquier entidad federativa puede convertirse en escenario de captación o explotación, diversas investigaciones académicas, diagnósticos gubernamentales y sentencias judiciales muestran patrones de concentración en estados como Tlaxcala, Puebla, Estado de México, Ciudad de México, Quintana Roo, Chiapas y Baja California. Lo verdaderamente relevante no es que todos presenten el mismo problema, sino que cada uno desempeña un papel distinto dentro de la dinámica nacional de la trata de personas."
+           },
+		               {
+               tipo: "subtitulo",
+               texto: "Tlaxcala: cuando la explotación dejó de ser un delito aislado para convertirse en una estructura social"
+			},
+           {
+               tipo: "parrafo",
+               texto: "Pocas regiones en México han sido estudiadas con tanta profundidad en materia de trata de personas como el sur de Tlaxcala, particularmente el municipio de Tenancingo. Desde finales del siglo pasado, investigaciones periodísticas, académicas y judiciales comenzaron a documentar un fenómeno inusual: la existencia de grupos familiares dedicados de manera sistemática al reclutamiento y explotación sexual de mujeres, conformando redes que trascendían generaciones."
+           },
+           {
+               tipo: "parrafo",
+               texto: "A diferencia de otras expresiones del crimen organizado donde predominan estructuras jerárquicas complejas, en Tenancingo el modelo evolucionó alrededor de vínculos familiares y comunitarios. Padres, hijos, hermanos, primos e incluso matrimonios llegaron a participar en distintas etapas del proceso criminal, desde el reclutamiento hasta el traslado y la explotación de las víctimas. Esa continuidad generacional permitió que el conocimiento sobre las formas de captación se transmitiera casi como un oficio, consolidando una economía ilícita que durante años logró operar con relativa discreción."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "El mecanismo más conocido fue el denominado 'enamoramiento'. Los tratantes establecían relaciones sentimentales con mujeres jóvenes, generalmente provenientes de otras entidades, construían vínculos afectivos durante semanas o meses y, una vez obtenida la confianza suficiente, las aislaban progresivamente de su entorno familiar hasta ejercer sobre ellas control psicológico, violencia física y amenazas. A diferencia del secuestro tradicional, la víctima no desaparecía mediante el uso inmediato de la fuerza; abandonaba voluntariamente su círculo cercano convencida de iniciar una relación de pareja."
+			},
+           {
+               tipo: "parrafo",
+               texto: "Este caso transformó la forma en que las autoridades comprendían la trata de personas. Demostró que no era indispensable contar con organizaciones comparables a los grandes cárteles para sostener un negocio altamente rentable. Bastaban redes familiares consolidadas, una comunidad donde la actividad ilícita había alcanzado cierto grado de normalización y un entorno donde el silencio social dificultara las investigaciones."
+           },
+  {
+               tipo: "subtitulo",
+               texto: "Ciudad de México y Estado de México: la vulnerabilidad detrás de la movilidad urbana"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Sí Tlaxcala representa uno de los principales focos históricos de captación, la Zona Metropolitana del Valle de México ilustra cómo la trata ha evolucionado hacia esquemas mucho más sofisticados."
+			},
+           {
+               tipo: "parrafo",
+               texto: "La Ciudad de México y el Estado de México concentran diariamente millones de desplazamientos por motivos laborales, académicos y comerciales. Miles de jóvenes llegan cada semana procedentes de otros estados para estudiar, buscar empleo o iniciar una nueva etapa de vida. Esa enorme movilidad, que constituye uno de los motores económicos más importantes del país, también genera condiciones ideales para que las víctimas pasen inadvertidas entre una población flotante difícil de monitorear."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Las modalidades de captación también cambiaron. Hoy resulta mucho más frecuente encontrar falsas agencias de colocación, supuestas empresas de recursos humanos, vacantes para modelos, edecanes, promotoras o empleos administrativos difundidos mediante redes sociales y plataformas digitales. La tecnología redujo considerablemente los costos para construir empresas ficticias capaces de proyectar una apariencia completamente legítima."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "El caso de Edith Guadalupe Valdez, ocurrido en 2026, volvió a colocar esta problemática en el centro del debate. La joven acudió a una entrevista de trabajo en un edificio de la alcaldía Benito Juárez después de responder a una oferta laboral publicada en internet. Horas más tarde perdió comunicación con su familia y posteriormente fue localizada sin vida. Durante las investigaciones, la Fiscalía General de Justicia de la Ciudad de México abrió distintas líneas para determinar si el inmueble había sido utilizado para captar mujeres mediante ofertas laborales falsas y si existían vínculos con una posible red de trata. Aunque hasta ahora esa hipótesis no ha sido acreditada judicialmente, el caso evidenció una modalidad que especialistas venían advirtiendo desde hace varios años: la profesionalización del engaño."
+			},
+           {
+               tipo: "parrafo",
+               texto: "Lo verdaderamente preocupante no es únicamente ese caso en particular, sino el cambio de paradigma que representa. Las organizaciones ya no necesitan interceptar violentamente a sus víctimas en la vía pública. Hoy pueden construir procesos de reclutamiento aparentemente formales, realizar entrevistas virtuales, rentar oficinas temporales y generar suficiente credibilidad para que la propia víctima acuda voluntariamente al lugar donde iniciará el proceso de explotación."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "Quintana Roo, Baja California y Chiapas: tres fronteras, tres dinámicas distintas"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Mientras el centro del país concentra buena parte de las labores de captación, otros estados cumplen funciones estratégicas dentro de la cadena criminal."
+			},
+           {
+               tipo: "parrafo",
+               texto: "En Quintana Roo, el crecimiento acelerado del turismo internacional ha generado una enorme demanda de servicios vinculados a la hotelería, el entretenimiento y la vida nocturna. Esa dinámica económica también ha sido aprovechada por redes dedicadas a la explotación sexual, que encuentran en la alta movilidad de visitantes un entorno propicio para ocultar la presencia de víctimas y dificultar su identificación. La constante llegada y salida de personas hace que muchas desapariciones pasen inadvertidas o sean reportadas lejos del lugar donde realmente ocurrió la explotación."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Baja California, particularmente municipios fronterizos como Tijuana y Mexicali, representa otro punto crítico debido a su cercanía con Estados Unidos. Además de ser un importante corredor migratorio, la frontera norte concentra actividades relacionadas con el tráfico de personas y el contrabando, fenómenos que en ocasiones convergen con redes de trata. La vulnerabilidad de quienes esperan cruzar hacia territorio estadounidense ha sido aprovechada por organizaciones que ofrecen supuestas oportunidades laborales o apoyo para continuar el viaje, ocultando detrás esquemas de explotación laboral o sexual."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "En el extremo opuesto del país, Chiapas enfrenta una realidad distinta pero igualmente preocupante. La frontera con Guatemala constituye la principal puerta de entrada para miles de personas migrantes que huyen de condiciones de violencia, pobreza o inestabilidad política. Muchas de ellas llegan sin redes de apoyo, recursos económicos limitados y escaso conocimiento del territorio mexicano. Esa combinación incrementa significativamente el riesgo de ser captadas por organizaciones criminales que prometen transporte, alojamiento o empleo y terminan sometiéndolas a distintas formas de explotación."
+			},
+           {
+               tipo: "parrafo",
+               texto: "Analizados de manera aislada, estos estados parecen responder a problemáticas distintas. Observados en conjunto, revelan algo mucho más preocupante: la trata de personas en México funciona como una red nacional donde cada territorio cumple una función específica dentro de un circuito mucho más amplio de captación, traslado, explotación y ocultamiento de víctimas."
+           },
+           {
+               tipo: "subtitulo",
+               texto: "El desafío no consiste únicamente en encontrar a las víctimas, sino en comprender cómo operan las redes"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Quizá uno de los mayores errores al abordar la trata de personas ha sido asumir que se trata únicamente de un delito contra individuos, cuando en realidad constituye una forma altamente sofisticada de delincuencia organizada. Las víctimas representan el rostro más visible del problema, pero detrás de cada caso suelen existir estructuras capaces de reclutar, transportar, ocultar, explotar y lavar las ganancias obtenidas mediante la cosificación de seres humanos."
+			},
+           {
+               tipo: "parrafo",
+               texto: "Mientras las investigaciones continúen fragmentándose por entidad federativa y cada desaparición sea analizada como un hecho aislado, las organizaciones seguirán aprovechando las brechas institucionales para operar entre estados con relativa facilidad. La trata de personas no reconoce fronteras administrativas, y las estrategias para combatirla tampoco deberían hacerlo."
+           },
+           {
+               tipo: "parrafo",
+               texto: "Comprender esta lógica implica cambiar la pregunta que tradicionalmente nos hacemos. Tal vez el desafío no sea únicamente dónde desaparecieron las víctimas, sino quiénes se benefician de que nunca logremos reconstruir el camino que recorrieron después de desaparecer. Es en ese trayecto, muchas veces invisible para las estadísticas y para la opinión pública, donde probablemente se encuentre una de las expresiones más silenciosas y rentables del crimen organizado contemporáneo."
+           },
+		         ],
 	},
 ];
