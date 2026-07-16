@@ -4006,4 +4006,204 @@ export const articulos = [
            },
 		         ],
 	},
+		{
+		metadata: {
+			id: "art-015",
+			slug: "La-evolucion-del-crimen-oganizado",
+			titulo:
+				"¿Existe un punto de retorno? La evolución del crimen organizado en México y el desafío de reconstruir la seguridad",
+			categoria: {
+				principal: "crimen-organizado",
+				label: "Crimen organizado",
+			},
+			etiquetas: [
+				"Crimen organizado",
+				"Cárteles mexicanos",
+				"Cártel de Guadalajara",
+				"CJNG",
+				"Cártel de Sinaloa"
+			],
+			fechaPublicacion: "2026-07-15",
+			autor: "BMC",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"La evolución del crimen organizado en México",
+			metaDescription:
+				"El México que conocimos hace cuarenta años ya no existe",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1784223922/Observatorio_criminal_16_khczor.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1784223922/BannerArtPage_15_sdntya.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"El México que conocimos hace cuarenta años ya no existe",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto: "Cuando hoy se habla del crimen organizado en México, la conversación suele centrarse en cifras de homicidios, desapariciones, extorsiones o enfrentamientos armados que forman parte de la realidad cotidiana de diversas regiones del país."
+			},
+            {
+               tipo: "parrafo",
+               texto: " Para una generación completa, la violencia dejó de ser una excepción para convertirse en un componente permanente del paisaje social. Municipios donde antes predominaban actividades agrícolas o comerciales hoy aparecen constantemente en reportes relacionados con bloqueos carreteros, ataques armados, desplazamientos forzados o disputas entre organizaciones criminales."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "Sin embargo, esta realidad no surgió de manera espontánea ni puede atribuirse exclusivamente a un sexenio, a una política pública específica o al fortalecimiento de un grupo delictivo en particular. El México actual es el resultado de una transformación progresiva que comenzó mucho antes de que la expresión 'guerra contra el narcotráfico' ocupara titulares internacionales. Comprender cómo evolucionó esa transformación implica reconocer que el crimen organizado también cambió su estructura, diversificó sus fuentes de financiamiento y modificó su relación con el Estado y con la sociedad."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "La pregunta, entonces, deja de ser únicamente cómo combatir a los grupos criminales y se convierte en un cuestionamiento mucho más profundo: ¿en qué momento el problema dejó de ser exclusivamente policial para convertirse en un fenómeno estructural que afecta prácticamente todos los ámbitos de la vida pública?"
+			},
+		               {
+               tipo: "subtitulo",
+               texto: "El Cártel de Guadalajara: cuando el narcotráfico todavía funcionaba como una confederación criminal"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Durante las décadas de 1970 y principios de 1980, el narcotráfico mexicano se encontraba muy lejos de la fragmentación que caracteriza al panorama actual. La creación del Cártel de Guadalajara, encabezado por figuras como Miguel Ángel Félix Gallardo, Ernesto Fonseca Carrillo y Rafael Caro Quintero, representó el primer gran intento por concentrar bajo una misma estructura las principales rutas del tráfico de drogas hacia Estados Unidos."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "Más que un cártel en el sentido contemporáneo del término, aquella organización operaba como una confederación criminal. Diversos grupos regionales mantenían acuerdos para distribuir territorios, coordinar rutas y resolver disputas sin recurrir de manera sistemática a la confrontación abierta. La violencia existía y era utilizada como mecanismo de control; sin embargo, generalmente permanecía focalizada contra rivales, informantes o funcionarios que representaban una amenaza directa para el negocio ilícito."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Este modelo coincidió con un contexto político profundamente centralizado, donde la capacidad del Estado para ejercer control territorial era considerablemente mayor que la observada décadas después. Esa combinación permitió mantener un equilibrio precario: el narcotráfico crecía económicamente, pero evitaba generar niveles de violencia que alteraran de forma significativa la estabilidad nacional."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "Ese equilibrio, sin embargo, estaba destinado a romperse."
+           },
+    {
+               tipo: "subtitulo",
+               texto: "La fragmentación criminal: el inicio de una violencia mucho más difícil de controlar"
+			},
+		               {
+               tipo: "parrafo",
+               texto: "El asesinato del agente de la DEA Enrique 'Kiki' Camarena en 1985 marcó un punto de inflexión. La presión internacional derivó en la captura de varios líderes del Cártel de Guadalajara y, pocos años después, la organización comenzó a fragmentarse. Lo que inicialmente parecía un éxito para las autoridades terminó generando un efecto inesperado: la aparición de múltiples organizaciones regionales que comenzaron a disputar entre sí las rutas, los territorios y las redes de distribución."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "De aquella ruptura surgirían estructuras que posteriormente darían origen a organizaciones como los cárteles de Sinaloa, Tijuana, Juárez y, años más tarde, al Golfo, Los Zetas, el Cártel Jalisco Nueva Generación y decenas de grupos locales."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "La fragmentación modificó por completo las reglas del juego. Si antes existía una estructura capaz de mediar conflictos internos, ahora múltiples organizaciones competían simultáneamente por los mismos mercados ilícitos. Cada captura importante, lejos de pacificar determinadas regiones, abría nuevas disputas por el liderazgo y el control territorial. El crimen organizado dejó de funcionar como una red relativamente coordinada para convertirse en un ecosistema criminal altamente competitivo."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Con ello también cambió la naturaleza de la violencia. Los homicidios dejaron de responder únicamente a ajustes internos y comenzaron a utilizarse como mensajes dirigidos a organizaciones rivales, autoridades y población civil. El control del territorio adquirió una importancia estratégica porque ya no sólo garantizaba el paso de drogas, sino también el dominio sobre nuevas economías ilícitas."
+			},
+		               {
+               tipo: "subtitulo",
+               texto: "Del narcotráfico a las economías criminales: cuando la violencia encontró nuevas fuentes de financiamiento"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Uno de los errores más frecuentes consiste en seguir llamando 'narcotraficantes' a organizaciones que hace tiempo dejaron de depender exclusivamente del tráfico de drogas."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "A partir de los años dos mil, y con mayor intensidad después de 2006, numerosas organizaciones diversificaron sus ingresos hacia actividades como extorsión, secuestro, trata de personas, tráfico de migrantes, robo de hidrocarburos, minería ilegal, tala clandestina, cobro de piso y control de mercados informales."
+           },
+    {
+               tipo: "parrafo",
+               texto: "Esta transformación produjo un cambio profundo en la relación entre el crimen organizado y la sociedad."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "Mientras el narcotráfico tradicional podía desarrollarse relativamente aislado de la población, las nuevas economías criminales requieren ejercer control directo sobre comerciantes, transportistas, productores agrícolas, empresas y comunidades completas. El ciudadano dejó de ser un espectador indirecto para convertirse, en muchos casos, en la principal fuente de ingresos de las organizaciones."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Es precisamente esta evolución la que explica por qué estados como Michoacán, Guerrero, Guanajuato, Zacatecas o Chiapas enfrentan hoy niveles de violencia asociados tanto a disputas territoriales como al control de actividades económicas legales e ilegales."
+			},
+		               {
+               tipo: "subtitulo",
+               texto: "¿Llegamos a un punto de no retorno?"
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Esta es quizá la pregunta más difícil de responder."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "Desde una perspectiva histórica, existen indicadores preocupantes: la expansión territorial de organizaciones criminales, la persistencia de mercados ilícitos altamente rentables, la capacidad de corrupción institucional y la normalización de ciertas formas de violencia sugieren que México enfrenta un problema mucho más complejo que hace treinta años."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Sin embargo, afirmar que el país alcanzó un punto irreversible sería desconocer experiencias internacionales donde procesos similares lograron contenerse mediante estrategias integrales y sostenidas."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "Países como Italia enfrentaron durante décadas el poder de organizaciones mafiosas profundamente arraigadas en la economía y en las instituciones públicas. Colombia vivió una transformación significativa tras los años de mayor poder de los grandes cárteles, aunque con desafíos persistentes. Ninguno de estos casos representa una solución perfecta ni completamente replicable, pero demuestran que las organizaciones criminales pueden debilitarse cuando el Estado actúa de manera consistente durante largos periodos."
+           },
+    {
+               tipo: "parrafo",
+               texto: "La verdadera pregunta no es si existe un punto de retorno."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "La pregunta es si México está dispuesto a sostener políticas públicas que trasciendan los ciclos políticos y electorales."
+           },
+		               {
+               tipo: "subtitulo",
+               texto: "Reconstruir la seguridad: una tarea que comienza mucho antes de la persecución penal"
+			},
+		               {
+               tipo: "parrafo",
+               texto: "La experiencia internacional muestra que ninguna estrategia basada exclusivamente en el uso de la fuerza ha logrado resolver por sí sola problemas estructurales de criminalidad organizada. La acción policial y militar es indispensable para contener la violencia inmediata y proteger a la población, pero resulta insuficiente si no se acompaña de instituciones de procuración de justicia eficaces, sistemas penitenciarios orientados a la reinserción, mecanismos robustos de combate a la corrupción y políticas sociales que reduzcan las condiciones que facilitan el reclutamiento criminal."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "En México, esto implica asumir que la seguridad no puede seguir siendo entendida únicamente como una responsabilidad de las corporaciones policiales. También depende de la calidad del sistema educativo, de la capacidad para generar empleo formal, de la recuperación de espacios públicos, del fortalecimiento de los gobiernos municipales, de la inteligencia financiera para debilitar las estructuras económicas del crimen y de una política de atención a víctimas que permita reconstruir la confianza en las instituciones."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "No existe una solución inmediata para un fenómeno que tardó más de cuarenta años en consolidarse. Sin embargo, tampoco existe evidencia de que la resignación sea una estrategia viable."
+           },
+		               {
+               tipo: "subtitulo",
+               texto: "El verdadero desafío no es derrotar a un cártel, sino impedir que surja el siguiente"
+			},
+		               {
+               tipo: "parrafo",
+               texto: "Con frecuencia, el debate público se concentra en la captura de líderes criminales o en la desarticulación de determinadas organizaciones. Es comprensible: son resultados visibles y políticamente relevantes. Sin embargo, la experiencia mexicana demuestra que eliminar una estructura no garantiza la desaparición del fenómeno. En múltiples ocasiones, la caída de un grupo ha dado paso a varios más pequeños, más violentos y más difíciles de controlar."
+           },
+    {
+               tipo: "parrafo",
+               texto: "Esa es, quizá, la principal lección que deja la evolución del crimen organizado en México. El problema nunca ha sido únicamente la existencia de un cártel específico, sino la capacidad del entorno para producir nuevas organizaciones una y otra vez."
+			},
+		               {
+               tipo: "parrafo",
+               texto: "Mientras persistan mercados ilícitos altamente rentables, instituciones vulnerables a la corrupción, comunidades sin oportunidades reales de desarrollo y miles de jóvenes para quienes la economía criminal representa una alternativa de movilidad social, el relevo de liderazgos seguirá ocurriendo con relativa facilidad."
+           },
+		               {
+               tipo: "parrafo",
+               texto: "Por ello, la discusión sobre seguridad debería dejar de girar exclusivamente en torno a cómo capturar al siguiente líder criminal y comenzar a centrarse en una pregunta mucho más trascendente: ¿qué condiciones debemos transformar para que dentro de veinte años México deje de necesitar un nuevo enemigo al cual combatir?"
+			},
+		               {
+               tipo: "parrafo",
+               texto: "Ese es el verdadero punto de retorno. No el momento en que desaparezca un cártel, sino aquel en que el Estado y la sociedad logren romper el ciclo que, durante más de cuatro décadas, ha permitido que el crimen organizado se adapte, sobreviva y vuelva a surgir bajo nuevas formas."
+           },
+			         ],
+	},
 ];
