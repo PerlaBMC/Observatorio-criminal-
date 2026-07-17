@@ -20,45 +20,49 @@ export default function RootLayout({ children }) {
 					href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+JP:wght@100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 					rel="stylesheet"
 				/>
+				<script
+					async
+					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9970051816521961"
+					crossorigin="anonymous"
+				></script>
+				<meta name="google-adsense-account" content="ca-pub-9970051816521961"></meta>
 			</head>
 			<body>
-			<header className={styles.headerStyle}>
-	<div className={styles.headerContainer}>
-		
-		{/* LOGO + NOMBRE */}
-		<div className={styles.brand}>
-			<a href="/">
-				<img
-					src="https://res.cloudinary.com/dwzbls5ib/image/upload/v1777594780/Observatorio_criminolo%CC%81gico_3_ndlvy4.svg"
-					alt="Logo Observatorio Criminal"
-				/>
-			</a>
-			<div className={styles.brandText}>
-				<h1>Observatorio Criminal</h1>
-				<span>Análisis criminológico</span>
-			</div>
-		</div>
+				<header className={styles.headerStyle}>
+					<div className={styles.headerContainer}>
+						{/* LOGO + NOMBRE */}
+						<div className={styles.brand}>
+							<a href="/">
+								<img
+									src="https://res.cloudinary.com/dwzbls5ib/image/upload/v1777594780/Observatorio_criminolo%CC%81gico_3_ndlvy4.svg"
+									alt="Logo Observatorio Criminal"
+								/>
+							</a>
+							<div className={styles.brandText}>
+								<h1>Observatorio Criminal</h1>
+								<span>Análisis criminológico</span>
+							</div>
+						</div>
 
-		{/* MENÚ */}
-		<nav className={styles.nav}>
-			<a href="/">Inicio</a>
-			<span>|</span>
-			<NavDropdown />
-			<span>|</span>
-			<a href="/investigacion">Investigación</a>
-			<span>|</span>
-			<a href="/about-us">Sobre el proyecto</a>
-		</nav>
+						{/* MENÚ */}
+						<nav className={styles.nav}>
+							<a href="/">Inicio</a>
+							<span>|</span>
+							<NavDropdown />
+							<span>|</span>
+							<a href="/investigacion">Investigación</a>
+							<span>|</span>
+							<a href="/about-us">Sobre el proyecto</a>
+						</nav>
 
-		{/* BUSCADOR */}
-		<div className={styles.search}>
-			<Suspense fallback={null}>
-				<SearchBar />
-			</Suspense>
-		</div>
-
-	</div>
-</header>
+						{/* BUSCADOR */}
+						<div className={styles.search}>
+							<Suspense fallback={null}>
+								<SearchBar />
+							</Suspense>
+						</div>
+					</div>
+				</header>
 				<main>{children}</main>
 				<Footer />
 			</body>
