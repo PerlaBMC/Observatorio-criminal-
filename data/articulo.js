@@ -4871,4 +4871,396 @@ export const articulos = [
 			},
 					],
 	},
+	{
+		metadata: {
+			id: "art-017",
+			slug: "Quien-protege-al-inocente",
+			titulo:
+				"¿Quién protege al inocente? Las acusaciones falsas y los desafíos del sistema de justicia en México",
+			categoria: {
+				principal: "seguridad-publica",
+				label: "Seguridad pública",
+			},
+			etiquetas: [
+				"Falsos culpables",
+				"Presunción de inocencia",
+				"Delitos falsos",
+				"Fabricación de delitos",
+				"Acusaciones falsas",
+				"Delitos fingidos"
+			],
+			fechaPublicacion: "2026-07-30",
+			autor: "BMC",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"Las acusaciones falsas y los desafíos del sistema de justicia en México",
+			metaDescription: "Una justicia diseñada para proteger también puede ser utilizada para dañar",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1785441912/Observatorio_criminal_18_d2clbx.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1785440811/BannerArtPage_17_n55g8h.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen: "Una justicia diseñada para proteger también puede ser utilizada para dañar",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto:
+					"En toda sociedad democrática, el sistema de justicia penal representa uno de los instrumentos más poderosos con los que cuenta el Estado.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Ninguna otra institución posee la facultad de restringir legalmente la libertad de una persona, intervenir sus comunicaciones, asegurar su patrimonio, limitar el ejercicio de determinados derechos o someterla a un proceso que, aun cuando concluya con una absolución, puede transformar radicalmente el curso de su vida. Precisamente por esa enorme capacidad de intervención, el derecho penal ha sido concebido históricamente como un mecanismo de última instancia, reservado para proteger los bienes jurídicos más importantes y garantizar que el ejercicio del poder punitivo se encuentre sujeto a estrictos controles constitucionales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En teoría, el funcionamiento del sistema parece responder a una lógica sencilla: una víctima denuncia un hecho probablemente constitutivo de delito; la autoridad investiga con objetividad; el Ministerio Público reúne pruebas suficientes; un juez imparcial valora la evidencia presentada y, únicamente cuando existe certeza sobre la responsabilidad penal del acusado, se impone una sanción. Bajo este modelo, el proceso penal busca alcanzar un equilibrio delicado entre dos objetivos igualmente importantes: proteger a las víctimas y evitar que una persona inocente sea castigada injustamente.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sin embargo, la práctica demuestra que ese equilibrio resulta considerablemente más complejo de alcanzar.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Durante las últimas décadas, la discusión pública en México se ha concentrado, con razón, en la impunidad que enfrentan millones de víctimas cuyos casos nunca llegan a esclarecerse. La baja proporción de delitos denunciados, la sobrecarga de trabajo en las fiscalías, la limitada capacidad de investigación y la escasa confianza ciudadana han ocupado buena parte del debate sobre la procuración de justicia. No obstante, mientras la atención permanece enfocada en quienes no obtienen respuesta del Estado, existe otro fenómeno mucho menos visible que también pone en riesgo la legitimidad del sistema: los casos en los que la maquinaria institucional termina dirigiéndose contra personas inocentes.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Hablar de acusaciones falsas suele generar reacciones encontradas. Para algunos sectores, abordar este tema implica minimizar la realidad que enfrentan miles de víctimas de delitos graves, particularmente en materias como violencia familiar, violencia sexual o desaparición de personas. Otros consideran que el problema es tan frecuente que el sistema penal se ha convertido en un mecanismo utilizado para venganzas personales, disputas familiares o extorsiones. Ambas posturas suelen construirse desde posiciones extremas que dificultan comprender la verdadera dimensión del fenómeno.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "A la fecha, ninguna institución pública dispone de estadísticas nacionales suficientemente robustas que permitan afirmar, con rigor científico, que este tipo de conductas constituye un fenómeno generalizado. Lo que sí resulta evidente es que el sistema penal enfrenta un problema bastante preocupante: la existencia de investigaciones deficientes, imputaciones sustentadas en evidencia insuficiente, fabricación de pruebas, simulación de hechos delictivos y actuaciones institucionales que, en conjunto, pueden provocar que una persona inocente enfrente un proceso penal con consecuencias devastadoras.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Mientras una acusación falsa implica la voluntad deliberada de una persona para atribuir a otra un delito que sabe inexistente, un error judicial puede originarse por múltiples causas ajenas al denunciante: deficiencias periciales, sesgos durante la investigación, malas prácticas ministeriales, corrupción, presiones mediáticas o interpretaciones incorrectas de la prueba. En ambos casos el resultado puede ser el mismo: una persona inocente sometida al poder punitivo del Estado.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Desde la criminología, ambos fenómenos poseen un denominador común: representan formas de utilización indebida del sistema penal. En un caso, un particular instrumentaliza a las instituciones para causar un daño; en el otro, son las propias instituciones las que, por acción u omisión, incumplen la obligación de investigar con objetividad y respeto irrestricto a los derechos humanos. El resultado trasciende la esfera individual. Cada investigación mal integrada, cada prueba obtenida sin rigor científico y cada resolución sustentada en información insuficiente debilitan la confianza pública en el sistema de justicia y alimentan la percepción de que el acceso a la verdad depende más del contexto que de la calidad de la evidencia.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta situación adquiere una dimensión todavía más delicada cuando se analiza el enorme poder que posee una denuncia penal. En un Estado de Derecho, denunciar constituye un derecho fundamental y un mecanismo indispensable para que las víctimas accedan a la justicia. Sin denuncias, la mayoría de los delitos permanecerían ocultos y la capacidad del Estado para perseguirlos sería prácticamente inexistente. Precisamente por ello, el orden jurídico procura facilitar que las personas acudan ante las autoridades sin temor a represalias. No obstante, esa misma facilidad también implica una enorme responsabilidad. Cuando una denuncia se presenta de manera dolosa con el propósito de perjudicar a un tercero, o cuando las autoridades incumplen su deber de verificar rigurosamente la información antes de ejercer la acción penal, el proceso deja de cumplir su función protectora para convertirse, potencialmente, en un instrumento de afectación.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En los últimos años diversos casos nacionales e internacionales han demostrado que el mayor riesgo para un sistema de justicia no siempre radica en dejar impune a un culpable. También existe un profundo daño institucional cuando un inocente es privado de su libertad, sometido al estigma social de una imputación penal o pierde años de su vida debido a errores que pudieron evitarse mediante investigaciones más profesionales y decisiones judiciales mejor fundamentadas. La historia demuestra que ambas situaciones erosionan de manera similar la legitimidad de las instituciones. Un sistema incapaz de sancionar a los responsables genera desconfianza entre las víctimas; uno que castiga a personas inocentes produce temor entre quienes deberían sentirse protegidos por la ley.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Qué sabemos realmente sobre las acusaciones falsas?",
+			},
+			{
+				tipo: "parrafo",
+				texto: "El primer aspecto que debe entenderse es que las acusaciones falsas existen, aunque su medición estadística presenta importantes limitaciones, esto no significa que sean imposibles de identificar ni mucho menos que todas permanezcan impunes. Lo que resulta complejo es dimensionar cuántas ocurren realmente cada año, pues no existe un registro nacional que las clasifique de manera independiente y uniforme. A diferencia de delitos como el homicidio, el robo o el fraude, donde el hecho investigado constituye por sí mismo una categoría estadística, una acusación falsa suele descubrirse únicamente después de analizar el contexto completo de una investigación y, en muchos casos, tras reconstruir acontecimientos que originalmente fueron presentados como un delito.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Desde la metodología de la investigación criminal, una investigación consiste precisamente en verificar si los hechos ocurrieron de la manera en que fueron narrados, si la evidencia resulta congruente con esa versión y si existe correspondencia entre la evidencia física, los testimonios, los dictámenes periciales y la cronología de los acontecimientos. ",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Durante una investigación pueden surgir múltiples elementos objetivos que revelen inconsistencias difíciles de explicar bajo la hipótesis inicialmente denunciada. Grabaciones que contradicen el relato de los hechos, registros de geolocalización incompatibles con la versión presentada, periciales que descartan la mecánica del delito, documentos alterados, comunicaciones previas que evidencian un conflicto personal o testimonios que demuestran una planeación previa son sólo algunos ejemplos de información que puede modificar radicalmente el sentido de una investigación.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Desde luego, estas circunstancias no autorizan a concluir automáticamente que toda inconsistencia equivale a una denuncia fabricada. La memoria humana es imperfecta, las víctimas pueden cometer errores al recordar determinados detalles y muchos acontecimientos traumáticos generan relatos fragmentados o incompletos. Precisamente por ello, la función de la investigación criminal consiste en distinguir entre las inconsistencias propias de un hecho complejo y aquellas contradicciones que únicamente pueden explicarse mediante la invención deliberada de los acontecimientos.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Los registros institucionales contabilizan carpetas de investigación, determinaciones ministeriales, vinculaciones a proceso y sentencias, pero rara vez documentan las investigaciones que permitieron descubrir una denuncia fabricada antes de que ésta llegara a juicio. En consecuencia, el universo de las acusaciones falsas permanece parcialmente oculto entre expedientes que concluyeron por distintas razones procesales, sin que ello permita conocer con precisión cuántos correspondían realmente a imputaciones dolosas.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Paradójicamente, esta limitación estadística no disminuye la gravedad del problema. Por el contrario, demuestra que el fenómeno no puede analizarse únicamente mediante números. Su verdadero impacto se aprecia en las consecuencias que produce cuando una investigación deficiente, una denuncia maliciosa o una valoración inadecuada de la prueba logran activar todo el aparato de justicia contra una persona inocente. En esos casos, el daño comienza mucho antes de que exista una sentencia. La apertura de una carpeta de investigación, la imposición de medidas cautelares, la exposición pública, la pérdida del empleo o la afectación de la reputación pueden convertirse en consecuencias irreversibles incluso cuando, años después, se demuestra que la imputación carecía de fundamento.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Por ello, la discusión no debería centrarse únicamente en determinar cuántas acusaciones falsas existen en México. La pregunta realmente importante consiste en establecer qué tan eficaz es el sistema para detectarlas oportunamente y qué mecanismos institucionales existen para impedir que una denuncia deliberadamente falsa o una investigación técnicamente deficiente produzcan daños irreparables antes de que la verdad procesal pueda esclarecerse.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "El problema no siempre es la denuncia: también lo es la capacidad del Estado para investigar",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando se discute sobre acusaciones falsas, buena parte del debate suele concentrarse en las personas que presentan una denuncia. Sin embargo, esa perspectiva deja fuera al actor más importante del proceso penal: el Estado. Después de todo, ninguna imputación debería prosperar únicamente porque alguien la formule. La función de las fiscalías consiste precisamente en verificar, mediante técnicas de investigación científica, si los hechos denunciados ocurrieron realmente y si existen elementos suficientes para atribuirlos a una persona determinada.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En un sistema de justicia eficaz, una denuncia constituye únicamente el punto de partida. La hipótesis inicial debe ser sometida a un proceso de comprobación constante donde cada indicio, cada testimonio y cada dictamen pericial puedan confirmar o descartar la versión originalmente presentada. Cuando ese proceso funciona correctamente, las denuncias falsas tienden a identificarse antes de provocar consecuencias irreparables y, al mismo tiempo, las víctimas de hechos verdaderos encuentran mayores posibilidades de obtener justicia.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "El problema surge cuando esa capacidad institucional resulta insuficiente.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Diversos diagnósticos elaborados por el Instituto Nacional de Estadística y Geografía (INEGI), el Censo Nacional de Procuración de Justicia Estatal, México Evalúa, Impunidad Cero y el World Justice Project coinciden en señalar que las fiscalías mexicanas enfrentan un problema estructural que trasciende la falta de recursos económicos. La sobrecarga de trabajo, la escasez de policías de investigación, la limitada disponibilidad de peritos especializados, la rotación constante de personal y los bajos niveles de profesionalización han generado un modelo donde la calidad de las investigaciones suele verse comprometida.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Las cifras permiten dimensionar este escenario. La Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública (ENVIPE) estima año con año que más del 90 % de los delitos cometidos en México no llegan a denunciarse o no derivan en una carpeta de investigación. Este fenómeno, conocido como cifra negra, suele interpretarse como un indicador de desconfianza ciudadana; sin embargo, también evidencia que las instituciones responsables de investigar únicamente conocen una fracción del universo delictivo nacional.",
+			},
+				{
+				tipo: "parrafo",
+				texto: "Paradójicamente, incluso esa fracción supera con creces la capacidad operativa de muchas fiscalías.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Los censos nacionales de procuración de justicia muestran que cada agente del Ministerio Público puede concentrar simultáneamente cientos de carpetas de investigación. En esas condiciones, resulta materialmente imposible practicar con el mismo nivel de profundidad todas las diligencias que exige una investigación criminal técnicamente robusta. El resultado suele traducirse en investigaciones donde la urgencia por atender nuevos asuntos desplaza la necesidad de reconstruir cuidadosamente los hechos.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta realidad tiene implicaciones que afectan tanto a las víctimas como a los imputados.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Para una víctima auténtica, una investigación superficial disminuye considerablemente las probabilidades de identificar al responsable y obtener una sentencia condenatoria. Para una persona inocente, la ausencia de actos de investigación oportunos también representa un riesgo, pues incrementa la posibilidad de que hipótesis iniciales incorrectas permanezcan sin ser cuestionadas durante etapas críticas del procedimiento.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En otras palabras, la deficiencia investigativa no distingue entre culpables e inocentes; perjudica por igual a ambos extremos del proceso penal.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "A ello se suma otro problema menos visible: la presión institucional por mostrar resultados.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Diversos estudios sobre procuración de justicia han documentado que las fiscalías operan bajo indicadores orientados a medir productividad mediante el número de carpetas iniciadas, judicializaciones o determinaciones ministeriales. Aunque estos mecanismos buscan evaluar el desempeño institucional, también pueden generar incentivos para privilegiar la rapidez sobre la profundidad analítica. En un entorno donde los recursos humanos resultan limitados, dedicar semanas a verificar exhaustivamente una hipótesis puede convertirse, paradójicamente, en una desventaja administrativa frente a la necesidad de resolver cientos de expedientes adicionales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "No debe entenderse esta situación como una práctica generalizada de fabricación de culpables. La enorme mayoría de los operadores del sistema desempeña su labor bajo condiciones particularmente complejas y con recursos frecuentemente insuficientes. Sin embargo, la criminología institucional demuestra que los errores sistemáticos rara vez obedecen exclusivamente a la mala fe de quienes integran una organización; muchas veces son consecuencia de estructuras incapaces de garantizar que el trabajo se realice con el tiempo, los recursos y los mecanismos de supervisión necesarios.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Precisamente por ello, centrar toda la discusión en las personas que eventualmente presentan denuncias falsas resulta insuficiente. Incluso si estas representaran una proporción mínima del total de investigaciones, un sistema con capacidades limitadas para verificar oportunamente los hechos seguiría siendo vulnerable frente a imputaciones construidas artificialmente. La verdadera fortaleza de una institución de justicia no se mide por la cantidad de denuncias que recibe, sino por su capacidad para distinguir con rigor técnico aquellas que corresponden a un delito real de aquellas que responden a un error, una simulación o una manipulación deliberada.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Cuando la verdad tardó años en demostrarse: lecciones que dejaron algunos de los casos más representativos del sistema de justicia mexicano",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los mayores riesgos al analizar las acusaciones falsas consiste en reducir el problema a un conflicto entre dos personas: alguien acusa y alguien se defiende. Sin embargo, la experiencia demuestra que los errores judiciales rara vez responden a una sola causa. En la mayoría de los casos existe una combinación de investigaciones deficientes, deficiencias periciales, presión mediática, sesgos cognitivos, malas prácticas institucionales y, en ocasiones, personas que deliberadamente utilizan el aparato penal para perjudicar a terceros.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Por ello, observar algunos de los casos más representativos ocurridos en México permite comprender que las fallas del sistema no siempre tienen el mismo origen, aunque sus consecuencias suelen ser similares: personas privadas de su libertad durante años, víctimas sin acceso a la verdad y una ciudadanía que gradualmente pierde confianza en la capacidad del Estado para impartir justicia.",
+			},
+						{
+				tipo: "subtitulo",
+				texto: "Jacinta Francisco Marcial: cuando la investigación parte de una conclusión y no de la evidencia",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En marzo de 2006, elementos de la entonces Agencia Federal de Investigación (AFI) y de la Agencia Federal de Investigación de Delitos Fiscales realizaron un operativo contra comerciantes ambulantes en el tianguis de Santiago Mexquititlán, Querétaro. Durante el operativo se produjo un altercado entre comerciantes y agentes federales. Posteriormente, tres mujeres indígenas otomíes —Jacinta Francisco Marcial, Alberta Alcántara Juan y Teresa González Cornelio— fueron acusadas de haber secuestrado a seis agentes federales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Desde el inicio del procedimiento surgieron inconsistencias difíciles de explicar. La hipótesis ministerial sostenía que tres mujeres sin armas, sin vehículos y rodeadas por decenas de personas habían logrado privar ilegalmente de la libertad a elementos federales entrenados y armados. La evidencia física era prácticamente inexistente y la imputación descansaba principalmente en declaraciones de los propios agentes involucrados.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La investigación tampoco consideró adecuadamente el contexto cultural de las acusadas. Jacinta era una mujer indígena otomí que no hablaba español como lengua materna y cuyo acceso a una defensa efectiva resultó limitado durante las primeras etapas del procedimiento. A pesar de ello, fue condenada a más de veinte años de prisión.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Tres años después, la Procuraduría General de la República reconoció que la acusación carecía de sustento suficiente y retiró los cargos. La Suprema Corte de Justicia de la Nación ordenó posteriormente la liberación de Alberta y Teresa, concluyendo que la prueba presentada resultaba insuficiente para sostener la responsabilidad penal.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Este caso no constituye únicamente un ejemplo de una investigación deficiente. También demuestra cómo una hipótesis inicial puede mantenerse artificialmente cuando los investigadores dejan de buscar la verdad y comienzan a buscar únicamente elementos que confirmen una conclusión previamente adoptada. En criminología este fenómeno se conoce como sesgo de confirmación, uno de los errores cognitivos más frecuentes dentro de las investigaciones criminales.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Cuando una autoridad selecciona únicamente la información compatible con su teoría e ignora aquella que la contradice, la investigación deja de orientarse hacia el esclarecimiento de los hechos y comienza a construir una narrativa destinada a justificar una decisión previamente tomada.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Florence Cassez e Israel Vallarta: cuando el espectáculo sustituye a la investigación",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Pocos casos han generado un debate tan profundo sobre la procuración de justicia en México como el de Florence Cassez e Israel Vallarta.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En diciembre de 2005, ambos fueron detenidos por la entonces Agencia Federal de Investigación, señalados como integrantes de una banda dedicada al secuestro conocida como 'Los Zodiaco'. Sin embargo, horas después de la detención, diversas cadenas de televisión transmitieron en vivo un supuesto operativo de rescate donde las autoridades aparentaban capturar a los presuntos responsables.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Años más tarde quedó acreditado que dicho operativo había sido recreado para efectos mediáticos. La detención real ocurrió previamente y la escena presentada a la opinión pública había sido preparada por las propias autoridades.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La Suprema Corte de Justicia de la Nación concluyó en 2013 que las violaciones al debido proceso resultaban de tal magnitud que impedían sostener la condena contra Florence Cassez, quien recuperó su libertad después de permanecer más de siete años en prisión.",
+			},
+				{
+				tipo: "parrafo",
+				texto: "Más allá de la responsabilidad individual de los involucrados, este caso evidenció un problema institucional de enorme relevancia: cuando la presión política o mediática influye sobre una investigación, el objetivo puede dejar de ser descubrir la verdad para convertirse en demostrar públicamente la eficacia de las autoridades.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La investigación criminal exige preservar la autenticidad de la prueba. Cualquier alteración deliberada de una escena, recreación de hechos o manipulación de evidencia no sólo afecta los derechos del imputado; también compromete la posibilidad de conocer lo que realmente ocurrió.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "El caso adquiere una dimensión adicional al observar la situación de Israel Vallarta, quien permaneció casi veinte años sujeto a prisión preventiva sin haber recibido una sentencia definitiva durante buena parte de ese periodo. Independientemente del desenlace jurídico que corresponda a su situación particular, el expediente abrió un intenso debate sobre los efectos que pueden producir las investigaciones prolongadas y el uso excepcional de la prisión preventiva cuando los procesos judiciales se extienden durante décadas.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Daniel García Rodríguez y Reyes Alpízar Ortiz: cuando el proceso se convierte en una pena anticipada",
+			},
+			{
+				tipo: "parrafo",
+				texto: "No todos los errores del sistema consisten en condenar a una persona inocente. En ocasiones, el propio procedimiento penal termina produciendo una sanción de hecho antes de que exista una sentencia.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Daniel García Rodríguez y Reyes Alpízar Ortiz fueron acusados del homicidio de una regidora en el Estado de México y permanecieron sujetos a proceso penal durante aproximadamente diecisiete años. El caso llegó hasta la Corte Interamericana de Derechos Humanos, la cual concluyó que el Estado mexicano había violado múltiples derechos fundamentales derivados de la duración excesiva del procedimiento y del uso prolongado de la prisión preventiva.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Este precedente resulta particularmente importante porque demuestra que la justicia también puede fallar por exceso de tiempo. Aun cuando eventualmente exista una resolución judicial, ningún proceso penal debería prolongarse durante décadas. El derecho a ser juzgado dentro de un plazo razonable constituye una garantía esencial precisamente porque el proceso, por sí mismo, genera consecuencias personales, familiares, económicas y psicológicas que difícilmente pueden revertirse.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En otras palabras, el sistema puede producir daños irreparables incluso antes de determinar si la persona es culpable o inocente.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Cuando las denuncias sí fueron fabricadas",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Si bien gran parte de los casos paradigmáticos mexicanos se relacionan con errores institucionales, también existen investigaciones donde se ha demostrado que determinadas personas utilizaron deliberadamente el sistema penal para perjudicar a terceros.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En distintos estados del país las fiscalías han judicializado casos por simulación de delito, falsedad en declaraciones y denuncias inventadas con el propósito de obtener beneficios económicos derivados de seguros, eludir responsabilidades civiles, afectar disputas familiares o perjudicar patrimonialmente a otras personas. En algunos expedientes se acreditó la simulación de secuestros para justificar ausencias laborales o exigir pagos de rescate inexistentes; en otros, la denuncia de robos de vehículos buscaba obtener fraudulentamente indemnizaciones por parte de compañías aseguradoras.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Más recientemente, algunas fiscalías también han investigado denuncias relacionadas con presuntas agresiones o delitos patrimoniales donde la evidencia digital, los registros de videovigilancia, la geolocalización y los dictámenes periciales permitieron demostrar que los hechos denunciados no ocurrieron de la manera originalmente narrada o, simplemente, nunca sucedieron.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Aunque estos casos representan una proporción reducida frente al universo total de investigaciones penales, poseen una característica común: todos consumieron recursos públicos que pudieron haberse destinado al esclarecimiento de delitos reales. Policías de investigación, peritos, ministerios públicos, laboratorios forenses y órganos jurisdiccionales dedicaron tiempo y presupuesto a reconstruir acontecimientos inexistentes.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Desde una perspectiva criminológica, ello convierte a las acusaciones deliberadamente falsas en una forma particular de afectación al sistema de justicia. No sólo generan un riesgo para la persona indebidamente señalada, sino que también deterioran la capacidad institucional para atender a quienes verdaderamente requieren protección.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Qué consecuencias enfrenta quien utiliza la justicia para dañar y cómo puede defenderse un inocente?",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Una de las principales críticas que suelen formularse al sistema de justicia mexicano consiste en la aparente ausencia de consecuencias para quienes promueven denuncias deliberadamente falsas. La percepción social no surge de la nada. Son pocos los casos que alcanzan notoriedad pública donde la persona que simuló un delito o imputó falsamente a otra enfrenta un procedimiento penal independiente. Sin embargo, ello no significa que la legislación mexicana carezca de herramientas para sancionar este tipo de conductas.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "El marco jurídico contempla diversas figuras que pueden actualizarse cuando una persona recurre dolosamente al sistema penal para perjudicar a un tercero. Dependiendo de las circunstancias del caso y de la legislación aplicable, la conducta se procesa principalmente bajo los tipos penales de falsedad en declaraciones judiciales o fraude procesal, dependiendo de cómo se cometa la mentira y el objetivo que persiga el infractor. ",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Para que exista una sanción penal en contra de quien acusó falsamente debe demostrarse que actuó con conocimiento de la falsedad de los hechos o que intervino deliberadamente en la creación de una versión inexistente. Esa exigencia probatoria responde al mismo principio que protege a cualquier persona sometida a un proceso penal: la responsabilidad no puede presumirse; debe acreditarse mediante evidencia suficiente.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "En la realidad cotidiana, las investigaciones por falsedad de declaraciones o fraude procesal son considerablemente menos frecuentes que los procedimientos iniciados por los hechos originalmente denunciados. En ocasiones, las autoridades consideran que la absolución del imputado agota el conflicto jurídico y optan por no iniciar una nueva investigación respecto de quien promovió la imputación. En otros casos, la dificultad para acreditar el elemento subjetivo provoca que estos expedientes no prosperen.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta situación genera un efecto que la criminología identifica como reducción del riesgo percibido. Cuando la posibilidad de enfrentar consecuencias jurídicas resulta excepcional, algunas personas pueden llegar a considerar que instrumentalizar el sistema de justicia representa una conducta de bajo costo y alta rentabilidad. El problema deja entonces de ser exclusivamente individual y adquiere una dimensión institucional: la eficacia de cualquier norma depende, en buena medida, de la certeza de su aplicación.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sin embargo, las responsabilidades no deberían limitarse a los particulares.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En un Estado democrático, el poder punitivo pertenece exclusivamente al Estado. Por ello, cuando una investigación deficiente deriva en la privación injustificada de la libertad, la afectación patrimonial o la vulneración de derechos fundamentales, también resulta legítimo cuestionar la actuación de quienes intervinieron en el procedimiento. Ministerios Públicos que omiten diligencias esenciales, peritos que elaboran dictámenes técnicamente insostenibles, policías que alteran la cadena de custodia o jueces que validan actuaciones manifiestamente irregulares pueden incurrir, dependiendo del caso, en responsabilidades administrativas, disciplinarias e incluso penales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Este aspecto suele quedar fuera del debate público. Con frecuencia se exige que existan sanciones para quienes presentan denuncias falsas, pero pocas veces se discute qué ocurre cuando el propio Estado contribuye, mediante negligencia o actuaciones arbitrarias, a mantener una investigación sin sustento. La confianza ciudadana difícilmente puede fortalecerse si las consecuencias recaen únicamente sobre una de las partes del proceso.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Cuando el inocente debe defenderse del propio sistema",
+			},
+				{
+				tipo: "parrafo",
+				texto: "Existe una paradoja que acompaña prácticamente todos los errores judiciales: la persona que no cometió el delito termina asumiendo la carga de demostrar su inocencia frente a una estructura institucional considerablemente más poderosa.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Aunque la Constitución mexicana reconoce la presunción de inocencia como uno de los pilares del sistema penal acusatorio, en la práctica el impacto de una imputación comienza mucho antes de que un juez emita una sentencia. La apertura de una carpeta de investigación, la difusión pública de una acusación o la imposición de medidas cautelares pueden generar consecuencias laborales, familiares, económicas y sociales que difícilmente desaparecen con una resolución absolutoria.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Precisamente por ello, el orden jurídico reconoce diversos mecanismos destinados a controlar la actuación de las autoridades. El primero de ellos es el propio proceso penal, donde la defensa puede ofrecer pruebas, controvertir la evidencia presentada por el Ministerio Público, solicitar diligencias complementarias y cuestionar la legalidad de los actos de investigación. La presunción de inocencia obliga a que sea el Estado quien demuestre la responsabilidad penal; el imputado no tiene la obligación de probar que no cometió el delito.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando las irregularidades trascienden el ámbito probatorio y afectan derechos fundamentales, el juicio de amparo adquiere una relevancia especial. Este mecanismo constitucional permite combatir actos de autoridad que vulneren garantías como la legalidad, el debido proceso, la libertad personal o la seguridad jurídica. A lo largo de las últimas décadas, el amparo ha sido determinante para corregir detenciones arbitrarias, excluir pruebas obtenidas ilícitamente, dejar sin efectos órdenes de aprehensión deficientemente fundamentadas y revisar resoluciones que contravienen principios constitucionales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "No obstante, el amparo tampoco debe entenderse como una solución absoluta. Se trata de un mecanismo extraordinario de control constitucional, no de un sustituto de una investigación profesional. Cuando un procedimiento depende sistemáticamente de que los tribunales federales corrijan los errores cometidos durante las etapas iniciales, el problema deja de ser procesal y revela deficiencias estructurales en la procuración de justicia.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "A ello se suma la posibilidad de exigir responsabilidad patrimonial del Estado cuando se acredita que una actuación irregular ocasionó un daño antijurídico. Aunque en México no existe un sistema automático de compensación para personas condenadas injustamente, el marco jurídico permite, bajo determinadas condiciones, reclamar la reparación derivada del funcionamiento irregular de la administración pública. Sin embargo, estos procedimientos suelen ser largos, técnicamente complejos y, en muchos casos, implican que quien ya enfrentó un proceso penal deba iniciar un nuevo litigio para intentar obtener una reparación por los errores cometidos por las propias instituciones.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Una justicia que proteja a todos",
+			},
+			{
+				tipo: "parrafo",
+				texto: "El verdadero desafío no consiste en endurecer indiscriminadamente las penas para quienes presentan denuncias falsas ni en elevar los estándares de prueba hasta hacer imposible que las víctimas accedan a la justicia. Ambos extremos producirían consecuencias igualmente negativas. Un sistema excesivamente permisivo facilita que el proceso penal sea utilizado como instrumento de agresión; uno excesivamente restrictivo desincentiva la denuncia de delitos reales y fortalece la impunidad.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La respuesta parece encontrarse en un punto distinto: mejorar la calidad de las investigaciones.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Una fiscalía que documenta adecuadamente la escena de los hechos, preserva la evidencia, contrasta todas las hipótesis, incorpora herramientas de inteligencia, utiliza periciales científicamente sólidas y somete permanentemente sus conclusiones a procesos de revisión reduce simultáneamente dos riesgos: el de dejar impune al verdadero responsable y el de perjudicar a quien nunca debió ser investigado.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En última instancia, la fortaleza de un sistema de justicia no se mide únicamente por el número de personas que logra condenar, sino por su capacidad para garantizar que ninguna condena, ninguna medida cautelar y ninguna investigación se sostengan sobre hechos fabricados, pruebas deficientes o decisiones apresuradas. La verdadera legitimidad institucional comienza cuando las víctimas pueden confiar en que serán escuchadas, pero también cuando cualquier ciudadano tiene la certeza de que jamás perderá su libertad únicamente porque alguien decidió utilizar la ley como un instrumento para dañar.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Quizá esa sea la reflexión más importante que deja este análisis. La justicia no fracasa únicamente cuando un culpable permanece impune. También fracasa cuando un inocente debe dedicar años de su vida a demostrar algo que el Estado debió descubrir desde el primer día: que nunca existieron razones suficientes para convertirlo en acusado.",
+			},
+	],
+	},
 ];

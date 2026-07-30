@@ -5,6 +5,60 @@ import styles from "./articuloPage.module.css";
 import { FaFacebookSquare, FaLinkedin, FaBook } from "react-icons/fa";
 import { FaSquareXTwitter, FaSquareWhatsapp } from "react-icons/fa6";
 
+export async function generateMetadata({ params }) {
+  const slugParam = Array.isArray(params.slug)
+    ? params.slug[0]
+    : params.slug;
+
+  const articulo = articulos.find(
+    (a) => a.metadata.slug === slugParam
+  );
+
+  if (!articulo) {
+    return {
+      title: "Artículo no encontrado",
+    };
+  }
+
+  const image = articulo.media.banner.startsWith("http")
+    ? articulo.media.banner
+    : `https://observatorio-criminal.vercel.app${articulo.media.banner}`;
+
+  return {
+    title: articulo.metadata.titulo,
+
+    description:
+      articulo.metadata.descripcion ??
+      articulo.resumen,
+
+    openGraph: {
+      title: articulo.metadata.titulo,
+      description:
+        articulo.metadata.descripcion ??
+        articulo.resumen,
+      url: `https://observatorio-criminal.vercel.app/articulos/${articulo.metadata.slug}`,
+      type: "article",
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: articulo.metadata.titulo,
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: articulo.metadata.titulo,
+      description:
+        articulo.metadata.descripcion ??
+        articulo.resumen,
+      images: [image],
+    },
+  };
+}
+
 export default function ArticuloPage({ params }) {
 	const slugParam = Array.isArray(params.slug)
 		? params.slug[0]
