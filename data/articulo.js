@@ -5575,7 +5575,7 @@ export const articulos = [
 				texto: "Este fenómeno ha generado una compleja superposición entre economía formal e intereses criminales, donde la violencia funciona como mecanismo para asegurar el control de mercados altamente rentables. Las repercusiones trascienden la seguridad pública y alcanzan la inversión, el empleo y la competitividad internacional de una de las regiones agrícolas más importantes de México.",
 			},
 			{
-				tipo: "parrafo",
+				tipo: "subtitulo",
 				texto: "Ciudad Obregón: la violencia derivada de la fragmentación",
 			},
 			{
