@@ -1281,11 +1281,11 @@ export const articulos = [
 	{
 		metadata: {
 			id: "art-006",
-			slug: "apologia-delito",
+			slug: "apologia-del-delito",
 			titulo: "Apología del delito: ¿cómo se normaliza la violencia? ",
 			categoria: {
-				principal: "crimen-organizado",
-				label: "Crimen Organizado",
+				principal: "seguridad-publica",
+				label: "Seguridad pública",
 			},
 			etiquetas: [
 				"narcotráfico",
@@ -1583,7 +1583,7 @@ export const articulos = [
 	{
 		metadata: {
 			id: "art-007",
-			slug: "extorsion-mexico",
+			slug: "extorsion-en-mexico",
 			titulo:
 				"Extorsión en México: cómo funciona el cobro de piso y su impacto en la vida cotidiana",
 			categoria: {
@@ -1788,7 +1788,7 @@ export const articulos = [
 	{
 		metadata: {
 			id: "art-008",
-			slug: "municipios-violentos",
+			slug: "municipios-violentos-en-mexico",
 			titulo:
 				"Violencia en México: por qué algunos estados enfrentan mayores niveles de violencia",
 			categoria: {
@@ -3040,7 +3040,7 @@ export const articulos = [
 	{
 		metadata: {
 			id: "art-011",
-			slug: "narcotrafico-terrorismo",
+			slug: "del-narcotrafico-al-terrorismo",
 			titulo:
 				"Del narcotráfico al terrorismo criminal: cómo la violencia organizada transformó el miedo en una forma de control social",
 			categoria: {
@@ -3663,7 +3663,7 @@ export const articulos = [
 	{
 		metadata: {
 			id: "art-013",
-			slug: "Delincuencia-Juvenil",
+			slug: "delincuencia-Juvenil",
 			titulo:
 				"Delincuencia juvenil en México: entre la vulnerabilidad social y la responsabilidad individual",
 			categoria: {
@@ -4159,7 +4159,7 @@ export const articulos = [
 	{
 		metadata: {
 			id: "art-014",
-			slug: "Trata-de-Personas",
+			slug: "trata-de-Personas",
 			titulo:
 				"¿Estamos buscando en el lugar correcto? La trata de personas como la hipótesis olvidada detrás de las desapariciones en México",
 			categoria: {
@@ -4420,7 +4420,7 @@ export const articulos = [
 	{
 		metadata: {
 			id: "art-015",
-			slug: "La-evolucion-del-crimen-oganizado",
+			slug: "la-evolucion-del-crimen-oganizado",
 			titulo:
 				"¿Existe un punto de retorno? La evolución del crimen organizado en México y el desafío de reconstruir la seguridad",
 			categoria: {
@@ -4651,7 +4651,7 @@ export const articulos = [
 	{
 		metadata: {
 			id: "art-016",
-			slug: "La-disminucion-de-la-tolerancia-social",
+			slug: "la-disminucion-de-la-tolerancia-social",
 			titulo:
 				"¿Por qué cada vez nos cuesta más convivir? La disminución de la tolerancia social y el incremento de la violencia interpersonal en México",
 			categoria: {
@@ -4874,7 +4874,7 @@ export const articulos = [
 	{
 		metadata: {
 			id: "art-017",
-			slug: "Quien-protege-al-inocente",
+			slug: "quien-protege-al-inocente",
 			titulo:
 				"¿Quién protege al inocente? Las acusaciones falsas y los desafíos del sistema de justicia en México",
 			categoria: {
@@ -5262,5 +5262,446 @@ export const articulos = [
 				texto: "Quizá esa sea la reflexión más importante que deja este análisis. La justicia no fracasa únicamente cuando un culpable permanece impune. También fracasa cuando un inocente debe dedicar años de su vida a demostrar algo que el Estado debió descubrir desde el primer día: que nunca existieron razones suficientes para convertirlo en acusado.",
 			},
 	],
+	},
+	{
+		metadata: {
+			id: "art-018",
+			slug: "ciudades-seguras-en-mexico",
+			titulo:
+				"¿Por qué algunas ciudades mexicanas han logrado mantenerse relativamente seguras mientras otras viven ciclos permanentes de violencia?",
+			categoria: {
+				principal: "seguridad-publica",
+				label: "Seguridad pública",
+			},
+			etiquetas: [
+				"ciudades seguras en México",
+				"ranking de seguridad",
+				"ciudades violentas en México",
+				"¿por qué hay ciudades más seguras que otras?",
+				"violencia en México",
+				"inseguridad en México",
+				"Encuesta Nacional de Seguridad Pública Urbana (ENSU)",
+				"persepción de seguridad en México"
+			],
+			fechaPublicacion: "2026-07-31",
+			autor: "BMC",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"¿Por qué algunas ciudades mexicanas han logrado mantenerse relativamente seguras mientras otras viven ciclos permanentes de violencia?",
+			metaDescription: "¿Qué hace que una ciudad sea realmente segura?",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1785517912/Observatorio_criminal_19_d2cxc2.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1785517912/BannerArtPage_18_renimc.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen: "¿Qué hace que una ciudad sea realmente segura?",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto: "¿Qué hace que una ciudad sea realmente segura?",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cada trimestre, cuando el Instituto Nacional de Estadística y Geografía (INEGI) publica la Encuesta Nacional de Seguridad Pública Urbana (ENSU), los titulares suelen repetirse casi de forma automática. Algunas ciudades son catalogadas como 'las más seguras de México', mientras que otras aparecen nuevamente en la lista de las más peligrosas. La información rápidamente se transforma en infografías, rankings y publicaciones que circulan por redes sociales, donde la seguridad parece reducirse a un porcentaje de percepción ciudadana o a la posición que ocupa una ciudad dentro de una clasificación nacional.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sin embargo, la realidad es considerablemente más compleja.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La seguridad pública difícilmente puede explicarse mediante un solo indicador. Una ciudad puede registrar una baja incidencia de homicidios y, al mismo tiempo, enfrentar altos niveles de extorsión que permanecen ocultos debido a la falta de denuncia. Otra puede aparecer con una percepción ciudadana favorable mientras organizaciones criminales mantienen presencia silenciosa sin recurrir a confrontaciones abiertas. También existen municipios donde la violencia disminuye temporalmente no porque el Estado haya fortalecido sus instituciones, sino porque un solo grupo criminal logró imponer el control del territorio y reducir los enfrentamientos con sus rivales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Desde la criminología, la seguridad debe entenderse como un fenómeno dinámico y multifactorial. No depende únicamente de cuántos delitos ocurren, sino de la capacidad institucional para prevenirlos, investigarlos y sancionarlos; de la fortaleza de las policías locales; de la coordinación entre los distintos niveles de gobierno; del desarrollo económico; de la cohesión social; de la planeación urbana y, cada vez con mayor relevancia, de la capacidad del Estado para impedir que las organizaciones criminales capturen actividades económicas o espacios de gobernabilidad.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En otras palabras, una ciudad no se mantiene segura porque tenga más patrullas recorriendo sus calles. Lo hace cuando logra construir instituciones capaces de contener el delito antes de que éste se convierta en un fenómeno estructural.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "La historia reciente de México ofrece múltiples ejemplos que respaldan esta afirmación. Durante las últimas dos décadas, diversas ciudades experimentaron reducciones importantes en sus índices de violencia tras implementar estrategias específicas de coordinación policial, fortalecimiento de capacidades de inteligencia y profesionalización de sus corporaciones. Sin embargo, otras localidades que en algún momento fueron consideradas relativamente seguras enfrentaron un deterioro acelerado cuando la fragmentación de grupos criminales, la corrupción institucional o el crecimiento desordenado superaron la capacidad de respuesta de las autoridades.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Quizá uno de los mayores errores al analizar la seguridad urbana consiste en asumir que ésta permanece estática. En realidad, se trata de una condición que exige mantenimiento permanente. La estabilidad alcanzada durante varios años puede modificarse en cuestión de meses si aparecen nuevos mercados ilícitos, si una organización criminal decide disputar el control territorial o si las instituciones encargadas de preservar el orden comienzan a perder capacidad operativa.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sinaloa representa uno de los ejemplos más ilustrativos de esta dinámica. Durante años, ciudades como Los Mochis y Culiacán registraron indicadores relativamente favorables en diversas mediciones de percepción ciudadana. No obstante, la confrontación entre facciones del Cártel de Sinaloa tras la captura de Ismael 'El Mayo' Zambada modificó drásticamente las condiciones de seguridad en buena parte del estado. Los bloqueos carreteros, enfrentamientos armados, ataques contra infraestructura, suspensión de actividades escolares y afectaciones económicas demostraron que una ciudad puede cambiar radicalmente cuando los factores que sostenían su estabilidad dejan de existir.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "El fenómeno contrario también resulta relevante. Existen municipios que durante años fueron asociados con elevados niveles de violencia y que, mediante transformaciones institucionales sostenidas, lograron recuperar condiciones de seguridad significativamente mejores. Coahuila constituye uno de los casos más estudiados en América Latina. Municipios como Saltillo o Piedras Negras, que hace poco más de una década enfrentaban escenarios complejos derivados de la disputa entre organizaciones criminales, hoy aparecen de manera recurrente entre las ciudades con mejores indicadores de seguridad del país. La diferencia no radica únicamente en la disminución de los delitos, sino en la consolidación de un modelo de coordinación entre fuerzas estatales, autoridades municipales, sector empresarial y mecanismos de inteligencia que permitió recuperar gradualmente el control institucional del territorio.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Estos contrastes evidencian que la seguridad no depende exclusivamente de factores geográficos ni de características culturales propias de una región. Tampoco responde a una fórmula única aplicable por igual en todo el país. Cada ciudad enfrenta amenazas distintas y desarrolla capacidades diferentes para contenerlas. Algunas deben enfrentar mercados ilícitos vinculados con el narcotráfico; otras concentran problemas relacionados con el robo de carga, la extorsión, la trata de personas, el turismo o los flujos migratorios. En consecuencia, comparar ciudades únicamente mediante un indicador aislado suele conducir a conclusiones incompletas.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Por esa razón, el presente análisis no pretende elaborar un ranking de 'las mejores' o 'las peores' ciudades para vivir. El objetivo es comprender por qué algunas han logrado conservar condiciones relativamente estables mientras otras permanecen atrapadas en ciclos recurrentes de violencia e inseguridad. Para ello resulta indispensable observar la seguridad desde una perspectiva integral que combine información oficial, percepción ciudadana, evolución delictiva, presencia de organizaciones criminales, capacidad institucional y acontecimientos registrados durante el último año.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sólo entendiendo cómo interactúan todos estos elementos será posible responder una pregunta mucho más importante que la posición que ocupa una ciudad en una encuesta: ¿qué condiciones permiten que una comunidad construya seguridad de manera sostenida y qué factores explican que otras continúen perdiéndola?",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Las ciudades que han logrado contener la violencia: ¿qué hicieron diferente?",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Cuando se habla de las ciudades más seguras de México suele asumirse que todas comparten una misma fórmula de éxito. Sin embargo, un análisis más profundo demuestra que cada una llegó a ese escenario por caminos distintos. Algunas fortalecieron sus instituciones policiales; otras aprovecharon condiciones geográficas favorables; varias consolidaron modelos de coordinación entre los tres niveles de gobierno y, en ciertos casos, el crecimiento económico y la cohesión social funcionaron como barreras adicionales frente a la expansión de la delincuencia.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "No existe una receta universal para construir seguridad, pero sí es posible identificar patrones que se repiten en aquellas ciudades que, durante los últimos años, han conseguido mantenerse por debajo de la media nacional tanto en percepción de inseguridad como en la incidencia de delitos de alto impacto. Comprender esos factores resulta mucho más útil que limitarse a conocer qué municipio ocupa el primer lugar en una encuesta.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "San Pedro Garza García: cuando la inversión institucional se convierte en una política permanente",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Desde hace varios años, San Pedro Garza García aparece de manera constante entre las ciudades con menor percepción de inseguridad del país. Su posición suele generar debates, particularmente porque forma parte de la zona metropolitana de Monterrey, una región que históricamente ha experimentado episodios de violencia relacionados con la delincuencia organizada.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La explicación no radica en la ausencia de amenazas criminales, sino en la capacidad institucional para contenerlas.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "San Pedro ha construido uno de los modelos municipales de seguridad más robustos del país mediante una combinación de profesionalización policial, inversión tecnológica, sistemas avanzados de videovigilancia, monitoreo urbano y una estrecha coordinación con Fuerza Civil y autoridades federales. A diferencia de otros municipios donde las estrategias cambian cada tres años con la llegada de una nueva administración, buena parte de sus políticas de seguridad han mantenido continuidad, permitiendo consolidar capacidades operativas que trascienden los ciclos políticos.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Otro elemento determinante es su estructura urbana. La elevada recaudación municipal permite financiar infraestructura pública, iluminación, espacios urbanos vigilados y servicios que reducen las oportunidades para la comisión de delitos patrimoniales. Paralelamente, el alto nivel de formalidad económica facilita una mayor colaboración entre autoridades, empresas y ciudadanía para reportar incidentes y atender riesgos emergentes.",
+			},
+				{
+				tipo: "parrafo",
+				texto: "Sin embargo, interpretar estos resultados como evidencia de inmunidad frente al crimen organizado sería un error. La ubicación de San Pedro dentro del corredor industrial de Nuevo León implica que continúa expuesto a amenazas relacionadas con operaciones financieras ilícitas, lavado de activos y movilidad de organizaciones criminales que operan en municipios vecinos. La diferencia consiste en que dichas dinámicas rara vez logran traducirse en niveles elevados de violencia cotidiana gracias a una respuesta institucional más rápida y coordinada.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En otras palabras, San Pedro no es una ciudad libre de criminalidad; es una ciudad que ha desarrollado mayores capacidades para impedir que ésta se manifieste de manera generalizada.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Saltillo: la reconstrucción institucional después de una década de violencia",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Pocas ciudades ilustran mejor la capacidad de recuperación institucional que Saltillo.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Durante los años más críticos de la llamada guerra contra el narcotráfico, Coahuila enfrentó una de las etapas más violentas de su historia reciente. Municipios como Allende, Piedras Negras, Monclova y Saltillo experimentaron el impacto de organizaciones criminales que disputaban corredores estratégicos para el tráfico de drogas, armas, hidrocarburos y personas hacia la frontera con Estados Unidos.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Lejos de convertirse en una condición permanente, esa crisis obligó al estado a replantear completamente su modelo de seguridad.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "A partir de la segunda mitad de la década pasada comenzaron a consolidarse profundas transformaciones orientadas a fortalecer las capacidades de inteligencia, profesionalizar a las corporaciones policiales y establecer una coordinación permanente entre fuerzas estatales, Ejército, Guardia Nacional, fiscalías y autoridades municipales. Paralelamente, se incrementó el control sobre los accesos carreteros mediante filtros de vigilancia, arcos de seguridad y sistemas tecnológicos que permitieron dificultar la movilidad de grupos delictivos.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los aspectos menos visibles, pero probablemente más importantes, fue la construcción de mecanismos permanentes de colaboración con el sector empresarial. La industria instalada en la región entendió que la seguridad representaba una condición indispensable para mantener inversiones y cadenas logísticas, favoreciendo esquemas de intercambio de información, prevención situacional y fortalecimiento institucional.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Los resultados no aparecieron de manera inmediata. La recuperación fue gradual y requirió varios años de continuidad administrativa. Hoy Saltillo figura recurrentemente entre las ciudades con mejores indicadores de percepción de seguridad porque logró algo que pocas entidades han conseguido: transformar una respuesta reactiva frente a la violencia en una política pública sostenida.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "No obstante, su experiencia también demuestra que ninguna estrategia puede considerarse definitiva. La cercanía con estados que enfrentan altos niveles de violencia obliga a mantener un esfuerzo permanente de vigilancia e inteligencia para evitar que la presión criminal vuelva a trasladarse hacia la entidad.",
+			},
+						{
+				tipo: "subtitulo",
+				texto: "Mérida: una excepción que también enfrenta nuevos desafíos",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Durante décadas, Mérida ha construido una reputación nacional e internacional como una de las ciudades más seguras de México. Esa percepción no obedece únicamente a los resultados de las encuestas ciudadanas, sino a una combinación de factores históricos, sociales e institucionales que han permitido mantener bajos niveles de delitos de alto impacto en comparación con otras capitales estatales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Uno de los elementos más relevantes ha sido la estabilidad de las instituciones encargadas de la seguridad pública. La Secretaría de Seguridad Pública de Yucatán ha mantenido durante años un modelo de profesionalización policial caracterizado por bajos niveles de rotación, procesos continuos de capacitación, inversión tecnológica y una importante capacidad de coordinación operativa. A ello se suma una cultura ciudadana donde la denuncia, la participación comunitaria y el cumplimiento de normas conservan niveles relativamente elevados respecto del promedio nacional.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La propia estructura económica del estado también ha contribuido a limitar la expansión de determinados mercados ilícitos. A diferencia de entidades atravesadas por rutas estratégicas del narcotráfico o por intensas disputas territoriales entre organizaciones criminales, Yucatán ha permanecido relativamente al margen de esos conflictos, reduciendo la probabilidad de enfrentamientos armados de gran escala.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sin embargo, considerar a Mérida como una ciudad completamente ajena a la delincuencia sería una interpretación equivocada.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "El acelerado crecimiento demográfico, el incremento sostenido del turismo, la llegada de nuevos desarrollos inmobiliarios y la expansión metropolitana comienzan a modificar las condiciones que históricamente favorecieron su estabilidad. Durante los últimos años se ha observado un aumento en delitos patrimoniales, fraudes electrónicos, extorsiones telefónicas, violencia familiar y desapariciones de personas, fenómenos que responden a dinámicas distintas a las observadas en entidades con fuerte presencia del crimen organizado, pero que igualmente representan desafíos para las instituciones locales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La principal fortaleza de Mérida consiste precisamente en reconocer que la seguridad no es un estado permanente. Su experiencia demuestra que conservar buenos indicadores exige anticiparse a los cambios sociales antes de que éstos generen problemas estructurales.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Piedras Negras: la seguridad como estrategia fronteriza",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Hablar de una ciudad fronteriza con bajos niveles de violencia puede parecer contradictorio si se considera la intensa actividad criminal que históricamente caracteriza buena parte de la frontera norte. Sin embargo, Piedras Negras constituye una excepción que merece atención.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Su ubicación frente a Eagle Pass, Texas, la convierte en un punto estratégico para el comercio internacional y el tránsito de mercancías. Precisamente por ello, el fortalecimiento de la seguridad fue entendido como un requisito indispensable para preservar la competitividad económica de la región.",
+			},
+				{
+				tipo: "parrafo",
+				texto: "La coordinación entre autoridades estatales, federales y municipales permitió consolidar un modelo de vigilancia que combina inteligencia, presencia operativa y control de corredores carreteros, reduciendo considerablemente la capacidad de grupos criminales para establecer dinámicas de violencia similares a las observadas en otras ciudades fronterizas.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La experiencia de Piedras Negras confirma que la ubicación geográfica no determina inevitablemente los niveles de inseguridad. Las condiciones del entorno representan un factor de riesgo, pero la capacidad institucional sigue siendo el elemento que marca la diferencia entre contener las amenazas o permitir que éstas evolucionen hasta convertirse en crisis de seguridad.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Al observar conjuntamente estos casos emerge un patrón difícil de ignorar. Ninguna de estas ciudades alcanzó mejores condiciones de seguridad mediante acciones aisladas o estrategias de corto plazo. Todas comparten instituciones relativamente estables, continuidad en sus políticas públicas, inversión sostenida en capacidades policiales y mecanismos de coordinación que permiten responder antes de que la violencia alcance niveles críticos. La seguridad, en consecuencia, no parece depender exclusivamente de la cantidad de recursos disponibles, sino de la capacidad para convertirlos en instituciones que sobrevivan a los cambios de gobierno y mantengan una visión de largo plazo.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sin embargo, comprender por qué algunas ciudades han logrado contener la violencia sólo explica una parte del fenómeno. La otra mitad de la respuesta se encuentra en aquellos municipios donde los mercados criminales, la fragmentación de organizaciones delictivas y la debilidad institucional han producido el efecto contrario. Analizar esos casos permitirá entender que la inseguridad tampoco surge de manera espontánea; detrás de cada ciudad que hoy enfrenta altos niveles de violencia existe una combinación específica de factores que, con el tiempo, terminaron erosionando la capacidad del Estado para conservar el control del territorio.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Cuando la violencia se vuelve parte de la vida cotidiana: ¿por qué algunas ciudades no logran romper el ciclo de la inseguridad?",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Si las ciudades que han logrado mantener mejores condiciones de seguridad comparten instituciones sólidas y políticas públicas sostenidas, las localidades que hoy enfrentan los mayores niveles de violencia también presentan elementos comunes. La diferencia no radica únicamente en la presencia de organizaciones criminales. Después de todo, prácticamente todo el territorio nacional registra algún grado de actividad ilícita. Lo que distingue a las ciudades más afectadas es la convergencia de múltiples factores que terminan debilitando la capacidad del Estado para conservar el control de la seguridad pública.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La experiencia mexicana demuestra que la violencia rara vez aparece de forma espontánea. Generalmente comienza con la consolidación de economías ilegales, continúa con la disputa por el control de esos mercados y, finalmente, evoluciona hacia escenarios donde la intimidación, el homicidio y la extorsión se convierten en mecanismos cotidianos para ejercer poder sobre la población. Cuando este proceso no es contenido oportunamente, la inseguridad deja de ser un problema exclusivamente policial y comienza a transformar la dinámica económica, social e incluso política de una ciudad.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Los casos de Culiacán, Irapuato, Uruapan, Ciudad Obregón y Reynosa ilustran con claridad este fenómeno. Aunque pertenecen a regiones distintas y enfrentan problemáticas particulares, todas comparten una característica fundamental: en algún momento la capacidad de las organizaciones criminales para influir sobre el territorio comenzó a superar la capacidad institucional para contenerlas.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Culiacán: cuando la fragmentación criminal rompe un equilibrio construido durante décadas",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Durante muchos años, Culiacán fue considerada una ciudad donde la presencia del narcotráfico coexistía con niveles de violencia relativamente contenidos si se comparaban con otras regiones del país. Esa percepción obedecía, en gran medida, a la existencia de una organización criminal con una estructura jerárquica definida que mantenía un control predominante sobre buena parte del estado.",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Sin embargo, la historia reciente demostró que ese aparente equilibrio era profundamente frágil.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La captura de Ovidio Guzmán en enero de 2023 ya había evidenciado la capacidad de reacción de las organizaciones criminales mediante bloqueos carreteros, incendios de vehículos y ataques coordinados contra infraestructura pública. No obstante, la crisis adquirió una dimensión mucho mayor tras la detención de Ismael 'El Mayo' Zambada en 2024, acontecimiento que aceleró la confrontación entre distintas facciones del Cártel de Sinaloa.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Lo ocurrido desde entonces representa uno de los ejemplos más claros de cómo la fragmentación criminal modifica radicalmente la seguridad urbana. Las disputas dejaron de concentrarse únicamente en corredores rurales o zonas serranas para trasladarse a espacios urbanos donde la población comenzó a convivir nuevamente con enfrentamientos armados, bloqueos, suspensión de actividades escolares, afectaciones al transporte público y una creciente incertidumbre económica.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "El caso de Culiacán demuestra que la estabilidad basada exclusivamente en el predominio de una organización criminal nunca constituye una política de seguridad sostenible. Mientras las instituciones estatales no logren consolidar plenamente el monopolio legítimo de la fuerza, cualquier reconfiguración interna de esos grupos puede traducirse en una rápida escalada de violencia.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Irapuato: la disputa permanente por el control económico del Bajío",
+			},
+						{
+				tipo: "parrafo",
+				texto: "A diferencia de Culiacán, donde la violencia reciente responde principalmente a una fractura interna, Irapuato refleja las consecuencias de una confrontación prolongada entre organizaciones rivales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Su ubicación estratégica dentro del corredor industrial del Bajío convirtió a la ciudad en un punto de alto valor logístico para actividades relacionadas con el robo de hidrocarburos, el transporte de mercancías, la distribución de drogas y la extorsión de sectores productivos. Esa combinación de factores generó un escenario donde distintos grupos buscaron controlar simultáneamente economías ilícitas y actividades legales susceptibles de explotación criminal.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "El resultado ha sido una violencia persistente que trasciende el número de homicidios. Comerciantes, transportistas, pequeñas empresas y diversos sectores económicos han debido incorporar la inseguridad como una variable cotidiana dentro de sus actividades. La extorsión, los ataques contra establecimientos comerciales y las agresiones dirigidas a determinados sectores productivos evidencian que el objetivo de las organizaciones ya no consiste únicamente en controlar rutas de trasiego, sino también en capturar fuentes permanentes de financiamiento mediante economías locales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esta evolución resulta especialmente preocupante porque amplía el universo de víctimas potenciales. La violencia deja de concentrarse entre grupos rivales y comienza a afectar directamente a ciudadanos cuya única relación con la criminalidad consiste en desarrollar una actividad económica.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Uruapan: cuando los recursos naturales también se convierten en mercados criminales",
+			},
+				{
+				tipo: "parrafo",
+				texto: "La violencia en Uruapan no puede entenderse exclusivamente desde el narcotráfico.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Michoacán concentra algunos de los mercados agrícolas más importantes del país, particularmente en la producción y exportación de aguacate y berries. Lejos de permanecer al margen de la delincuencia organizada, estas actividades se han convertido en fuentes de ingresos ilícitos mediante esquemas de extorsión, cobro de piso, control de cadenas logísticas e imposición de cuotas sobre productores y transportistas.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En consecuencia, la disputa por el territorio responde tanto al control de rutas para el tráfico de drogas como al dominio de actividades económicas completamente legales.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Este fenómeno ha generado una compleja superposición entre economía formal e intereses criminales, donde la violencia funciona como mecanismo para asegurar el control de mercados altamente rentables. Las repercusiones trascienden la seguridad pública y alcanzan la inversión, el empleo y la competitividad internacional de una de las regiones agrícolas más importantes de México.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Ciudad Obregón: la violencia derivada de la fragmentación",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Sonora representa uno de los principales corredores estratégicos hacia la frontera con Estados Unidos. Esa condición geográfica ha favorecido históricamente la presencia de organizaciones dedicadas al tráfico de drogas, armas, personas y recursos financieros.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Ciudad Obregón ha resentido particularmente las consecuencias de la fragmentación de grupos criminales ocurrida durante los últimos años. Diversas células comenzaron a disputar espacios previamente controlados por estructuras más consolidadas, incrementando significativamente los homicidios dolosos y otros delitos de alto impacto.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La violencia en esta región evidencia un patrón que también se observa en otros estados: cuando una organización pierde cohesión interna, el conflicto suele multiplicarse porque las disputas dejan de involucrar únicamente a dos actores claramente identificables y comienzan a fragmentarse entre múltiples células con capacidad variable de operación.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "En esos escenarios, las posibilidades de negociación disminuyen y la competencia por el territorio se vuelve considerablemente más impredecible.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Reynosa: la presión constante de una frontera estratégica",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Reynosa constituye uno de los ejemplos más representativos de los desafíos que enfrentan las ciudades fronterizas.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Su cercanía con Estados Unidos la convierte en un punto de enorme importancia para el comercio internacional, pero también para las actividades desarrolladas por organizaciones dedicadas al tráfico de drogas, personas, armas, combustible y mercancías ilícitas. Esa convergencia de intereses explica que la violencia en la región no responda únicamente a dinámicas locales, sino también a disputas vinculadas con mercados criminales de carácter transnacional.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "A diferencia de otras ciudades donde los periodos de violencia suelen concentrarse en momentos específicos, Reynosa ha experimentado ciclos recurrentes de enfrentamientos derivados de la reconfiguración constante de las organizaciones que buscan controlar los cruces fronterizos.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Ello obliga a mantener un despliegue permanente de fuerzas estatales y federales que, si bien ha permitido contener parcialmente algunos episodios, no ha logrado eliminar completamente las condiciones estructurales que favorecen la disputa criminal.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "La violencia no aparece por casualidad",
+			},
+						{
+				tipo: "parrafo",
+				texto: "Aunque cada una de estas ciudades enfrenta problemáticas particulares, todas reflejan una misma conclusión: la inseguridad no surge exclusivamente porque existan organizaciones criminales, sino porque estas encuentran condiciones que les permiten expandirse, disputar territorios y capturar economías locales durante periodos prolongados.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La experiencia mexicana demuestra que las ciudades más violentas no llegaron a esa situación de un día para otro. Antes de que aparecieran los homicidios masivos, los bloqueos carreteros o las confrontaciones armadas, existieron señales tempranas que en muchos casos fueron subestimadas: crecimiento de mercados ilícitos, corrupción institucional, debilitamiento de las policías locales, incremento de la extorsión, impunidad persistente y una capacidad cada vez menor del Estado para responder de manera preventiva.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Comprender esa secuencia resulta fundamental porque permite abandonar la idea de que la violencia es un fenómeno inevitable. Así como las ciudades analizadas en el apartado anterior demostraron que la seguridad puede construirse mediante instituciones sólidas y políticas públicas sostenidas, estos casos evidencian que la inseguridad también sigue un proceso identificable. Reconocer esas etapas constituye el primer paso para intervenir antes de que una ciudad termine incorporando la violencia como parte de su vida cotidiana.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Qué pueden aprender las ciudades mexicanas de ambos modelos?",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Comparar ciudades como San Pedro Garza García, Saltillo o Mérida con Culiacán, Irapuato, Uruapan o Reynosa podría llevar a una conclusión simplista: unas son seguras y otras no. Sin embargo, reducir el análisis a esa dicotomía impediría comprender el verdadero problema. Ninguna de las ciudades consideradas hoy como referentes nacionales nació con ventajas imposibles de replicar, del mismo modo que ninguna de las localidades más violentas estuvo condenada desde su origen a vivir bajo escenarios de inseguridad permanente.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "La diferencia más importante no radica en la cantidad de recursos económicos disponibles, sino en la capacidad de las instituciones para adaptarse antes de que la violencia se convierta en un fenómeno estructural."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Las ciudades que hoy mantienen mejores indicadores comparten un rasgo poco visible para la mayoría de la población: construyeron instituciones que sobrevivieron a los cambios políticos. Mientras en muchos municipios las estrategias de seguridad se modifican cada tres o seis años, las entidades que han logrado consolidar mejores resultados desarrollaron proyectos de largo plazo donde la profesionalización policial, la inversión tecnológica, la inteligencia criminal y la coordinación interinstitucional dejaron de depender de una administración específica para convertirse en políticas permanentes."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Esta continuidad genera un efecto acumulativo. Una policía que conserva personal capacitado durante años desarrolla conocimiento sobre las dinámicas delictivas de su territorio; una fiscalía que mantiene equipos especializados mejora progresivamente sus capacidades de investigación; una administración municipal que invierte de forma constante en videovigilancia, iluminación, movilidad urbana y recuperación de espacios públicos reduce paulatinamente las oportunidades para la comisión de delitos. La seguridad, en consecuencia, comienza a construirse mucho antes de que aparezca la patrulla o se ejecute un operativo."
+			},
+						{
+				tipo: "parrafo",
+				texto: "En contraste, las ciudades que enfrentan mayores niveles de violencia muestran una característica recurrente: la respuesta institucional suele llegar cuando las organizaciones criminales ya consolidaron suficiente poder económico, territorial y social para desafiar abiertamente al Estado. En ese momento, la política pública deja de concentrarse en la prevención y se transforma en una estrategia de contención. Los recursos comienzan a destinarse a enfrentar homicidios, bloqueos carreteros, desplazamientos forzados y ataques armados, mientras problemas que originalmente parecían menores —como la extorsión, el robo de combustible, el narcomenudeo o el control de mercados locales— evolucionan hasta convertirse en la principal fuente de financiamiento de las estructuras criminales."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La experiencia reciente de México demuestra que prácticamente todas las grandes crisis de seguridad siguieron ese mismo patrón. Antes de los enfrentamientos masivos existieron pequeños grupos que comenzaron a controlar colonias específicas; antes de los bloqueos carreteros aparecieron disputas por mercados ilícitos; antes del desplazamiento forzado surgieron amenazas contra comerciantes, productores o transportistas; antes de los homicidios múltiples se normalizaron delitos que durante años fueron considerados de menor importancia. La violencia extrema rara vez constituye el punto de partida. Generalmente representa la etapa más visible de un deterioro institucional que comenzó mucho tiempo atrás."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Otro aprendizaje importante consiste en reconocer que la seguridad pública no puede construirse exclusivamente mediante el fortalecimiento policial. Las ciudades más estables suelen compartir mejores niveles de desarrollo económico, mayor formalidad laboral, infraestructura urbana funcional, espacios públicos activos, sistemas educativos más sólidos y una mayor participación ciudadana. Estos elementos no sustituyen el trabajo policial, pero sí disminuyen las condiciones que facilitan el reclutamiento por parte de organizaciones criminales y fortalecen la capacidad de las comunidades para resistir procesos de captura social."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Este aspecto resulta especialmente relevante frente a uno de los mayores desafíos que enfrenta actualmente México: la fragmentación del crimen organizado. Durante décadas, buena parte de las políticas de seguridad estuvieron orientadas a desarticular las estructuras de liderazgo de los grandes cárteles. Si bien estas estrategias permitieron debilitar organizaciones específicas, también produjeron un fenómeno que hoy caracteriza gran parte de la violencia nacional: la proliferación de células más pequeñas, menos jerarquizadas y altamente violentas, cuya supervivencia depende de capturar economías locales mediante la extorsión, el cobro de piso, el secuestro, el robo de transporte de carga o la explotación de mercados legales."
+			},
+						{
+				tipo: "parrafo",
+				texto: "En este nuevo contexto, medir el éxito de una política pública exclusivamente mediante la disminución de homicidios resulta insuficiente. Una ciudad puede reducir temporalmente sus asesinatos mientras aumenta la extorsión, la desaparición de personas, la trata o el control criminal sobre determinadas actividades económicas. Por ello, la verdadera evaluación de la seguridad debe incorporar variables relacionadas con la gobernabilidad, la confianza ciudadana, la capacidad de investigación, la protección de las víctimas y la recuperación del espacio público."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Quizá el mayor aprendizaje que dejan las ciudades analizadas es que la seguridad no depende de una sola institución. Policía, fiscalías, Poder Judicial, gobiernos municipales, iniciativa privada, universidades y ciudadanía forman parte de un mismo ecosistema. Cuando alguno de esos componentes deja de funcionar, las organizaciones criminales encuentran oportunidades para ocupar los espacios que el Estado abandona. Por el contrario, cuando existe coordinación efectiva, continuidad administrativa y políticas públicas basadas en evidencia, incluso ciudades que enfrentaron algunos de los periodos más violentos de su historia pueden recuperar gradualmente condiciones de estabilidad."
+			},
+						{
+				tipo: "subtitulo",
+				texto: "La seguridad no es un destino; es una condición que debe construirse todos los días"
+			},
+						{
+				tipo: "parrafo",
+				texto: "Existe una tendencia recurrente a clasificar a las ciudades mexicanas entre 'seguras' e 'inseguras', como si ambas categorías fueran permanentes. Sin embargo, la experiencia nacional demuestra exactamente lo contrario. Municipios que hace una década encabezaban los indicadores de violencia hoy muestran avances importantes, mientras otros que durante años fueron considerados ejemplos de estabilidad enfrentan desafíos que parecían impensables hace poco tiempo."
+			},
+						{
+				tipo: "parrafo",
+				texto: "La seguridad no constituye un estado definitivo. Es una condición dinámica que exige adaptación constante frente a amenazas igualmente cambiantes."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Los mercados ilícitos evolucionan, las organizaciones criminales modifican sus modelos de operación, las tecnologías transforman las formas de delinquir y las ciudades experimentan procesos acelerados de crecimiento urbano, migración y desarrollo económico que generan nuevas oportunidades tanto para la prosperidad como para la criminalidad. En consecuencia, ninguna estrategia puede permanecer inmóvil si pretende seguir siendo eficaz."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Quizá esa sea la principal enseñanza que deja el análisis de las ciudades mexicanas. La diferencia entre aquellas que hoy conservan mejores condiciones de seguridad y las que enfrentan mayores niveles de violencia no se explica únicamente por el número de patrullas, cámaras o elementos desplegados en las calles. La verdadera diferencia radica en la capacidad institucional para anticipar los cambios antes de que el delito se transforme en una estructura paralela de poder."
+			},
+						{
+				tipo: "parrafo",
+				texto: "En un país donde la inseguridad suele medirse mediante rankings trimestrales y estadísticas anuales, conviene recordar que los indicadores representan únicamente la consecuencia visible de procesos mucho más profundos. Detrás de cada ciudad segura existen años de construcción institucional; detrás de cada ciudad violenta, una sucesión de decisiones, omisiones y oportunidades desaprovechadas que permitieron que el crimen ocupara espacios que nunca debieron quedar vacíos."
+			},
+						{
+				tipo: "parrafo",
+				texto: "Comprender esa diferencia quizá sea el primer paso para dejar de preguntarnos cuáles son hoy las ciudades más seguras de México y comenzar a discutir una cuestión mucho más relevante para el futuro del país: ¿qué estamos haciendo para que las ciudades que hoy enfrentan violencia no continúen recorriendo el mismo camino durante la próxima década?"
+			},
+		],
 	},
 ];
