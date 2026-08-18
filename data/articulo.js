@@ -11,9 +11,11 @@ export const articulos = [
 			etiquetas: [
 				"criminología",
 				"perfilación criminal",
+				"perfil criminal",
 				"análisis conductual",
-				"violencia",
-				"asesinos en seria",
+				"perfilación criminológica",
+				"investigación criminal",
+				"psicología criminal",
 			],
 			fechaPublicacion: "2026-01-01",
 			autor: "Perla Mondragón",
@@ -22,8 +24,8 @@ export const articulos = [
 		},
 
 		clasificacion: {
-			area: "Delincuencia en México",
-			subarea: "Análisis conductual",
+			area: "Criminología",
+			subarea: "Perfilación criminal",
 			nivel: "Divulgativo",
 			region: "México",
 		},
@@ -31,7 +33,7 @@ export const articulos = [
 		seo: {
 			metaTitle: "Perfilación criminal en México: qué es y cómo se aplica",
 			metaDescription:
-				"Análisis criminológico sobre la perfilación criminal en México, sus alcances reales, limitaciones y aplicación práctica.",
+				"¿Qué es la perfilación criminal? Conoce cómo se aplica en México, sus alcances, limitaciones y utilidad dentro del análisis criminológico.",
 		},
 
 		media: {
@@ -255,18 +257,20 @@ export const articulos = [
 		metadata: {
 			id: "art-002",
 			slug: "criminologia-en-mexico",
-			titulo: "La criminología en México: funciones, alcances y retos",
+			titulo: "Criminología en México: funciones, alcances y retos",
 			categoria: {
 				principal: "investigacion-criminologica",
 				label: "Investigación criminológica",
 			},
 			etiquetas: [
 				"criminología",
-				"criminologos en méxico",
-				"análisis conductual",
-				"violencia",
-				"sistema penitenciario",
+				"criminología en México",
+				"criminólogos en México",
+				"ciencia criminológica",
+				"investigación criminal",
 				"política criminal",
+				"prevención del delito",
+				"sistema penitenciario",
 			],
 			fechaPublicacion: "2026-03-23",
 			autor: "Perla Mondragón",
@@ -275,10 +279,16 @@ export const articulos = [
 		},
 
 		clasificacion: {
-			area: "Delincuencia en México",
-			subarea: "Análisis conductual",
+			area: "Criminología",
+			subarea: "Criminología en México",
 			nivel: "Divulgativo",
 			region: "México",
+		},
+
+		seo: {
+			metaTitle: "Criminología en México: funciones, campo laboral y retos",
+			metaDescription:
+				"Conoce qué es la criminología en México, cuáles son sus funciones, campos de aplicación y principales retos dentro de la prevención del delito y la seguridad.",
 		},
 
 		seo: {
@@ -4707,31 +4717,38 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Ante este escenario la pregunta resulta inevitable: ¿qué cambió en la sociedad mexicana para que conflictos cada vez más pequeños produzcan consecuencias cada vez más graves? ",
+				texto:
+					"Ante este escenario la pregunta resulta inevitable: ¿qué cambió en la sociedad mexicana para que conflictos cada vez más pequeños produzcan consecuencias cada vez más graves? ",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La respuesta difícilmente puede encontrarse en un único factor. Hablar de violencia interpersonal implica analizar transformaciones culturales, económicas, psicológicas e incluso tecnológicas que, de manera gradual, parecen haber reducido nuestra capacidad para tolerar la frustración, gestionar el enojo y resolver diferencias sin recurrir a la agresión.",
+				texto:
+					"La respuesta difícilmente puede encontrarse en un único factor. Hablar de violencia interpersonal implica analizar transformaciones culturales, económicas, psicológicas e incluso tecnológicas que, de manera gradual, parecen haber reducido nuestra capacidad para tolerar la frustración, gestionar el enojo y resolver diferencias sin recurrir a la agresión.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Quizá el problema no sea que existan más motivos para discutir, ya que los conflictos han acompañado a las sociedades desde siempre. Lo verdaderamente novedoso es la forma en que reaccionamos frente a ellos. En una época marcada por la inmediatez, la sobreexposición a la violencia y el desgaste constante de las relaciones sociales, la capacidad para controlar los impulsos parece haberse convertido en un recurso cada vez más escaso. El resultado es una sociedad donde el conflicto cotidiano comienza a percibirse no como una parte inevitable de la convivencia, sino como una agresión personal que debe responderse de inmediato.",
+				texto:
+					"Quizá el problema no sea que existan más motivos para discutir, ya que los conflictos han acompañado a las sociedades desde siempre. Lo verdaderamente novedoso es la forma en que reaccionamos frente a ellos. En una época marcada por la inmediatez, la sobreexposición a la violencia y el desgaste constante de las relaciones sociales, la capacidad para controlar los impulsos parece haberse convertido en un recurso cada vez más escaso. El resultado es una sociedad donde el conflicto cotidiano comienza a percibirse no como una parte inevitable de la convivencia, sino como una agresión personal que debe responderse de inmediato.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "A este hecho sumamos que, al menos durante los últimos cuarenta años México ha convivido de manera casi ininterrumpida con distintas expresiones de violencia. Primero fue la expansión del narcotráfico, posteriormente la fragmentación de las organizaciones criminales, el incremento de los homicidios, la diversificación de economías ilícitas, las desapariciones, los desplazamientos forzados y, finalmente, la normalización de imágenes violentas difundidas diariamente por medios de comunicación y redes sociales.",
+				texto:
+					"A este hecho sumamos que, al menos durante los últimos cuarenta años México ha convivido de manera casi ininterrumpida con distintas expresiones de violencia. Primero fue la expansión del narcotráfico, posteriormente la fragmentación de las organizaciones criminales, el incremento de los homicidios, la diversificación de economías ilícitas, las desapariciones, los desplazamientos forzados y, finalmente, la normalización de imágenes violentas difundidas diariamente por medios de comunicación y redes sociales.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Para millones de mexicanos, crecer escuchando noticias sobre ejecuciones, enfrentamientos armados o fosas clandestinas dejó de ser una excepción para convertirse en parte del entorno cotidiano. La violencia comenzó a ocupar espacios que antes pertenecían exclusivamente a la convivencia comunitaria, modificando gradualmente la percepción colectiva sobre aquello que resulta extraordinario y aquello que parece formar parte de la vida diaria.",
+				texto:
+					"Para millones de mexicanos, crecer escuchando noticias sobre ejecuciones, enfrentamientos armados o fosas clandestinas dejó de ser una excepción para convertirse en parte del entorno cotidiano. La violencia comenzó a ocupar espacios que antes pertenecían exclusivamente a la convivencia comunitaria, modificando gradualmente la percepción colectiva sobre aquello que resulta extraordinario y aquello que parece formar parte de la vida diaria.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Desde luego, esta exposición no convierte automáticamente a las personas en agresores. La mayoría jamás ejercerá violencia contra otra persona. Sin embargo, numerosos estudios en psicología social han documentado que la repetición constante de determinados estímulos modifica la forma en que los individuos interpretan el riesgo, el miedo y la utilización de la fuerza. Cuando una sociedad permanece expuesta durante años a elevados niveles de violencia, también cambia la manera en que comprende los conflictos y las respuestas consideradas aceptables para resolverlos.",
+				texto:
+					"Desde luego, esta exposición no convierte automáticamente a las personas en agresores. La mayoría jamás ejercerá violencia contra otra persona. Sin embargo, numerosos estudios en psicología social han documentado que la repetición constante de determinados estímulos modifica la forma en que los individuos interpretan el riesgo, el miedo y la utilización de la fuerza. Cuando una sociedad permanece expuesta durante años a elevados niveles de violencia, también cambia la manera en que comprende los conflictos y las respuestas consideradas aceptables para resolverlos.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Quizá ese sea uno de los cambios más profundos que ha experimentado México. La violencia dejó de percibirse únicamente como un fenómeno asociado al crimen organizado y comenzó a infiltrarse, lentamente, en las relaciones cotidianas entre ciudadanos.",
+				texto:
+					"Quizá ese sea uno de los cambios más profundos que ha experimentado México. La violencia dejó de percibirse únicamente como un fenómeno asociado al crimen organizado y comenzó a infiltrarse, lentamente, en las relaciones cotidianas entre ciudadanos.",
 			},
 			{
 				tipo: "subtitulo",
@@ -4739,39 +4756,48 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Uno de los conceptos más estudiados por la criminología y la psicología social sostiene que la violencia no aparece únicamente por la existencia de individuos agresivos, sino también cuando disminuyen los mecanismos personales y sociales que permiten controlar esa agresividad. Dicho de otra manera, el problema no siempre radica en que existan más personas violentas, sino en que cada vez menos personas cuentan con las herramientas emocionales necesarias para enfrentar situaciones de estrés sin responder impulsivamente.",
+				texto:
+					"Uno de los conceptos más estudiados por la criminología y la psicología social sostiene que la violencia no aparece únicamente por la existencia de individuos agresivos, sino también cuando disminuyen los mecanismos personales y sociales que permiten controlar esa agresividad. Dicho de otra manera, el problema no siempre radica en que existan más personas violentas, sino en que cada vez menos personas cuentan con las herramientas emocionales necesarias para enfrentar situaciones de estrés sin responder impulsivamente.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La tolerancia a la frustración constituye precisamente uno de esos mecanismos. Desde la infancia aprendemos que convivir implica aceptar límites, esperar turnos, negociar, ceder, reconocer errores y comprender que no siempre obtendremos aquello que deseamos de forma inmediata. Es un proceso de aprendizaje social que permite transformar el conflicto en diálogo y evitar que las diferencias escalen hacia la violencia. Cuando esa capacidad se debilita, cualquier obstáculo puede interpretarse como una ofensa personal.",
+				texto:
+					"La tolerancia a la frustración constituye precisamente uno de esos mecanismos. Desde la infancia aprendemos que convivir implica aceptar límites, esperar turnos, negociar, ceder, reconocer errores y comprender que no siempre obtendremos aquello que deseamos de forma inmediata. Es un proceso de aprendizaje social que permite transformar el conflicto en diálogo y evitar que las diferencias escalen hacia la violencia. Cuando esa capacidad se debilita, cualquier obstáculo puede interpretarse como una ofensa personal.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Basta observar algunos de los escenarios donde con mayor frecuencia ocurren agresiones entre particulares para identificar un patrón común. El tráfico vehicular, las filas de espera, los espacios públicos saturados, los servicios deficientes o las discusiones derivadas de accidentes menores tienen un elemento compartido: todos implican frustración. Ninguno de ellos constituye, por sí mismo, un hecho extraordinario. Sin embargo, cuando personas sometidas a elevados niveles de estrés cotidiano coinciden en un mismo espacio, la posibilidad de una reacción desproporcionada aumenta considerablemente.",
+				texto:
+					"Basta observar algunos de los escenarios donde con mayor frecuencia ocurren agresiones entre particulares para identificar un patrón común. El tráfico vehicular, las filas de espera, los espacios públicos saturados, los servicios deficientes o las discusiones derivadas de accidentes menores tienen un elemento compartido: todos implican frustración. Ninguno de ellos constituye, por sí mismo, un hecho extraordinario. Sin embargo, cuando personas sometidas a elevados niveles de estrés cotidiano coinciden en un mismo espacio, la posibilidad de una reacción desproporcionada aumenta considerablemente.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "No resulta casual que los altercados viales se hayan convertido en uno de los ejemplos más visibles de este fenómeno. Conducir exige ejercer constantemente habilidades de convivencia: respetar normas, aceptar errores propios y ajenos, ceder el paso, esperar, anticipar riesgos y controlar impulsos frente a conductas que pueden resultar irritantes. En cierto sentido, el tránsito funciona como un laboratorio social donde se pone a prueba nuestra capacidad para convivir con personas desconocidas bajo condiciones de presión. Cuando esa capacidad disminuye, un simple roce entre vehículos puede convertirse en el detonante de una cadena de acontecimientos completamente desproporcionada.",
+				texto:
+					"No resulta casual que los altercados viales se hayan convertido en uno de los ejemplos más visibles de este fenómeno. Conducir exige ejercer constantemente habilidades de convivencia: respetar normas, aceptar errores propios y ajenos, ceder el paso, esperar, anticipar riesgos y controlar impulsos frente a conductas que pueden resultar irritantes. En cierto sentido, el tránsito funciona como un laboratorio social donde se pone a prueba nuestra capacidad para convivir con personas desconocidas bajo condiciones de presión. Cuando esa capacidad disminuye, un simple roce entre vehículos puede convertirse en el detonante de una cadena de acontecimientos completamente desproporcionada.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Lo verdaderamente inquietante es que estos episodios rara vez obedecen al conflicto inmediato. En muchos casos, la discusión por un choque menor o por un lugar de estacionamiento representa únicamente la última gota de un cúmulo de tensiones acumuladas. Jornadas laborales extensas, incertidumbre económica, problemas familiares, largos tiempos de traslado, exposición constante a noticias violentas y una creciente sensación de desgaste emocional conforman un escenario donde la paciencia se reduce y el margen para gestionar adecuadamente el conflicto se vuelve cada vez más estrecho. El incidente no crea la violencia; simplemente encuentra a personas que ya llegan emocionalmente agotadas.",
+				texto:
+					"Lo verdaderamente inquietante es que estos episodios rara vez obedecen al conflicto inmediato. En muchos casos, la discusión por un choque menor o por un lugar de estacionamiento representa únicamente la última gota de un cúmulo de tensiones acumuladas. Jornadas laborales extensas, incertidumbre económica, problemas familiares, largos tiempos de traslado, exposición constante a noticias violentas y una creciente sensación de desgaste emocional conforman un escenario donde la paciencia se reduce y el margen para gestionar adecuadamente el conflicto se vuelve cada vez más estrecho. El incidente no crea la violencia; simplemente encuentra a personas que ya llegan emocionalmente agotadas.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "La violencia dejó de ser excepcional y comenzó a formar parte del paisaje cotidiano",
+				texto:
+					"La violencia dejó de ser excepcional y comenzó a formar parte del paisaje cotidiano",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Otro aspecto que merece atención es la forma en que la violencia ha sido incorporada progresivamente a la experiencia diaria de millones de personas. Durante las últimas dos décadas, la sociedad mexicana ha convivido con un flujo constante de imágenes relacionadas con homicidios, enfrentamientos, desapariciones, linchamientos y agresiones difundidas por medios de comunicación y redes sociales. Si bien esta cobertura responde a la necesidad legítima de informar, también ha contribuido a modificar nuestra percepción sobre aquello que consideramos extraordinario.",
+				texto:
+					"Otro aspecto que merece atención es la forma en que la violencia ha sido incorporada progresivamente a la experiencia diaria de millones de personas. Durante las últimas dos décadas, la sociedad mexicana ha convivido con un flujo constante de imágenes relacionadas con homicidios, enfrentamientos, desapariciones, linchamientos y agresiones difundidas por medios de comunicación y redes sociales. Si bien esta cobertura responde a la necesidad legítima de informar, también ha contribuido a modificar nuestra percepción sobre aquello que consideramos extraordinario.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La repetición constante de hechos violentos puede producir un fenómeno conocido en psicología como desensibilización. No significa que las personas aprueben la violencia o deseen reproducirla, sino que el contacto permanente con este tipo de contenidos reduce progresivamente el impacto emocional que generan. Lo que hace veinte años habría resultado impensable observar durante una comida familiar hoy aparece con frecuencia en la pantalla de un teléfono móvil mientras esperamos el transporte público o hacemos fila en un supermercado.",
+				texto:
+					"La repetición constante de hechos violentos puede producir un fenómeno conocido en psicología como desensibilización. No significa que las personas aprueben la violencia o deseen reproducirla, sino que el contacto permanente con este tipo de contenidos reduce progresivamente el impacto emocional que generan. Lo que hace veinte años habría resultado impensable observar durante una comida familiar hoy aparece con frecuencia en la pantalla de un teléfono móvil mientras esperamos el transporte público o hacemos fila en un supermercado.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "A ello se suma un cambio profundo en la forma en que las redes sociales recompensan el comportamiento humano. La lógica de muchas plataformas privilegia las reacciones inmediatas, la confrontación y la necesidad de responder de forma impulsiva. La discusión pausada pierde espacio frente al comentario agresivo; la reflexión compite con la inmediatez y la búsqueda constante de validación favorece respuestas cada vez más emocionales. Aunque el mundo digital y la convivencia presencial no son idénticos, resulta difícil sostener que ambos espacios permanecen completamente desconectados. La manera en que aprendemos a relacionarnos en internet termina, inevitablemente, influyendo en la forma en que gestionamos los conflictos fuera de la pantalla.",
+				texto:
+					"A ello se suma un cambio profundo en la forma en que las redes sociales recompensan el comportamiento humano. La lógica de muchas plataformas privilegia las reacciones inmediatas, la confrontación y la necesidad de responder de forma impulsiva. La discusión pausada pierde espacio frente al comentario agresivo; la reflexión compite con la inmediatez y la búsqueda constante de validación favorece respuestas cada vez más emocionales. Aunque el mundo digital y la convivencia presencial no son idénticos, resulta difícil sostener que ambos espacios permanecen completamente desconectados. La manera en que aprendemos a relacionarnos en internet termina, inevitablemente, influyendo en la forma en que gestionamos los conflictos fuera de la pantalla.",
 			},
 			{
 				tipo: "subtitulo",
@@ -4779,23 +4805,28 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Existe una idea ampliamente aceptada según la cual las personas violentas simplemente 'pierden el control'. Sin embargo, desde la criminología y la psicología del comportamiento esa explicación resulta insuficiente. La violencia rara vez aparece de manera espontánea; generalmente es el resultado de un proceso donde intervienen experiencias personales, aprendizajes sociales, factores culturales y circunstancias situacionales que, al coincidir, reducen la capacidad del individuo para regular sus emociones.",
+				texto:
+					"Existe una idea ampliamente aceptada según la cual las personas violentas simplemente 'pierden el control'. Sin embargo, desde la criminología y la psicología del comportamiento esa explicación resulta insuficiente. La violencia rara vez aparece de manera espontánea; generalmente es el resultado de un proceso donde intervienen experiencias personales, aprendizajes sociales, factores culturales y circunstancias situacionales que, al coincidir, reducen la capacidad del individuo para regular sus emociones.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Uno de los modelos que mejor explica este fenómeno es la Teoría General del Delito, desarrollada por Michael Gottfredson y Travis Hirschi. Lejos de sugerir que algunas personas nacen violentas, los autores plantean que uno de los principales factores asociados con la conducta antisocial es la disminución del autocontrol. En términos sencillos, las personas con menor capacidad para controlar impulsos tienden a privilegiar respuestas inmediatas frente a situaciones que generan enojo, frustración o sensación de injusticia, sin valorar adecuadamente las consecuencias futuras de sus actos.",
+				texto:
+					"Uno de los modelos que mejor explica este fenómeno es la Teoría General del Delito, desarrollada por Michael Gottfredson y Travis Hirschi. Lejos de sugerir que algunas personas nacen violentas, los autores plantean que uno de los principales factores asociados con la conducta antisocial es la disminución del autocontrol. En términos sencillos, las personas con menor capacidad para controlar impulsos tienden a privilegiar respuestas inmediatas frente a situaciones que generan enojo, frustración o sensación de injusticia, sin valorar adecuadamente las consecuencias futuras de sus actos.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Durante décadas este modelo fue utilizado principalmente para explicar conductas delictivas como robos, fraudes o agresiones. Sin embargo, su utilidad resulta particularmente interesante para comprender un fenómeno que parece extenderse en la sociedad mexicana: individuos sin antecedentes criminales que, ante un conflicto aparentemente menor, reaccionan con niveles de violencia completamente desproporcionados.",
+				texto:
+					"Durante décadas este modelo fue utilizado principalmente para explicar conductas delictivas como robos, fraudes o agresiones. Sin embargo, su utilidad resulta particularmente interesante para comprender un fenómeno que parece extenderse en la sociedad mexicana: individuos sin antecedentes criminales que, ante un conflicto aparentemente menor, reaccionan con niveles de violencia completamente desproporcionados.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La diferencia entre discutir y violentar no suele depender del problema que originó el conflicto, sino de la capacidad que cada persona posee para administrar las emociones que dicho conflicto provoca. Dos conductores pueden experimentar exactamente el mismo accidente vehicular. Ambos perderán tiempo, ambos enfrentarán gastos y ambos sentirán frustración. Sin embargo, mientras uno intercambia información con la aseguradora y continúa con su día, el otro interpreta el incidente como una ofensa personal que debe responder mediante insultos, amenazas o incluso violencia física. El hecho objetivo es el mismo; lo que cambia es la forma en que cada individuo procesa la frustración.",
+				texto:
+					"La diferencia entre discutir y violentar no suele depender del problema que originó el conflicto, sino de la capacidad que cada persona posee para administrar las emociones que dicho conflicto provoca. Dos conductores pueden experimentar exactamente el mismo accidente vehicular. Ambos perderán tiempo, ambos enfrentarán gastos y ambos sentirán frustración. Sin embargo, mientras uno intercambia información con la aseguradora y continúa con su día, el otro interpreta el incidente como una ofensa personal que debe responder mediante insultos, amenazas o incluso violencia física. El hecho objetivo es el mismo; lo que cambia es la forma en que cada individuo procesa la frustración.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Esta diferencia permite comprender por qué la violencia interpersonal no puede analizarse únicamente desde la óptica de la seguridad pública. También constituye un problema de desarrollo emocional, de socialización y de aprendizaje colectivo.",
+				texto:
+					"Esta diferencia permite comprender por qué la violencia interpersonal no puede analizarse únicamente desde la óptica de la seguridad pública. También constituye un problema de desarrollo emocional, de socialización y de aprendizaje colectivo.",
 			},
 			{
 				tipo: "subtitulo",
@@ -4803,73 +4834,90 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Resultaría simplista atribuir el incremento de estas conductas únicamente a la pérdida del autocontrol individual. Ninguna persona desarrolla sus respuestas emocionales de manera aislada; todos reaccionamos dentro de un contexto social que influye constantemente sobre nuestra percepción del riesgo, del conflicto y de la convivencia.",
+				texto:
+					"Resultaría simplista atribuir el incremento de estas conductas únicamente a la pérdida del autocontrol individual. Ninguna persona desarrolla sus respuestas emocionales de manera aislada; todos reaccionamos dentro de un contexto social que influye constantemente sobre nuestra percepción del riesgo, del conflicto y de la convivencia.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "México atraviesa desde hace varios años un escenario caracterizado por múltiples fuentes de estrés simultáneas. La incertidumbre económica, el incremento en el costo de vida, los largos tiempos de traslado en zonas metropolitanas, la precarización laboral, la dificultad para acceder a una vivienda y la creciente sensación de inseguridad conforman un entorno donde millones de personas experimentan niveles elevados de desgaste psicológico de manera cotidiana.",
+				texto:
+					"México atraviesa desde hace varios años un escenario caracterizado por múltiples fuentes de estrés simultáneas. La incertidumbre económica, el incremento en el costo de vida, los largos tiempos de traslado en zonas metropolitanas, la precarización laboral, la dificultad para acceder a una vivienda y la creciente sensación de inseguridad conforman un entorno donde millones de personas experimentan niveles elevados de desgaste psicológico de manera cotidiana.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "A ello se suma un fenómeno poco analizado desde la criminología: la reducción progresiva de los espacios destinados al descanso y la convivencia. Las jornadas laborales extensas obligan a muchas personas a permanecer fuera de casa durante doce o incluso catorce horas entre trabajo y transporte. Cuando finalmente regresan a su hogar, buena parte del tiempo disponible se consume frente a dispositivos electrónicos que, lejos de favorecer la recuperación emocional, continúan exponiéndolos a noticias negativas, discusiones políticas, videos de violencia o contenidos diseñados para provocar reacciones inmediatas.",
+				texto:
+					"A ello se suma un fenómeno poco analizado desde la criminología: la reducción progresiva de los espacios destinados al descanso y la convivencia. Las jornadas laborales extensas obligan a muchas personas a permanecer fuera de casa durante doce o incluso catorce horas entre trabajo y transporte. Cuando finalmente regresan a su hogar, buena parte del tiempo disponible se consume frente a dispositivos electrónicos que, lejos de favorecer la recuperación emocional, continúan exponiéndolos a noticias negativas, discusiones políticas, videos de violencia o contenidos diseñados para provocar reacciones inmediatas.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "No se trata de afirmar que el estrés convierte automáticamente a alguien en agresor. Millones de personas enfrentan estas condiciones sin recurrir jamás a la violencia. Lo relevante es comprender que una sociedad sometida permanentemente a estados elevados de tensión posee un margen mucho menor para gestionar adecuadamente nuevos conflictos. En términos coloquiales, el problema no suele ser el incidente que desencadena la agresión, sino la enorme carga emocional que cada individuo ya llevaba consigo antes de que ese incidente ocurriera.",
+				texto:
+					"No se trata de afirmar que el estrés convierte automáticamente a alguien en agresor. Millones de personas enfrentan estas condiciones sin recurrir jamás a la violencia. Lo relevante es comprender que una sociedad sometida permanentemente a estados elevados de tensión posee un margen mucho menor para gestionar adecuadamente nuevos conflictos. En términos coloquiales, el problema no suele ser el incidente que desencadena la agresión, sino la enorme carga emocional que cada individuo ya llevaba consigo antes de que ese incidente ocurriera.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Por ello, muchos altercados viales no deberían interpretarse como simples discusiones derivadas del tránsito. Funcionan más bien como el punto donde convergen frustraciones laborales, problemas económicos, desgaste físico, incertidumbre personal y una creciente sensación de pérdida de control sobre la vida cotidiana. El vehículo termina convirtiéndose en el escenario donde finalmente estallan tensiones que comenzaron mucho antes de encender el motor.",
+				texto:
+					"Por ello, muchos altercados viales no deberían interpretarse como simples discusiones derivadas del tránsito. Funcionan más bien como el punto donde convergen frustraciones laborales, problemas económicos, desgaste físico, incertidumbre personal y una creciente sensación de pérdida de control sobre la vida cotidiana. El vehículo termina convirtiéndose en el escenario donde finalmente estallan tensiones que comenzaron mucho antes de encender el motor.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "La violencia interpersonal en México: un fenómeno que comienza a consolidarse",
+				texto:
+					"La violencia interpersonal en México: un fenómeno que comienza a consolidarse",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Diversos acontecimientos registrados durante los últimos años muestran un incremento de agresiones derivadas de conflictos cotidianos que no guardan relación con disputas entre organizaciones criminales. ",
+				texto:
+					"Diversos acontecimientos registrados durante los últimos años muestran un incremento de agresiones derivadas de conflictos cotidianos que no guardan relación con disputas entre organizaciones criminales. ",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Analizados de manera individual, estos casos pueden parecer hechos aislados producto de circunstancias particulares. Sin embargo, cuando se observan en conjunto comienzan a revelar un patrón preocupante: la reducción progresiva del umbral necesario para que una discusión escale hacia la violencia física.",
+				texto:
+					"Analizados de manera individual, estos casos pueden parecer hechos aislados producto de circunstancias particulares. Sin embargo, cuando se observan en conjunto comienzan a revelar un patrón preocupante: la reducción progresiva del umbral necesario para que una discusión escale hacia la violencia física.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Entre 2024 y 2026 distintos estados del país registraron episodios donde conductores fueron privados de la vida tras reclamos relacionados con maniobras de tránsito, disputas por el derecho de paso o incidentes vehiculares de baja magnitud. En otros casos, diferencias entre vecinos por ruido, mascotas o límites de propiedad concluyeron con lesiones graves e incluso homicidios. De manera similar, establecimientos comerciales fueron escenario de agresiones motivadas por tiempos de espera, inconformidades con el servicio o simples intercambios verbales que terminaron desbordándose.",
+				texto:
+					"Entre 2024 y 2026 distintos estados del país registraron episodios donde conductores fueron privados de la vida tras reclamos relacionados con maniobras de tránsito, disputas por el derecho de paso o incidentes vehiculares de baja magnitud. En otros casos, diferencias entre vecinos por ruido, mascotas o límites de propiedad concluyeron con lesiones graves e incluso homicidios. De manera similar, establecimientos comerciales fueron escenario de agresiones motivadas por tiempos de espera, inconformidades con el servicio o simples intercambios verbales que terminaron desbordándose.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La criminología utiliza con frecuencia el concepto de violencia expresiva para describir aquellas agresiones donde el objetivo principal no consiste en obtener un beneficio económico o eliminar estratégicamente a un adversario, sino expresar enojo, humillación, frustración o una necesidad inmediata de imponer dominio sobre otra persona. A diferencia de la violencia instrumental, característica de muchas organizaciones criminales, la violencia expresiva suele surgir de conflictos espontáneos que escalan rápidamente debido a una deficiente regulación emocional.",
+				texto:
+					"La criminología utiliza con frecuencia el concepto de violencia expresiva para describir aquellas agresiones donde el objetivo principal no consiste en obtener un beneficio económico o eliminar estratégicamente a un adversario, sino expresar enojo, humillación, frustración o una necesidad inmediata de imponer dominio sobre otra persona. A diferencia de la violencia instrumental, característica de muchas organizaciones criminales, la violencia expresiva suele surgir de conflictos espontáneos que escalan rápidamente debido a una deficiente regulación emocional.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Lo verdaderamente preocupante no es únicamente el desenlace de estos casos, sino el mensaje que transmiten sobre la forma en que estamos aprendiendo a convivir. Cuando la violencia se convierte en una respuesta cada vez más accesible frente a conflictos insignificantes, el problema deja de pertenecer exclusivamente al ámbito de la seguridad pública y comienza a reflejar una transformación mucho más profunda en la cultura de convivencia.",
+				texto:
+					"Lo verdaderamente preocupante no es únicamente el desenlace de estos casos, sino el mensaje que transmiten sobre la forma en que estamos aprendiendo a convivir. Cuando la violencia se convierte en una respuesta cada vez más accesible frente a conflictos insignificantes, el problema deja de pertenecer exclusivamente al ámbito de la seguridad pública y comienza a reflejar una transformación mucho más profunda en la cultura de convivencia.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Reconstruir la convivencia a través del del control social informal también es una política de seguridad",
+				texto:
+					"Reconstruir la convivencia a través del del control social informal también es una política de seguridad",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Uno de los conceptos menos discutidos fuera del ámbito académico es el del control social informal. A diferencia de las leyes o de la actuación de las instituciones de seguridad, este tipo de control no depende del Estado, sino de las normas de convivencia que la propia sociedad construye y transmite de generación en generación.",
+				texto:
+					"Uno de los conceptos menos discutidos fuera del ámbito académico es el del control social informal. A diferencia de las leyes o de la actuación de las instituciones de seguridad, este tipo de control no depende del Estado, sino de las normas de convivencia que la propia sociedad construye y transmite de generación en generación.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Durante décadas, la familia, la escuela, la comunidad e incluso los vecinos desempeñaron un papel fundamental en la regulación del comportamiento cotidiano. No era necesario que existiera una sanción legal para inhibir determinadas conductas; bastaba la desaprobación social, el prestigio comunitario o la posibilidad de afectar las relaciones personales para que muchas personas moderaran sus acciones.",
+				texto:
+					"Durante décadas, la familia, la escuela, la comunidad e incluso los vecinos desempeñaron un papel fundamental en la regulación del comportamiento cotidiano. No era necesario que existiera una sanción legal para inhibir determinadas conductas; bastaba la desaprobación social, el prestigio comunitario o la posibilidad de afectar las relaciones personales para que muchas personas moderaran sus acciones.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La transformación de las dinámicas urbanas ha modificado profundamente este escenario. Las grandes ciudades favorecen el anonimato, reducen los vínculos entre vecinos y limitan las redes comunitarias que anteriormente funcionaban como mecanismos espontáneos de supervisión. Hoy es posible protagonizar una discusión con un completo desconocido y tener la certeza de que probablemente nunca volveremos a verlo. Esa ausencia de vínculos disminuye el costo social asociado con determinadas conductas violentas.",
+				texto:
+					"La transformación de las dinámicas urbanas ha modificado profundamente este escenario. Las grandes ciudades favorecen el anonimato, reducen los vínculos entre vecinos y limitan las redes comunitarias que anteriormente funcionaban como mecanismos espontáneos de supervisión. Hoy es posible protagonizar una discusión con un completo desconocido y tener la certeza de que probablemente nunca volveremos a verlo. Esa ausencia de vínculos disminuye el costo social asociado con determinadas conductas violentas.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "A ello se suma una creciente desconfianza hacia las instituciones encargadas de resolver conflictos menores. Muchas personas consideran que denunciar amenazas, agresiones leves o daños materiales representa un procedimiento largo, costoso y poco efectivo. Como consecuencia, algunos individuos optan por resolver sus diferencias directamente, sustituyendo los canales institucionales por formas de confrontación personal que incrementan considerablemente el riesgo de violencia.",
+				texto:
+					"A ello se suma una creciente desconfianza hacia las instituciones encargadas de resolver conflictos menores. Muchas personas consideran que denunciar amenazas, agresiones leves o daños materiales representa un procedimiento largo, costoso y poco efectivo. Como consecuencia, algunos individuos optan por resolver sus diferencias directamente, sustituyendo los canales institucionales por formas de confrontación personal que incrementan considerablemente el riesgo de violencia.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Existe una tendencia natural a pensar que la seguridad pública depende casi exclusivamente del número de policías, de la capacidad de investigación de las fiscalías o de la severidad de las penas previstas en la legislación penal. Sin duda, todos esos elementos resultan indispensables para contener la delincuencia y garantizar el acceso a la justicia. Sin embargo, reducir la seguridad únicamente a la respuesta institucional implica ignorar un componente igual de importante: la manera en que una sociedad aprende a convivir consigo misma.",
+				texto:
+					"Existe una tendencia natural a pensar que la seguridad pública depende casi exclusivamente del número de policías, de la capacidad de investigación de las fiscalías o de la severidad de las penas previstas en la legislación penal. Sin duda, todos esos elementos resultan indispensables para contener la delincuencia y garantizar el acceso a la justicia. Sin embargo, reducir la seguridad únicamente a la respuesta institucional implica ignorar un componente igual de importante: la manera en que una sociedad aprende a convivir consigo misma.",
 			},
-					],
+		],
 	},
 	{
 		metadata: {
@@ -4887,7 +4935,7 @@ export const articulos = [
 				"Delitos falsos",
 				"Fabricación de delitos",
 				"Acusaciones falsas",
-				"Delitos fingidos"
+				"Delitos fingidos",
 			],
 			fechaPublicacion: "2026-07-30",
 			autor: "BMC",
@@ -4905,7 +4953,8 @@ export const articulos = [
 		seo: {
 			metaTitle:
 				"Las acusaciones falsas y los desafíos del sistema de justicia en México",
-			metaDescription: "Una justicia diseñada para proteger también puede ser utilizada para dañar",
+			metaDescription:
+				"Una justicia diseñada para proteger también puede ser utilizada para dañar",
 		},
 
 		media: {
@@ -4916,7 +4965,8 @@ export const articulos = [
 			altImagen: "Ilustración",
 		},
 
-		resumen: "Una justicia diseñada para proteger también puede ser utilizada para dañar",
+		resumen:
+			"Una justicia diseñada para proteger también puede ser utilizada para dañar",
 
 		contenido: [
 			{
@@ -4927,43 +4977,53 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Ninguna otra institución posee la facultad de restringir legalmente la libertad de una persona, intervenir sus comunicaciones, asegurar su patrimonio, limitar el ejercicio de determinados derechos o someterla a un proceso que, aun cuando concluya con una absolución, puede transformar radicalmente el curso de su vida. Precisamente por esa enorme capacidad de intervención, el derecho penal ha sido concebido históricamente como un mecanismo de última instancia, reservado para proteger los bienes jurídicos más importantes y garantizar que el ejercicio del poder punitivo se encuentre sujeto a estrictos controles constitucionales.",
+				texto:
+					"Ninguna otra institución posee la facultad de restringir legalmente la libertad de una persona, intervenir sus comunicaciones, asegurar su patrimonio, limitar el ejercicio de determinados derechos o someterla a un proceso que, aun cuando concluya con una absolución, puede transformar radicalmente el curso de su vida. Precisamente por esa enorme capacidad de intervención, el derecho penal ha sido concebido históricamente como un mecanismo de última instancia, reservado para proteger los bienes jurídicos más importantes y garantizar que el ejercicio del poder punitivo se encuentre sujeto a estrictos controles constitucionales.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En teoría, el funcionamiento del sistema parece responder a una lógica sencilla: una víctima denuncia un hecho probablemente constitutivo de delito; la autoridad investiga con objetividad; el Ministerio Público reúne pruebas suficientes; un juez imparcial valora la evidencia presentada y, únicamente cuando existe certeza sobre la responsabilidad penal del acusado, se impone una sanción. Bajo este modelo, el proceso penal busca alcanzar un equilibrio delicado entre dos objetivos igualmente importantes: proteger a las víctimas y evitar que una persona inocente sea castigada injustamente.",
+				texto:
+					"En teoría, el funcionamiento del sistema parece responder a una lógica sencilla: una víctima denuncia un hecho probablemente constitutivo de delito; la autoridad investiga con objetividad; el Ministerio Público reúne pruebas suficientes; un juez imparcial valora la evidencia presentada y, únicamente cuando existe certeza sobre la responsabilidad penal del acusado, se impone una sanción. Bajo este modelo, el proceso penal busca alcanzar un equilibrio delicado entre dos objetivos igualmente importantes: proteger a las víctimas y evitar que una persona inocente sea castigada injustamente.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Sin embargo, la práctica demuestra que ese equilibrio resulta considerablemente más complejo de alcanzar.",
+				texto:
+					"Sin embargo, la práctica demuestra que ese equilibrio resulta considerablemente más complejo de alcanzar.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Durante las últimas décadas, la discusión pública en México se ha concentrado, con razón, en la impunidad que enfrentan millones de víctimas cuyos casos nunca llegan a esclarecerse. La baja proporción de delitos denunciados, la sobrecarga de trabajo en las fiscalías, la limitada capacidad de investigación y la escasa confianza ciudadana han ocupado buena parte del debate sobre la procuración de justicia. No obstante, mientras la atención permanece enfocada en quienes no obtienen respuesta del Estado, existe otro fenómeno mucho menos visible que también pone en riesgo la legitimidad del sistema: los casos en los que la maquinaria institucional termina dirigiéndose contra personas inocentes.",
+				texto:
+					"Durante las últimas décadas, la discusión pública en México se ha concentrado, con razón, en la impunidad que enfrentan millones de víctimas cuyos casos nunca llegan a esclarecerse. La baja proporción de delitos denunciados, la sobrecarga de trabajo en las fiscalías, la limitada capacidad de investigación y la escasa confianza ciudadana han ocupado buena parte del debate sobre la procuración de justicia. No obstante, mientras la atención permanece enfocada en quienes no obtienen respuesta del Estado, existe otro fenómeno mucho menos visible que también pone en riesgo la legitimidad del sistema: los casos en los que la maquinaria institucional termina dirigiéndose contra personas inocentes.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Hablar de acusaciones falsas suele generar reacciones encontradas. Para algunos sectores, abordar este tema implica minimizar la realidad que enfrentan miles de víctimas de delitos graves, particularmente en materias como violencia familiar, violencia sexual o desaparición de personas. Otros consideran que el problema es tan frecuente que el sistema penal se ha convertido en un mecanismo utilizado para venganzas personales, disputas familiares o extorsiones. Ambas posturas suelen construirse desde posiciones extremas que dificultan comprender la verdadera dimensión del fenómeno.",
+				texto:
+					"Hablar de acusaciones falsas suele generar reacciones encontradas. Para algunos sectores, abordar este tema implica minimizar la realidad que enfrentan miles de víctimas de delitos graves, particularmente en materias como violencia familiar, violencia sexual o desaparición de personas. Otros consideran que el problema es tan frecuente que el sistema penal se ha convertido en un mecanismo utilizado para venganzas personales, disputas familiares o extorsiones. Ambas posturas suelen construirse desde posiciones extremas que dificultan comprender la verdadera dimensión del fenómeno.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "A la fecha, ninguna institución pública dispone de estadísticas nacionales suficientemente robustas que permitan afirmar, con rigor científico, que este tipo de conductas constituye un fenómeno generalizado. Lo que sí resulta evidente es que el sistema penal enfrenta un problema bastante preocupante: la existencia de investigaciones deficientes, imputaciones sustentadas en evidencia insuficiente, fabricación de pruebas, simulación de hechos delictivos y actuaciones institucionales que, en conjunto, pueden provocar que una persona inocente enfrente un proceso penal con consecuencias devastadoras.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "Mientras una acusación falsa implica la voluntad deliberada de una persona para atribuir a otra un delito que sabe inexistente, un error judicial puede originarse por múltiples causas ajenas al denunciante: deficiencias periciales, sesgos durante la investigación, malas prácticas ministeriales, corrupción, presiones mediáticas o interpretaciones incorrectas de la prueba. En ambos casos el resultado puede ser el mismo: una persona inocente sometida al poder punitivo del Estado.",
+				texto:
+					"A la fecha, ninguna institución pública dispone de estadísticas nacionales suficientemente robustas que permitan afirmar, con rigor científico, que este tipo de conductas constituye un fenómeno generalizado. Lo que sí resulta evidente es que el sistema penal enfrenta un problema bastante preocupante: la existencia de investigaciones deficientes, imputaciones sustentadas en evidencia insuficiente, fabricación de pruebas, simulación de hechos delictivos y actuaciones institucionales que, en conjunto, pueden provocar que una persona inocente enfrente un proceso penal con consecuencias devastadoras.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Desde la criminología, ambos fenómenos poseen un denominador común: representan formas de utilización indebida del sistema penal. En un caso, un particular instrumentaliza a las instituciones para causar un daño; en el otro, son las propias instituciones las que, por acción u omisión, incumplen la obligación de investigar con objetividad y respeto irrestricto a los derechos humanos. El resultado trasciende la esfera individual. Cada investigación mal integrada, cada prueba obtenida sin rigor científico y cada resolución sustentada en información insuficiente debilitan la confianza pública en el sistema de justicia y alimentan la percepción de que el acceso a la verdad depende más del contexto que de la calidad de la evidencia.",
+				texto:
+					"Mientras una acusación falsa implica la voluntad deliberada de una persona para atribuir a otra un delito que sabe inexistente, un error judicial puede originarse por múltiples causas ajenas al denunciante: deficiencias periciales, sesgos durante la investigación, malas prácticas ministeriales, corrupción, presiones mediáticas o interpretaciones incorrectas de la prueba. En ambos casos el resultado puede ser el mismo: una persona inocente sometida al poder punitivo del Estado.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Esta situación adquiere una dimensión todavía más delicada cuando se analiza el enorme poder que posee una denuncia penal. En un Estado de Derecho, denunciar constituye un derecho fundamental y un mecanismo indispensable para que las víctimas accedan a la justicia. Sin denuncias, la mayoría de los delitos permanecerían ocultos y la capacidad del Estado para perseguirlos sería prácticamente inexistente. Precisamente por ello, el orden jurídico procura facilitar que las personas acudan ante las autoridades sin temor a represalias. No obstante, esa misma facilidad también implica una enorme responsabilidad. Cuando una denuncia se presenta de manera dolosa con el propósito de perjudicar a un tercero, o cuando las autoridades incumplen su deber de verificar rigurosamente la información antes de ejercer la acción penal, el proceso deja de cumplir su función protectora para convertirse, potencialmente, en un instrumento de afectación.",
+				texto:
+					"Desde la criminología, ambos fenómenos poseen un denominador común: representan formas de utilización indebida del sistema penal. En un caso, un particular instrumentaliza a las instituciones para causar un daño; en el otro, son las propias instituciones las que, por acción u omisión, incumplen la obligación de investigar con objetividad y respeto irrestricto a los derechos humanos. El resultado trasciende la esfera individual. Cada investigación mal integrada, cada prueba obtenida sin rigor científico y cada resolución sustentada en información insuficiente debilitan la confianza pública en el sistema de justicia y alimentan la percepción de que el acceso a la verdad depende más del contexto que de la calidad de la evidencia.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En los últimos años diversos casos nacionales e internacionales han demostrado que el mayor riesgo para un sistema de justicia no siempre radica en dejar impune a un culpable. También existe un profundo daño institucional cuando un inocente es privado de su libertad, sometido al estigma social de una imputación penal o pierde años de su vida debido a errores que pudieron evitarse mediante investigaciones más profesionales y decisiones judiciales mejor fundamentadas. La historia demuestra que ambas situaciones erosionan de manera similar la legitimidad de las instituciones. Un sistema incapaz de sancionar a los responsables genera desconfianza entre las víctimas; uno que castiga a personas inocentes produce temor entre quienes deberían sentirse protegidos por la ley.",
+				texto:
+					"Esta situación adquiere una dimensión todavía más delicada cuando se analiza el enorme poder que posee una denuncia penal. En un Estado de Derecho, denunciar constituye un derecho fundamental y un mecanismo indispensable para que las víctimas accedan a la justicia. Sin denuncias, la mayoría de los delitos permanecerían ocultos y la capacidad del Estado para perseguirlos sería prácticamente inexistente. Precisamente por ello, el orden jurídico procura facilitar que las personas acudan ante las autoridades sin temor a represalias. No obstante, esa misma facilidad también implica una enorme responsabilidad. Cuando una denuncia se presenta de manera dolosa con el propósito de perjudicar a un tercero, o cuando las autoridades incumplen su deber de verificar rigurosamente la información antes de ejercer la acción penal, el proceso deja de cumplir su función protectora para convertirse, potencialmente, en un instrumento de afectación.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En los últimos años diversos casos nacionales e internacionales han demostrado que el mayor riesgo para un sistema de justicia no siempre radica en dejar impune a un culpable. También existe un profundo daño institucional cuando un inocente es privado de su libertad, sometido al estigma social de una imputación penal o pierde años de su vida debido a errores que pudieron evitarse mediante investigaciones más profesionales y decisiones judiciales mejor fundamentadas. La historia demuestra que ambas situaciones erosionan de manera similar la legitimidad de las instituciones. Un sistema incapaz de sancionar a los responsables genera desconfianza entre las víctimas; uno que castiga a personas inocentes produce temor entre quienes deberían sentirse protegidos por la ley.",
 			},
 			{
 				tipo: "subtitulo",
@@ -4971,183 +5031,228 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "El primer aspecto que debe entenderse es que las acusaciones falsas existen, aunque su medición estadística presenta importantes limitaciones, esto no significa que sean imposibles de identificar ni mucho menos que todas permanezcan impunes. Lo que resulta complejo es dimensionar cuántas ocurren realmente cada año, pues no existe un registro nacional que las clasifique de manera independiente y uniforme. A diferencia de delitos como el homicidio, el robo o el fraude, donde el hecho investigado constituye por sí mismo una categoría estadística, una acusación falsa suele descubrirse únicamente después de analizar el contexto completo de una investigación y, en muchos casos, tras reconstruir acontecimientos que originalmente fueron presentados como un delito.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "Desde la metodología de la investigación criminal, una investigación consiste precisamente en verificar si los hechos ocurrieron de la manera en que fueron narrados, si la evidencia resulta congruente con esa versión y si existe correspondencia entre la evidencia física, los testimonios, los dictámenes periciales y la cronología de los acontecimientos. ",
+				texto:
+					"El primer aspecto que debe entenderse es que las acusaciones falsas existen, aunque su medición estadística presenta importantes limitaciones, esto no significa que sean imposibles de identificar ni mucho menos que todas permanezcan impunes. Lo que resulta complejo es dimensionar cuántas ocurren realmente cada año, pues no existe un registro nacional que las clasifique de manera independiente y uniforme. A diferencia de delitos como el homicidio, el robo o el fraude, donde el hecho investigado constituye por sí mismo una categoría estadística, una acusación falsa suele descubrirse únicamente después de analizar el contexto completo de una investigación y, en muchos casos, tras reconstruir acontecimientos que originalmente fueron presentados como un delito.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Durante una investigación pueden surgir múltiples elementos objetivos que revelen inconsistencias difíciles de explicar bajo la hipótesis inicialmente denunciada. Grabaciones que contradicen el relato de los hechos, registros de geolocalización incompatibles con la versión presentada, periciales que descartan la mecánica del delito, documentos alterados, comunicaciones previas que evidencian un conflicto personal o testimonios que demuestran una planeación previa son sólo algunos ejemplos de información que puede modificar radicalmente el sentido de una investigación.",
+				texto:
+					"Desde la metodología de la investigación criminal, una investigación consiste precisamente en verificar si los hechos ocurrieron de la manera en que fueron narrados, si la evidencia resulta congruente con esa versión y si existe correspondencia entre la evidencia física, los testimonios, los dictámenes periciales y la cronología de los acontecimientos. ",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Desde luego, estas circunstancias no autorizan a concluir automáticamente que toda inconsistencia equivale a una denuncia fabricada. La memoria humana es imperfecta, las víctimas pueden cometer errores al recordar determinados detalles y muchos acontecimientos traumáticos generan relatos fragmentados o incompletos. Precisamente por ello, la función de la investigación criminal consiste en distinguir entre las inconsistencias propias de un hecho complejo y aquellas contradicciones que únicamente pueden explicarse mediante la invención deliberada de los acontecimientos.",
+				texto:
+					"Durante una investigación pueden surgir múltiples elementos objetivos que revelen inconsistencias difíciles de explicar bajo la hipótesis inicialmente denunciada. Grabaciones que contradicen el relato de los hechos, registros de geolocalización incompatibles con la versión presentada, periciales que descartan la mecánica del delito, documentos alterados, comunicaciones previas que evidencian un conflicto personal o testimonios que demuestran una planeación previa son sólo algunos ejemplos de información que puede modificar radicalmente el sentido de una investigación.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Los registros institucionales contabilizan carpetas de investigación, determinaciones ministeriales, vinculaciones a proceso y sentencias, pero rara vez documentan las investigaciones que permitieron descubrir una denuncia fabricada antes de que ésta llegara a juicio. En consecuencia, el universo de las acusaciones falsas permanece parcialmente oculto entre expedientes que concluyeron por distintas razones procesales, sin que ello permita conocer con precisión cuántos correspondían realmente a imputaciones dolosas.",
+				texto:
+					"Desde luego, estas circunstancias no autorizan a concluir automáticamente que toda inconsistencia equivale a una denuncia fabricada. La memoria humana es imperfecta, las víctimas pueden cometer errores al recordar determinados detalles y muchos acontecimientos traumáticos generan relatos fragmentados o incompletos. Precisamente por ello, la función de la investigación criminal consiste en distinguir entre las inconsistencias propias de un hecho complejo y aquellas contradicciones que únicamente pueden explicarse mediante la invención deliberada de los acontecimientos.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Paradójicamente, esta limitación estadística no disminuye la gravedad del problema. Por el contrario, demuestra que el fenómeno no puede analizarse únicamente mediante números. Su verdadero impacto se aprecia en las consecuencias que produce cuando una investigación deficiente, una denuncia maliciosa o una valoración inadecuada de la prueba logran activar todo el aparato de justicia contra una persona inocente. En esos casos, el daño comienza mucho antes de que exista una sentencia. La apertura de una carpeta de investigación, la imposición de medidas cautelares, la exposición pública, la pérdida del empleo o la afectación de la reputación pueden convertirse en consecuencias irreversibles incluso cuando, años después, se demuestra que la imputación carecía de fundamento.",
+				texto:
+					"Los registros institucionales contabilizan carpetas de investigación, determinaciones ministeriales, vinculaciones a proceso y sentencias, pero rara vez documentan las investigaciones que permitieron descubrir una denuncia fabricada antes de que ésta llegara a juicio. En consecuencia, el universo de las acusaciones falsas permanece parcialmente oculto entre expedientes que concluyeron por distintas razones procesales, sin que ello permita conocer con precisión cuántos correspondían realmente a imputaciones dolosas.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Por ello, la discusión no debería centrarse únicamente en determinar cuántas acusaciones falsas existen en México. La pregunta realmente importante consiste en establecer qué tan eficaz es el sistema para detectarlas oportunamente y qué mecanismos institucionales existen para impedir que una denuncia deliberadamente falsa o una investigación técnicamente deficiente produzcan daños irreparables antes de que la verdad procesal pueda esclarecerse.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "El problema no siempre es la denuncia: también lo es la capacidad del Estado para investigar",
+				texto:
+					"Paradójicamente, esta limitación estadística no disminuye la gravedad del problema. Por el contrario, demuestra que el fenómeno no puede analizarse únicamente mediante números. Su verdadero impacto se aprecia en las consecuencias que produce cuando una investigación deficiente, una denuncia maliciosa o una valoración inadecuada de la prueba logran activar todo el aparato de justicia contra una persona inocente. En esos casos, el daño comienza mucho antes de que exista una sentencia. La apertura de una carpeta de investigación, la imposición de medidas cautelares, la exposición pública, la pérdida del empleo o la afectación de la reputación pueden convertirse en consecuencias irreversibles incluso cuando, años después, se demuestra que la imputación carecía de fundamento.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Cuando se discute sobre acusaciones falsas, buena parte del debate suele concentrarse en las personas que presentan una denuncia. Sin embargo, esa perspectiva deja fuera al actor más importante del proceso penal: el Estado. Después de todo, ninguna imputación debería prosperar únicamente porque alguien la formule. La función de las fiscalías consiste precisamente en verificar, mediante técnicas de investigación científica, si los hechos denunciados ocurrieron realmente y si existen elementos suficientes para atribuirlos a una persona determinada.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "En un sistema de justicia eficaz, una denuncia constituye únicamente el punto de partida. La hipótesis inicial debe ser sometida a un proceso de comprobación constante donde cada indicio, cada testimonio y cada dictamen pericial puedan confirmar o descartar la versión originalmente presentada. Cuando ese proceso funciona correctamente, las denuncias falsas tienden a identificarse antes de provocar consecuencias irreparables y, al mismo tiempo, las víctimas de hechos verdaderos encuentran mayores posibilidades de obtener justicia.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "El problema surge cuando esa capacidad institucional resulta insuficiente.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Diversos diagnósticos elaborados por el Instituto Nacional de Estadística y Geografía (INEGI), el Censo Nacional de Procuración de Justicia Estatal, México Evalúa, Impunidad Cero y el World Justice Project coinciden en señalar que las fiscalías mexicanas enfrentan un problema estructural que trasciende la falta de recursos económicos. La sobrecarga de trabajo, la escasez de policías de investigación, la limitada disponibilidad de peritos especializados, la rotación constante de personal y los bajos niveles de profesionalización han generado un modelo donde la calidad de las investigaciones suele verse comprometida.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Las cifras permiten dimensionar este escenario. La Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública (ENVIPE) estima año con año que más del 90 % de los delitos cometidos en México no llegan a denunciarse o no derivan en una carpeta de investigación. Este fenómeno, conocido como cifra negra, suele interpretarse como un indicador de desconfianza ciudadana; sin embargo, también evidencia que las instituciones responsables de investigar únicamente conocen una fracción del universo delictivo nacional.",
-			},
-				{
-				tipo: "parrafo",
-				texto: "Paradójicamente, incluso esa fracción supera con creces la capacidad operativa de muchas fiscalías.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Los censos nacionales de procuración de justicia muestran que cada agente del Ministerio Público puede concentrar simultáneamente cientos de carpetas de investigación. En esas condiciones, resulta materialmente imposible practicar con el mismo nivel de profundidad todas las diligencias que exige una investigación criminal técnicamente robusta. El resultado suele traducirse en investigaciones donde la urgencia por atender nuevos asuntos desplaza la necesidad de reconstruir cuidadosamente los hechos.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Esta realidad tiene implicaciones que afectan tanto a las víctimas como a los imputados.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Para una víctima auténtica, una investigación superficial disminuye considerablemente las probabilidades de identificar al responsable y obtener una sentencia condenatoria. Para una persona inocente, la ausencia de actos de investigación oportunos también representa un riesgo, pues incrementa la posibilidad de que hipótesis iniciales incorrectas permanezcan sin ser cuestionadas durante etapas críticas del procedimiento.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "En otras palabras, la deficiencia investigativa no distingue entre culpables e inocentes; perjudica por igual a ambos extremos del proceso penal.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "A ello se suma otro problema menos visible: la presión institucional por mostrar resultados.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "Diversos estudios sobre procuración de justicia han documentado que las fiscalías operan bajo indicadores orientados a medir productividad mediante el número de carpetas iniciadas, judicializaciones o determinaciones ministeriales. Aunque estos mecanismos buscan evaluar el desempeño institucional, también pueden generar incentivos para privilegiar la rapidez sobre la profundidad analítica. En un entorno donde los recursos humanos resultan limitados, dedicar semanas a verificar exhaustivamente una hipótesis puede convertirse, paradójicamente, en una desventaja administrativa frente a la necesidad de resolver cientos de expedientes adicionales.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "No debe entenderse esta situación como una práctica generalizada de fabricación de culpables. La enorme mayoría de los operadores del sistema desempeña su labor bajo condiciones particularmente complejas y con recursos frecuentemente insuficientes. Sin embargo, la criminología institucional demuestra que los errores sistemáticos rara vez obedecen exclusivamente a la mala fe de quienes integran una organización; muchas veces son consecuencia de estructuras incapaces de garantizar que el trabajo se realice con el tiempo, los recursos y los mecanismos de supervisión necesarios.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Precisamente por ello, centrar toda la discusión en las personas que eventualmente presentan denuncias falsas resulta insuficiente. Incluso si estas representaran una proporción mínima del total de investigaciones, un sistema con capacidades limitadas para verificar oportunamente los hechos seguiría siendo vulnerable frente a imputaciones construidas artificialmente. La verdadera fortaleza de una institución de justicia no se mide por la cantidad de denuncias que recibe, sino por su capacidad para distinguir con rigor técnico aquellas que corresponden a un delito real de aquellas que responden a un error, una simulación o una manipulación deliberada.",
+				texto:
+					"Por ello, la discusión no debería centrarse únicamente en determinar cuántas acusaciones falsas existen en México. La pregunta realmente importante consiste en establecer qué tan eficaz es el sistema para detectarlas oportunamente y qué mecanismos institucionales existen para impedir que una denuncia deliberadamente falsa o una investigación técnicamente deficiente produzcan daños irreparables antes de que la verdad procesal pueda esclarecerse.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Cuando la verdad tardó años en demostrarse: lecciones que dejaron algunos de los casos más representativos del sistema de justicia mexicano",
+				texto:
+					"El problema no siempre es la denuncia: también lo es la capacidad del Estado para investigar",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Uno de los mayores riesgos al analizar las acusaciones falsas consiste en reducir el problema a un conflicto entre dos personas: alguien acusa y alguien se defiende. Sin embargo, la experiencia demuestra que los errores judiciales rara vez responden a una sola causa. En la mayoría de los casos existe una combinación de investigaciones deficientes, deficiencias periciales, presión mediática, sesgos cognitivos, malas prácticas institucionales y, en ocasiones, personas que deliberadamente utilizan el aparato penal para perjudicar a terceros.",
+				texto:
+					"Cuando se discute sobre acusaciones falsas, buena parte del debate suele concentrarse en las personas que presentan una denuncia. Sin embargo, esa perspectiva deja fuera al actor más importante del proceso penal: el Estado. Después de todo, ninguna imputación debería prosperar únicamente porque alguien la formule. La función de las fiscalías consiste precisamente en verificar, mediante técnicas de investigación científica, si los hechos denunciados ocurrieron realmente y si existen elementos suficientes para atribuirlos a una persona determinada.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Por ello, observar algunos de los casos más representativos ocurridos en México permite comprender que las fallas del sistema no siempre tienen el mismo origen, aunque sus consecuencias suelen ser similares: personas privadas de su libertad durante años, víctimas sin acceso a la verdad y una ciudadanía que gradualmente pierde confianza en la capacidad del Estado para impartir justicia.",
+				texto:
+					"En un sistema de justicia eficaz, una denuncia constituye únicamente el punto de partida. La hipótesis inicial debe ser sometida a un proceso de comprobación constante donde cada indicio, cada testimonio y cada dictamen pericial puedan confirmar o descartar la versión originalmente presentada. Cuando ese proceso funciona correctamente, las denuncias falsas tienden a identificarse antes de provocar consecuencias irreparables y, al mismo tiempo, las víctimas de hechos verdaderos encuentran mayores posibilidades de obtener justicia.",
 			},
-						{
+			{
+				tipo: "parrafo",
+				texto:
+					"El problema surge cuando esa capacidad institucional resulta insuficiente.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Diversos diagnósticos elaborados por el Instituto Nacional de Estadística y Geografía (INEGI), el Censo Nacional de Procuración de Justicia Estatal, México Evalúa, Impunidad Cero y el World Justice Project coinciden en señalar que las fiscalías mexicanas enfrentan un problema estructural que trasciende la falta de recursos económicos. La sobrecarga de trabajo, la escasez de policías de investigación, la limitada disponibilidad de peritos especializados, la rotación constante de personal y los bajos niveles de profesionalización han generado un modelo donde la calidad de las investigaciones suele verse comprometida.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Las cifras permiten dimensionar este escenario. La Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública (ENVIPE) estima año con año que más del 90 % de los delitos cometidos en México no llegan a denunciarse o no derivan en una carpeta de investigación. Este fenómeno, conocido como cifra negra, suele interpretarse como un indicador de desconfianza ciudadana; sin embargo, también evidencia que las instituciones responsables de investigar únicamente conocen una fracción del universo delictivo nacional.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Paradójicamente, incluso esa fracción supera con creces la capacidad operativa de muchas fiscalías.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los censos nacionales de procuración de justicia muestran que cada agente del Ministerio Público puede concentrar simultáneamente cientos de carpetas de investigación. En esas condiciones, resulta materialmente imposible practicar con el mismo nivel de profundidad todas las diligencias que exige una investigación criminal técnicamente robusta. El resultado suele traducirse en investigaciones donde la urgencia por atender nuevos asuntos desplaza la necesidad de reconstruir cuidadosamente los hechos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esta realidad tiene implicaciones que afectan tanto a las víctimas como a los imputados.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para una víctima auténtica, una investigación superficial disminuye considerablemente las probabilidades de identificar al responsable y obtener una sentencia condenatoria. Para una persona inocente, la ausencia de actos de investigación oportunos también representa un riesgo, pues incrementa la posibilidad de que hipótesis iniciales incorrectas permanezcan sin ser cuestionadas durante etapas críticas del procedimiento.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En otras palabras, la deficiencia investigativa no distingue entre culpables e inocentes; perjudica por igual a ambos extremos del proceso penal.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"A ello se suma otro problema menos visible: la presión institucional por mostrar resultados.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Diversos estudios sobre procuración de justicia han documentado que las fiscalías operan bajo indicadores orientados a medir productividad mediante el número de carpetas iniciadas, judicializaciones o determinaciones ministeriales. Aunque estos mecanismos buscan evaluar el desempeño institucional, también pueden generar incentivos para privilegiar la rapidez sobre la profundidad analítica. En un entorno donde los recursos humanos resultan limitados, dedicar semanas a verificar exhaustivamente una hipótesis puede convertirse, paradójicamente, en una desventaja administrativa frente a la necesidad de resolver cientos de expedientes adicionales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"No debe entenderse esta situación como una práctica generalizada de fabricación de culpables. La enorme mayoría de los operadores del sistema desempeña su labor bajo condiciones particularmente complejas y con recursos frecuentemente insuficientes. Sin embargo, la criminología institucional demuestra que los errores sistemáticos rara vez obedecen exclusivamente a la mala fe de quienes integran una organización; muchas veces son consecuencia de estructuras incapaces de garantizar que el trabajo se realice con el tiempo, los recursos y los mecanismos de supervisión necesarios.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Precisamente por ello, centrar toda la discusión en las personas que eventualmente presentan denuncias falsas resulta insuficiente. Incluso si estas representaran una proporción mínima del total de investigaciones, un sistema con capacidades limitadas para verificar oportunamente los hechos seguiría siendo vulnerable frente a imputaciones construidas artificialmente. La verdadera fortaleza de una institución de justicia no se mide por la cantidad de denuncias que recibe, sino por su capacidad para distinguir con rigor técnico aquellas que corresponden a un delito real de aquellas que responden a un error, una simulación o una manipulación deliberada.",
+			},
+			{
 				tipo: "subtitulo",
-				texto: "Jacinta Francisco Marcial: cuando la investigación parte de una conclusión y no de la evidencia",
+				texto:
+					"Cuando la verdad tardó años en demostrarse: lecciones que dejaron algunos de los casos más representativos del sistema de justicia mexicano",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En marzo de 2006, elementos de la entonces Agencia Federal de Investigación (AFI) y de la Agencia Federal de Investigación de Delitos Fiscales realizaron un operativo contra comerciantes ambulantes en el tianguis de Santiago Mexquititlán, Querétaro. Durante el operativo se produjo un altercado entre comerciantes y agentes federales. Posteriormente, tres mujeres indígenas otomíes —Jacinta Francisco Marcial, Alberta Alcántara Juan y Teresa González Cornelio— fueron acusadas de haber secuestrado a seis agentes federales.",
+				texto:
+					"Uno de los mayores riesgos al analizar las acusaciones falsas consiste en reducir el problema a un conflicto entre dos personas: alguien acusa y alguien se defiende. Sin embargo, la experiencia demuestra que los errores judiciales rara vez responden a una sola causa. En la mayoría de los casos existe una combinación de investigaciones deficientes, deficiencias periciales, presión mediática, sesgos cognitivos, malas prácticas institucionales y, en ocasiones, personas que deliberadamente utilizan el aparato penal para perjudicar a terceros.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Desde el inicio del procedimiento surgieron inconsistencias difíciles de explicar. La hipótesis ministerial sostenía que tres mujeres sin armas, sin vehículos y rodeadas por decenas de personas habían logrado privar ilegalmente de la libertad a elementos federales entrenados y armados. La evidencia física era prácticamente inexistente y la imputación descansaba principalmente en declaraciones de los propios agentes involucrados.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "La investigación tampoco consideró adecuadamente el contexto cultural de las acusadas. Jacinta era una mujer indígena otomí que no hablaba español como lengua materna y cuyo acceso a una defensa efectiva resultó limitado durante las primeras etapas del procedimiento. A pesar de ello, fue condenada a más de veinte años de prisión.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Tres años después, la Procuraduría General de la República reconoció que la acusación carecía de sustento suficiente y retiró los cargos. La Suprema Corte de Justicia de la Nación ordenó posteriormente la liberación de Alberta y Teresa, concluyendo que la prueba presentada resultaba insuficiente para sostener la responsabilidad penal.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Este caso no constituye únicamente un ejemplo de una investigación deficiente. También demuestra cómo una hipótesis inicial puede mantenerse artificialmente cuando los investigadores dejan de buscar la verdad y comienzan a buscar únicamente elementos que confirmen una conclusión previamente adoptada. En criminología este fenómeno se conoce como sesgo de confirmación, uno de los errores cognitivos más frecuentes dentro de las investigaciones criminales.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "Cuando una autoridad selecciona únicamente la información compatible con su teoría e ignora aquella que la contradice, la investigación deja de orientarse hacia el esclarecimiento de los hechos y comienza a construir una narrativa destinada a justificar una decisión previamente tomada.",
+				texto:
+					"Por ello, observar algunos de los casos más representativos ocurridos en México permite comprender que las fallas del sistema no siempre tienen el mismo origen, aunque sus consecuencias suelen ser similares: personas privadas de su libertad durante años, víctimas sin acceso a la verdad y una ciudadanía que gradualmente pierde confianza en la capacidad del Estado para impartir justicia.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Florence Cassez e Israel Vallarta: cuando el espectáculo sustituye a la investigación",
+				texto:
+					"Jacinta Francisco Marcial: cuando la investigación parte de una conclusión y no de la evidencia",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Pocos casos han generado un debate tan profundo sobre la procuración de justicia en México como el de Florence Cassez e Israel Vallarta.",
+				texto:
+					"En marzo de 2006, elementos de la entonces Agencia Federal de Investigación (AFI) y de la Agencia Federal de Investigación de Delitos Fiscales realizaron un operativo contra comerciantes ambulantes en el tianguis de Santiago Mexquititlán, Querétaro. Durante el operativo se produjo un altercado entre comerciantes y agentes federales. Posteriormente, tres mujeres indígenas otomíes —Jacinta Francisco Marcial, Alberta Alcántara Juan y Teresa González Cornelio— fueron acusadas de haber secuestrado a seis agentes federales.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En diciembre de 2005, ambos fueron detenidos por la entonces Agencia Federal de Investigación, señalados como integrantes de una banda dedicada al secuestro conocida como 'Los Zodiaco'. Sin embargo, horas después de la detención, diversas cadenas de televisión transmitieron en vivo un supuesto operativo de rescate donde las autoridades aparentaban capturar a los presuntos responsables.",
+				texto:
+					"Desde el inicio del procedimiento surgieron inconsistencias difíciles de explicar. La hipótesis ministerial sostenía que tres mujeres sin armas, sin vehículos y rodeadas por decenas de personas habían logrado privar ilegalmente de la libertad a elementos federales entrenados y armados. La evidencia física era prácticamente inexistente y la imputación descansaba principalmente en declaraciones de los propios agentes involucrados.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Años más tarde quedó acreditado que dicho operativo había sido recreado para efectos mediáticos. La detención real ocurrió previamente y la escena presentada a la opinión pública había sido preparada por las propias autoridades.",
+				texto:
+					"La investigación tampoco consideró adecuadamente el contexto cultural de las acusadas. Jacinta era una mujer indígena otomí que no hablaba español como lengua materna y cuyo acceso a una defensa efectiva resultó limitado durante las primeras etapas del procedimiento. A pesar de ello, fue condenada a más de veinte años de prisión.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La Suprema Corte de Justicia de la Nación concluyó en 2013 que las violaciones al debido proceso resultaban de tal magnitud que impedían sostener la condena contra Florence Cassez, quien recuperó su libertad después de permanecer más de siete años en prisión.",
-			},
-				{
-				tipo: "parrafo",
-				texto: "Más allá de la responsabilidad individual de los involucrados, este caso evidenció un problema institucional de enorme relevancia: cuando la presión política o mediática influye sobre una investigación, el objetivo puede dejar de ser descubrir la verdad para convertirse en demostrar públicamente la eficacia de las autoridades.",
+				texto:
+					"Tres años después, la Procuraduría General de la República reconoció que la acusación carecía de sustento suficiente y retiró los cargos. La Suprema Corte de Justicia de la Nación ordenó posteriormente la liberación de Alberta y Teresa, concluyendo que la prueba presentada resultaba insuficiente para sostener la responsabilidad penal.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La investigación criminal exige preservar la autenticidad de la prueba. Cualquier alteración deliberada de una escena, recreación de hechos o manipulación de evidencia no sólo afecta los derechos del imputado; también compromete la posibilidad de conocer lo que realmente ocurrió.",
+				texto:
+					"Este caso no constituye únicamente un ejemplo de una investigación deficiente. También demuestra cómo una hipótesis inicial puede mantenerse artificialmente cuando los investigadores dejan de buscar la verdad y comienzan a buscar únicamente elementos que confirmen una conclusión previamente adoptada. En criminología este fenómeno se conoce como sesgo de confirmación, uno de los errores cognitivos más frecuentes dentro de las investigaciones criminales.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "El caso adquiere una dimensión adicional al observar la situación de Israel Vallarta, quien permaneció casi veinte años sujeto a prisión preventiva sin haber recibido una sentencia definitiva durante buena parte de ese periodo. Independientemente del desenlace jurídico que corresponda a su situación particular, el expediente abrió un intenso debate sobre los efectos que pueden producir las investigaciones prolongadas y el uso excepcional de la prisión preventiva cuando los procesos judiciales se extienden durante décadas.",
+				texto:
+					"Cuando una autoridad selecciona únicamente la información compatible con su teoría e ignora aquella que la contradice, la investigación deja de orientarse hacia el esclarecimiento de los hechos y comienza a construir una narrativa destinada a justificar una decisión previamente tomada.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Daniel García Rodríguez y Reyes Alpízar Ortiz: cuando el proceso se convierte en una pena anticipada",
+				texto:
+					"Florence Cassez e Israel Vallarta: cuando el espectáculo sustituye a la investigación",
 			},
 			{
 				tipo: "parrafo",
-				texto: "No todos los errores del sistema consisten en condenar a una persona inocente. En ocasiones, el propio procedimiento penal termina produciendo una sanción de hecho antes de que exista una sentencia.",
+				texto:
+					"Pocos casos han generado un debate tan profundo sobre la procuración de justicia en México como el de Florence Cassez e Israel Vallarta.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Daniel García Rodríguez y Reyes Alpízar Ortiz fueron acusados del homicidio de una regidora en el Estado de México y permanecieron sujetos a proceso penal durante aproximadamente diecisiete años. El caso llegó hasta la Corte Interamericana de Derechos Humanos, la cual concluyó que el Estado mexicano había violado múltiples derechos fundamentales derivados de la duración excesiva del procedimiento y del uso prolongado de la prisión preventiva.",
+				texto:
+					"En diciembre de 2005, ambos fueron detenidos por la entonces Agencia Federal de Investigación, señalados como integrantes de una banda dedicada al secuestro conocida como 'Los Zodiaco'. Sin embargo, horas después de la detención, diversas cadenas de televisión transmitieron en vivo un supuesto operativo de rescate donde las autoridades aparentaban capturar a los presuntos responsables.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Este precedente resulta particularmente importante porque demuestra que la justicia también puede fallar por exceso de tiempo. Aun cuando eventualmente exista una resolución judicial, ningún proceso penal debería prolongarse durante décadas. El derecho a ser juzgado dentro de un plazo razonable constituye una garantía esencial precisamente porque el proceso, por sí mismo, genera consecuencias personales, familiares, económicas y psicológicas que difícilmente pueden revertirse.",
+				texto:
+					"Años más tarde quedó acreditado que dicho operativo había sido recreado para efectos mediáticos. La detención real ocurrió previamente y la escena presentada a la opinión pública había sido preparada por las propias autoridades.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En otras palabras, el sistema puede producir daños irreparables incluso antes de determinar si la persona es culpable o inocente.",
+				texto:
+					"La Suprema Corte de Justicia de la Nación concluyó en 2013 que las violaciones al debido proceso resultaban de tal magnitud que impedían sostener la condena contra Florence Cassez, quien recuperó su libertad después de permanecer más de siete años en prisión.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Más allá de la responsabilidad individual de los involucrados, este caso evidenció un problema institucional de enorme relevancia: cuando la presión política o mediática influye sobre una investigación, el objetivo puede dejar de ser descubrir la verdad para convertirse en demostrar públicamente la eficacia de las autoridades.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La investigación criminal exige preservar la autenticidad de la prueba. Cualquier alteración deliberada de una escena, recreación de hechos o manipulación de evidencia no sólo afecta los derechos del imputado; también compromete la posibilidad de conocer lo que realmente ocurrió.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El caso adquiere una dimensión adicional al observar la situación de Israel Vallarta, quien permaneció casi veinte años sujeto a prisión preventiva sin haber recibido una sentencia definitiva durante buena parte de ese periodo. Independientemente del desenlace jurídico que corresponda a su situación particular, el expediente abrió un intenso debate sobre los efectos que pueden producir las investigaciones prolongadas y el uso excepcional de la prisión preventiva cuando los procesos judiciales se extienden durante décadas.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"Daniel García Rodríguez y Reyes Alpízar Ortiz: cuando el proceso se convierte en una pena anticipada",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"No todos los errores del sistema consisten en condenar a una persona inocente. En ocasiones, el propio procedimiento penal termina produciendo una sanción de hecho antes de que exista una sentencia.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Daniel García Rodríguez y Reyes Alpízar Ortiz fueron acusados del homicidio de una regidora en el Estado de México y permanecieron sujetos a proceso penal durante aproximadamente diecisiete años. El caso llegó hasta la Corte Interamericana de Derechos Humanos, la cual concluyó que el Estado mexicano había violado múltiples derechos fundamentales derivados de la duración excesiva del procedimiento y del uso prolongado de la prisión preventiva.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Este precedente resulta particularmente importante porque demuestra que la justicia también puede fallar por exceso de tiempo. Aun cuando eventualmente exista una resolución judicial, ningún proceso penal debería prolongarse durante décadas. El derecho a ser juzgado dentro de un plazo razonable constituye una garantía esencial precisamente porque el proceso, por sí mismo, genera consecuencias personales, familiares, económicas y psicológicas que difícilmente pueden revertirse.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En otras palabras, el sistema puede producir daños irreparables incluso antes de determinar si la persona es culpable o inocente.",
 			},
 			{
 				tipo: "subtitulo",
@@ -5155,87 +5260,107 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Si bien gran parte de los casos paradigmáticos mexicanos se relacionan con errores institucionales, también existen investigaciones donde se ha demostrado que determinadas personas utilizaron deliberadamente el sistema penal para perjudicar a terceros.",
+				texto:
+					"Si bien gran parte de los casos paradigmáticos mexicanos se relacionan con errores institucionales, también existen investigaciones donde se ha demostrado que determinadas personas utilizaron deliberadamente el sistema penal para perjudicar a terceros.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En distintos estados del país las fiscalías han judicializado casos por simulación de delito, falsedad en declaraciones y denuncias inventadas con el propósito de obtener beneficios económicos derivados de seguros, eludir responsabilidades civiles, afectar disputas familiares o perjudicar patrimonialmente a otras personas. En algunos expedientes se acreditó la simulación de secuestros para justificar ausencias laborales o exigir pagos de rescate inexistentes; en otros, la denuncia de robos de vehículos buscaba obtener fraudulentamente indemnizaciones por parte de compañías aseguradoras.",
+				texto:
+					"En distintos estados del país las fiscalías han judicializado casos por simulación de delito, falsedad en declaraciones y denuncias inventadas con el propósito de obtener beneficios económicos derivados de seguros, eludir responsabilidades civiles, afectar disputas familiares o perjudicar patrimonialmente a otras personas. En algunos expedientes se acreditó la simulación de secuestros para justificar ausencias laborales o exigir pagos de rescate inexistentes; en otros, la denuncia de robos de vehículos buscaba obtener fraudulentamente indemnizaciones por parte de compañías aseguradoras.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Más recientemente, algunas fiscalías también han investigado denuncias relacionadas con presuntas agresiones o delitos patrimoniales donde la evidencia digital, los registros de videovigilancia, la geolocalización y los dictámenes periciales permitieron demostrar que los hechos denunciados no ocurrieron de la manera originalmente narrada o, simplemente, nunca sucedieron.",
+				texto:
+					"Más recientemente, algunas fiscalías también han investigado denuncias relacionadas con presuntas agresiones o delitos patrimoniales donde la evidencia digital, los registros de videovigilancia, la geolocalización y los dictámenes periciales permitieron demostrar que los hechos denunciados no ocurrieron de la manera originalmente narrada o, simplemente, nunca sucedieron.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Aunque estos casos representan una proporción reducida frente al universo total de investigaciones penales, poseen una característica común: todos consumieron recursos públicos que pudieron haberse destinado al esclarecimiento de delitos reales. Policías de investigación, peritos, ministerios públicos, laboratorios forenses y órganos jurisdiccionales dedicaron tiempo y presupuesto a reconstruir acontecimientos inexistentes.",
+				texto:
+					"Aunque estos casos representan una proporción reducida frente al universo total de investigaciones penales, poseen una característica común: todos consumieron recursos públicos que pudieron haberse destinado al esclarecimiento de delitos reales. Policías de investigación, peritos, ministerios públicos, laboratorios forenses y órganos jurisdiccionales dedicaron tiempo y presupuesto a reconstruir acontecimientos inexistentes.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Desde una perspectiva criminológica, ello convierte a las acusaciones deliberadamente falsas en una forma particular de afectación al sistema de justicia. No sólo generan un riesgo para la persona indebidamente señalada, sino que también deterioran la capacidad institucional para atender a quienes verdaderamente requieren protección.",
+				texto:
+					"Desde una perspectiva criminológica, ello convierte a las acusaciones deliberadamente falsas en una forma particular de afectación al sistema de justicia. No sólo generan un riesgo para la persona indebidamente señalada, sino que también deterioran la capacidad institucional para atender a quienes verdaderamente requieren protección.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "¿Qué consecuencias enfrenta quien utiliza la justicia para dañar y cómo puede defenderse un inocente?",
+				texto:
+					"¿Qué consecuencias enfrenta quien utiliza la justicia para dañar y cómo puede defenderse un inocente?",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Una de las principales críticas que suelen formularse al sistema de justicia mexicano consiste en la aparente ausencia de consecuencias para quienes promueven denuncias deliberadamente falsas. La percepción social no surge de la nada. Son pocos los casos que alcanzan notoriedad pública donde la persona que simuló un delito o imputó falsamente a otra enfrenta un procedimiento penal independiente. Sin embargo, ello no significa que la legislación mexicana carezca de herramientas para sancionar este tipo de conductas.",
+				texto:
+					"Una de las principales críticas que suelen formularse al sistema de justicia mexicano consiste en la aparente ausencia de consecuencias para quienes promueven denuncias deliberadamente falsas. La percepción social no surge de la nada. Son pocos los casos que alcanzan notoriedad pública donde la persona que simuló un delito o imputó falsamente a otra enfrenta un procedimiento penal independiente. Sin embargo, ello no significa que la legislación mexicana carezca de herramientas para sancionar este tipo de conductas.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "El marco jurídico contempla diversas figuras que pueden actualizarse cuando una persona recurre dolosamente al sistema penal para perjudicar a un tercero. Dependiendo de las circunstancias del caso y de la legislación aplicable, la conducta se procesa principalmente bajo los tipos penales de falsedad en declaraciones judiciales o fraude procesal, dependiendo de cómo se cometa la mentira y el objetivo que persiga el infractor. ",
+				texto:
+					"El marco jurídico contempla diversas figuras que pueden actualizarse cuando una persona recurre dolosamente al sistema penal para perjudicar a un tercero. Dependiendo de las circunstancias del caso y de la legislación aplicable, la conducta se procesa principalmente bajo los tipos penales de falsedad en declaraciones judiciales o fraude procesal, dependiendo de cómo se cometa la mentira y el objetivo que persiga el infractor. ",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Para que exista una sanción penal en contra de quien acusó falsamente debe demostrarse que actuó con conocimiento de la falsedad de los hechos o que intervino deliberadamente en la creación de una versión inexistente. Esa exigencia probatoria responde al mismo principio que protege a cualquier persona sometida a un proceso penal: la responsabilidad no puede presumirse; debe acreditarse mediante evidencia suficiente.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "En la realidad cotidiana, las investigaciones por falsedad de declaraciones o fraude procesal son considerablemente menos frecuentes que los procedimientos iniciados por los hechos originalmente denunciados. En ocasiones, las autoridades consideran que la absolución del imputado agota el conflicto jurídico y optan por no iniciar una nueva investigación respecto de quien promovió la imputación. En otros casos, la dificultad para acreditar el elemento subjetivo provoca que estos expedientes no prosperen.",
+				texto:
+					"Para que exista una sanción penal en contra de quien acusó falsamente debe demostrarse que actuó con conocimiento de la falsedad de los hechos o que intervino deliberadamente en la creación de una versión inexistente. Esa exigencia probatoria responde al mismo principio que protege a cualquier persona sometida a un proceso penal: la responsabilidad no puede presumirse; debe acreditarse mediante evidencia suficiente.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Esta situación genera un efecto que la criminología identifica como reducción del riesgo percibido. Cuando la posibilidad de enfrentar consecuencias jurídicas resulta excepcional, algunas personas pueden llegar a considerar que instrumentalizar el sistema de justicia representa una conducta de bajo costo y alta rentabilidad. El problema deja entonces de ser exclusivamente individual y adquiere una dimensión institucional: la eficacia de cualquier norma depende, en buena medida, de la certeza de su aplicación.",
+				texto:
+					"En la realidad cotidiana, las investigaciones por falsedad de declaraciones o fraude procesal son considerablemente menos frecuentes que los procedimientos iniciados por los hechos originalmente denunciados. En ocasiones, las autoridades consideran que la absolución del imputado agota el conflicto jurídico y optan por no iniciar una nueva investigación respecto de quien promovió la imputación. En otros casos, la dificultad para acreditar el elemento subjetivo provoca que estos expedientes no prosperen.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Sin embargo, las responsabilidades no deberían limitarse a los particulares.",
+				texto:
+					"Esta situación genera un efecto que la criminología identifica como reducción del riesgo percibido. Cuando la posibilidad de enfrentar consecuencias jurídicas resulta excepcional, algunas personas pueden llegar a considerar que instrumentalizar el sistema de justicia representa una conducta de bajo costo y alta rentabilidad. El problema deja entonces de ser exclusivamente individual y adquiere una dimensión institucional: la eficacia de cualquier norma depende, en buena medida, de la certeza de su aplicación.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En un Estado democrático, el poder punitivo pertenece exclusivamente al Estado. Por ello, cuando una investigación deficiente deriva en la privación injustificada de la libertad, la afectación patrimonial o la vulneración de derechos fundamentales, también resulta legítimo cuestionar la actuación de quienes intervinieron en el procedimiento. Ministerios Públicos que omiten diligencias esenciales, peritos que elaboran dictámenes técnicamente insostenibles, policías que alteran la cadena de custodia o jueces que validan actuaciones manifiestamente irregulares pueden incurrir, dependiendo del caso, en responsabilidades administrativas, disciplinarias e incluso penales.",
+				texto:
+					"Sin embargo, las responsabilidades no deberían limitarse a los particulares.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Este aspecto suele quedar fuera del debate público. Con frecuencia se exige que existan sanciones para quienes presentan denuncias falsas, pero pocas veces se discute qué ocurre cuando el propio Estado contribuye, mediante negligencia o actuaciones arbitrarias, a mantener una investigación sin sustento. La confianza ciudadana difícilmente puede fortalecerse si las consecuencias recaen únicamente sobre una de las partes del proceso.",
+				texto:
+					"En un Estado democrático, el poder punitivo pertenece exclusivamente al Estado. Por ello, cuando una investigación deficiente deriva en la privación injustificada de la libertad, la afectación patrimonial o la vulneración de derechos fundamentales, también resulta legítimo cuestionar la actuación de quienes intervinieron en el procedimiento. Ministerios Públicos que omiten diligencias esenciales, peritos que elaboran dictámenes técnicamente insostenibles, policías que alteran la cadena de custodia o jueces que validan actuaciones manifiestamente irregulares pueden incurrir, dependiendo del caso, en responsabilidades administrativas, disciplinarias e incluso penales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Este aspecto suele quedar fuera del debate público. Con frecuencia se exige que existan sanciones para quienes presentan denuncias falsas, pero pocas veces se discute qué ocurre cuando el propio Estado contribuye, mediante negligencia o actuaciones arbitrarias, a mantener una investigación sin sustento. La confianza ciudadana difícilmente puede fortalecerse si las consecuencias recaen únicamente sobre una de las partes del proceso.",
 			},
 			{
 				tipo: "subtitulo",
 				texto: "Cuando el inocente debe defenderse del propio sistema",
 			},
-				{
+			{
 				tipo: "parrafo",
-				texto: "Existe una paradoja que acompaña prácticamente todos los errores judiciales: la persona que no cometió el delito termina asumiendo la carga de demostrar su inocencia frente a una estructura institucional considerablemente más poderosa.",
+				texto:
+					"Existe una paradoja que acompaña prácticamente todos los errores judiciales: la persona que no cometió el delito termina asumiendo la carga de demostrar su inocencia frente a una estructura institucional considerablemente más poderosa.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Aunque la Constitución mexicana reconoce la presunción de inocencia como uno de los pilares del sistema penal acusatorio, en la práctica el impacto de una imputación comienza mucho antes de que un juez emita una sentencia. La apertura de una carpeta de investigación, la difusión pública de una acusación o la imposición de medidas cautelares pueden generar consecuencias laborales, familiares, económicas y sociales que difícilmente desaparecen con una resolución absolutoria.",
+				texto:
+					"Aunque la Constitución mexicana reconoce la presunción de inocencia como uno de los pilares del sistema penal acusatorio, en la práctica el impacto de una imputación comienza mucho antes de que un juez emita una sentencia. La apertura de una carpeta de investigación, la difusión pública de una acusación o la imposición de medidas cautelares pueden generar consecuencias laborales, familiares, económicas y sociales que difícilmente desaparecen con una resolución absolutoria.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Precisamente por ello, el orden jurídico reconoce diversos mecanismos destinados a controlar la actuación de las autoridades. El primero de ellos es el propio proceso penal, donde la defensa puede ofrecer pruebas, controvertir la evidencia presentada por el Ministerio Público, solicitar diligencias complementarias y cuestionar la legalidad de los actos de investigación. La presunción de inocencia obliga a que sea el Estado quien demuestre la responsabilidad penal; el imputado no tiene la obligación de probar que no cometió el delito.",
+				texto:
+					"Precisamente por ello, el orden jurídico reconoce diversos mecanismos destinados a controlar la actuación de las autoridades. El primero de ellos es el propio proceso penal, donde la defensa puede ofrecer pruebas, controvertir la evidencia presentada por el Ministerio Público, solicitar diligencias complementarias y cuestionar la legalidad de los actos de investigación. La presunción de inocencia obliga a que sea el Estado quien demuestre la responsabilidad penal; el imputado no tiene la obligación de probar que no cometió el delito.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Cuando las irregularidades trascienden el ámbito probatorio y afectan derechos fundamentales, el juicio de amparo adquiere una relevancia especial. Este mecanismo constitucional permite combatir actos de autoridad que vulneren garantías como la legalidad, el debido proceso, la libertad personal o la seguridad jurídica. A lo largo de las últimas décadas, el amparo ha sido determinante para corregir detenciones arbitrarias, excluir pruebas obtenidas ilícitamente, dejar sin efectos órdenes de aprehensión deficientemente fundamentadas y revisar resoluciones que contravienen principios constitucionales.",
+				texto:
+					"Cuando las irregularidades trascienden el ámbito probatorio y afectan derechos fundamentales, el juicio de amparo adquiere una relevancia especial. Este mecanismo constitucional permite combatir actos de autoridad que vulneren garantías como la legalidad, el debido proceso, la libertad personal o la seguridad jurídica. A lo largo de las últimas décadas, el amparo ha sido determinante para corregir detenciones arbitrarias, excluir pruebas obtenidas ilícitamente, dejar sin efectos órdenes de aprehensión deficientemente fundamentadas y revisar resoluciones que contravienen principios constitucionales.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "No obstante, el amparo tampoco debe entenderse como una solución absoluta. Se trata de un mecanismo extraordinario de control constitucional, no de un sustituto de una investigación profesional. Cuando un procedimiento depende sistemáticamente de que los tribunales federales corrijan los errores cometidos durante las etapas iniciales, el problema deja de ser procesal y revela deficiencias estructurales en la procuración de justicia.",
+				texto:
+					"No obstante, el amparo tampoco debe entenderse como una solución absoluta. Se trata de un mecanismo extraordinario de control constitucional, no de un sustituto de una investigación profesional. Cuando un procedimiento depende sistemáticamente de que los tribunales federales corrijan los errores cometidos durante las etapas iniciales, el problema deja de ser procesal y revela deficiencias estructurales en la procuración de justicia.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "A ello se suma la posibilidad de exigir responsabilidad patrimonial del Estado cuando se acredita que una actuación irregular ocasionó un daño antijurídico. Aunque en México no existe un sistema automático de compensación para personas condenadas injustamente, el marco jurídico permite, bajo determinadas condiciones, reclamar la reparación derivada del funcionamiento irregular de la administración pública. Sin embargo, estos procedimientos suelen ser largos, técnicamente complejos y, en muchos casos, implican que quien ya enfrentó un proceso penal deba iniciar un nuevo litigio para intentar obtener una reparación por los errores cometidos por las propias instituciones.",
+				texto:
+					"A ello se suma la posibilidad de exigir responsabilidad patrimonial del Estado cuando se acredita que una actuación irregular ocasionó un daño antijurídico. Aunque en México no existe un sistema automático de compensación para personas condenadas injustamente, el marco jurídico permite, bajo determinadas condiciones, reclamar la reparación derivada del funcionamiento irregular de la administración pública. Sin embargo, estos procedimientos suelen ser largos, técnicamente complejos y, en muchos casos, implican que quien ya enfrentó un proceso penal deba iniciar un nuevo litigio para intentar obtener una reparación por los errores cometidos por las propias instituciones.",
 			},
 			{
 				tipo: "subtitulo",
@@ -5243,25 +5368,30 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "El verdadero desafío no consiste en endurecer indiscriminadamente las penas para quienes presentan denuncias falsas ni en elevar los estándares de prueba hasta hacer imposible que las víctimas accedan a la justicia. Ambos extremos producirían consecuencias igualmente negativas. Un sistema excesivamente permisivo facilita que el proceso penal sea utilizado como instrumento de agresión; uno excesivamente restrictivo desincentiva la denuncia de delitos reales y fortalece la impunidad.",
+				texto:
+					"El verdadero desafío no consiste en endurecer indiscriminadamente las penas para quienes presentan denuncias falsas ni en elevar los estándares de prueba hasta hacer imposible que las víctimas accedan a la justicia. Ambos extremos producirían consecuencias igualmente negativas. Un sistema excesivamente permisivo facilita que el proceso penal sea utilizado como instrumento de agresión; uno excesivamente restrictivo desincentiva la denuncia de delitos reales y fortalece la impunidad.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La respuesta parece encontrarse en un punto distinto: mejorar la calidad de las investigaciones.",
+				texto:
+					"La respuesta parece encontrarse en un punto distinto: mejorar la calidad de las investigaciones.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Una fiscalía que documenta adecuadamente la escena de los hechos, preserva la evidencia, contrasta todas las hipótesis, incorpora herramientas de inteligencia, utiliza periciales científicamente sólidas y somete permanentemente sus conclusiones a procesos de revisión reduce simultáneamente dos riesgos: el de dejar impune al verdadero responsable y el de perjudicar a quien nunca debió ser investigado.",
+				texto:
+					"Una fiscalía que documenta adecuadamente la escena de los hechos, preserva la evidencia, contrasta todas las hipótesis, incorpora herramientas de inteligencia, utiliza periciales científicamente sólidas y somete permanentemente sus conclusiones a procesos de revisión reduce simultáneamente dos riesgos: el de dejar impune al verdadero responsable y el de perjudicar a quien nunca debió ser investigado.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En última instancia, la fortaleza de un sistema de justicia no se mide únicamente por el número de personas que logra condenar, sino por su capacidad para garantizar que ninguna condena, ninguna medida cautelar y ninguna investigación se sostengan sobre hechos fabricados, pruebas deficientes o decisiones apresuradas. La verdadera legitimidad institucional comienza cuando las víctimas pueden confiar en que serán escuchadas, pero también cuando cualquier ciudadano tiene la certeza de que jamás perderá su libertad únicamente porque alguien decidió utilizar la ley como un instrumento para dañar.",
+				texto:
+					"En última instancia, la fortaleza de un sistema de justicia no se mide únicamente por el número de personas que logra condenar, sino por su capacidad para garantizar que ninguna condena, ninguna medida cautelar y ninguna investigación se sostengan sobre hechos fabricados, pruebas deficientes o decisiones apresuradas. La verdadera legitimidad institucional comienza cuando las víctimas pueden confiar en que serán escuchadas, pero también cuando cualquier ciudadano tiene la certeza de que jamás perderá su libertad únicamente porque alguien decidió utilizar la ley como un instrumento para dañar.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Quizá esa sea la reflexión más importante que deja este análisis. La justicia no fracasa únicamente cuando un culpable permanece impune. También fracasa cuando un inocente debe dedicar años de su vida a demostrar algo que el Estado debió descubrir desde el primer día: que nunca existieron razones suficientes para convertirlo en acusado.",
+				texto:
+					"Quizá esa sea la reflexión más importante que deja este análisis. La justicia no fracasa únicamente cuando un culpable permanece impune. También fracasa cuando un inocente debe dedicar años de su vida a demostrar algo que el Estado debió descubrir desde el primer día: que nunca existieron razones suficientes para convertirlo en acusado.",
 			},
-	],
+		],
 	},
 	{
 		metadata: {
@@ -5281,7 +5411,7 @@ export const articulos = [
 				"violencia en México",
 				"inseguridad en México",
 				"Encuesta Nacional de Seguridad Pública Urbana (ENSU)",
-				"persepción de seguridad en México"
+				"percepción de seguridad en México",
 			],
 			fechaPublicacion: "2026-07-31",
 			autor: "BMC",
@@ -5320,7 +5450,8 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Cada trimestre, cuando el Instituto Nacional de Estadística y Geografía (INEGI) publica la Encuesta Nacional de Seguridad Pública Urbana (ENSU), los titulares suelen repetirse casi de forma automática. Algunas ciudades son catalogadas como 'las más seguras de México', mientras que otras aparecen nuevamente en la lista de las más peligrosas. La información rápidamente se transforma en infografías, rankings y publicaciones que circulan por redes sociales, donde la seguridad parece reducirse a un porcentaje de percepción ciudadana o a la posición que ocupa una ciudad dentro de una clasificación nacional.",
+				texto:
+					"Cada trimestre, cuando el Instituto Nacional de Estadística y Geografía (INEGI) publica la Encuesta Nacional de Seguridad Pública Urbana (ENSU), los titulares suelen repetirse casi de forma automática. Algunas ciudades son catalogadas como 'las más seguras de México', mientras que otras aparecen nuevamente en la lista de las más peligrosas. La información rápidamente se transforma en infografías, rankings y publicaciones que circulan por redes sociales, donde la seguridad parece reducirse a un porcentaje de percepción ciudadana o a la posición que ocupa una ciudad dentro de una clasificación nacional.",
 			},
 			{
 				tipo: "parrafo",
@@ -5328,143 +5459,177 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "La seguridad pública difícilmente puede explicarse mediante un solo indicador. Una ciudad puede registrar una baja incidencia de homicidios y, al mismo tiempo, enfrentar altos niveles de extorsión que permanecen ocultos debido a la falta de denuncia. Otra puede aparecer con una percepción ciudadana favorable mientras organizaciones criminales mantienen presencia silenciosa sin recurrir a confrontaciones abiertas. También existen municipios donde la violencia disminuye temporalmente no porque el Estado haya fortalecido sus instituciones, sino porque un solo grupo criminal logró imponer el control del territorio y reducir los enfrentamientos con sus rivales.",
+				texto:
+					"La seguridad pública difícilmente puede explicarse mediante un solo indicador. Una ciudad puede registrar una baja incidencia de homicidios y, al mismo tiempo, enfrentar altos niveles de extorsión que permanecen ocultos debido a la falta de denuncia. Otra puede aparecer con una percepción ciudadana favorable mientras organizaciones criminales mantienen presencia silenciosa sin recurrir a confrontaciones abiertas. También existen municipios donde la violencia disminuye temporalmente no porque el Estado haya fortalecido sus instituciones, sino porque un solo grupo criminal logró imponer el control del territorio y reducir los enfrentamientos con sus rivales.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Desde la criminología, la seguridad debe entenderse como un fenómeno dinámico y multifactorial. No depende únicamente de cuántos delitos ocurren, sino de la capacidad institucional para prevenirlos, investigarlos y sancionarlos; de la fortaleza de las policías locales; de la coordinación entre los distintos niveles de gobierno; del desarrollo económico; de la cohesión social; de la planeación urbana y, cada vez con mayor relevancia, de la capacidad del Estado para impedir que las organizaciones criminales capturen actividades económicas o espacios de gobernabilidad.",
+				texto:
+					"Desde la criminología, la seguridad debe entenderse como un fenómeno dinámico y multifactorial. No depende únicamente de cuántos delitos ocurren, sino de la capacidad institucional para prevenirlos, investigarlos y sancionarlos; de la fortaleza de las policías locales; de la coordinación entre los distintos niveles de gobierno; del desarrollo económico; de la cohesión social; de la planeación urbana y, cada vez con mayor relevancia, de la capacidad del Estado para impedir que las organizaciones criminales capturen actividades económicas o espacios de gobernabilidad.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En otras palabras, una ciudad no se mantiene segura porque tenga más patrullas recorriendo sus calles. Lo hace cuando logra construir instituciones capaces de contener el delito antes de que éste se convierta en un fenómeno estructural.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "La historia reciente de México ofrece múltiples ejemplos que respaldan esta afirmación. Durante las últimas dos décadas, diversas ciudades experimentaron reducciones importantes en sus índices de violencia tras implementar estrategias específicas de coordinación policial, fortalecimiento de capacidades de inteligencia y profesionalización de sus corporaciones. Sin embargo, otras localidades que en algún momento fueron consideradas relativamente seguras enfrentaron un deterioro acelerado cuando la fragmentación de grupos criminales, la corrupción institucional o el crecimiento desordenado superaron la capacidad de respuesta de las autoridades.",
+				texto:
+					"En otras palabras, una ciudad no se mantiene segura porque tenga más patrullas recorriendo sus calles. Lo hace cuando logra construir instituciones capaces de contener el delito antes de que éste se convierta en un fenómeno estructural.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Quizá uno de los mayores errores al analizar la seguridad urbana consiste en asumir que ésta permanece estática. En realidad, se trata de una condición que exige mantenimiento permanente. La estabilidad alcanzada durante varios años puede modificarse en cuestión de meses si aparecen nuevos mercados ilícitos, si una organización criminal decide disputar el control territorial o si las instituciones encargadas de preservar el orden comienzan a perder capacidad operativa.",
+				texto:
+					"La historia reciente de México ofrece múltiples ejemplos que respaldan esta afirmación. Durante las últimas dos décadas, diversas ciudades experimentaron reducciones importantes en sus índices de violencia tras implementar estrategias específicas de coordinación policial, fortalecimiento de capacidades de inteligencia y profesionalización de sus corporaciones. Sin embargo, otras localidades que en algún momento fueron consideradas relativamente seguras enfrentaron un deterioro acelerado cuando la fragmentación de grupos criminales, la corrupción institucional o el crecimiento desordenado superaron la capacidad de respuesta de las autoridades.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Sinaloa representa uno de los ejemplos más ilustrativos de esta dinámica. Durante años, ciudades como Los Mochis y Culiacán registraron indicadores relativamente favorables en diversas mediciones de percepción ciudadana. No obstante, la confrontación entre facciones del Cártel de Sinaloa tras la captura de Ismael 'El Mayo' Zambada modificó drásticamente las condiciones de seguridad en buena parte del estado. Los bloqueos carreteros, enfrentamientos armados, ataques contra infraestructura, suspensión de actividades escolares y afectaciones económicas demostraron que una ciudad puede cambiar radicalmente cuando los factores que sostenían su estabilidad dejan de existir.",
+				texto:
+					"Quizá uno de los mayores errores al analizar la seguridad urbana consiste en asumir que ésta permanece estática. En realidad, se trata de una condición que exige mantenimiento permanente. La estabilidad alcanzada durante varios años puede modificarse en cuestión de meses si aparecen nuevos mercados ilícitos, si una organización criminal decide disputar el control territorial o si las instituciones encargadas de preservar el orden comienzan a perder capacidad operativa.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "El fenómeno contrario también resulta relevante. Existen municipios que durante años fueron asociados con elevados niveles de violencia y que, mediante transformaciones institucionales sostenidas, lograron recuperar condiciones de seguridad significativamente mejores. Coahuila constituye uno de los casos más estudiados en América Latina. Municipios como Saltillo o Piedras Negras, que hace poco más de una década enfrentaban escenarios complejos derivados de la disputa entre organizaciones criminales, hoy aparecen de manera recurrente entre las ciudades con mejores indicadores de seguridad del país. La diferencia no radica únicamente en la disminución de los delitos, sino en la consolidación de un modelo de coordinación entre fuerzas estatales, autoridades municipales, sector empresarial y mecanismos de inteligencia que permitió recuperar gradualmente el control institucional del territorio.",
+				texto:
+					"Sinaloa representa uno de los ejemplos más ilustrativos de esta dinámica. Durante años, ciudades como Los Mochis y Culiacán registraron indicadores relativamente favorables en diversas mediciones de percepción ciudadana. No obstante, la confrontación entre facciones del Cártel de Sinaloa tras la captura de Ismael 'El Mayo' Zambada modificó drásticamente las condiciones de seguridad en buena parte del estado. Los bloqueos carreteros, enfrentamientos armados, ataques contra infraestructura, suspensión de actividades escolares y afectaciones económicas demostraron que una ciudad puede cambiar radicalmente cuando los factores que sostenían su estabilidad dejan de existir.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Estos contrastes evidencian que la seguridad no depende exclusivamente de factores geográficos ni de características culturales propias de una región. Tampoco responde a una fórmula única aplicable por igual en todo el país. Cada ciudad enfrenta amenazas distintas y desarrolla capacidades diferentes para contenerlas. Algunas deben enfrentar mercados ilícitos vinculados con el narcotráfico; otras concentran problemas relacionados con el robo de carga, la extorsión, la trata de personas, el turismo o los flujos migratorios. En consecuencia, comparar ciudades únicamente mediante un indicador aislado suele conducir a conclusiones incompletas.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "Por esa razón, el presente análisis no pretende elaborar un ranking de 'las mejores' o 'las peores' ciudades para vivir. El objetivo es comprender por qué algunas han logrado conservar condiciones relativamente estables mientras otras permanecen atrapadas en ciclos recurrentes de violencia e inseguridad. Para ello resulta indispensable observar la seguridad desde una perspectiva integral que combine información oficial, percepción ciudadana, evolución delictiva, presencia de organizaciones criminales, capacidad institucional y acontecimientos registrados durante el último año.",
+				texto:
+					"El fenómeno contrario también resulta relevante. Existen municipios que durante años fueron asociados con elevados niveles de violencia y que, mediante transformaciones institucionales sostenidas, lograron recuperar condiciones de seguridad significativamente mejores. Coahuila constituye uno de los casos más estudiados en América Latina. Municipios como Saltillo o Piedras Negras, que hace poco más de una década enfrentaban escenarios complejos derivados de la disputa entre organizaciones criminales, hoy aparecen de manera recurrente entre las ciudades con mejores indicadores de seguridad del país. La diferencia no radica únicamente en la disminución de los delitos, sino en la consolidación de un modelo de coordinación entre fuerzas estatales, autoridades municipales, sector empresarial y mecanismos de inteligencia que permitió recuperar gradualmente el control institucional del territorio.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Sólo entendiendo cómo interactúan todos estos elementos será posible responder una pregunta mucho más importante que la posición que ocupa una ciudad en una encuesta: ¿qué condiciones permiten que una comunidad construya seguridad de manera sostenida y qué factores explican que otras continúen perdiéndola?",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "Las ciudades que han logrado contener la violencia: ¿qué hicieron diferente?",
+				texto:
+					"Estos contrastes evidencian que la seguridad no depende exclusivamente de factores geográficos ni de características culturales propias de una región. Tampoco responde a una fórmula única aplicable por igual en todo el país. Cada ciudad enfrenta amenazas distintas y desarrolla capacidades diferentes para contenerlas. Algunas deben enfrentar mercados ilícitos vinculados con el narcotráfico; otras concentran problemas relacionados con el robo de carga, la extorsión, la trata de personas, el turismo o los flujos migratorios. En consecuencia, comparar ciudades únicamente mediante un indicador aislado suele conducir a conclusiones incompletas.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Cuando se habla de las ciudades más seguras de México suele asumirse que todas comparten una misma fórmula de éxito. Sin embargo, un análisis más profundo demuestra que cada una llegó a ese escenario por caminos distintos. Algunas fortalecieron sus instituciones policiales; otras aprovecharon condiciones geográficas favorables; varias consolidaron modelos de coordinación entre los tres niveles de gobierno y, en ciertos casos, el crecimiento económico y la cohesión social funcionaron como barreras adicionales frente a la expansión de la delincuencia.",
+				texto:
+					"Por esa razón, el presente análisis no pretende elaborar un ranking de 'las mejores' o 'las peores' ciudades para vivir. El objetivo es comprender por qué algunas han logrado conservar condiciones relativamente estables mientras otras permanecen atrapadas en ciclos recurrentes de violencia e inseguridad. Para ello resulta indispensable observar la seguridad desde una perspectiva integral que combine información oficial, percepción ciudadana, evolución delictiva, presencia de organizaciones criminales, capacidad institucional y acontecimientos registrados durante el último año.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "No existe una receta universal para construir seguridad, pero sí es posible identificar patrones que se repiten en aquellas ciudades que, durante los últimos años, han conseguido mantenerse por debajo de la media nacional tanto en percepción de inseguridad como en la incidencia de delitos de alto impacto. Comprender esos factores resulta mucho más útil que limitarse a conocer qué municipio ocupa el primer lugar en una encuesta.",
+				texto:
+					"Sólo entendiendo cómo interactúan todos estos elementos será posible responder una pregunta mucho más importante que la posición que ocupa una ciudad en una encuesta: ¿qué condiciones permiten que una comunidad construya seguridad de manera sostenida y qué factores explican que otras continúen perdiéndola?",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "San Pedro Garza García: cuando la inversión institucional se convierte en una política permanente",
+				texto:
+					"Las ciudades que han logrado contener la violencia: ¿qué hicieron diferente?",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Desde hace varios años, San Pedro Garza García aparece de manera constante entre las ciudades con menor percepción de inseguridad del país. Su posición suele generar debates, particularmente porque forma parte de la zona metropolitana de Monterrey, una región que históricamente ha experimentado episodios de violencia relacionados con la delincuencia organizada.",
+				texto:
+					"Cuando se habla de las ciudades más seguras de México suele asumirse que todas comparten una misma fórmula de éxito. Sin embargo, un análisis más profundo demuestra que cada una llegó a ese escenario por caminos distintos. Algunas fortalecieron sus instituciones policiales; otras aprovecharon condiciones geográficas favorables; varias consolidaron modelos de coordinación entre los tres niveles de gobierno y, en ciertos casos, el crecimiento económico y la cohesión social funcionaron como barreras adicionales frente a la expansión de la delincuencia.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La explicación no radica en la ausencia de amenazas criminales, sino en la capacidad institucional para contenerlas.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "San Pedro ha construido uno de los modelos municipales de seguridad más robustos del país mediante una combinación de profesionalización policial, inversión tecnológica, sistemas avanzados de videovigilancia, monitoreo urbano y una estrecha coordinación con Fuerza Civil y autoridades federales. A diferencia de otros municipios donde las estrategias cambian cada tres años con la llegada de una nueva administración, buena parte de sus políticas de seguridad han mantenido continuidad, permitiendo consolidar capacidades operativas que trascienden los ciclos políticos.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Otro elemento determinante es su estructura urbana. La elevada recaudación municipal permite financiar infraestructura pública, iluminación, espacios urbanos vigilados y servicios que reducen las oportunidades para la comisión de delitos patrimoniales. Paralelamente, el alto nivel de formalidad económica facilita una mayor colaboración entre autoridades, empresas y ciudadanía para reportar incidentes y atender riesgos emergentes.",
-			},
-				{
-				tipo: "parrafo",
-				texto: "Sin embargo, interpretar estos resultados como evidencia de inmunidad frente al crimen organizado sería un error. La ubicación de San Pedro dentro del corredor industrial de Nuevo León implica que continúa expuesto a amenazas relacionadas con operaciones financieras ilícitas, lavado de activos y movilidad de organizaciones criminales que operan en municipios vecinos. La diferencia consiste en que dichas dinámicas rara vez logran traducirse en niveles elevados de violencia cotidiana gracias a una respuesta institucional más rápida y coordinada.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "En otras palabras, San Pedro no es una ciudad libre de criminalidad; es una ciudad que ha desarrollado mayores capacidades para impedir que ésta se manifieste de manera generalizada.",
+				texto:
+					"No existe una receta universal para construir seguridad, pero sí es posible identificar patrones que se repiten en aquellas ciudades que, durante los últimos años, han conseguido mantenerse por debajo de la media nacional tanto en percepción de inseguridad como en la incidencia de delitos de alto impacto. Comprender esos factores resulta mucho más útil que limitarse a conocer qué municipio ocupa el primer lugar en una encuesta.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Saltillo: la reconstrucción institucional después de una década de violencia",
+				texto:
+					"San Pedro Garza García: cuando la inversión institucional se convierte en una política permanente",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Pocas ciudades ilustran mejor la capacidad de recuperación institucional que Saltillo.",
+				texto:
+					"Desde hace varios años, San Pedro Garza García aparece de manera constante entre las ciudades con menor percepción de inseguridad del país. Su posición suele generar debates, particularmente porque forma parte de la zona metropolitana de Monterrey, una región que históricamente ha experimentado episodios de violencia relacionados con la delincuencia organizada.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Durante los años más críticos de la llamada guerra contra el narcotráfico, Coahuila enfrentó una de las etapas más violentas de su historia reciente. Municipios como Allende, Piedras Negras, Monclova y Saltillo experimentaron el impacto de organizaciones criminales que disputaban corredores estratégicos para el tráfico de drogas, armas, hidrocarburos y personas hacia la frontera con Estados Unidos.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "Lejos de convertirse en una condición permanente, esa crisis obligó al estado a replantear completamente su modelo de seguridad.",
+				texto:
+					"La explicación no radica en la ausencia de amenazas criminales, sino en la capacidad institucional para contenerlas.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "A partir de la segunda mitad de la década pasada comenzaron a consolidarse profundas transformaciones orientadas a fortalecer las capacidades de inteligencia, profesionalizar a las corporaciones policiales y establecer una coordinación permanente entre fuerzas estatales, Ejército, Guardia Nacional, fiscalías y autoridades municipales. Paralelamente, se incrementó el control sobre los accesos carreteros mediante filtros de vigilancia, arcos de seguridad y sistemas tecnológicos que permitieron dificultar la movilidad de grupos delictivos.",
+				texto:
+					"San Pedro ha construido uno de los modelos municipales de seguridad más robustos del país mediante una combinación de profesionalización policial, inversión tecnológica, sistemas avanzados de videovigilancia, monitoreo urbano y una estrecha coordinación con Fuerza Civil y autoridades federales. A diferencia de otros municipios donde las estrategias cambian cada tres años con la llegada de una nueva administración, buena parte de sus políticas de seguridad han mantenido continuidad, permitiendo consolidar capacidades operativas que trascienden los ciclos políticos.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Uno de los aspectos menos visibles, pero probablemente más importantes, fue la construcción de mecanismos permanentes de colaboración con el sector empresarial. La industria instalada en la región entendió que la seguridad representaba una condición indispensable para mantener inversiones y cadenas logísticas, favoreciendo esquemas de intercambio de información, prevención situacional y fortalecimiento institucional.",
+				texto:
+					"Otro elemento determinante es su estructura urbana. La elevada recaudación municipal permite financiar infraestructura pública, iluminación, espacios urbanos vigilados y servicios que reducen las oportunidades para la comisión de delitos patrimoniales. Paralelamente, el alto nivel de formalidad económica facilita una mayor colaboración entre autoridades, empresas y ciudadanía para reportar incidentes y atender riesgos emergentes.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Los resultados no aparecieron de manera inmediata. La recuperación fue gradual y requirió varios años de continuidad administrativa. Hoy Saltillo figura recurrentemente entre las ciudades con mejores indicadores de percepción de seguridad porque logró algo que pocas entidades han conseguido: transformar una respuesta reactiva frente a la violencia en una política pública sostenida.",
+				texto:
+					"Sin embargo, interpretar estos resultados como evidencia de inmunidad frente al crimen organizado sería un error. La ubicación de San Pedro dentro del corredor industrial de Nuevo León implica que continúa expuesto a amenazas relacionadas con operaciones financieras ilícitas, lavado de activos y movilidad de organizaciones criminales que operan en municipios vecinos. La diferencia consiste en que dichas dinámicas rara vez logran traducirse en niveles elevados de violencia cotidiana gracias a una respuesta institucional más rápida y coordinada.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "No obstante, su experiencia también demuestra que ninguna estrategia puede considerarse definitiva. La cercanía con estados que enfrentan altos niveles de violencia obliga a mantener un esfuerzo permanente de vigilancia e inteligencia para evitar que la presión criminal vuelva a trasladarse hacia la entidad.",
+				texto:
+					"En otras palabras, San Pedro no es una ciudad libre de criminalidad; es una ciudad que ha desarrollado mayores capacidades para impedir que ésta se manifieste de manera generalizada.",
 			},
-						{
+			{
+				tipo: "subtitulo",
+				texto:
+					"Saltillo: la reconstrucción institucional después de una década de violencia",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Pocas ciudades ilustran mejor la capacidad de recuperación institucional que Saltillo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Durante los años más críticos de la llamada guerra contra el narcotráfico, Coahuila enfrentó una de las etapas más violentas de su historia reciente. Municipios como Allende, Piedras Negras, Monclova y Saltillo experimentaron el impacto de organizaciones criminales que disputaban corredores estratégicos para el tráfico de drogas, armas, hidrocarburos y personas hacia la frontera con Estados Unidos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Lejos de convertirse en una condición permanente, esa crisis obligó al estado a replantear completamente su modelo de seguridad.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"A partir de la segunda mitad de la década pasada comenzaron a consolidarse profundas transformaciones orientadas a fortalecer las capacidades de inteligencia, profesionalizar a las corporaciones policiales y establecer una coordinación permanente entre fuerzas estatales, Ejército, Guardia Nacional, fiscalías y autoridades municipales. Paralelamente, se incrementó el control sobre los accesos carreteros mediante filtros de vigilancia, arcos de seguridad y sistemas tecnológicos que permitieron dificultar la movilidad de grupos delictivos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Uno de los aspectos menos visibles, pero probablemente más importantes, fue la construcción de mecanismos permanentes de colaboración con el sector empresarial. La industria instalada en la región entendió que la seguridad representaba una condición indispensable para mantener inversiones y cadenas logísticas, favoreciendo esquemas de intercambio de información, prevención situacional y fortalecimiento institucional.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los resultados no aparecieron de manera inmediata. La recuperación fue gradual y requirió varios años de continuidad administrativa. Hoy Saltillo figura recurrentemente entre las ciudades con mejores indicadores de percepción de seguridad porque logró algo que pocas entidades han conseguido: transformar una respuesta reactiva frente a la violencia en una política pública sostenida.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"No obstante, su experiencia también demuestra que ninguna estrategia puede considerarse definitiva. La cercanía con estados que enfrentan altos niveles de violencia obliga a mantener un esfuerzo permanente de vigilancia e inteligencia para evitar que la presión criminal vuelva a trasladarse hacia la entidad.",
+			},
+			{
 				tipo: "subtitulo",
 				texto: "Mérida: una excepción que también enfrenta nuevos desafíos",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Durante décadas, Mérida ha construido una reputación nacional e internacional como una de las ciudades más seguras de México. Esa percepción no obedece únicamente a los resultados de las encuestas ciudadanas, sino a una combinación de factores históricos, sociales e institucionales que han permitido mantener bajos niveles de delitos de alto impacto en comparación con otras capitales estatales.",
+				texto:
+					"Durante décadas, Mérida ha construido una reputación nacional e internacional como una de las ciudades más seguras de México. Esa percepción no obedece únicamente a los resultados de las encuestas ciudadanas, sino a una combinación de factores históricos, sociales e institucionales que han permitido mantener bajos niveles de delitos de alto impacto en comparación con otras capitales estatales.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Uno de los elementos más relevantes ha sido la estabilidad de las instituciones encargadas de la seguridad pública. La Secretaría de Seguridad Pública de Yucatán ha mantenido durante años un modelo de profesionalización policial caracterizado por bajos niveles de rotación, procesos continuos de capacitación, inversión tecnológica y una importante capacidad de coordinación operativa. A ello se suma una cultura ciudadana donde la denuncia, la participación comunitaria y el cumplimiento de normas conservan niveles relativamente elevados respecto del promedio nacional.",
+				texto:
+					"Uno de los elementos más relevantes ha sido la estabilidad de las instituciones encargadas de la seguridad pública. La Secretaría de Seguridad Pública de Yucatán ha mantenido durante años un modelo de profesionalización policial caracterizado por bajos niveles de rotación, procesos continuos de capacitación, inversión tecnológica y una importante capacidad de coordinación operativa. A ello se suma una cultura ciudadana donde la denuncia, la participación comunitaria y el cumplimiento de normas conservan niveles relativamente elevados respecto del promedio nacional.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La propia estructura económica del estado también ha contribuido a limitar la expansión de determinados mercados ilícitos. A diferencia de entidades atravesadas por rutas estratégicas del narcotráfico o por intensas disputas territoriales entre organizaciones criminales, Yucatán ha permanecido relativamente al margen de esos conflictos, reduciendo la probabilidad de enfrentamientos armados de gran escala.",
+				texto:
+					"La propia estructura económica del estado también ha contribuido a limitar la expansión de determinados mercados ilícitos. A diferencia de entidades atravesadas por rutas estratégicas del narcotráfico o por intensas disputas territoriales entre organizaciones criminales, Yucatán ha permanecido relativamente al margen de esos conflictos, reduciendo la probabilidad de enfrentamientos armados de gran escala.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Sin embargo, considerar a Mérida como una ciudad completamente ajena a la delincuencia sería una interpretación equivocada.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "El acelerado crecimiento demográfico, el incremento sostenido del turismo, la llegada de nuevos desarrollos inmobiliarios y la expansión metropolitana comienzan a modificar las condiciones que históricamente favorecieron su estabilidad. Durante los últimos años se ha observado un aumento en delitos patrimoniales, fraudes electrónicos, extorsiones telefónicas, violencia familiar y desapariciones de personas, fenómenos que responden a dinámicas distintas a las observadas en entidades con fuerte presencia del crimen organizado, pero que igualmente representan desafíos para las instituciones locales.",
+				texto:
+					"Sin embargo, considerar a Mérida como una ciudad completamente ajena a la delincuencia sería una interpretación equivocada.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La principal fortaleza de Mérida consiste precisamente en reconocer que la seguridad no es un estado permanente. Su experiencia demuestra que conservar buenos indicadores exige anticiparse a los cambios sociales antes de que éstos generen problemas estructurales.",
+				texto:
+					"El acelerado crecimiento demográfico, el incremento sostenido del turismo, la llegada de nuevos desarrollos inmobiliarios y la expansión metropolitana comienzan a modificar las condiciones que históricamente favorecieron su estabilidad. Durante los últimos años se ha observado un aumento en delitos patrimoniales, fraudes electrónicos, extorsiones telefónicas, violencia familiar y desapariciones de personas, fenómenos que responden a dinámicas distintas a las observadas en entidades con fuerte presencia del crimen organizado, pero que igualmente representan desafíos para las instituciones locales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La principal fortaleza de Mérida consiste precisamente en reconocer que la seguridad no es un estado permanente. Su experiencia demuestra que conservar buenos indicadores exige anticiparse a los cambios sociales antes de que éstos generen problemas estructurales.",
 			},
 			{
 				tipo: "subtitulo",
@@ -5472,107 +5637,133 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Hablar de una ciudad fronteriza con bajos niveles de violencia puede parecer contradictorio si se considera la intensa actividad criminal que históricamente caracteriza buena parte de la frontera norte. Sin embargo, Piedras Negras constituye una excepción que merece atención.",
+				texto:
+					"Hablar de una ciudad fronteriza con bajos niveles de violencia puede parecer contradictorio si se considera la intensa actividad criminal que históricamente caracteriza buena parte de la frontera norte. Sin embargo, Piedras Negras constituye una excepción que merece atención.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Su ubicación frente a Eagle Pass, Texas, la convierte en un punto estratégico para el comercio internacional y el tránsito de mercancías. Precisamente por ello, el fortalecimiento de la seguridad fue entendido como un requisito indispensable para preservar la competitividad económica de la región.",
-			},
-				{
-				tipo: "parrafo",
-				texto: "La coordinación entre autoridades estatales, federales y municipales permitió consolidar un modelo de vigilancia que combina inteligencia, presencia operativa y control de corredores carreteros, reduciendo considerablemente la capacidad de grupos criminales para establecer dinámicas de violencia similares a las observadas en otras ciudades fronterizas.",
+				texto:
+					"Su ubicación frente a Eagle Pass, Texas, la convierte en un punto estratégico para el comercio internacional y el tránsito de mercancías. Precisamente por ello, el fortalecimiento de la seguridad fue entendido como un requisito indispensable para preservar la competitividad económica de la región.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La experiencia de Piedras Negras confirma que la ubicación geográfica no determina inevitablemente los niveles de inseguridad. Las condiciones del entorno representan un factor de riesgo, pero la capacidad institucional sigue siendo el elemento que marca la diferencia entre contener las amenazas o permitir que éstas evolucionen hasta convertirse en crisis de seguridad.",
+				texto:
+					"La coordinación entre autoridades estatales, federales y municipales permitió consolidar un modelo de vigilancia que combina inteligencia, presencia operativa y control de corredores carreteros, reduciendo considerablemente la capacidad de grupos criminales para establecer dinámicas de violencia similares a las observadas en otras ciudades fronterizas.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Al observar conjuntamente estos casos emerge un patrón difícil de ignorar. Ninguna de estas ciudades alcanzó mejores condiciones de seguridad mediante acciones aisladas o estrategias de corto plazo. Todas comparten instituciones relativamente estables, continuidad en sus políticas públicas, inversión sostenida en capacidades policiales y mecanismos de coordinación que permiten responder antes de que la violencia alcance niveles críticos. La seguridad, en consecuencia, no parece depender exclusivamente de la cantidad de recursos disponibles, sino de la capacidad para convertirlos en instituciones que sobrevivan a los cambios de gobierno y mantengan una visión de largo plazo.",
+				texto:
+					"La experiencia de Piedras Negras confirma que la ubicación geográfica no determina inevitablemente los niveles de inseguridad. Las condiciones del entorno representan un factor de riesgo, pero la capacidad institucional sigue siendo el elemento que marca la diferencia entre contener las amenazas o permitir que éstas evolucionen hasta convertirse en crisis de seguridad.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Sin embargo, comprender por qué algunas ciudades han logrado contener la violencia sólo explica una parte del fenómeno. La otra mitad de la respuesta se encuentra en aquellos municipios donde los mercados criminales, la fragmentación de organizaciones delictivas y la debilidad institucional han producido el efecto contrario. Analizar esos casos permitirá entender que la inseguridad tampoco surge de manera espontánea; detrás de cada ciudad que hoy enfrenta altos niveles de violencia existe una combinación específica de factores que, con el tiempo, terminaron erosionando la capacidad del Estado para conservar el control del territorio.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "Cuando la violencia se vuelve parte de la vida cotidiana: ¿por qué algunas ciudades no logran romper el ciclo de la inseguridad?",
-			},
-						{
-				tipo: "parrafo",
-				texto: "Si las ciudades que han logrado mantener mejores condiciones de seguridad comparten instituciones sólidas y políticas públicas sostenidas, las localidades que hoy enfrentan los mayores niveles de violencia también presentan elementos comunes. La diferencia no radica únicamente en la presencia de organizaciones criminales. Después de todo, prácticamente todo el territorio nacional registra algún grado de actividad ilícita. Lo que distingue a las ciudades más afectadas es la convergencia de múltiples factores que terminan debilitando la capacidad del Estado para conservar el control de la seguridad pública.",
+				texto:
+					"Al observar conjuntamente estos casos emerge un patrón difícil de ignorar. Ninguna de estas ciudades alcanzó mejores condiciones de seguridad mediante acciones aisladas o estrategias de corto plazo. Todas comparten instituciones relativamente estables, continuidad en sus políticas públicas, inversión sostenida en capacidades policiales y mecanismos de coordinación que permiten responder antes de que la violencia alcance niveles críticos. La seguridad, en consecuencia, no parece depender exclusivamente de la cantidad de recursos disponibles, sino de la capacidad para convertirlos en instituciones que sobrevivan a los cambios de gobierno y mantengan una visión de largo plazo.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La experiencia mexicana demuestra que la violencia rara vez aparece de forma espontánea. Generalmente comienza con la consolidación de economías ilegales, continúa con la disputa por el control de esos mercados y, finalmente, evoluciona hacia escenarios donde la intimidación, el homicidio y la extorsión se convierten en mecanismos cotidianos para ejercer poder sobre la población. Cuando este proceso no es contenido oportunamente, la inseguridad deja de ser un problema exclusivamente policial y comienza a transformar la dinámica económica, social e incluso política de una ciudad.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "Los casos de Culiacán, Irapuato, Uruapan, Ciudad Obregón y Reynosa ilustran con claridad este fenómeno. Aunque pertenecen a regiones distintas y enfrentan problemáticas particulares, todas comparten una característica fundamental: en algún momento la capacidad de las organizaciones criminales para influir sobre el territorio comenzó a superar la capacidad institucional para contenerlas.",
+				texto:
+					"Sin embargo, comprender por qué algunas ciudades han logrado contener la violencia sólo explica una parte del fenómeno. La otra mitad de la respuesta se encuentra en aquellos municipios donde los mercados criminales, la fragmentación de organizaciones delictivas y la debilidad institucional han producido el efecto contrario. Analizar esos casos permitirá entender que la inseguridad tampoco surge de manera espontánea; detrás de cada ciudad que hoy enfrenta altos niveles de violencia existe una combinación específica de factores que, con el tiempo, terminaron erosionando la capacidad del Estado para conservar el control del territorio.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Culiacán: cuando la fragmentación criminal rompe un equilibrio construido durante décadas",
+				texto:
+					"Cuando la violencia se vuelve parte de la vida cotidiana: ¿por qué algunas ciudades no logran romper el ciclo de la inseguridad?",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Durante muchos años, Culiacán fue considerada una ciudad donde la presencia del narcotráfico coexistía con niveles de violencia relativamente contenidos si se comparaban con otras regiones del país. Esa percepción obedecía, en gran medida, a la existencia de una organización criminal con una estructura jerárquica definida que mantenía un control predominante sobre buena parte del estado.",
-			},
-						{
-				tipo: "parrafo",
-				texto: "Sin embargo, la historia reciente demostró que ese aparente equilibrio era profundamente frágil.",
+				texto:
+					"Si las ciudades que han logrado mantener mejores condiciones de seguridad comparten instituciones sólidas y políticas públicas sostenidas, las localidades que hoy enfrentan los mayores niveles de violencia también presentan elementos comunes. La diferencia no radica únicamente en la presencia de organizaciones criminales. Después de todo, prácticamente todo el territorio nacional registra algún grado de actividad ilícita. Lo que distingue a las ciudades más afectadas es la convergencia de múltiples factores que terminan debilitando la capacidad del Estado para conservar el control de la seguridad pública.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La captura de Ovidio Guzmán en enero de 2023 ya había evidenciado la capacidad de reacción de las organizaciones criminales mediante bloqueos carreteros, incendios de vehículos y ataques coordinados contra infraestructura pública. No obstante, la crisis adquirió una dimensión mucho mayor tras la detención de Ismael 'El Mayo' Zambada en 2024, acontecimiento que aceleró la confrontación entre distintas facciones del Cártel de Sinaloa.",
+				texto:
+					"La experiencia mexicana demuestra que la violencia rara vez aparece de forma espontánea. Generalmente comienza con la consolidación de economías ilegales, continúa con la disputa por el control de esos mercados y, finalmente, evoluciona hacia escenarios donde la intimidación, el homicidio y la extorsión se convierten en mecanismos cotidianos para ejercer poder sobre la población. Cuando este proceso no es contenido oportunamente, la inseguridad deja de ser un problema exclusivamente policial y comienza a transformar la dinámica económica, social e incluso política de una ciudad.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Lo ocurrido desde entonces representa uno de los ejemplos más claros de cómo la fragmentación criminal modifica radicalmente la seguridad urbana. Las disputas dejaron de concentrarse únicamente en corredores rurales o zonas serranas para trasladarse a espacios urbanos donde la población comenzó a convivir nuevamente con enfrentamientos armados, bloqueos, suspensión de actividades escolares, afectaciones al transporte público y una creciente incertidumbre económica.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "El caso de Culiacán demuestra que la estabilidad basada exclusivamente en el predominio de una organización criminal nunca constituye una política de seguridad sostenible. Mientras las instituciones estatales no logren consolidar plenamente el monopolio legítimo de la fuerza, cualquier reconfiguración interna de esos grupos puede traducirse en una rápida escalada de violencia.",
+				texto:
+					"Los casos de Culiacán, Irapuato, Uruapan, Ciudad Obregón y Reynosa ilustran con claridad este fenómeno. Aunque pertenecen a regiones distintas y enfrentan problemáticas particulares, todas comparten una característica fundamental: en algún momento la capacidad de las organizaciones criminales para influir sobre el territorio comenzó a superar la capacidad institucional para contenerlas.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Irapuato: la disputa permanente por el control económico del Bajío",
-			},
-						{
-				tipo: "parrafo",
-				texto: "A diferencia de Culiacán, donde la violencia reciente responde principalmente a una fractura interna, Irapuato refleja las consecuencias de una confrontación prolongada entre organizaciones rivales.",
+				texto:
+					"Culiacán: cuando la fragmentación criminal rompe un equilibrio construido durante décadas",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Su ubicación estratégica dentro del corredor industrial del Bajío convirtió a la ciudad en un punto de alto valor logístico para actividades relacionadas con el robo de hidrocarburos, el transporte de mercancías, la distribución de drogas y la extorsión de sectores productivos. Esa combinación de factores generó un escenario donde distintos grupos buscaron controlar simultáneamente economías ilícitas y actividades legales susceptibles de explotación criminal.",
+				texto:
+					"Durante muchos años, Culiacán fue considerada una ciudad donde la presencia del narcotráfico coexistía con niveles de violencia relativamente contenidos si se comparaban con otras regiones del país. Esa percepción obedecía, en gran medida, a la existencia de una organización criminal con una estructura jerárquica definida que mantenía un control predominante sobre buena parte del estado.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "El resultado ha sido una violencia persistente que trasciende el número de homicidios. Comerciantes, transportistas, pequeñas empresas y diversos sectores económicos han debido incorporar la inseguridad como una variable cotidiana dentro de sus actividades. La extorsión, los ataques contra establecimientos comerciales y las agresiones dirigidas a determinados sectores productivos evidencian que el objetivo de las organizaciones ya no consiste únicamente en controlar rutas de trasiego, sino también en capturar fuentes permanentes de financiamiento mediante economías locales.",
+				texto:
+					"Sin embargo, la historia reciente demostró que ese aparente equilibrio era profundamente frágil.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Esta evolución resulta especialmente preocupante porque amplía el universo de víctimas potenciales. La violencia deja de concentrarse entre grupos rivales y comienza a afectar directamente a ciudadanos cuya única relación con la criminalidad consiste en desarrollar una actividad económica.",
+				texto:
+					"La captura de Ovidio Guzmán en enero de 2023 ya había evidenciado la capacidad de reacción de las organizaciones criminales mediante bloqueos carreteros, incendios de vehículos y ataques coordinados contra infraestructura pública. No obstante, la crisis adquirió una dimensión mucho mayor tras la detención de Ismael 'El Mayo' Zambada en 2024, acontecimiento que aceleró la confrontación entre distintas facciones del Cártel de Sinaloa.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Lo ocurrido desde entonces representa uno de los ejemplos más claros de cómo la fragmentación criminal modifica radicalmente la seguridad urbana. Las disputas dejaron de concentrarse únicamente en corredores rurales o zonas serranas para trasladarse a espacios urbanos donde la población comenzó a convivir nuevamente con enfrentamientos armados, bloqueos, suspensión de actividades escolares, afectaciones al transporte público y una creciente incertidumbre económica.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El caso de Culiacán demuestra que la estabilidad basada exclusivamente en el predominio de una organización criminal nunca constituye una política de seguridad sostenible. Mientras las instituciones estatales no logren consolidar plenamente el monopolio legítimo de la fuerza, cualquier reconfiguración interna de esos grupos puede traducirse en una rápida escalada de violencia.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Uruapan: cuando los recursos naturales también se convierten en mercados criminales",
-			},
-				{
-				tipo: "parrafo",
-				texto: "La violencia en Uruapan no puede entenderse exclusivamente desde el narcotráfico.",
+				texto:
+					"Irapuato: la disputa permanente por el control económico del Bajío",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Michoacán concentra algunos de los mercados agrícolas más importantes del país, particularmente en la producción y exportación de aguacate y berries. Lejos de permanecer al margen de la delincuencia organizada, estas actividades se han convertido en fuentes de ingresos ilícitos mediante esquemas de extorsión, cobro de piso, control de cadenas logísticas e imposición de cuotas sobre productores y transportistas.",
+				texto:
+					"A diferencia de Culiacán, donde la violencia reciente responde principalmente a una fractura interna, Irapuato refleja las consecuencias de una confrontación prolongada entre organizaciones rivales.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En consecuencia, la disputa por el territorio responde tanto al control de rutas para el tráfico de drogas como al dominio de actividades económicas completamente legales.",
+				texto:
+					"Su ubicación estratégica dentro del corredor industrial del Bajío convirtió a la ciudad en un punto de alto valor logístico para actividades relacionadas con el robo de hidrocarburos, el transporte de mercancías, la distribución de drogas y la extorsión de sectores productivos. Esa combinación de factores generó un escenario donde distintos grupos buscaron controlar simultáneamente economías ilícitas y actividades legales susceptibles de explotación criminal.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Este fenómeno ha generado una compleja superposición entre economía formal e intereses criminales, donde la violencia funciona como mecanismo para asegurar el control de mercados altamente rentables. Las repercusiones trascienden la seguridad pública y alcanzan la inversión, el empleo y la competitividad internacional de una de las regiones agrícolas más importantes de México.",
+				texto:
+					"El resultado ha sido una violencia persistente que trasciende el número de homicidios. Comerciantes, transportistas, pequeñas empresas y diversos sectores económicos han debido incorporar la inseguridad como una variable cotidiana dentro de sus actividades. La extorsión, los ataques contra establecimientos comerciales y las agresiones dirigidas a determinados sectores productivos evidencian que el objetivo de las organizaciones ya no consiste únicamente en controlar rutas de trasiego, sino también en capturar fuentes permanentes de financiamiento mediante economías locales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esta evolución resulta especialmente preocupante porque amplía el universo de víctimas potenciales. La violencia deja de concentrarse entre grupos rivales y comienza a afectar directamente a ciudadanos cuya única relación con la criminalidad consiste en desarrollar una actividad económica.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"Uruapan: cuando los recursos naturales también se convierten en mercados criminales",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La violencia en Uruapan no puede entenderse exclusivamente desde el narcotráfico.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Michoacán concentra algunos de los mercados agrícolas más importantes del país, particularmente en la producción y exportación de aguacate y berries. Lejos de permanecer al margen de la delincuencia organizada, estas actividades se han convertido en fuentes de ingresos ilícitos mediante esquemas de extorsión, cobro de piso, control de cadenas logísticas e imposición de cuotas sobre productores y transportistas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En consecuencia, la disputa por el territorio responde tanto al control de rutas para el tráfico de drogas como al dominio de actividades económicas completamente legales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Este fenómeno ha generado una compleja superposición entre economía formal e intereses criminales, donde la violencia funciona como mecanismo para asegurar el control de mercados altamente rentables. Las repercusiones trascienden la seguridad pública y alcanzan la inversión, el empleo y la competitividad internacional de una de las regiones agrícolas más importantes de México.",
 			},
 			{
 				tipo: "subtitulo",
@@ -5580,55 +5771,66 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Sonora representa uno de los principales corredores estratégicos hacia la frontera con Estados Unidos. Esa condición geográfica ha favorecido históricamente la presencia de organizaciones dedicadas al tráfico de drogas, armas, personas y recursos financieros.",
+				texto:
+					"Sonora representa uno de los principales corredores estratégicos hacia la frontera con Estados Unidos. Esa condición geográfica ha favorecido históricamente la presencia de organizaciones dedicadas al tráfico de drogas, armas, personas y recursos financieros.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Ciudad Obregón ha resentido particularmente las consecuencias de la fragmentación de grupos criminales ocurrida durante los últimos años. Diversas células comenzaron a disputar espacios previamente controlados por estructuras más consolidadas, incrementando significativamente los homicidios dolosos y otros delitos de alto impacto.",
+				texto:
+					"Ciudad Obregón ha resentido particularmente las consecuencias de la fragmentación de grupos criminales ocurrida durante los últimos años. Diversas células comenzaron a disputar espacios previamente controlados por estructuras más consolidadas, incrementando significativamente los homicidios dolosos y otros delitos de alto impacto.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La violencia en esta región evidencia un patrón que también se observa en otros estados: cuando una organización pierde cohesión interna, el conflicto suele multiplicarse porque las disputas dejan de involucrar únicamente a dos actores claramente identificables y comienzan a fragmentarse entre múltiples células con capacidad variable de operación.",
+				texto:
+					"La violencia en esta región evidencia un patrón que también se observa en otros estados: cuando una organización pierde cohesión interna, el conflicto suele multiplicarse porque las disputas dejan de involucrar únicamente a dos actores claramente identificables y comienzan a fragmentarse entre múltiples células con capacidad variable de operación.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "En esos escenarios, las posibilidades de negociación disminuyen y la competencia por el territorio se vuelve considerablemente más impredecible.",
+				texto:
+					"En esos escenarios, las posibilidades de negociación disminuyen y la competencia por el territorio se vuelve considerablemente más impredecible.",
 			},
 			{
 				tipo: "subtitulo",
 				texto: "Reynosa: la presión constante de una frontera estratégica",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Reynosa constituye uno de los ejemplos más representativos de los desafíos que enfrentan las ciudades fronterizas.",
+				texto:
+					"Reynosa constituye uno de los ejemplos más representativos de los desafíos que enfrentan las ciudades fronterizas.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Su cercanía con Estados Unidos la convierte en un punto de enorme importancia para el comercio internacional, pero también para las actividades desarrolladas por organizaciones dedicadas al tráfico de drogas, personas, armas, combustible y mercancías ilícitas. Esa convergencia de intereses explica que la violencia en la región no responda únicamente a dinámicas locales, sino también a disputas vinculadas con mercados criminales de carácter transnacional.",
+				texto:
+					"Su cercanía con Estados Unidos la convierte en un punto de enorme importancia para el comercio internacional, pero también para las actividades desarrolladas por organizaciones dedicadas al tráfico de drogas, personas, armas, combustible y mercancías ilícitas. Esa convergencia de intereses explica que la violencia en la región no responda únicamente a dinámicas locales, sino también a disputas vinculadas con mercados criminales de carácter transnacional.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "A diferencia de otras ciudades donde los periodos de violencia suelen concentrarse en momentos específicos, Reynosa ha experimentado ciclos recurrentes de enfrentamientos derivados de la reconfiguración constante de las organizaciones que buscan controlar los cruces fronterizos.",
+				texto:
+					"A diferencia de otras ciudades donde los periodos de violencia suelen concentrarse en momentos específicos, Reynosa ha experimentado ciclos recurrentes de enfrentamientos derivados de la reconfiguración constante de las organizaciones que buscan controlar los cruces fronterizos.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Ello obliga a mantener un despliegue permanente de fuerzas estatales y federales que, si bien ha permitido contener parcialmente algunos episodios, no ha logrado eliminar completamente las condiciones estructurales que favorecen la disputa criminal.",
+				texto:
+					"Ello obliga a mantener un despliegue permanente de fuerzas estatales y federales que, si bien ha permitido contener parcialmente algunos episodios, no ha logrado eliminar completamente las condiciones estructurales que favorecen la disputa criminal.",
 			},
 			{
 				tipo: "subtitulo",
 				texto: "La violencia no aparece por casualidad",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Aunque cada una de estas ciudades enfrenta problemáticas particulares, todas reflejan una misma conclusión: la inseguridad no surge exclusivamente porque existan organizaciones criminales, sino porque estas encuentran condiciones que les permiten expandirse, disputar territorios y capturar economías locales durante periodos prolongados.",
+				texto:
+					"Aunque cada una de estas ciudades enfrenta problemáticas particulares, todas reflejan una misma conclusión: la inseguridad no surge exclusivamente porque existan organizaciones criminales, sino porque estas encuentran condiciones que les permiten expandirse, disputar territorios y capturar economías locales durante periodos prolongados.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La experiencia mexicana demuestra que las ciudades más violentas no llegaron a esa situación de un día para otro. Antes de que aparecieran los homicidios masivos, los bloqueos carreteros o las confrontaciones armadas, existieron señales tempranas que en muchos casos fueron subestimadas: crecimiento de mercados ilícitos, corrupción institucional, debilitamiento de las policías locales, incremento de la extorsión, impunidad persistente y una capacidad cada vez menor del Estado para responder de manera preventiva.",
+				texto:
+					"La experiencia mexicana demuestra que las ciudades más violentas no llegaron a esa situación de un día para otro. Antes de que aparecieran los homicidios masivos, los bloqueos carreteros o las confrontaciones armadas, existieron señales tempranas que en muchos casos fueron subestimadas: crecimiento de mercados ilícitos, corrupción institucional, debilitamiento de las policías locales, incremento de la extorsión, impunidad persistente y una capacidad cada vez menor del Estado para responder de manera preventiva.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Comprender esa secuencia resulta fundamental porque permite abandonar la idea de que la violencia es un fenómeno inevitable. Así como las ciudades analizadas en el apartado anterior demostraron que la seguridad puede construirse mediante instituciones sólidas y políticas públicas sostenidas, estos casos evidencian que la inseguridad también sigue un proceso identificable. Reconocer esas etapas constituye el primer paso para intervenir antes de que una ciudad termine incorporando la violencia como parte de su vida cotidiana.",
+				texto:
+					"Comprender esa secuencia resulta fundamental porque permite abandonar la idea de que la violencia es un fenómeno inevitable. Así como las ciudades analizadas en el apartado anterior demostraron que la seguridad puede construirse mediante instituciones sólidas y políticas públicas sostenidas, estos casos evidencian que la inseguridad también sigue un proceso identificable. Reconocer esas etapas constituye el primer paso para intervenir antes de que una ciudad termine incorporando la violencia como parte de su vida cotidiana.",
 			},
 			{
 				tipo: "subtitulo",
@@ -5636,71 +5838,565 @@ export const articulos = [
 			},
 			{
 				tipo: "parrafo",
-				texto: "Comparar ciudades como San Pedro Garza García, Saltillo o Mérida con Culiacán, Irapuato, Uruapan o Reynosa podría llevar a una conclusión simplista: unas son seguras y otras no. Sin embargo, reducir el análisis a esa dicotomía impediría comprender el verdadero problema. Ninguna de las ciudades consideradas hoy como referentes nacionales nació con ventajas imposibles de replicar, del mismo modo que ninguna de las localidades más violentas estuvo condenada desde su origen a vivir bajo escenarios de inseguridad permanente.",
+				texto:
+					"Comparar ciudades como San Pedro Garza García, Saltillo o Mérida con Culiacán, Irapuato, Uruapan o Reynosa podría llevar a una conclusión simplista: unas son seguras y otras no. Sin embargo, reducir el análisis a esa dicotomía impediría comprender el verdadero problema. Ninguna de las ciudades consideradas hoy como referentes nacionales nació con ventajas imposibles de replicar, del mismo modo que ninguna de las localidades más violentas estuvo condenada desde su origen a vivir bajo escenarios de inseguridad permanente.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "La diferencia más importante no radica en la cantidad de recursos económicos disponibles, sino en la capacidad de las instituciones para adaptarse antes de que la violencia se convierta en un fenómeno estructural."
+				texto:
+					"La diferencia más importante no radica en la cantidad de recursos económicos disponibles, sino en la capacidad de las instituciones para adaptarse antes de que la violencia se convierta en un fenómeno estructural.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Las ciudades que hoy mantienen mejores indicadores comparten un rasgo poco visible para la mayoría de la población: construyeron instituciones que sobrevivieron a los cambios políticos. Mientras en muchos municipios las estrategias de seguridad se modifican cada tres o seis años, las entidades que han logrado consolidar mejores resultados desarrollaron proyectos de largo plazo donde la profesionalización policial, la inversión tecnológica, la inteligencia criminal y la coordinación interinstitucional dejaron de depender de una administración específica para convertirse en políticas permanentes."
+				texto:
+					"Las ciudades que hoy mantienen mejores indicadores comparten un rasgo poco visible para la mayoría de la población: construyeron instituciones que sobrevivieron a los cambios políticos. Mientras en muchos municipios las estrategias de seguridad se modifican cada tres o seis años, las entidades que han logrado consolidar mejores resultados desarrollaron proyectos de largo plazo donde la profesionalización policial, la inversión tecnológica, la inteligencia criminal y la coordinación interinstitucional dejaron de depender de una administración específica para convertirse en políticas permanentes.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Esta continuidad genera un efecto acumulativo. Una policía que conserva personal capacitado durante años desarrolla conocimiento sobre las dinámicas delictivas de su territorio; una fiscalía que mantiene equipos especializados mejora progresivamente sus capacidades de investigación; una administración municipal que invierte de forma constante en videovigilancia, iluminación, movilidad urbana y recuperación de espacios públicos reduce paulatinamente las oportunidades para la comisión de delitos. La seguridad, en consecuencia, comienza a construirse mucho antes de que aparezca la patrulla o se ejecute un operativo."
+				texto:
+					"Esta continuidad genera un efecto acumulativo. Una policía que conserva personal capacitado durante años desarrolla conocimiento sobre las dinámicas delictivas de su territorio; una fiscalía que mantiene equipos especializados mejora progresivamente sus capacidades de investigación; una administración municipal que invierte de forma constante en videovigilancia, iluminación, movilidad urbana y recuperación de espacios públicos reduce paulatinamente las oportunidades para la comisión de delitos. La seguridad, en consecuencia, comienza a construirse mucho antes de que aparezca la patrulla o se ejecute un operativo.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "En contraste, las ciudades que enfrentan mayores niveles de violencia muestran una característica recurrente: la respuesta institucional suele llegar cuando las organizaciones criminales ya consolidaron suficiente poder económico, territorial y social para desafiar abiertamente al Estado. En ese momento, la política pública deja de concentrarse en la prevención y se transforma en una estrategia de contención. Los recursos comienzan a destinarse a enfrentar homicidios, bloqueos carreteros, desplazamientos forzados y ataques armados, mientras problemas que originalmente parecían menores —como la extorsión, el robo de combustible, el narcomenudeo o el control de mercados locales— evolucionan hasta convertirse en la principal fuente de financiamiento de las estructuras criminales."
+				texto:
+					"En contraste, las ciudades que enfrentan mayores niveles de violencia muestran una característica recurrente: la respuesta institucional suele llegar cuando las organizaciones criminales ya consolidaron suficiente poder económico, territorial y social para desafiar abiertamente al Estado. En ese momento, la política pública deja de concentrarse en la prevención y se transforma en una estrategia de contención. Los recursos comienzan a destinarse a enfrentar homicidios, bloqueos carreteros, desplazamientos forzados y ataques armados, mientras problemas que originalmente parecían menores —como la extorsión, el robo de combustible, el narcomenudeo o el control de mercados locales— evolucionan hasta convertirse en la principal fuente de financiamiento de las estructuras criminales.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "La experiencia reciente de México demuestra que prácticamente todas las grandes crisis de seguridad siguieron ese mismo patrón. Antes de los enfrentamientos masivos existieron pequeños grupos que comenzaron a controlar colonias específicas; antes de los bloqueos carreteros aparecieron disputas por mercados ilícitos; antes del desplazamiento forzado surgieron amenazas contra comerciantes, productores o transportistas; antes de los homicidios múltiples se normalizaron delitos que durante años fueron considerados de menor importancia. La violencia extrema rara vez constituye el punto de partida. Generalmente representa la etapa más visible de un deterioro institucional que comenzó mucho tiempo atrás."
+				texto:
+					"La experiencia reciente de México demuestra que prácticamente todas las grandes crisis de seguridad siguieron ese mismo patrón. Antes de los enfrentamientos masivos existieron pequeños grupos que comenzaron a controlar colonias específicas; antes de los bloqueos carreteros aparecieron disputas por mercados ilícitos; antes del desplazamiento forzado surgieron amenazas contra comerciantes, productores o transportistas; antes de los homicidios múltiples se normalizaron delitos que durante años fueron considerados de menor importancia. La violencia extrema rara vez constituye el punto de partida. Generalmente representa la etapa más visible de un deterioro institucional que comenzó mucho tiempo atrás.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Otro aprendizaje importante consiste en reconocer que la seguridad pública no puede construirse exclusivamente mediante el fortalecimiento policial. Las ciudades más estables suelen compartir mejores niveles de desarrollo económico, mayor formalidad laboral, infraestructura urbana funcional, espacios públicos activos, sistemas educativos más sólidos y una mayor participación ciudadana. Estos elementos no sustituyen el trabajo policial, pero sí disminuyen las condiciones que facilitan el reclutamiento por parte de organizaciones criminales y fortalecen la capacidad de las comunidades para resistir procesos de captura social."
+				texto:
+					"Otro aprendizaje importante consiste en reconocer que la seguridad pública no puede construirse exclusivamente mediante el fortalecimiento policial. Las ciudades más estables suelen compartir mejores niveles de desarrollo económico, mayor formalidad laboral, infraestructura urbana funcional, espacios públicos activos, sistemas educativos más sólidos y una mayor participación ciudadana. Estos elementos no sustituyen el trabajo policial, pero sí disminuyen las condiciones que facilitan el reclutamiento por parte de organizaciones criminales y fortalecen la capacidad de las comunidades para resistir procesos de captura social.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Este aspecto resulta especialmente relevante frente a uno de los mayores desafíos que enfrenta actualmente México: la fragmentación del crimen organizado. Durante décadas, buena parte de las políticas de seguridad estuvieron orientadas a desarticular las estructuras de liderazgo de los grandes cárteles. Si bien estas estrategias permitieron debilitar organizaciones específicas, también produjeron un fenómeno que hoy caracteriza gran parte de la violencia nacional: la proliferación de células más pequeñas, menos jerarquizadas y altamente violentas, cuya supervivencia depende de capturar economías locales mediante la extorsión, el cobro de piso, el secuestro, el robo de transporte de carga o la explotación de mercados legales."
+				texto:
+					"Este aspecto resulta especialmente relevante frente a uno de los mayores desafíos que enfrenta actualmente México: la fragmentación del crimen organizado. Durante décadas, buena parte de las políticas de seguridad estuvieron orientadas a desarticular las estructuras de liderazgo de los grandes cárteles. Si bien estas estrategias permitieron debilitar organizaciones específicas, también produjeron un fenómeno que hoy caracteriza gran parte de la violencia nacional: la proliferación de células más pequeñas, menos jerarquizadas y altamente violentas, cuya supervivencia depende de capturar economías locales mediante la extorsión, el cobro de piso, el secuestro, el robo de transporte de carga o la explotación de mercados legales.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "En este nuevo contexto, medir el éxito de una política pública exclusivamente mediante la disminución de homicidios resulta insuficiente. Una ciudad puede reducir temporalmente sus asesinatos mientras aumenta la extorsión, la desaparición de personas, la trata o el control criminal sobre determinadas actividades económicas. Por ello, la verdadera evaluación de la seguridad debe incorporar variables relacionadas con la gobernabilidad, la confianza ciudadana, la capacidad de investigación, la protección de las víctimas y la recuperación del espacio público."
+				texto:
+					"En este nuevo contexto, medir el éxito de una política pública exclusivamente mediante la disminución de homicidios resulta insuficiente. Una ciudad puede reducir temporalmente sus asesinatos mientras aumenta la extorsión, la desaparición de personas, la trata o el control criminal sobre determinadas actividades económicas. Por ello, la verdadera evaluación de la seguridad debe incorporar variables relacionadas con la gobernabilidad, la confianza ciudadana, la capacidad de investigación, la protección de las víctimas y la recuperación del espacio público.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Quizá el mayor aprendizaje que dejan las ciudades analizadas es que la seguridad no depende de una sola institución. Policía, fiscalías, Poder Judicial, gobiernos municipales, iniciativa privada, universidades y ciudadanía forman parte de un mismo ecosistema. Cuando alguno de esos componentes deja de funcionar, las organizaciones criminales encuentran oportunidades para ocupar los espacios que el Estado abandona. Por el contrario, cuando existe coordinación efectiva, continuidad administrativa y políticas públicas basadas en evidencia, incluso ciudades que enfrentaron algunos de los periodos más violentos de su historia pueden recuperar gradualmente condiciones de estabilidad."
+				texto:
+					"Quizá el mayor aprendizaje que dejan las ciudades analizadas es que la seguridad no depende de una sola institución. Policía, fiscalías, Poder Judicial, gobiernos municipales, iniciativa privada, universidades y ciudadanía forman parte de un mismo ecosistema. Cuando alguno de esos componentes deja de funcionar, las organizaciones criminales encuentran oportunidades para ocupar los espacios que el Estado abandona. Por el contrario, cuando existe coordinación efectiva, continuidad administrativa y políticas públicas basadas en evidencia, incluso ciudades que enfrentaron algunos de los periodos más violentos de su historia pueden recuperar gradualmente condiciones de estabilidad.",
 			},
-						{
+			{
 				tipo: "subtitulo",
-				texto: "La seguridad no es un destino; es una condición que debe construirse todos los días"
+				texto:
+					"La seguridad no es un destino; es una condición que debe construirse todos los días",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Existe una tendencia recurrente a clasificar a las ciudades mexicanas entre 'seguras' e 'inseguras', como si ambas categorías fueran permanentes. Sin embargo, la experiencia nacional demuestra exactamente lo contrario. Municipios que hace una década encabezaban los indicadores de violencia hoy muestran avances importantes, mientras otros que durante años fueron considerados ejemplos de estabilidad enfrentan desafíos que parecían impensables hace poco tiempo."
+				texto:
+					"Existe una tendencia recurrente a clasificar a las ciudades mexicanas entre 'seguras' e 'inseguras', como si ambas categorías fueran permanentes. Sin embargo, la experiencia nacional demuestra exactamente lo contrario. Municipios que hace una década encabezaban los indicadores de violencia hoy muestran avances importantes, mientras otros que durante años fueron considerados ejemplos de estabilidad enfrentan desafíos que parecían impensables hace poco tiempo.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "La seguridad no constituye un estado definitivo. Es una condición dinámica que exige adaptación constante frente a amenazas igualmente cambiantes."
+				texto:
+					"La seguridad no constituye un estado definitivo. Es una condición dinámica que exige adaptación constante frente a amenazas igualmente cambiantes.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Los mercados ilícitos evolucionan, las organizaciones criminales modifican sus modelos de operación, las tecnologías transforman las formas de delinquir y las ciudades experimentan procesos acelerados de crecimiento urbano, migración y desarrollo económico que generan nuevas oportunidades tanto para la prosperidad como para la criminalidad. En consecuencia, ninguna estrategia puede permanecer inmóvil si pretende seguir siendo eficaz."
+				texto:
+					"Los mercados ilícitos evolucionan, las organizaciones criminales modifican sus modelos de operación, las tecnologías transforman las formas de delinquir y las ciudades experimentan procesos acelerados de crecimiento urbano, migración y desarrollo económico que generan nuevas oportunidades tanto para la prosperidad como para la criminalidad. En consecuencia, ninguna estrategia puede permanecer inmóvil si pretende seguir siendo eficaz.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Quizá esa sea la principal enseñanza que deja el análisis de las ciudades mexicanas. La diferencia entre aquellas que hoy conservan mejores condiciones de seguridad y las que enfrentan mayores niveles de violencia no se explica únicamente por el número de patrullas, cámaras o elementos desplegados en las calles. La verdadera diferencia radica en la capacidad institucional para anticipar los cambios antes de que el delito se transforme en una estructura paralela de poder."
+				texto:
+					"Quizá esa sea la principal enseñanza que deja el análisis de las ciudades mexicanas. La diferencia entre aquellas que hoy conservan mejores condiciones de seguridad y las que enfrentan mayores niveles de violencia no se explica únicamente por el número de patrullas, cámaras o elementos desplegados en las calles. La verdadera diferencia radica en la capacidad institucional para anticipar los cambios antes de que el delito se transforme en una estructura paralela de poder.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "En un país donde la inseguridad suele medirse mediante rankings trimestrales y estadísticas anuales, conviene recordar que los indicadores representan únicamente la consecuencia visible de procesos mucho más profundos. Detrás de cada ciudad segura existen años de construcción institucional; detrás de cada ciudad violenta, una sucesión de decisiones, omisiones y oportunidades desaprovechadas que permitieron que el crimen ocupara espacios que nunca debieron quedar vacíos."
+				texto:
+					"En un país donde la inseguridad suele medirse mediante rankings trimestrales y estadísticas anuales, conviene recordar que los indicadores representan únicamente la consecuencia visible de procesos mucho más profundos. Detrás de cada ciudad segura existen años de construcción institucional; detrás de cada ciudad violenta, una sucesión de decisiones, omisiones y oportunidades desaprovechadas que permitieron que el crimen ocupara espacios que nunca debieron quedar vacíos.",
 			},
-						{
+			{
 				tipo: "parrafo",
-				texto: "Comprender esa diferencia quizá sea el primer paso para dejar de preguntarnos cuáles son hoy las ciudades más seguras de México y comenzar a discutir una cuestión mucho más relevante para el futuro del país: ¿qué estamos haciendo para que las ciudades que hoy enfrentan violencia no continúen recorriendo el mismo camino durante la próxima década?"
+				texto:
+					"Comprender esa diferencia quizá sea el primer paso para dejar de preguntarnos cuáles son hoy las ciudades más seguras de México y comenzar a discutir una cuestión mucho más relevante para el futuro del país: ¿qué estamos haciendo para que las ciudades que hoy enfrentan violencia no continúen recorriendo el mismo camino durante la próxima década?",
+			},
+		],
+	},
+	{
+		metadata: {
+			id: "art-019",
+			slug: "inseguridad-en-carreteras-de-mexico",
+			titulo:
+				"¿Viajar por carretera en México sigue siendo seguro? Una guía para identificar riesgos y reducir la exposición durante tus traslados",
+			categoria: {
+				principal: "seguridad-publica",
+				label: "Seguridad pública",
+			},
+			etiquetas: [
+				"carreteras más peligrosas de México",
+				"seguridad carretera en México",
+				"riesgo carretero en México",
+				"asaltos en carreteras de México",
+				"robos en carreteras de México",
+				"bloqueos carreteros en México",
+				"violencia en carreteras de México",
+				"robo al transporte de carga",
+				"grupos criminales en carreteras",
+				"prevención de asaltos en carretera",
+				"seguridad para conductores",
+				"seguridad para viajeros en carretera",
+			],
+			fechaPublicacion: "2026-08-17",
+			autor: "BMC",
+			tiempoLectura: 12,
+			estado: "publicado",
+		},
+
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Seguridad pública",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+
+		seo: {
+			metaTitle:
+				"¿Viajar por carretera en México sigue siendo seguro? Una guía para identificar riesgos y reducir la exposición durante tus traslados",
+			metaDescription: "¿Todavía es seguro viajar por carretera en México? ",
+		},
+
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1787011773/Observatorio_criminal_20_h6o05m.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1787011773/BannerArtPage_19_nv99rb.png",
+			altImagen: "Ilustración",
+		},
+
+		resumen:
+			"México no enfrenta un problema homogéneo de inseguridad carretera",
+
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto:
+					"Las carreteras mexicanas representan mucho más que una red de comunicación.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Sobre ellas se mueve gran parte de la economía nacional, circulan diariamente millones de personas por motivos laborales, turísticos y familiares, y dependen sectores estratégicos como el transporte de mercancías, el turismo y el comercio internacional. De acuerdo con cifras oficiales, cada año se realizan millones de desplazamientos por las autopistas y carreteras federales del país, y la inmensa mayoría concluye sin incidentes. Sin embargo, esa realidad convive con otra menos visible: la existencia de corredores donde la delincuencia organizada y la criminalidad común han encontrado condiciones favorables para operar, incrementando significativamente el riesgo para automovilistas, transportistas y viajeros.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En los últimos años, la conversación pública sobre la seguridad carretera ha estado dominada por imágenes de vehículos incendiados, bloqueos armados, robos violentos y enfrentamientos que rápidamente se viralizan en redes sociales. Cada nuevo incidente suele provocar la misma pregunta: ¿todavía es seguro viajar por carretera en México? La respuesta, como ocurre con la mayoría de los fenómenos relacionados con la seguridad pública, no puede reducirse a un simple sí o no.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"México no enfrenta un problema homogéneo de inseguridad carretera. Existen miles de kilómetros de autopistas donde diariamente transitan familias, turistas y transportistas sin experimentar ningún incidente. Al mismo tiempo, determinados corredores concentran de manera recurrente robos de vehículos, asaltos al transporte de carga, retenes ilegales, bloqueos, utilización de ponchallantas, extorsiones e incluso episodios de violencia derivados de confrontaciones entre organizaciones criminales. Esta diferencia no es producto del azar; responde a factores geográficos, económicos, institucionales y criminales que convierten a ciertas rutas en espacios particularmente atractivos para quienes buscan controlar mercancías, personas o territorios.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Uno de los errores más frecuentes consiste en asumir que una carretera es 'segura' o 'insegura' de manera permanente. En realidad, el riesgo es dinámico. Un mismo tramo puede permanecer estable durante meses y, tras un operativo de alto impacto, la captura de un líder criminal o una disputa entre grupos rivales, convertirse temporalmente en escenario de bloqueos o enfrentamientos. Lo ocurrido en diversas carreteras de Sinaloa tras la confrontación interna del Cártel de Sinaloa, o los bloqueos registrados en distintos momentos en Michoacán y Jalisco, ilustran cómo las condiciones de seguridad pueden modificarse rápidamente dependiendo del contexto criminal.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Tampoco todos los delitos carreteros obedecen a la misma lógica. Mientras el robo al transporte de carga suele concentrarse en corredores industriales y logísticos donde circulan mercancías de alto valor, otras regiones presentan mayor incidencia de robos a vehículos particulares, secuestros virtuales, falsas averías, extorsiones o retenes clandestinos utilizados para identificar posibles víctimas. Cada modalidad responde a incentivos distintos y requiere medidas de prevención igualmente diferentes. Analizar todas ellas bajo una misma categoría conduce a diagnósticos simplificados que poco ayudan a comprender el fenómeno.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"A ello se suma una transformación importante en la forma de operar de las organizaciones criminales. Durante décadas, muchas de ellas privilegiaban la discreción para evitar afectar las rutas utilizadas para el trasiego de drogas o mercancías ilícitas. Hoy, en cambio, numerosas estructuras recurren a bloqueos carreteros, incendios de vehículos, ataques contra infraestructura, uso de artefactos ponchallantas y cierres temporales de vialidades como mecanismos para retrasar el avance de las fuerzas de seguridad, proteger operaciones específicas o ejercer presión sobre las autoridades. En consecuencia, el riesgo ya no se limita al delito patrimonial; en determinadas regiones, la movilidad misma puede verse afectada por dinámicas propias del conflicto entre organizaciones criminales y el Estado.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Frente a este escenario, la prevención adquiere una importancia que trasciende las recomendaciones tradicionales de 'no viajar de noche' o 'utilizar autopistas de cuota'. La verdadera reducción del riesgo comienza mucho antes de arrancar el motor. Implica comprender por qué ciertos corredores concentran mayor actividad criminal, identificar señales tempranas de alerta, conocer el contexto de seguridad de la ruta elegida y tomar decisiones basadas en información verificable, no en rumores o publicaciones virales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Este artículo no pretende elaborar una lista de 'las carreteras más peligrosas de México'. Ese tipo de clasificaciones cambian constantemente y suelen ofrecer una visión incompleta de un problema mucho más complejo. El propósito es distinto: analizar por qué algunos corredores carreteros se han convertido en puntos críticos para la delincuencia, cómo han evolucionado las amenazas durante los últimos años y qué medidas concretas pueden adoptar los ciudadanos para reducir su exposición al riesgo sin renunciar a la movilidad.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Porque viajar informado no elimina todos los peligros, pero sí permite comprender una realidad que con frecuencia permanece oculta detrás de estadísticas aisladas o titulares de alto impacto. En materia de seguridad carretera, la mejor herramienta de prevención sigue siendo el conocimiento del entorno por el que se transita.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"¿Por qué algunas carreteras se convierten en objetivos del crimen organizado?",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La percepción de que determinadas carreteras 'son peligrosas' suele construirse a partir de noticias sobre asaltos, bloqueos o enfrentamientos armados. Sin embargo, pocas veces se explica por qué esos hechos ocurren reiteradamente en los mismos corredores. Desde una perspectiva criminológica, la respuesta no se encuentra únicamente en la presencia de organizaciones delictivas, sino en el valor estratégico que ciertas rutas representan para las economías legales e ilegales que convergen en ellas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Las carreteras son mucho más que infraestructura de transporte. Constituyen corredores logísticos donde diariamente circulan mercancías valuadas en miles de millones de pesos, combustibles, productos electrónicos, alimentos, medicamentos, vehículos de carga y millones de personas. Para la economía nacional representan arterias indispensables; para las organizaciones criminales, en cambio, son espacios donde resulta posible obtener ganancias mediante el robo, la extorsión, el control territorial o la movilidad de actividades ilícitas. Allí donde el Estado depende de una carretera para conectar regiones productivas, también existe un incentivo para que grupos delictivos intenten ejercer algún grado de control sobre ella.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El fenómeno comenzó a transformarse de manera importante durante la última década. Tradicionalmente, muchas organizaciones criminales concentraban sus esfuerzos en proteger corredores utilizados para el trasiego de drogas hacia la frontera norte, procurando evitar acciones que interrumpieran sus propias rutas de movilidad. Sin embargo, la fragmentación de los grandes cárteles modificó profundamente esa lógica. La aparición de múltiples células regionales incrementó la competencia por fuentes de financiamiento distintas al narcotráfico, favoreciendo el crecimiento del robo de transporte de carga, la extorsión, el robo de vehículos particulares y otras actividades que encuentran en las carreteras un escenario particularmente rentable.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Este cambio explica por qué hoy numerosos corredores enfrentan riesgos que hace apenas quince años eran considerablemente menos frecuentes. Las organizaciones ya no buscan únicamente trasladar mercancías ilícitas; también pretenden capturar parte de la riqueza que diariamente circula por las vías de comunicación. Cada tráiler que transporta productos electrónicos, medicamentos, acero, alimentos o mercancías de importación representa una oportunidad económica cuya rentabilidad, en algunos casos, supera incluso la obtenida mediante otras actividades criminales. De acuerdo con reportes de organismos empresariales y autoridades, el robo al autotransporte se ha sofisticado al grado de involucrar labores previas de inteligencia, seguimiento satelital, infiltración de información logística y comercialización rápida de la mercancía robada, evidenciando un nivel de organización que trasciende al delincuente oportunista.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La ubicación geográfica también desempeña un papel determinante. Los corredores que conectan puertos marítimos con centros industriales, zonas agrícolas con mercados nacionales o estados fronterizos con el resto del país concentran un flujo constante de bienes y personas. Esa intensidad de tránsito aumenta el universo potencial de víctimas y dificulta que las autoridades supervisen permanentemente todos los tramos. A ello se suman características físicas que incrementan la vulnerabilidad, como largas distancias entre poblaciones, escasa cobertura de telefonía móvil, zonas montañosas que reducen la visibilidad, caminos alternos utilizados para escapar rápidamente o segmentos donde el tráfico disminuye considerablemente durante determinadas horas del día.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"No obstante, la infraestructura por sí sola no explica el problema. El factor que con mayor frecuencia determina la evolución del riesgo es la disputa por el control territorial. En aquellas regiones donde dos o más organizaciones criminales buscan dominar un mismo corredor, las carreteras dejan de ser únicamente espacios de tránsito y se convierten en escenarios donde se manifiestan conflictos que originalmente tienen un trasfondo económico. Los bloqueos mediante vehículos incendiados, la colocación de ponchallantas, los retenes clandestinos o los ataques contra instalaciones públicas no suelen dirigirse específicamente contra quienes viajan por esas rutas; en la mayoría de los casos constituyen tácticas empleadas para retrasar el avance de las fuerzas de seguridad, proteger movimientos internos o dificultar las operaciones de grupos rivales. Sin embargo, quienes terminan expuestos a sus consecuencias son miles de ciudadanos cuya única intención era llegar a su destino.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Otro aspecto que ha cobrado relevancia en los últimos años es el aprovechamiento de la información digital por parte de las organizaciones criminales. La popularización de aplicaciones de navegación, redes sociales y grupos de mensajería ha transformado la forma en que tanto ciudadanos como delincuentes utilizan las carreteras. Mientras los viajeros recurren a estas herramientas para encontrar rutas más rápidas o evitar congestionamientos, algunos grupos criminales monitorean patrones de circulación, identifican horarios de mayor flujo e incluso aprovechan desvíos sugeridos por aplicaciones para dirigir a potenciales víctimas hacia caminos secundarios con menor presencia institucional. Esto no significa que las plataformas de navegación sean inseguras, sino que la información tecnológica debe complementarse siempre con el conocimiento del contexto de seguridad de la región.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Existe además un elemento que rara vez recibe suficiente atención: la oportunidad delictiva. En criminología, diversas teorías sostienen que el delito no depende exclusivamente de la motivación del infractor, sino también de la existencia de condiciones favorables para cometerlo con un riesgo relativamente bajo de ser detectado. Las carreteras que concentran vigilancia limitada, tiempos prolongados de respuesta policial o escasa presencia de usuarios durante ciertos horarios ofrecen precisamente ese tipo de oportunidades. Cuando estas condiciones permanecen sin modificarse durante largos periodos, las organizaciones criminales comienzan a incorporarlas dentro de su propia planeación operativa.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Por ello, reducir el problema de la inseguridad carretera a la presencia de un determinado grupo criminal resulta insuficiente. Una organización puede cambiar de nombre, fragmentarse o desaparecer, pero si las condiciones estructurales que favorecen la comisión de delitos permanecen intactas, otro actor ocupará eventualmente ese espacio. La prevención efectiva exige intervenir sobre esas variables mediante mayor vigilancia, inteligencia, infraestructura tecnológica, coordinación entre autoridades y fortalecimiento de las capacidades de investigación.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Comprender esta lógica permite analizar con mayor objetividad los corredores que actualmente concentran los mayores riesgos. No todas las autopistas presentan el mismo nivel de amenaza, ni todas enfrentan las mismas modalidades delictivas. Algunas destacan por el robo de carga; otras por los bloqueos derivados de disputas entre organizaciones criminales; algunas más por la utilización de retenes ilegales o por el elevado número de robos a vehículos particulares. Identificar esas diferencias resulta indispensable para que las estrategias de prevención respondan al contexto específico de cada ruta y no a recomendaciones generales que pocas veces reflejan la realidad del terreno.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"Los corredores carreteros que actualmente concentran mayor riesgo: un análisis de las principales rutas de México",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"México cuenta con más de 170 mil kilómetros de carreteras federales, estatales y caminos rurales que conectan prácticamente todos los centros económicos del país. Sin embargo, la incidencia delictiva no se distribuye de manera uniforme. Mientras algunos corredores mantienen niveles relativamente estables de seguridad, otros concentran desde hace años robos al autotransporte, asaltos a vehículos particulares, bloqueos armados, retenes ilegales y episodios de violencia derivados de disputas entre organizaciones criminales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esta diferencia responde a factores muy específicos. La mayoría de las rutas consideradas de alto riesgo coinciden con corredores industriales, accesos a puertos marítimos, cruces fronterizos o zonas donde convergen mercados ilícitos altamente rentables. Comprender esa lógica permite entender por qué determinadas autopistas aparecen recurrentemente en reportes de autoridades, aseguradoras y empresas de transporte.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Del Valle de México hacia el Bajío",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La México–Querétaro es uno de los corredores más sensibles del país porque concentra una enorme cantidad de transporte de carga y conecta el Valle de México con el Bajío y posteriormente con los principales corredores industriales del centro y norte. El problema no radica únicamente en el volumen de mercancías: la circulación prácticamente permanente de tractocamiones permite que las estructuras dedicadas al robo identifiquen oportunidades dentro de un flujo vehicular que, en determinados horarios y puntos, pierde capacidad de maniobra.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El riesgo para las empresas está asociado principalmente con el robo de unidades y mercancías, mientras que para los particulares puede manifestarse de otra manera. Un vehículo detenido por congestionamiento, una avería, un accidente o una maniobra inesperada puede convertirse en un blanco vulnerable. También existe un riesgo indirecto: cuando se produce un robo o una persecución, la presencia de vehículos pesados, unidades atravesadas o cierres parciales puede provocar congestionamientos que exponen a cientos de conductores a permanecer inmovilizados durante largos periodos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La situación se vuelve todavía más compleja cuando la ruta continúa hacia Querétaro–Irapuato. El corredor atraviesa Apaseo el Grande, Celaya, Salamanca e Irapuato, una zona donde convergen infraestructura industrial, transporte de mercancías y una disputa criminal particularmente fragmentada.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En Guanajuato ya no resulta suficiente explicar el escenario como una confrontación entre dos grandes organizaciones. La propia autoridad federal ha reconocido que el Cártel Santa Rosa de Lima y el CJNG se han fragmentado en múltiples células, generando disputas simultáneas por territorios y actividades ilícitas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esta fragmentación tiene una consecuencia importante para la seguridad carretera: el riesgo puede aparecer de manera mucho menos predecible. Una célula puede intentar controlar un tramo para proteger actividades de extracción, robo, extorsión o trasiego, mientras otra busca desplazarla. El conductor que atraviesa el territorio no necesariamente es el objetivo, pero puede quedar atrapado en una confrontación o encontrarse con un bloqueo utilizado para impedir el desplazamiento de fuerzas rivales o retrasar la llegada de autoridades.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Por eso, en Guanajuato el concepto de riesgo carretero debe incluir algo que frecuentemente queda fuera de las estadísticas de robo: la posibilidad de interrupción violenta de la movilidad.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los bloqueos criminales no son necesariamente permanentes ni ocurren todos los días. Precisamente por eso son difíciles de incorporar a una medición convencional. Pueden surgir después de una detención, un operativo, un enfrentamiento o una disputa territorial y desaparecer horas después. Sin embargo, mientras permanecen activos, el conductor puede encontrarse ante un escenario mucho más delicado que un simple cierre de carretera: vehículos atravesados, unidades incendiadas, ponchallantas, presencia de hombres armados y circulación detenida.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La experiencia reciente de otros estados permite entender por qué este factor debe incorporarse a cualquier evaluación de riesgo.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"De Puebla a Veracruz: un corredor donde el riesgo cambia con el territorio",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La México–Puebla–Veracruz presenta una dinámica distinta. Entre Amozoc, Acatzingo y Esperanza existe una concentración histórica de incidentes relacionados con el transporte de carga, pero conforme la carretera se aproxima a Veracruz aparecen otros factores: zonas montañosas, menor visibilidad, caminos secundarios, asaltos a pasajeros y reportes de personas armadas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El problema para el conductor particular es que muchas de las estrategias utilizadas para detener un vehículo no requieren necesariamente una confrontación inicial. Un obstáculo sobre la carretera, objetos arrojados contra una unidad, una falsa emergencia o una persona que aparenta requerir auxilio pueden provocar que el conductor reduzca la velocidad o detenga completamente la marcha.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En el caso del transporte de pasajeros, la vulnerabilidad aumenta porque decenas de personas quedan concentradas dentro de una unidad cuya capacidad de maniobra es prácticamente nula una vez que ha sido obligada a detenerse.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Las Cumbres de Maltrata representan quizá el ejemplo más claro de esta transformación del riesgo. La configuración montañosa, las curvas y la vegetación reducen la visibilidad y generan espacios donde una persona o un vehículo puede permanecer oculto. Por ello, los reportes sobre presencia de hombres armados adquieren mayor relevancia cuando se analizan conjuntamente con los antecedentes de asaltos en el corredor.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La carretera, entonces, no debe analizarse únicamente desde la pregunta de cuántos robos se producen, sino desde otra mucho más útil: qué capacidad tiene un agresor para obligar a un vehículo a detenerse y qué posibilidades tiene la víctima de abandonar rápidamente el lugar.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"Estado de México: cuando la congestión también se convierte en vulnerabilidad",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los corredores México–Querétaro, México–Pachuca, México–Texcoco y los accesos metropolitanos del Estado de México presentan una característica diferente: una parte importante de su riesgo surge precisamente de su enorme densidad vehicular.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En estas vías, el conductor puede encontrarse atrapado en una fila de varios kilómetros sin posibilidad de avanzar, cambiar de dirección o abandonar inmediatamente la carretera. Para las organizaciones dedicadas al robo, esa inmovilidad puede representar una oportunidad; para el ciudadano común, significa que una situación originalmente dirigida contra un vehículo de carga puede terminar afectando a todos quienes se encuentran alrededor.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La congestión también tiene otro efecto: reduce la capacidad de respuesta colectiva. Cuando cientos de vehículos permanecen detenidos, una persona puede tardar más en identificar que existe una situación anormal y, si se produce un incidente, la propia saturación dificulta la salida del área.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En este entorno no necesariamente existe una organización criminal controlando físicamente toda la carretera. El riesgo puede surgir de células dedicadas al robo, grupos locales que aprovechan determinados accesos o individuos que operan sobre oportunidades generadas por la saturación.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Por eso, el Estado de México representa un tipo de vulnerabilidad diferente al de las zonas rurales: aquí el problema no es la ausencia de personas, sino la imposibilidad de moverse entre demasiadas personas.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "San Luis Potosí y las rutas hacia el norte",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La Querétaro–San Luis Potosí y San Luis Potosí–Matehuala forman parte de uno de los principales corredores logísticos hacia el norte del país. Su importancia comercial convierte al transporte de carga en el principal objetivo, pero existe otro factor que debe considerarse: la distancia entre algunos centros urbanos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En determinados segmentos, una unidad puede encontrarse durante varios kilómetros sin una zona urbana inmediata donde detenerse, solicitar asistencia o modificar el recorrido. Si ocurre un robo, una falla mecánica o un accidente, la capacidad de respuesta puede ser considerablemente menor que en una carretera metropolitana.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Aquí el riesgo también está relacionado con el tipo de mercancía transportada. Los grupos dedicados al robo no necesariamente buscan cualquier unidad; determinados productos poseen mercados ilícitos más atractivos y pueden ser seleccionados por su facilidad de comercialización.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para las empresas esto significa que la evaluación no debería limitarse a la carretera. La ruta debe analizarse junto con el tipo de carga, horarios, puntos de descanso y zonas donde una unidad necesariamente debe reducir velocidad o detenerse.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"Michoacán: cuando la carretera se convierte en una extensión del conflicto territorial",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Michoacán requiere una consideración particular porque aquí el riesgo carretero no puede explicarse exclusivamente mediante el robo de vehículos o mercancías.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La presencia y disputa entre organizaciones criminales, particularmente el CJNG y estructuras locales o regionales, ha producido escenarios en los que las carreteras pueden ser utilizadas como instrumentos de presión territorial. El objetivo de un bloqueo criminal no necesariamente es robar a quienes quedan atrapados: puede ser retrasar el desplazamiento de las fuerzas de seguridad, impedir el ingreso de un grupo rival, facilitar una retirada o responder a un operativo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los acontecimientos recientes muestran la dimensión de este fenómeno. En noviembre de 2025, después de un operativo dirigido contra un presunto integrante del CJNG, se registraron bloqueos y quema de vehículos en diferentes regiones de Michoacán. Se utilizaron unidades particulares y de carga para obstruir vialidades, afectando carreteras como Morelia–Quiroga, Pátzcuaro–Quiroga, Zamora–La Piedad y la autopista México–Guadalajara.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El patrón volvió a aparecer en 2026 en la región de Tierra Caliente. Tras la detención de un presunto extorsionador identificado como 'El Botox', se reportaron bloqueos en las carreteras Apatzingán–Tepalcatepec y Apatzingán–Aguililla.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "Esto modifica completamente la valoración del riesgo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Un conductor puede iniciar su trayecto sin tener ningún motivo para pensar que será víctima de un delito y, sin embargo, encontrarse repentinamente frente a una carretera bloqueada por vehículos atravesados o incendiados. Intentar regresar puede no ser posible; tomar una ruta secundaria puede introducirlo en un territorio desconocido; permanecer detenido puede hacerlo vulnerable ante un enfrentamiento cercano.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En mayo de 2026, además, se documentaron ataques, ponchallantas, vehículos robados y bloqueos en diferentes puntos de Michoacán, lo que confirma que la interrupción de las vialidades forma parte de una dinámica de violencia más amplia, no de hechos aislados de tránsito.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para las empresas, esto puede traducirse en pérdida de mercancías, interrupción de cadenas logísticas y exposición de operadores. Para los particulares, el riesgo más importante es quedar atrapados en un escenario cuya naturaleza puede cambiar rápidamente de un bloqueo a una confrontación armada.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Sinaloa: una carretera condicionada por la disputa criminal",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En Sinaloa, particularmente sobre los corredores Culiacán–Mazatlán, México 15 y la autopista Benito Juárez, la evaluación tampoco puede limitarse al robo carretero.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La fragmentación interna del Cártel de Sinaloa convirtió determinadas regiones del estado en escenarios de confrontación entre facciones rivales. Cuando esa disputa se traslada a las carreteras, el vehículo que circula por ellas puede convertirse en una víctima circunstancial de una dinámica que originalmente no estaba dirigida contra civiles.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los bloqueos registrados durante 2025 muestran claramente este patrón. En mayo se reportaron interrupciones simultáneas en Culiacán, Navolato, Mocorito y Elota, con vehículos de carga utilizados para obstruir las vías y, en algunos casos, unidades incendiadas. La propia Secretaría de Seguridad Pública estatal atribuyó algunos de estos bloqueos a integrantes de la delincuencia organizada.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En otro episodio, sobre la Culiacán–Mazatlán, fueron incendiados tráileres y la autopista permaneció bloqueada, generando largas filas y la suspensión temporal del transporte entre ambas ciudades.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"También se documentaron bloqueos mediante vehículos de carga y ponchallantas, utilizados para dificultar tanto la circulación civil como el desplazamiento de fuerzas de seguridad.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Este último elemento es especialmente importante para un análisis preventivo. Un ponchallantas no necesita detener un convoy completo para generar consecuencias: basta con afectar algunos vehículos para producir congestionamiento y crear una zona de inmovilidad. Si simultáneamente existe un enfrentamiento entre grupos armados, la carretera deja de ser simplemente una vía de tránsito y se convierte en un espacio de exposición para quienes quedaron atrapados.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Por ello, el riesgo en Sinaloa debe entenderse como dinámico y episódico. Un tramo puede permanecer operativo durante días y, después de un enfrentamiento, convertirse temporalmente en un punto de alta vulnerabilidad.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En agosto de 2025, por ejemplo, los municipios de Rosario y Escuinapa registraron bloqueos tanto en la carretera libre como en la autopista de cuota, después de que hombres armados despojaran a conductores de vehículos de carga para utilizarlos en la obstrucción de las vías.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esto explica por qué una carretera no puede clasificarse simplemente como 'segura' o 'insegura'. La variable más importante puede ser qué está ocurriendo en el territorio ese mismo día.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Guanajuato: el riesgo de una criminalidad fragmentada",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Guanajuato merece regresar al análisis porque combina dos elementos particularmente delicados: una de las redes industriales y logísticas más importantes del país y una disputa criminal altamente fragmentada.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La presencia histórica del Cártel Santa Rosa de Lima y el CJNG, acompañada por células y alianzas cambiantes, ha producido un entorno donde el control territorial tiene consecuencias directas sobre las rutas de movilidad. La propia autoridad federal ha señalado que el problema dejó de ser una confrontación simple entre dos organizaciones y pasó a involucrar múltiples células.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esto significa que un mapa de riesgo basado únicamente en nombres de organizaciones puede quedarse corto. Lo verdaderamente importante es identificar qué células tienen capacidad de afectar determinada región y qué actividades intentan proteger o controlar.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En el corredor Celaya–Villagrán–Cortazar, por ejemplo, la importancia industrial convierte la infraestructura logística en un activo estratégico. Las investigaciones recientes han señalado la presencia del Cártel Santa Rosa de Lima en esta zona y su interés en actividades relacionadas con mercancías y corredores industriales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para el conductor, el riesgo puede manifestarse mediante robo, extorsión, presencia de vehículos sospechosos o interrupciones derivadas de enfrentamientos. Para una empresa, las consecuencias pueden ser todavía mayores: una carretera bloqueada durante varias horas puede alterar entregas, cadenas de suministro y compromisos de producción aunque ninguna unidad de la compañía haya sido atacada.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Y aquí existe una distinción que conviene dejar clara: no todo bloqueo en Guanajuato es criminal. Durante 2025 también se registraron numerosos cierres protagonizados por agricultores y otros sectores sociales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La diferencia está precisamente en el contexto y en el comportamiento observado. Un bloqueo social puede ser previsible, anunciarse previamente y tener una demanda pública identificable. Un bloqueo asociado a violencia criminal puede surgir de forma súbita, acompañarse de vehículos incendiados, hombres armados o enfrentamientos y utilizarse como mecanismo para impedir la intervención de las autoridades.",
+			},
+			{
+				tipo: "parrafo",
+				texto: "El verdadero riesgo no siempre es el asalto",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La principal conclusión que se desprende de estos corredores es que la seguridad carretera mexicana ya no puede analizarse exclusivamente desde la perspectiva del robo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para una empresa, el riesgo puede comenzar con la pérdida de una unidad o mercancía, pero también puede aparecer cuando una carretera queda bloqueada durante horas, cuando un operador queda atrapado en medio de un conflicto o cuando una ruta alternativa obliga a circular por una zona de mayor exposición.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para un particular, el escenario puede ser todavía más imprevisible. Una familia puede no ser el objetivo de ninguna organización y, aun así, quedar atrapada detrás de un tráiler incendiado, encontrarse con un enfrentamiento o verse obligada a detenerse porque la circulación fue interrumpida.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Por eso, en corredores como Michoacán, Sinaloa y Guanajuato, el bloqueo criminal debe considerarse una variable de riesgo por sí misma. No porque ocurra de manera permanente, sino precisamente porque su carácter eventual y reactivo dificulta anticiparlo mediante estadísticas tradicionales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Una baja en las denuncias no necesariamente significa que una carretera sea menos peligrosa. La cifra oficial refleja los hechos que llegaron al conocimiento de las instituciones y fueron registrados bajo una determinada clasificación. No necesariamente incorpora todos los eventos que las empresas resuelven internamente, los hechos que las víctimas deciden no denunciar, los bloqueos que no derivan en una carpeta por robo o los incidentes donde el conductor logra escapar sin que exista una denuncia formal.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Por ello, la valoración del riesgo debe combinar incidencia documentada, contexto territorial, presencia y disputa de grupos criminales, modus operandi observado, condiciones geográficas y capacidad de respuesta.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Ese enfoque resulta mucho más útil que afirmar que una carretera es 'segura' porque las estadísticas oficiales disminuyeron o 'peligrosa' porque acumula determinado número de denuncias.",
 			},
 		],
 	},
