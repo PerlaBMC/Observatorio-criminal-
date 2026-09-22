@@ -1670,46 +1670,17 @@ export const articulos = [
 			{
 				tipo: "parrafo",
 				texto:
-					"La extorsión es un delito que implica la obtención de un beneficio a través de la intimidación, la amenaza o la presión. Sin embargo, en el contexto mexicano, este fenómeno ha evolucionado hasta convertirse en un sistema estructurado de control territorial y económico.",
+					"De acuerdo con el artículo 15 de la Ley General para Prevenir, Investigar y Sancionar los Delitos en Materia de Extorsión, incurre en este delito quien, sin derecho, obliga a otra persona a dar, hacer, dejar de hacer o tolerar algo, obteniendo un beneficio o lucro para sí o para un tercero, o causando un daño o perjuicio patrimonial, moral, físico o psicológico. La legislación permite establecer el marco jurídico del delito; sin embargo, para comprender su dimensión criminológica es necesario observar cómo se materializa en distintos territorios y actividades económicas.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"El llamado cobro de piso representa una de sus formas más visibles. A través de pagos periódicos, grupos criminales imponen a comerciantes, empresarios o trabajadores la obligación de entregar una parte de sus ingresos a cambio de “protección”, o más bien, de no ejercer violencia en su contra.",
+					"Dentro de estas manifestaciones se encuentra el denominado cobro de piso, expresión utilizada comúnmente para describir esquemas de extorsión en los que una persona, comercio, transportista o actividad económica es obligada a entregar dinero u otro beneficio de manera periódica a cambio de poder continuar operando, evitar una agresión o recibir una supuesta “protección”. A diferencia de otras modalidades de extorsión que pueden producirse mediante una llamada o un engaño aislado, el cobro de piso puede implicar una relación coercitiva prolongada entre el victimario y la víctima.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"A diferencia de otras actividades delictivas, la extorsión no requiere necesariamente de grandes despliegues de fuerza. Su eficacia radica en la credibilidad de la amenaza. Basta con que exista la posibilidad real de daño para que el mecanismo funcione.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En este sentido, la extorsión no solo es un delito económico, sino una herramienta de control social que redefine las reglas bajo las cuales operan comunidades enteras.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "¿Cómo opera la extorsión en la vida cotidiana?",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La extorsión no es un evento aislado, sino una práctica que se integra en la rutina de quienes la padecen. Su operación se adapta al contexto y puede manifestarse de distintas formas, desde llamadas telefónicas hasta visitas directas en establecimientos.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En muchos casos, el primer contacto ocurre a través de una advertencia: una llamada, un mensaje o la presencia de un intermediario que establece las condiciones. A partir de ese momento, se fija una cuota, una periodicidad y, sobre todo, una consecuencia en caso de incumplimiento.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Lo más significativo no es solo el pago, sino el cambio de comportamiento que genera. Comerciantes que reducen horarios, negocios que dejan de crecer para no llamar la atención, trabajadores que limitan su movilidad. La extorsión se traduce en autocensura económica y social.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Con el tiempo, esta dinámica deja de percibirse como una anomalía y comienza a asumirse como parte del funcionamiento normal del entorno.",
+					"Esta diferencia resulta importante. En determinados contextos, el objetivo ya no consiste únicamente en obtener una cantidad de dinero mediante una amenaza. La extorsión puede convertirse en un mecanismo de extracción permanente de recursos y de intervención sobre actividades económicas, particularmente cuando quienes la ejercen tienen capacidad para identificar negocios, vigilar operaciones, imponer pagos recurrentes y utilizar la violencia contra quienes se resisten. En sus expresiones más complejas, incluso puede acompañarse de la imposición de proveedores, precios, intermediarios o condiciones para participar en determinados mercados.",
 			},
 			{
 				tipo: "subtitulo",
@@ -1741,28 +1712,142 @@ export const articulos = [
 					"El resultado es un círculo complejo: el miedo inhibe la denuncia, la falta de denuncia reduce la visibilidad del problema y esa invisibilidad facilita su permanencia.",
 			},
 			{
-				tipo: "parrafo",
-				texto: "Impacto económico y social: una violencia que no siempre se ve",
+				tipo: "subtitulo",
+				texto: "Cuando la extorsión modifica la economía y la vida cotidiana",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La extorsión no solo afecta a quienes pagan, sino que tiene efectos que se expanden a nivel comunitario. Su impacto económico es inmediato: negocios que operan con márgenes reducidos, aumentos en precios para compensar pérdidas o, en muchos casos, el cierre definitivo de establecimientos.",
+					"La extorsión no termina cuando la víctima entrega el dinero exigido. Su permanencia puede modificar decisiones económicas, relaciones comunitarias e incluso la forma en que las personas utilizan y perciben su entorno. Para un pequeño negocio, una cuota recurrente puede reducir márgenes de operación, trasladarse parcialmente a los precios o terminar haciendo inviable la actividad; para empresas de mayor tamaño, el problema puede extenderse hacia proveedores, rutas, trabajadores y decisiones de inversión.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Sin embargo, el daño más profundo es social. La extorsión erosiona la confianza entre personas, limita la colaboración y transforma la forma en que se habita el espacio público. Decisiones cotidianas —abrir un negocio, contratar personal, invertir— dejan de basarse en oportunidades y comienzan a definirse por el riesgo.",
+					"El efecto acumulativo adquiere una dimensión social. Abrir un establecimiento, ampliar horarios, contratar personal o invertir en determinada zona deja de depender únicamente de las condiciones del mercado y comienza a incorporar una variable adicional: la posibilidad de atraer la atención de quienes ejercen control criminal. La violencia modifica así comportamientos aun cuando no exista una agresión directa contra todas las personas que habitan el territorio.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Esta dinámica contribuye a la fragmentación social. Las comunidades dejan de operar como redes de apoyo y se convierten en entornos donde predomina la cautela, el silencio y la desconfianza. El miedo no solo protege, también aísla.",
+					"Esta dinámica también deteriora las relaciones comunitarias. La cautela frente a desconocidos, el temor a compartir información y la incertidumbre respecto de quién puede estar relacionado con los extorsionadores reducen la cooperación entre vecinos y comerciantes. El silencio puede proteger temporalmente a una víctima, pero cuando se reproduce de manera colectiva también disminuye la información disponible para identificar patrones y dimensionar el problema.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Además, el control económico que ejercen los grupos criminales les permite influir en mercados locales, fijar precios e incluso decidir qué actividades pueden o no desarrollarse en determinadas zonas. De esta forma, la extorsión se convierte en un mecanismo de regulación informal que sustituye, en la práctica, funciones que corresponderían al Estado.",
+					"En sus expresiones más complejas, las consecuencias pueden superar incluso el cobro de una cuota. Cuando una estructura tiene capacidad para condicionar proveedores, precios, horarios o actividades económicas, la extorsión comienza a funcionar como un mecanismo informal de regulación del mercado. Es precisamente en este punto donde el fenómeno deja de comprenderse únicamente como una afectación patrimonial individual y adquiere una dimensión territorial.",
+			},
+						{
+				tipo: "subtitulo",
+				texto: "¿Dónde se manifiesta con mayor intensidad la extorsión?",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Determinar qué estados mexicanos son los más afectados requiere cautela. La extorsión presenta una elevada dificultad de medición porque no todas las víctimas denuncian y porque las fuentes disponibles observan dimensiones diferentes del fenómeno. Una encuesta de victimización permite aproximarse a delitos experimentados por la población aun cuando no hayan llegado al Ministerio Público, mientras que los registros del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) dependen de hechos conocidos y registrados por las autoridades. Por ello, las diferencias entre ambas fuentes no necesariamente representan una contradicción, sino distintas formas de aproximarse a una criminalidad que permanece parcialmente oculta.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La dificultad aumenta cuando se intenta medir específicamente el cobro de piso, ya que no toda extorsión registrada corresponde a esta modalidad. Por esta razón, además de los indicadores estadísticos, resulta útil analizar casos documentados que permitan identificar cómo opera la extorsión, qué sectores están siendo afectados y qué mecanismos de coerción aparecen en diferentes territorios.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"La amenaza dirigida a todo un gremio",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En Veracruz, el caso de Irma Hernández Cruz mostró una de las expresiones más graves del cobro de piso contra el transporte público. La maestra jubilada, quien también trabajaba como taxista, fue privada de la libertad el 18 de julio de 2025 en Álamo Temapache. Durante su cautiverio fue grabada rodeada de hombres armados mientras dirigía a otros taxistas un mensaje para que pagaran las cuotas exigidas por el grupo criminal. Días después fue localizada sin vida. Medios nacionales y autoridades vincularon posteriormente a presuntos integrantes de la denominada Mafia Veracruzana o Grupo Sombra con el caso, aunque algunas circunstancias permanecieron sujetas a investigación.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La relevancia criminológica del hecho no se limita a la agresión contra una víctima. El mensaje estaba dirigido a otros transportistas y, por tanto, la violencia adquirió una función colectiva: mostrar las posibles consecuencias de resistirse al pago. Una amenaza de este tipo puede reducir la necesidad de intimidar individualmente a cada integrante del gremio, porque el daño ejercido contra una persona produce temor entre quienes comparten la misma actividad."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Reportes posteriores incorporaron además otra variable al contexto veracruzano: la posible disputa entre Grupo Sombra y el Cártel Jalisco Nueva Generación por rentas provenientes, entre otras actividades, del cobro de cuotas a comerciantes y transportistas. La extorsión aparece así no sólo como una fuente de ingresos, sino como una economía cuya apropiación puede formar parte de disputas criminales más amplias."			
+			},
+						{
+				tipo: "subtitulo",
+				texto:
+					"Cuando pagar condiciona la posibilidad de trabajar"			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"En Acapulco, la extorsión contra transportistas presenta una característica distinta: la víctima desarrolla su actividad todos los días en espacios previsibles. Un taxi, una Urvan o un autobús no pueden ocultar fácilmente dónde trabajan. Sus rutas, bases, horarios y unidades permiten identificar a quienes prestan el servicio y mantener sobre ellos una presión recurrente."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Durante los primeros cuatro meses de 2025 se documentaron 27 homicidios de operadores: 25 taxistas y dos conductores de Urvan. Los episodios de violencia, las amenazas y los ataques contra unidades se han desarrollado en un contexto en el que transportistas han denunciado cobros de cuotas y en el que distintas organizaciones mantienen disputas por economías ilícitas y control territorial."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"En este entorno, el daño potencial de la extorsión no termina en la pérdida económica del conductor. Cuando las amenazas provocan suspensión de rutas, reducción de horarios o negativa de operadores a prestar servicio, la presión ejercida sobre un gremio termina afectando la movilidad de comunidades completas. El fenómeno adquiere entonces una dimensión social: una actividad esencial para trabajadores, estudiantes y visitantes puede verse condicionada por la capacidad de grupos criminales para intimidar a quienes la hacen funcionar."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Por ello, cuando las amenazas provocan reducción de horarios, suspensión de rutas o negativa de operadores a continuar trabajando, la afectación deja de pertenecer exclusivamente al transportista. La extorsión termina interfiriendo con una función cotidiana de la ciudad: la posibilidad de desplazarse."			
+			},
+						{
+				tipo: "subtitulo",
+				texto:
+					"Extorsión, proveedores y control de mercados"			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"El Estado de México permite observar una expresión todavía más compleja, el control criminal de una economía no comienza necesariamente cuando un grupo se apropia de un negocio; puede comenzar cuando consigue decidir bajo qué condiciones ese negocio puede operar."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"La Operación Liberación, desarrollada en julio de 2025 por autoridades estatales y federales, intervino 52 establecimientos en 14 municipios como parte de una investigación dirigida contra redes vinculadas con la extorsión. Las autoridades reportaron afectaciones en minas, carnicerías, distribución de materiales de construcción, productos cárnicos, alimentos para animales, forrajes y otras actividades económicas."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Entre las personas detenidas se encontraba Yareli “N”, entonces tercera regidora de Ixtapan de la Sal. Posteriormente fue vinculada a proceso junto con otros detenidos por delitos relacionados con extorsión y secuestro exprés; las investigaciones señalaron presuntos vínculos de la estructura con La Familia Michoacana."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Lo significativo de este caso no es únicamente la existencia de cuotas. Las investigaciones describieron esquemas mediante los cuales la presión criminal alcanzaba la comercialización y distribución de determinados productos, lo que permite entender que algunas estructuras pueden utilizar la extorsión para intervenir en mercados locales."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"En términos prácticos, una empresa podría no enfrentarse solamente a la exigencia de entregar una cantidad mensual. La coerción puede extenderse hacia quién puede vender, a quién debe comprarse, cuánto debe pagarse o bajo qué condiciones puede continuar una actividad económica. Cuando esto ocurre, el cobro de piso se integra a un sistema más amplio de extracción de rentas y control de la economía local."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Esta característica tiene particular importancia para el análisis de riesgo empresarial. Una compañía puede ingresar a un territorio sin ser inicialmente víctima directa de una amenaza y, aun así, quedar expuesta a mercados o cadenas de suministro previamente intervenidos por actores criminales."			
+			},
+						{
+				tipo: "subtitulo",
+				texto:
+					"La extorsión no siempre proviene del crimen organizado"			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"En Nuevo León, el caso de Julio Luna, fundador de Tacos del Julio, introduce un matiz diferente. El empresario fue asesinado el 8 de abril de 2025 durante una persecución armada en San Nicolás de los Garza. Antes de su muerte había presentado ante la Fiscalía una denuncia por una presunta exigencia económica atribuida a elementos municipales de San Pedro Garza García. La Fiscalía mantuvo separadas las investigaciones relacionadas con la presunta extorsión y con el homicidio, por lo que el antecedente no permite afirmar por sí mismo que ambos hechos hayan tenido una relación causal."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"El caso resulta relevante porque obliga a ampliar la comprensión del fenómeno. La extorsión no debe asociarse automáticamente con cárteles o grupos del crimen organizado. También puede involucrar delincuencia común, redes locales o presuntos actos cometidos desde posiciones de autoridad. La identidad del actor modifica además las condiciones de vulnerabilidad de la víctima: denunciar a un particular no plantea necesariamente los mismos obstáculos que denunciar a una persona que presuntamente utiliza una posición institucional para ejercer presión."			
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Los casos anteriores no pretenden establecer que Veracruz, Guerrero, Estado de México o Nuevo León concentren por sí solos el problema nacional. Su utilidad radica en mostrar que una misma figura delictiva puede adquirir funciones distintas según el territorio, el actor y la actividad afectada. La cuota exigida a un transportista, la imposición de un proveedor, la amenaza contra un establecimiento o una presunta exigencia realizada desde una posición de autoridad pertenecen a contextos diferentes, pero comparten una característica: utilizan la coerción para modificar la conducta de la víctima en beneficio de quien la ejerce. Reconocer esas diferencias también modifica la manera en que debe pensarse la prevención."			
 			},
 			{
 				tipo: "subtitulo",
@@ -1771,27 +1856,17 @@ export const articulos = [
 			{
 				tipo: "parrafo",
 				texto:
-					"Hablar de prevención en un contexto como este implica reconocer que no existe una solución simple ni inmediata. Sin embargo, sí es posible identificar acciones que, en conjunto, pueden reducir la vulnerabilidad frente a este delito.",
+					"Prevenir la extorsión exige, por tanto, reconocer que no todas sus manifestaciones pueden enfrentarse de la misma manera. Una llamada realizada desde otro estado requiere medidas distintas a las necesarias cuando una organización conoce el negocio, identifica a sus trabajadores y mantiene presencia en el territorio. Del mismo modo, una empresa sometida a la imposición de proveedores enfrenta una vulnerabilidad diferente a la de un ciudadano que recibe una amenaza digital.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En el plano institucional, es fundamental fortalecer los mecanismos de denuncia segura y protección a víctimas. Sin garantías reales, cualquier estrategia pierde credibilidad. La prevención comienza por generar condiciones donde denunciar no implique un riesgo mayor.",
+					"La respuesta institucional necesita partir de esas diferencias. Mejorar los mecanismos de denuncia y protección sigue siendo indispensable, pero también lo es identificar mercados intervenidos, patrones territoriales, sectores particularmente expuestos y posibles vínculos entre actores criminales y estructuras capaces de facilitar su permanencia. Para las víctimas, denunciar sólo puede convertirse en una alternativa real cuando el Estado puede reducir el riesgo que esa decisión implica.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"A nivel social, la organización comunitaria puede funcionar como un factor de protección. Redes de comerciantes, asociaciones vecinales y mecanismos de comunicación entre afectados permiten compartir información, detectar patrones y reducir el aislamiento que favorece a los extorsionadores.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En el ámbito individual, la información es clave. Conocer las formas en que opera la extorsión, identificar señales de riesgo y actuar con cautela frente a contactos sospechosos puede marcar la diferencia, especialmente en modalidades como la extorsión telefónica o digital.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Finalmente, cualquier estrategia preventiva debe ir acompañada de una reconstrucción del tejido social. Sin confianza, sin comunidad y sin alternativas reales, el miedo seguirá siendo el principal mecanismo de control.",
+					"Comprender la extorsión desde esta perspectiva permite abandonar una imagen demasiado simple del delito. No se trata únicamente de cuánto dinero se exige, sino de cuánto poder adquiere quien consigue que una persona, un negocio o incluso un sector completo modifique su comportamiento por miedo a las consecuencias de no obedecer. Allí se encuentra una de las dimensiones más profundas del cobro de piso: la capacidad de convertir la amenaza en una forma cotidiana de control.",
 			},
 		],
 	},
