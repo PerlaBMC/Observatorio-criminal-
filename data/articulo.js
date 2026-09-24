@@ -6062,47 +6062,77 @@ export const articulos = [
 			{
 				tipo: "parrafo",
 				texto:
-					"Sobre ellas se mueve gran parte de la economía nacional, circulan diariamente millones de personas por motivos laborales, turísticos y familiares, y dependen sectores estratégicos como el transporte de mercancías, el turismo y el comercio internacional. De acuerdo con cifras oficiales, cada año se realizan millones de desplazamientos por las autopistas y carreteras federales del país, y la inmensa mayoría concluye sin incidentes. Sin embargo, esa realidad convive con otra menos visible: la existencia de corredores donde la delincuencia organizada y la criminalidad común han encontrado condiciones favorables para operar, incrementando significativamente el riesgo para automovilistas, transportistas y viajeros.",
+					"Por ellas se desplazan diariamente millones de personas y circula una parte fundamental de la actividad económica del país: alimentos, medicamentos, combustibles, materias primas, productos industriales y mercancías de importación conectan ciudades, comunidades, centros productivos, puertos y cruces fronterizos. Esa concentración permanente de personas, vehículos y bienes también convierte a determinados corredores en espacios atractivos para distintas actividades delictivas.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En los últimos años, la conversación pública sobre la seguridad carretera ha estado dominada por imágenes de vehículos incendiados, bloqueos armados, robos violentos y enfrentamientos que rápidamente se viralizan en redes sociales. Cada nuevo incidente suele provocar la misma pregunta: ¿todavía es seguro viajar por carretera en México? La respuesta, como ocurre con la mayoría de los fenómenos relacionados con la seguridad pública, no puede reducirse a un simple sí o no.",
+					"En los últimos años, la conversación sobre seguridad carretera ha estado marcada por imágenes de vehículos incendiados, bloqueos, asaltos violentos y enfrentamientos que rápidamente circulan por redes sociales. Cada nuevo episodio revive la misma pregunta: ¿todavía es seguro viajar por carretera en México? La respuesta no puede reducirse a un simple sí o no.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"México no enfrenta un problema homogéneo de inseguridad carretera. Existen miles de kilómetros de autopistas donde diariamente transitan familias, turistas y transportistas sin experimentar ningún incidente. Al mismo tiempo, determinados corredores concentran de manera recurrente robos de vehículos, asaltos al transporte de carga, retenes ilegales, bloqueos, utilización de ponchallantas, extorsiones e incluso episodios de violencia derivados de confrontaciones entre organizaciones criminales. Esta diferencia no es producto del azar; responde a factores geográficos, económicos, institucionales y criminales que convierten a ciertas rutas en espacios particularmente atractivos para quienes buscan controlar mercancías, personas o territorios.",
+					"México no enfrenta un escenario homogéneo. Miles de kilómetros de autopistas y carreteras son recorridos diariamente por familias, turistas, trabajadores y transportistas sin que ocurra ningún incidente. Al mismo tiempo, existen corredores donde se registran de manera recurrente robos de vehículos y mercancías, asaltos, interceptaciones de unidades, retenes ilegales, bloqueos, uso de ponchallantas y, en determinados contextos, episodios de violencia relacionados con confrontaciones u operaciones contra organizaciones criminales. El riesgo, por tanto, no depende únicamente de la carretera que se utiliza, sino también del tramo, el horario, las condiciones del entorno y lo que está ocurriendo en la región al momento del viaje.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Uno de los errores más frecuentes consiste en asumir que una carretera es 'segura' o 'insegura' de manera permanente. En realidad, el riesgo es dinámico. Un mismo tramo puede permanecer estable durante meses y, tras un operativo de alto impacto, la captura de un líder criminal o una disputa entre grupos rivales, convertirse temporalmente en escenario de bloqueos o enfrentamientos. Lo ocurrido en diversas carreteras de Sinaloa tras la confrontación interna del Cártel de Sinaloa, o los bloqueos registrados en distintos momentos en Michoacán y Jalisco, ilustran cómo las condiciones de seguridad pueden modificarse rápidamente dependiendo del contexto criminal.",
+					"El robo al autotransporte permite observar una parte de este problema. De acuerdo con información presentada por el Gobierno federal en agosto de 2026, los casos registrados pasaron de 13,068 en 2018 a 6,263 durante 2025, mientras que en los meses transcurridos de 2026 se contabilizaban 2,519. La Guardia Nacional también reportó una reducción de 37.19 % mediante la Estrategia Balam. Las cifras muestran una disminución en los registros oficiales, pero deben interpretarse dentro de sus propios límites: permiten conocer los hechos denunciados o identificados por las autoridades y los resultados que éstas reportan, no necesariamente todo lo que ocurre en las carreteras.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Tampoco todos los delitos carreteros obedecen a la misma lógica. Mientras el robo al transporte de carga suele concentrarse en corredores industriales y logísticos donde circulan mercancías de alto valor, otras regiones presentan mayor incidencia de robos a vehículos particulares, secuestros virtuales, falsas averías, extorsiones o retenes clandestinos utilizados para identificar posibles víctimas. Cada modalidad responde a incentivos distintos y requiere medidas de prevención igualmente diferentes. Analizar todas ellas bajo una misma categoría conduce a diagnósticos simplificados que poco ayudan a comprender el fenómeno.",
+					"La concentración del problema en determinados corredores ayuda a entender por qué el riesgo no puede analizarse únicamente a escala nacional. En julio de 2025, la Guardia Nacional informó que las autopistas México–Querétaro y México–Puebla concentraban conjuntamente 29 % del robo de vehículos de carga registrado en el país, lo que llevó al despliegue del Plan Cero Robos y al reforzamiento de vigilancia, inteligencia y tecnología en ambas vías. La estrategia también se extendió a la Mazatlán–Culiacán ante las condiciones de seguridad que atravesaba Sinaloa.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"A ello se suma una transformación importante en la forma de operar de las organizaciones criminales. Durante décadas, muchas de ellas privilegiaban la discreción para evitar afectar las rutas utilizadas para el trasiego de drogas o mercancías ilícitas. Hoy, en cambio, numerosas estructuras recurren a bloqueos carreteros, incendios de vehículos, ataques contra infraestructura, uso de artefactos ponchallantas y cierres temporales de vialidades como mecanismos para retrasar el avance de las fuerzas de seguridad, proteger operaciones específicas o ejercer presión sobre las autoridades. En consecuencia, el riesgo ya no se limita al delito patrimonial; en determinadas regiones, la movilidad misma puede verse afectada por dinámicas propias del conflicto entre organizaciones criminales y el Estado.",
+					"Pero la inseguridad carretera no afecta únicamente a quienes conducen un tráiler. Una familia que viaja en automóvil, una persona que se desplaza por trabajo, un autobús de pasajeros o un pequeño comerciante pueden enfrentarse a riesgos distintos dentro de los mismos corredores. El robo y despojo de vehículos particulares, los asaltos, la interceptación de unidades y las afectaciones provocadas por episodios de violencia organizada forman parte del mismo entorno, aunque no necesariamente respondan a las mismas dinámicas criminales. En la Mazatlán–Culiacán, por ejemplo, la Guardia Nacional informó en agosto de 2025 una reducción de 46.67 % en el robo de vehículos particulares después de reforzar la seguridad del corredor. Más que utilizar esa disminución para concluir que la carretera dejó de representar un riesgo, el dato muestra que el robo de carga y el despojo de vehículos particulares pueden coexistir en una misma vía y afectar a usuarios diferentes.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Frente a este escenario, la prevención adquiere una importancia que trasciende las recomendaciones tradicionales de 'no viajar de noche' o 'utilizar autopistas de cuota'. La verdadera reducción del riesgo comienza mucho antes de arrancar el motor. Implica comprender por qué ciertos corredores concentran mayor actividad criminal, identificar señales tempranas de alerta, conocer el contexto de seguridad de la ruta elegida y tomar decisiones basadas en información verificable, no en rumores o publicaciones virales.",
+					"Esta diversidad de amenazas ayuda también a explicar cómo ha cambiado la inseguridad carretera. Las vías de comunicación no sólo pueden utilizarse para trasladar mercancías ilícitas; la enorme cantidad de bienes que circula diariamente por ellas genera oportunidades para otras economías criminales. Un tráiler que transporta productos electrónicos, medicamentos, acero, alimentos o mercancías de importación puede ser atractivo tanto por la unidad como por el valor de su carga y la posibilidad de introducir posteriormente los productos robados en mercados ilícitos.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Este artículo no pretende elaborar una lista de 'las carreteras más peligrosas de México'. Ese tipo de clasificaciones cambian constantemente y suelen ofrecer una visión incompleta de un problema mucho más complejo. El propósito es distinto: analizar por qué algunos corredores carreteros se han convertido en puntos críticos para la delincuencia, cómo han evolucionado las amenazas durante los últimos años y qué medidas concretas pueden adoptar los ciudadanos para reducir su exposición al riesgo sin renunciar a la movilidad.",
+					"Algunos hechos permiten observar cómo funcionan estas dinámicas sin necesidad de imaginar complejas operaciones criminales. En septiembre de 2025, la Guardia Nacional documentó el robo de dos tractocamiones en la autopista México–Querétaro. La última ubicación registrada por el sistema GPS permitió orientar el despliegue policial, recuperar las unidades y detener a tres personas. El caso muestra algo importante: detrás de las estadísticas nacionales existen acontecimientos concretos en los que vehículos, mercancías, tecnología, territorio y capacidad de respuesta se combinan de manera distinta.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Porque viajar informado no elimina todos los peligros, pero sí permite comprender una realidad que con frecuencia permanece oculta detrás de estadísticas aisladas o titulares de alto impacto. En materia de seguridad carretera, la mejor herramienta de prevención sigue siendo el conocimiento del entorno por el que se transita.",
+					"También existe otra dificultad para dimensionar el problema: no todo lo que ocurre termina registrado ante una autoridad. La Encuesta Nacional de Victimización de Empresas (ENVE 2024) de INEGI, última edición disponible sobre victimización empresarial, estimó que durante 2023 76.1 % de los robos de mercancía en tránsito permanecieron en cifra oculta, es decir, no fueron denunciados o no derivaron en una investigación. En el robo o asalto de mercancía, dinero, insumos o bienes, la proporción alcanzó 82.2 %.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Y este problema no es exclusivo de las empresas. La ENVIPE 2026, que estudia la victimización de la población y corresponde a delitos ocurridos durante 2025, estimó que 93.4 % de los delitos no fueron denunciados o no derivaron en una carpeta de investigación. Las dos encuestas estudian poblaciones y delitos diferentes, por lo que sus porcentajes no deben compararse directamente; juntas, sin embargo, ayudan a entender por qué las estadísticas oficiales basadas exclusivamente en denuncias representan sólo una parte del fenómeno.",
+			},
+					{
+				tipo: "parrafo",
+				texto:
+					"Esto tampoco significa que cualquier reducción oficial deba descartarse. Si disminuyen los robos registrados, el dato es relevante y debe incorporarse al análisis. El problema aparece cuando esa disminución se interpreta automáticamente como prueba de que una carretera es segura. Para quien está por emprender un viaje, la pregunta importante no es únicamente cuántos delitos fueron registrados durante el último año, sino qué riesgos existen en el trayecto que recorrerá, en qué puntos se han manifestado, a quiénes afectan y qué está ocurriendo actualmente en esos territorios.",
+			},
+					{
+				tipo: "parrafo",
+				texto:
+					"Frente a este escenario, la prevención va mucho más allá de recomendaciones tradicionales como “no viajar de noche” o “utilizar autopistas de cuota”. Reducir la exposición comienza antes de arrancar el motor: implica revisar las condiciones de la ruta, conocer alternativas, identificar zonas donde se han presentado incidentes, mantenerse atento a cierres o bloqueos y distinguir una alerta verificable de un rumor que circula en redes sociales.",
+			},
+					{
+				tipo: "parrafo",
+				texto:
+					"Por esa razón, este artículo no pretende elaborar otra lista de “las carreteras más peligrosas de México”. Una clasificación de ese tipo puede cambiar rápidamente y, sobre todo, oculta diferencias importantes dentro de una misma vía. Una carretera de cientos de kilómetros puede atravesar municipios con condiciones de seguridad muy diferentes, y un corredor relativamente estable puede experimentar un cambio abrupto como consecuencia de una confrontación, un bloqueo o una operación de seguridad.",
+			},
+					{
+				tipo: "parrafo",
+				texto:
+					"El propósito es otro: comprender por qué determinados corredores concentran ciertos riesgos, cómo se manifiestan esas amenazas y qué puede hacer una persona antes y durante un viaje para reducir su exposición. A lo largo del análisis revisaremos carreteras concretas, pero no para etiquetarlas permanentemente como “seguras” o “peligrosas”, sino para identificar los factores que modifican las condiciones de un trayecto.",
+			},
+					{
+				tipo: "parrafo",
+				texto:
+					"Porque viajar informado no elimina todos los riesgos. Lo que sí permite es tomar mejores decisiones: saber cuándo conviene modificar una ruta, cuándo esperar, qué señales requieren atención y cuándo una situación extraordinaria puede transformar en cuestión de horas las condiciones habituales de una carretera.",
 			},
 			{
 				tipo: "subtitulo",
@@ -6112,52 +6142,117 @@ export const articulos = [
 			{
 				tipo: "parrafo",
 				texto:
-					"La percepción de que determinadas carreteras 'son peligrosas' suele construirse a partir de noticias sobre asaltos, bloqueos o enfrentamientos armados. Sin embargo, pocas veces se explica por qué esos hechos ocurren reiteradamente en los mismos corredores. Desde una perspectiva criminológica, la respuesta no se encuentra únicamente en la presencia de organizaciones delictivas, sino en el valor estratégico que ciertas rutas representan para las economías legales e ilegales que convergen en ellas.",
+					"La percepción de que determinadas carreteras “son peligrosas” suele construirse a partir de noticias sobre asaltos, bloqueos, vehículos incendiados o enfrentamientos armados. Sin embargo, detrás de esos acontecimientos existe una pregunta más importante: ¿por qué ciertos hechos se repiten en unos corredores y no en otros?"			
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Las carreteras son mucho más que infraestructura de transporte. Constituyen corredores logísticos donde diariamente circulan mercancías valuadas en miles de millones de pesos, combustibles, productos electrónicos, alimentos, medicamentos, vehículos de carga y millones de personas. Para la economía nacional representan arterias indispensables; para las organizaciones criminales, en cambio, son espacios donde resulta posible obtener ganancias mediante el robo, la extorsión, el control territorial o la movilidad de actividades ilícitas. Allí donde el Estado depende de una carretera para conectar regiones productivas, también existe un incentivo para que grupos delictivos intenten ejercer algún grado de control sobre ella.",
+					"La respuesta no depende únicamente de que exista una organización criminal en determinado estado. Desde una perspectiva criminológica, una carretera adquiere mayor interés cuando reúne varias condiciones: conecta territorios estratégicos, concentra un flujo constante de mercancías y personas, permite acceder a mercados importantes o atraviesa zonas donde diferentes grupos buscan obtener recursos, movilizarse o ejercer control.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"El fenómeno comenzó a transformarse de manera importante durante la última década. Tradicionalmente, muchas organizaciones criminales concentraban sus esfuerzos en proteger corredores utilizados para el trasiego de drogas hacia la frontera norte, procurando evitar acciones que interrumpieran sus propias rutas de movilidad. Sin embargo, la fragmentación de los grandes cárteles modificó profundamente esa lógica. La aparición de múltiples células regionales incrementó la competencia por fuentes de financiamiento distintas al narcotráfico, favoreciendo el crecimiento del robo de transporte de carga, la extorsión, el robo de vehículos particulares y otras actividades que encuentran en las carreteras un escenario particularmente rentable.",
+					"Por eso, dos carreteras dentro de una misma entidad pueden presentar escenarios completamente diferentes. Incluso dentro de una misma autopista pueden existir tramos con condiciones de seguridad distintas dependiendo de los municipios que atraviesa, la cercanía con centros urbanos, la disponibilidad de caminos secundarios, la presencia de instalaciones industriales o logísticas y las dinámicas criminales existentes en el territorio.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Este cambio explica por qué hoy numerosos corredores enfrentan riesgos que hace apenas quince años eran considerablemente menos frecuentes. Las organizaciones ya no buscan únicamente trasladar mercancías ilícitas; también pretenden capturar parte de la riqueza que diariamente circula por las vías de comunicación. Cada tráiler que transporta productos electrónicos, medicamentos, acero, alimentos o mercancías de importación representa una oportunidad económica cuya rentabilidad, en algunos casos, supera incluso la obtenida mediante otras actividades criminales. De acuerdo con reportes de organismos empresariales y autoridades, el robo al autotransporte se ha sofisticado al grado de involucrar labores previas de inteligencia, seguimiento satelital, infiltración de información logística y comercialización rápida de la mercancía robada, evidenciando un nivel de organización que trasciende al delincuente oportunista.",
+					"Durante décadas, algunos corredores mexicanos adquirieron importancia para las organizaciones dedicadas al narcotráfico por su utilidad para conectar zonas de producción, ciudades, puertos y regiones fronterizas. Pero el escenario criminal se volvió progresivamente más complejo. La fragmentación de organizaciones, la aparición de estructuras regionales y la diversificación de las economías ilícitas hicieron que el control territorial pudiera estar relacionado no sólo con el traslado de drogas, sino también con actividades como la extorsión, el robo de vehículos, el robo de mercancías y otras formas de obtención de recursos.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La ubicación geográfica también desempeña un papel determinante. Los corredores que conectan puertos marítimos con centros industriales, zonas agrícolas con mercados nacionales o estados fronterizos con el resto del país concentran un flujo constante de bienes y personas. Esa intensidad de tránsito aumenta el universo potencial de víctimas y dificulta que las autoridades supervisen permanentemente todos los tramos. A ello se suman características físicas que incrementan la vulnerabilidad, como largas distancias entre poblaciones, escasa cobertura de telefonía móvil, zonas montañosas que reducen la visibilidad, caminos alternos utilizados para escapar rápidamente o segmentos donde el tráfico disminuye considerablemente durante determinadas horas del día.",
+					"Esto no significa que cada robo cometido en una carretera sea responsabilidad del crimen organizado. En un mismo corredor pueden operar desde delincuentes oportunistas hasta grupos especializados en el robo de carga y organizaciones con una presencia territorial mucho mayor. Distinguir entre estos actores es importante, porque el tipo de amenaza y la forma en que afecta a quienes utilizan la carretera también son diferentes.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"No obstante, la infraestructura por sí sola no explica el problema. El factor que con mayor frecuencia determina la evolución del riesgo es la disputa por el control territorial. En aquellas regiones donde dos o más organizaciones criminales buscan dominar un mismo corredor, las carreteras dejan de ser únicamente espacios de tránsito y se convierten en escenarios donde se manifiestan conflictos que originalmente tienen un trasfondo económico. Los bloqueos mediante vehículos incendiados, la colocación de ponchallantas, los retenes clandestinos o los ataques contra instalaciones públicas no suelen dirigirse específicamente contra quienes viajan por esas rutas; en la mayoría de los casos constituyen tácticas empleadas para retrasar el avance de las fuerzas de seguridad, proteger movimientos internos o dificultar las operaciones de grupos rivales. Sin embargo, quienes terminan expuestos a sus consecuencias son miles de ciudadanos cuya única intención era llegar a su destino.",
+					"La ubicación geográfica desempeña entonces un papel fundamental. Los corredores que conectan puertos con centros industriales, zonas agrícolas con mercados nacionales, ciudades fronterizas con el interior del país o grandes centros de distribución mantienen un movimiento continuo de vehículos y mercancías. Esa actividad genera oportunidades para el delito, pero también hace prácticamente imposible mantener vigilancia permanente sobre cada kilómetro.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Otro aspecto que ha cobrado relevancia en los últimos años es el aprovechamiento de la información digital por parte de las organizaciones criminales. La popularización de aplicaciones de navegación, redes sociales y grupos de mensajería ha transformado la forma en que tanto ciudadanos como delincuentes utilizan las carreteras. Mientras los viajeros recurren a estas herramientas para encontrar rutas más rápidas o evitar congestionamientos, algunos grupos criminales monitorean patrones de circulación, identifican horarios de mayor flujo e incluso aprovechan desvíos sugeridos por aplicaciones para dirigir a potenciales víctimas hacia caminos secundarios con menor presencia institucional. Esto no significa que las plataformas de navegación sean inseguras, sino que la información tecnológica debe complementarse siempre con el conocimiento del contexto de seguridad de la región.",
+					"Las propias características del camino pueden aumentar la exposición. Tramos alejados de poblaciones, zonas montañosas con poca visibilidad, segmentos con cobertura limitada de telefonía, horarios con menor circulación y caminos secundarios que permiten abandonar rápidamente una vía principal pueden modificar las condiciones en las que ocurre un robo o una interceptación.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Existe además un elemento que rara vez recibe suficiente atención: la oportunidad delictiva. En criminología, diversas teorías sostienen que el delito no depende exclusivamente de la motivación del infractor, sino también de la existencia de condiciones favorables para cometerlo con un riesgo relativamente bajo de ser detectado. Las carreteras que concentran vigilancia limitada, tiempos prolongados de respuesta policial o escasa presencia de usuarios durante ciertos horarios ofrecen precisamente ese tipo de oportunidades. Cuando estas condiciones permanecen sin modificarse durante largos periodos, las organizaciones criminales comienzan a incorporarlas dentro de su propia planeación operativa.",
+					"Sin embargo, existe otro riesgo cuya naturaleza es diferente y que resulta mucho más difícil de anticipar: una carretera puede dejar de ser solamente el lugar donde ocurre un delito y convertirse temporalmente en parte de una confrontación criminal.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"El riesgo de que una carretera forme parte de la confrontación",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Los bloqueos mediante vehículos incendiados, el despojo de automóviles o tractocamiones para cerrar una vía, la instalación de objetos para impedir el tránsito y otras formas de interrupción de la circulación han aparecido en diferentes episodios de violencia organizada en México. En estas circunstancias, quienes viajan por la carretera no necesariamente son el objetivo principal, pero pueden convertirse en víctimas indirectas de una situación que comenzó por razones completamente ajenas a su trayecto.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Por ello, reducir el problema de la inseguridad carretera a la presencia de un determinado grupo criminal resulta insuficiente. Una organización puede cambiar de nombre, fragmentarse o desaparecer, pero si las condiciones estructurales que favorecen la comisión de delitos permanecen intactas, otro actor ocupará eventualmente ese espacio. La prevención efectiva exige intervenir sobre esas variables mediante mayor vigilancia, inteligencia, infraestructura tecnológica, coordinación entre autoridades y fortalecimiento de las capacidades de investigación.",
+					"Una persona puede encontrarse repentinamente frente a una carretera bloqueada, ser obligada a entregar su vehículo, quedar detenida durante horas en una zona de confrontación o verse obligada a buscar una ruta alternativa mientras continúan operativos de seguridad. Esta diferencia es importante: el riesgo ya no proviene únicamente de la posibilidad de sufrir un robo, sino de quedar expuesto a una crisis de seguridad que modifica rápidamente las condiciones del territorio.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Comprender esta lógica permite analizar con mayor objetividad los corredores que actualmente concentran los mayores riesgos. No todas las autopistas presentan el mismo nivel de amenaza, ni todas enfrentan las mismas modalidades delictivas. Algunas destacan por el robo de carga; otras por los bloqueos derivados de disputas entre organizaciones criminales; algunas más por la utilización de retenes ilegales o por el elevado número de robos a vehículos particulares. Identificar esas diferencias resulta indispensable para que las estrategias de prevención respondan al contexto específico de cada ruta y no a recomendaciones generales que pocas veces reflejan la realidad del terreno.",
+					"Sinaloa ofrece antecedentes claros de esta dinámica. Durante el operativo para detener a Ovidio Guzmán en enero de 2023 se registraron bloqueos y el robo e incendio de vehículos y tractocamiones utilizados para cerrar accesos y obstaculizar la circulación en Culiacán y otros puntos del estado. Las afectaciones mostraron cómo una operación dirigida contra un integrante de una organización criminal podía extender sus consecuencias mucho más allá del lugar donde se desarrollaba la intervención.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"La dinámica volvió a hacerse visible durante la confrontación entre facciones criminales que comenzó en septiembre de 2024. El 9 de septiembre, autoridades estatales confirmaron un bloqueo sobre la carretera México 15, a la salida sur de Culiacán, donde fueron localizados un tráiler y una camioneta. Ese mismo día se reportó otro bloqueo sobre la vía Quilá–Eldorado y 12 despojos de vehículos en distintos puntos. Dos días después se confirmó otra interrupción en la Maxipista. La recurrencia de estos episodios llevó posteriormente a establecer posiciones antibloqueos en puntos como Costa Rica, Quilá, La Cruz de Elota, Mármol y el Túnel El Sinaloense de la Mazatlán–Durango.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Lo ocurrido permite observar una característica que será importante a lo largo de este análisis: un vehículo puede dejar de ser únicamente el objetivo de un robo y convertirse en un instrumento dentro de una confrontación. Automóviles, autobuses y unidades de carga pueden ser despojados para cerrar una vía, dificultar el desplazamiento de las autoridades o alterar temporalmente la movilidad de una región. La finalidad concreta debe determinarse en cada caso y no puede suponerse únicamente por la existencia del bloqueo.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Un episodio de una escala mucho mayor ocurrió el 22 de febrero de 2026, después de la operación federal realizada en Tapalpa, Jalisco, en la que murió Nemesio Oseguera Cervantes, líder del Cártel Jalisco Nueva Generación. La respuesta criminal incluyó bloqueos, incendios de vehículos y ataques en distintos puntos del país. En el balance presentado posteriormente por el Gabinete de Seguridad se contabilizaron 85 bloqueos en carreteras federales distribuidos en 11 entidades, además de vehículos incendiados, agresiones contra autoridades y ataques contra establecimientos.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"El alcance territorial de aquella reacción resulta especialmente relevante para comprender el riesgo carretero. La operación que desencadenó los acontecimientos ocurrió en una zona específica de Jalisco, pero sus efectos sobre la movilidad aparecieron simultáneamente en lugares considerablemente alejados. Una persona no necesitaba encontrarse cerca de Tapalpa para quedar expuesta a las consecuencias del operativo. Bastaba con circular por alguno de los corredores donde se produjo una reacción.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"En Jalisco, las afectaciones fueron suficientes para que el Tribunal de Justicia Administrativa estatal declarara inhábil el 23 de febrero ante los bloqueos registrados en calles y carreteras, las detonaciones de armas de fuego y las condiciones extraordinarias de seguridad del día anterior.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Los acontecimientos de Sinaloa y Jalisco muestran además por qué resulta insuficiente evaluar una carretera únicamente mediante estadísticas anuales. El número de robos registrados durante los últimos doce meses puede ayudar a identificar tendencias y zonas recurrentes, pero no permite anticipar por sí mismo una alteración repentina del entorno.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Una carretera que durante semanas mantiene condiciones relativamente estables puede cambiar en cuestión de horas después de una captura, la muerte de un liderazgo criminal, una confrontación entre organizaciones o una operación de seguridad de gran escala. Del mismo modo, una afectación ocurrida en un municipio puede extenderse hacia corredores conectados con otros estados.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Esto obliga a introducir una variable que suele quedar fuera de las listas tradicionales de “carreteras peligrosas”: el tiempo. El riesgo de una ruta no es permanente ni permanece siempre en el mismo nivel. Tiene una dimensión territorial, pero también una dimensión temporal.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Para quien está planeando un viaje, esto significa que conocer los antecedentes de una carretera es útil, pero no suficiente. También importa saber qué está ocurriendo en las horas previas a salir: si existen cierres confirmados, bloqueos, enfrentamientos, operaciones de seguridad o incidentes en municipios conectados con la ruta prevista.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"De esta manera, la pregunta deja de ser únicamente “¿esta carretera es peligrosa?” y se vuelve mucho más útil:",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"¿Qué riesgos presenta este trayecto, en qué puntos se concentran y qué está ocurriendo actualmente en los territorios que voy a atravesar?",
 			},
 			{
 				tipo: "subtitulo",
@@ -6181,42 +6276,81 @@ export const articulos = [
 			{
 				tipo: "parrafo",
 				texto:
-					"La México–Querétaro es uno de los corredores más sensibles del país porque concentra una enorme cantidad de transporte de carga y conecta el Valle de México con el Bajío y posteriormente con los principales corredores industriales del centro y norte. El problema no radica únicamente en el volumen de mercancías: la circulación prácticamente permanente de tractocamiones permite que las estructuras dedicadas al robo identifiquen oportunidades dentro de un flujo vehicular que, en determinados horarios y puntos, pierde capacidad de maniobra.",
+					"El corredor que comunica al Valle de México con Querétaro y posteriormente con Guanajuato constituye una de las rutas logísticas más importantes del centro del país. La autopista México–Querétaro concentra una elevada circulación de transporte de carga y conecta con la carretera 45D hacia Celaya, Salamanca, Irapuato y León. Esta importancia económica también explica por qué algunos de sus segmentos requieren una atención particular desde el punto de vista de la seguridad.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"El riesgo para las empresas está asociado principalmente con el robo de unidades y mercancías, mientras que para los particulares puede manifestarse de otra manera. Un vehículo detenido por congestionamiento, una avería, un accidente o una maniobra inesperada puede convertirse en un blanco vulnerable. También existe un riesgo indirecto: cuando se produce un robo o una persecución, la presencia de vehículos pesados, unidades atravesadas o cierres parciales puede provocar congestionamientos que exponen a cientos de conductores a permanecer inmovilizados durante largos periodos.",
+					"Como señalamos anteriormente, la Guardia Nacional incluyó la México–Querétaro entre los corredores prioritarios del Plan Cero Robos debido a su participación en los robos de vehículos de carga registrados en el país. Sin embargo, al ingresar a Guanajuato aparece una variable adicional: la violencia relacionada con organizaciones criminales y su capacidad para afectar temporalmente la movilidad.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La situación se vuelve todavía más compleja cuando la ruta continúa hacia Querétaro–Irapuato. El corredor atraviesa Apaseo el Grande, Celaya, Salamanca e Irapuato, una zona donde convergen infraestructura industrial, transporte de mercancías y una disputa criminal particularmente fragmentada.",
+					"Durante una conferencia federal de seguridad se informó, por ejemplo, de la detención de cuatro integrantes del Cártel Santa Rosa de Lima (CSRL), entre ellos un presunto líder de células operativas con actividad en Salamanca, Irapuato, Celaya y municipios cercanos. Las investigaciones señalaron además la participación de integrantes encargados de vigilar y alertar sobre la presencia de las autoridades. En declaraciones anteriores, el secretario de Seguridad y Protección Ciudadana, Omar García Harfuch, había explicado que el CSRL, aunque debilitado respecto de años anteriores, había buscado fortalecerse mediante la incorporación de otras células criminales y que las disputas entre algunas de ellas contribuían a la violencia en Guanajuato.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En Guanajuato ya no resulta suficiente explicar el escenario como una confrontación entre dos grandes organizaciones. La propia autoridad federal ha reconocido que el Cártel Santa Rosa de Lima y el CJNG se han fragmentado en múltiples células, generando disputas simultáneas por territorios y actividades ilícitas.",
+					"Por ello, ya no resulta suficiente describir el escenario de Guanajuato únicamente como una confrontación estable entre dos grandes organizaciones. En distintas zonas operan células con capacidad y actividades diferentes, mientras persiste la confrontación entre estructuras vinculadas al CSRL y al CJNG. Para un análisis carretero, esta distinción es relevante porque el riesgo no necesariamente se distribuye de manera uniforme por todo el estado.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Esta fragmentación tiene una consecuencia importante para la seguridad carretera: el riesgo puede aparecer de manera mucho menos predecible. Una célula puede intentar controlar un tramo para proteger actividades de extracción, robo, extorsión o trasiego, mientras otra busca desplazarla. El conductor que atraviesa el territorio no necesariamente es el objetivo, pero puede quedar atrapado en una confrontación o encontrarse con un bloqueo utilizado para impedir el desplazamiento de fuerzas rivales o retrasar la llegada de autoridades.",
+					"Y existe evidencia reciente de que una crisis criminal puede alterar la movilidad en cuestión de horas.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Por eso, en Guanajuato el concepto de riesgo carretero debe incluir algo que frecuentemente queda fuera de las estadísticas de robo: la posibilidad de interrupción violenta de la movilidad.",
+					"El 22 de febrero de 2026, después del operativo federal realizado en Jalisco contra Nemesio Oseguera Cervantes, Guanajuato registró incidentes en 23 municipios, entre ellos Irapuato, Salamanca, León, Pénjamo, Abasolo, Silao y Acámbaro. El Gobierno estatal confirmó la movilización de fuerzas estatales y federales y señaló que se logró impedir la quema de varios vehículos; una vez contenidos los hechos, informó que las carreteras estatales y federales habían quedado libres. ",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Los bloqueos criminales no son necesariamente permanentes ni ocurren todos los días. Precisamente por eso son difíciles de incorporar a una medición convencional. Pueden surgir después de una detención, un operativo, un enfrentamiento o una disputa territorial y desaparecer horas después. Sin embargo, mientras permanecen activos, el conductor puede encontrarse ante un escenario mucho más delicado que un simple cierre de carretera: vehículos atravesados, unidades incendiadas, ponchallantas, presencia de hombres armados y circulación detenida.",
+					"Durante esa jornada, sin embargo, las afectaciones alcanzaron corredores directamente relacionados con el Bajío. En la carretera federal Irapuato–Abasolo, un autobús fue incendiado y atravesado sobre la vía a la altura del puente de La Soledad. En la Irapuato–Romita, un tractocamión cargado con semillas fue incendiado y provocó el cierre total de la circulación; también se reportó el incendio de otro autobús en la carretera Irapuato–León. Ante los incidentes, el transporte público fue suspendido temporalmente en Irapuato y las salidas de autobuses fueron canceladas en Celaya. ",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La experiencia reciente de otros estados permite entender por qué este factor debe incorporarse a cualquier evaluación de riesgo.",
+					"El balance conocido posteriormente mostró la extensión de aquella jornada: la Fiscalía estatal reportó 43 vehículos y 36 comercios incendiados, además de otros daños, distribuidos en 23 de los 46 municipios de Guanajuato. Irapuato y Salamanca estuvieron entre los municipios con mayor número de incendios registrados.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Estos acontecimientos permiten describir el riesgo sin recurrir a una hipótesis sobre lo que podría suceder. La interrupción violenta de la movilidad ya se ha producido en corredores del Bajío. Para una persona que viajaba por la zona, el problema no era necesariamente ser el objetivo directo de una organización criminal: podía encontrarse con un vehículo incendiado atravesado sobre la carretera, una suspensión del transporte o una vía temporalmente cerrada como consecuencia de una crisis originada fuera de su recorrido.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Esto tampoco significa que tales condiciones sean permanentes. De hecho, el propio Gobierno de Guanajuato informó ese mismo día que los incidentes habían sido contenidos y que las carreteras estaban nuevamente libres. El dato importante para el viajero es precisamente la rapidez con la que puede cambiar el escenario: un corredor puede operar normalmente y experimentar horas después una afectación extraordinaria asociada con acontecimientos criminales u operativos de seguridad.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "San Luis Potosí: un corredor logístico hacia el norte",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Después de Querétaro, la carretera federal 57 continúa hacia San Luis Potosí y posteriormente hacia Matehuala, Saltillo y Monterrey. Su importancia no deriva únicamente de la distancia recorrida: constituye uno de los grandes ejes de transporte entre el centro industrial del país y el norte de México.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En este corredor, el robo al autotransporte constituye un riesgo suficientemente relevante como para haber generado estrategias específicas durante 2026. Información oficial presentada ante el Congreso de la Unión señala que San Luis Potosí implementó la Estrategia Balam para atender el robo al autotransporte, con puestos de inspección en el Aeropuerto Ponciano Arriaga, Matehuala y Rioverde, además del Operativo Escalón para acompañar vehículos de carga y un operativo especializado contra el robo al autotransporte en la Zona Industrial de la capital. También se acordó reforzar la presencia de la Guardia Nacional sobre la carretera federal 57 hacia Zacatecas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los resultados operativos ayudan a dimensionar la persistencia del fenómeno. Entre abril y mayo de 2026, la Secretaría de Seguridad y Protección Ciudadana estatal informó de la detención de al menos seis células presuntamente vinculadas con actividades ilícitas, el aseguramiento de diez inhibidores de señal y la recuperación de 56 unidades y equipos de carga, entre tractocamiones, cajas secas, plataformas, remolques y contenedores. La dependencia relacionó expresamente parte de estas acciones con la prevención y combate del robo al autotransporte.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La presencia de inhibidores de señal resulta particularmente relevante para comprender el riesgo. Estos dispositivos pueden interferir con determinados sistemas de comunicación o localización y su aseguramiento dentro de operativos contra el robo al autotransporte aporta evidencia de que algunos hechos trascienden el despojo improvisado de una unidad.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"Por ello, el corredor Querétaro–San Luis Potosí–Matehuala debe analizarse principalmente desde la exposición del transporte de carga, sin extender automáticamente ese riesgo a todos los usuarios. Para una familia que recorre la 57, los antecedentes de robo a transportistas no significan que tenga la misma probabilidad de ser víctima; para una empresa logística, en cambio, el tipo de unidad, la carga, el horario, los puntos de descanso y la capacidad",
 			},
 			{
 				tipo: "subtitulo",
@@ -6226,81 +6360,82 @@ export const articulos = [
 			{
 				tipo: "parrafo",
 				texto:
-					"La México–Puebla–Veracruz presenta una dinámica distinta. Entre Amozoc, Acatzingo y Esperanza existe una concentración histórica de incidentes relacionados con el transporte de carga, pero conforme la carretera se aproxima a Veracruz aparecen otros factores: zonas montañosas, menor visibilidad, caminos secundarios, asaltos a pasajeros y reportes de personas armadas.",
+					"La México–Puebla–Veracruz presenta una dinámica diferente. El corredor 150D conecta el centro del país con Puebla y posteriormente con Veracruz, por lo que mantiene una circulación constante de pasajeros y mercancías. Dentro de esta extensa ruta, el eje Amozoc–Acatzingo–Esperanza–Ciudad Mendoza merece una atención particular por la recurrencia de hechos relacionados con el transporte de carga y por las condiciones geográficas que aparecen conforme la autopista se aproxima a las Cumbres de Maltrata.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"El problema para el conductor particular es que muchas de las estrategias utilizadas para detener un vehículo no requieren necesariamente una confrontación inicial. Un obstáculo sobre la carretera, objetos arrojados contra una unidad, una falsa emergencia o una persona que aparenta requerir auxilio pueden provocar que el conductor reduzca la velocidad o detenga completamente la marcha.",
+					"La respuesta de las propias autoridades permite identificar dónde se ha concentrado parte de la vigilancia. En junio de 2026, el Gobierno de Puebla informó que mantenía 30 Puntos de Monitoreo Inteligente y 116 cámaras en el tramo Amozoc–Esperanza de la autopista 150D, además de operativos para recuperar tractocamiones robados y combatir el uso de accesos clandestinos. La autoridad estatal reportó una tendencia descendente en los robos registrados mediante llamadas al 911 durante ese año, pero la continuidad de incidentes posteriores muestra por qué una reducción estadística no debe interpretarse como desaparición del riesgo.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En el caso del transporte de pasajeros, la vulnerabilidad aumenta porque decenas de personas quedan concentradas dentro de una unidad cuya capacidad de maniobra es prácticamente nula una vez que ha sido obligada a detenerse.",
+					"El 19 de marzo de 2026, un conductor de transporte de carga murió y dos acompañantes resultaron heridos durante un intento de asalto en el kilómetro 164+800, a la altura de Acatzingo. De acuerdo con los reportes, hombres armados intentaron detener el tractocamión y, cuando el operador continuó su marcha, dispararon contra la unidad.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Las Cumbres de Maltrata representan quizá el ejemplo más claro de esta transformación del riesgo. La configuración montañosa, las curvas y la vegetación reducen la visibilidad y generan espacios donde una persona o un vehículo puede permanecer oculto. Por ello, los reportes sobre presencia de hombres armados adquieren mayor relevancia cuando se analizan conjuntamente con los antecedentes de asaltos en el corredor.",
+					"En mayo aparecieron incidentes con mecanismos distintos. Cerca de Esperanza se documentó el robo de dos tráileres después de que los agresores aparentemente utilizaran un vehículo detenido para hacer que los operadores redujeran la velocidad. Días después, en las Cumbres de Maltrata, un video registró a varios individuos colocados sobre la autopista intentando detener un tractocamión durante la noche mientras utilizaban luces de alta intensidad; el conductor continuó su marcha y atravesó el bloqueo. ",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La carretera, entonces, no debe analizarse únicamente desde la pregunta de cuántos robos se producen, sino desde otra mucho más útil: qué capacidad tiene un agresor para obligar a un vehículo a detenerse y qué posibilidades tiene la víctima de abandonar rápidamente el lugar.",
+					"Los hechos continuaron durante los meses siguientes. El 12 de junio se reportó otro intento de asalto alrededor del kilómetro 165, en Acatzingo, donde el conductor logró continuar su marcha pero resultó herido por disparos. Y el 5 de septiembre otro transportista fue atacado en el kilómetro 178+500 del tramo Acatzingo–Quecholac, después de que sujetos armados intentaran obligarlo a detener la unidad para apoderarse del vehículo y la mercancía. ",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Más importante todavía para comprender la dinámica del corredor es lo que encontraron las autoridades federales. En agosto de 2026, el Gabinete de Seguridad informó de la identificación de una célula delictiva con presencia en Esperanza, Puebla, vinculada con robos de unidades de carga y secuestros exprés de operadores en tramos de la carretera federal 150D Puebla–Veracruz. La investigación también señaló la utilización de una red de vigilancia y la presunta cooptación de autoridades locales. Tres personas relacionadas con esa estructura fueron detenidas en Cuitláhuac, Veracruz.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La investigación continuó. El 7 de septiembre, autoridades federales ejecutaron 23 cateos en Esperanza y detuvieron a nueve personas, entre ellas al presidente municipal en funciones. Durante los operativos fueron aseguradas armas largas, vehículos blindados, mercancía robada e inhibidores de señal. El comunicado federal relacionó las acciones específicamente con las investigaciones sobre robo al autotransporte de carga y otros delitos cometidos en carreteras federales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esta secuencia permite caracterizar el riesgo con mucha mayor precisión que simplemente llamar a la Puebla–Veracruz una “carretera peligrosa”. Entre Acatzingo y Esperanza existen incidentes recientes de interceptación y ataques armados contra transportistas; hacia Ciudad Mendoza y las Cumbres de Maltrata aparecen además condiciones topográficas que pueden dificultar la visibilidad y la reacción; y las investigaciones federales de 2026 han documentado estructuras dedicadas específicamente al robo de autotransporte en la 150D.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para la población civil esto también importa, aunque buena parte de los casos documentados tenga como objetivo vehículos de carga. Los métodos empleados para detener unidades —vehículos atravesados, personas sobre la carpeta asfáltica, reducción forzada de velocidad o presencia de individuos armados— pueden generar situaciones de exposición para cualquier conductor que coincida con el incidente, incluso cuando no sea el objetivo del robo.",
 			},
 			{
 				tipo: "subtitulo",
 				texto:
-					"Estado de México: cuando la congestión también se convierte en vulnerabilidad",
+					"Estado de México: los accesos metropolitanos y el robo al transporte",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Los corredores México–Querétaro, México–Pachuca, México–Texcoco y los accesos metropolitanos del Estado de México presentan una característica diferente: una parte importante de su riesgo surge precisamente de su enorme densidad vehicular.",
+					"Los corredores que atraviesan el Estado de México constituyen una zona particular dentro del sistema carretero nacional. Las autopistas México–Querétaro y México–Pachuca, junto con otros accesos a la Zona Metropolitana del Valle de México, combinan una circulación intensa de vehículos particulares con uno de los flujos de transporte de mercancías más importantes del centro del país. Esa concentración genera una exposición diferente a la observada en carreteras rurales: los incidentes pueden ocurrir en zonas densamente transitadas y próximas a áreas urbanas.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En estas vías, el conductor puede encontrarse atrapado en una fila de varios kilómetros sin posibilidad de avanzar, cambiar de dirección o abandonar inmediatamente la carretera. Para las organizaciones dedicadas al robo, esa inmovilidad puede representar una oportunidad; para el ciudadano común, significa que una situación originalmente dirigida contra un vehículo de carga puede terminar afectando a todos quienes se encuentran alrededor.",
+					"La México–Querétaro constituye uno de los ejemplos más claros. Como vimos anteriormente, la Guardia Nacional la incluyó entre los corredores prioritarios de la Operación Cero Robos y reportó posteriormente una reducción de 55 % en el robo al transporte de carga durante los primeros 49 días de implementación. La reducción es relevante, pero la existencia misma de una intervención específica muestra la concentración previa del problema y no permite asumir que el riesgo haya desaparecido.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La congestión también tiene otro efecto: reduce la capacidad de respuesta colectiva. Cuando cientos de vehículos permanecen detenidos, una persona puede tardar más en identificar que existe una situación anormal y, si se produce un incidente, la propia saturación dificulta la salida del área.",
+					"Los incidentes recientes ayudan a identificar con mayor precisión dónde se manifiesta. El 1 de abril de 2026, en Axotlán, Cuautitlán Izcalli, una persona que circulaba en una camioneta fue interceptada y privada de la libertad. Dos personas fueron posteriormente vinculadas a proceso por secuestro exprés con fines de robo; de acuerdo con información de la Fiscalía mexiquense difundida por el gobierno municipal, los investigados podrían formar parte de una banda denominada El Animal, señalada como dedicada al robo de transporte de carga en municipios colindantes con la autopista México–Querétaro.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En este entorno no necesariamente existe una organización criminal controlando físicamente toda la carretera. El riesgo puede surgir de células dedicadas al robo, grupos locales que aprovechan determinados accesos o individuos que operan sobre oportunidades generadas por la saturación.",
+					"La México–Pachuca también presenta antecedentes recientes. El 24 de julio de 2025, sobre la autopista a la altura de Ojo de Agua, Tecámac, tres personas despojaron violentamente a un transportista de un tractocamión Kenworth. La Secretaría de Seguridad del Estado de México informó que, mediante el análisis de videovigilancia del C5, identificó posteriormente un vehículo presuntamente utilizado en el robo y detuvo a dos personas para determinar su participación. ",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Por eso, el Estado de México representa un tipo de vulnerabilidad diferente al de las zonas rurales: aquí el problema no es la ausencia de personas, sino la imposibilidad de moverse entre demasiadas personas.",
+					"Estos hechos permiten caracterizar mejor el riesgo que atribuirlo únicamente a la congestión. El problema documentado en los accesos del norte del Valle de México es la coexistencia de grandes flujos logísticos con grupos dedicados al robo de unidades y mercancías, particularmente en zonas como Cuautitlán Izcalli, Tepotzotlán, Tecámac y los municipios conectados con las salidas hacia Querétaro y Pachuca.",
 			},
-			{
-				tipo: "subtitulo",
-				texto: "San Luis Potosí y las rutas hacia el norte",
-			},
-			{
+						{
 				tipo: "parrafo",
 				texto:
-					"La Querétaro–San Luis Potosí y San Luis Potosí–Matehuala forman parte de uno de los principales corredores logísticos hacia el norte del país. Su importancia comercial convierte al transporte de carga en el principal objetivo, pero existe otro factor que debe considerarse: la distancia entre algunos centros urbanos.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En determinados segmentos, una unidad puede encontrarse durante varios kilómetros sin una zona urbana inmediata donde detenerse, solicitar asistencia o modificar el recorrido. Si ocurre un robo, una falla mecánica o un accidente, la capacidad de respuesta puede ser considerablemente menor que en una carretera metropolitana.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Aquí el riesgo también está relacionado con el tipo de mercancía transportada. Los grupos dedicados al robo no necesariamente buscan cualquier unidad; determinados productos poseen mercados ilícitos más atractivos y pueden ser seleccionados por su facilidad de comercialización.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Para las empresas esto significa que la evaluación no debería limitarse a la carretera. La ruta debe analizarse junto con el tipo de carga, horarios, puntos de descanso y zonas donde una unidad necesariamente debe reducir velocidad o detenerse.",
+					"La saturación vehicular puede agravar las consecuencias de un incidente al reducir las posibilidades de maniobra o generar largas filas, pero no conviene presentarla como causa del delito sin evidencia que lo demuestre. Para un conductor, la conclusión preventiva es más concreta: la presencia de muchos vehículos no necesariamente elimina la oportunidad criminal. Algunos robos documentados han ocurrido precisamente dentro de zonas metropolitanas y corredores intensamente transitados.",
 			},
 			{
 				tipo: "subtitulo",
@@ -6310,168 +6445,110 @@ export const articulos = [
 			{
 				tipo: "parrafo",
 				texto:
-					"Michoacán requiere una consideración particular porque aquí el riesgo carretero no puede explicarse exclusivamente mediante el robo de vehículos o mercancías.",
+					"Michoacán presenta un escenario distinto. Aquí existen corredores donde el riesgo no puede explicarse únicamente mediante el robo de vehículos o mercancías, porque las carreteras han sido utilizadas de manera reiterada durante episodios de confrontación y reacción frente a operativos de seguridad.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La presencia y disputa entre organizaciones criminales, particularmente el CJNG y estructuras locales o regionales, ha producido escenarios en los que las carreteras pueden ser utilizadas como instrumentos de presión territorial. El objetivo de un bloqueo criminal no necesariamente es robar a quienes quedan atrapados: puede ser retrasar el desplazamiento de las fuerzas de seguridad, impedir el ingreso de un grupo rival, facilitar una retirada o responder a un operativo.",
+					"Un caso particularmente claro ocurrió el 17 de noviembre de 2025. La Secretaría de Seguridad Pública de Michoacán informó que, durante un operativo dirigido contra un objetivo prioritario, se produjeron bloqueos en las regiones de La Piedad, Zamora y Pátzcuaro. Civiles armados atravesaron vehículos particulares y unidades de carga sobre distintos puntos carreteros y, en algunos casos, los incendiaron. La autoridad confirmó afectaciones en municipios como Ecuandureo, Ixtlán, Tangamandapio, Zamora y Numarán, mientras que la Morelia–Quiroga, a la altura de Tzintzuntzan, tuvo que ser liberada por las fuerzas de seguridad.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Los acontecimientos recientes muestran la dimensión de este fenómeno. En noviembre de 2025, después de un operativo dirigido contra un presunto integrante del CJNG, se registraron bloqueos y quema de vehículos en diferentes regiones de Michoacán. Se utilizaron unidades particulares y de carga para obstruir vialidades, afectando carreteras como Morelia–Quiroga, Pátzcuaro–Quiroga, Zamora–La Piedad y la autopista México–Guadalajara.",
+					"Tierra Caliente añade otra dimensión. En enero de 2026, durante las acciones contra la estructura relacionada con César Alejandro “N”, El Botox, autoridades estatales y federales localizaron 48 artefactos explosivos improvisados en las inmediaciones de Cenobio Moreno, Apatzingán, algunos modificados para su utilización mediante drones. El mismo despliegue derivó en cateos y aseguramientos relacionados con una célula investigada por homicidio y extorsión contra productores agrícolas. ",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"El patrón volvió a aparecer en 2026 en la región de Tierra Caliente. Tras la detención de un presunto extorsionador identificado como 'El Botox', se reportaron bloqueos en las carreteras Apatzingán–Tepalcatepec y Apatzingán–Aguililla.",
+					"Estos hechos justifican que corredores de las regiones de Pátzcuaro–Quiroga, Zamora–La Piedad y Tierra Caliente alrededor de Apatzingán sean evaluados no sólo por incidencia patrimonial, sino también por la posibilidad de alteraciones repentinas de la movilidad asociadas con operaciones de seguridad y confrontaciones.",
 			},
 			{
 				tipo: "parrafo",
-				texto: "Esto modifica completamente la valoración del riesgo.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Un conductor puede iniciar su trayecto sin tener ningún motivo para pensar que será víctima de un delito y, sin embargo, encontrarse repentinamente frente a una carretera bloqueada por vehículos atravesados o incendiados. Intentar regresar puede no ser posible; tomar una ruta secundaria puede introducirlo en un territorio desconocido; permanecer detenido puede hacerlo vulnerable ante un enfrentamiento cercano.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En mayo de 2026, además, se documentaron ataques, ponchallantas, vehículos robados y bloqueos en diferentes puntos de Michoacán, lo que confirma que la interrupción de las vialidades forma parte de una dinámica de violencia más amplia, no de hechos aislados de tránsito.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Para las empresas, esto puede traducirse en pérdida de mercancías, interrupción de cadenas logísticas y exposición de operadores. Para los particulares, el riesgo más importante es quedar atrapados en un escenario cuya naturaleza puede cambiar rápidamente de un bloqueo a una confrontación armada.",
+				texto: "Para quien conduce por la zona, la amenaza puede cambiar rápidamente. Una carretera abierta al iniciar el viaje puede experimentar horas después un cierre relacionado con un acontecimiento ocurrido en otro municipio. Éste es precisamente el tipo de riesgo que una estadística anual de robos difícilmente puede representar.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Sinaloa: una carretera condicionada por la disputa criminal",
+				texto: "Sinaloa: movilidad dentro de un escenario de confrontación",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En Sinaloa, particularmente sobre los corredores Culiacán–Mazatlán, México 15 y la autopista Benito Juárez, la evaluación tampoco puede limitarse al robo carretero.",
+					"En Sinaloa, especialmente sobre el eje Culiacán–Mazatlán y sus conexiones con la México 15, la evaluación tampoco puede limitarse al robo carretero. La confrontación criminal iniciada en septiembre de 2024 ha coincidido con despojos de vehículos, enfrentamientos, presencia de explosivos, ponchallantas y episodios de bloqueo, haciendo que las condiciones de movilidad puedan cambiar con rapidez.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La fragmentación interna del Cártel de Sinaloa convirtió determinadas regiones del estado en escenarios de confrontación entre facciones rivales. Cuando esa disputa se traslada a las carreteras, el vehículo que circula por ellas puede convertirse en una víctima circunstancial de una dinámica que originalmente no estaba dirigida contra civiles.",
+					"Los hechos que ya revisamos al explicar el uso táctico de las carreteras muestran cómo comenzó a manifestarse esta dinámica. Pero durante 2025 continuaron apareciendo elementos relevantes para quienes circulaban por los corredores del centro y sur del estado.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Los bloqueos registrados durante 2025 muestran claramente este patrón. En mayo se reportaron interrupciones simultáneas en Culiacán, Navolato, Mocorito y Elota, con vehículos de carga utilizados para obstruir las vías y, en algunos casos, unidades incendiadas. La propia Secretaría de Seguridad Pública estatal atribuyó algunos de estos bloqueos a integrantes de la delincuencia organizada.",
+					"En mayo, por ejemplo, las autoridades estatales reportaron operativos simultáneos en Culiacán, Navolato y Elota, además de otros municipios. El 14 de mayo informaron del aseguramiento de vehículos robados, armamento, explosivos y puntas de acero utilizadas como ponchallantas; al día siguiente localizaron otro vehículo con reporte de robo e impactos de bala que también contenía ponchallantas. En Elota, durante ese mismo periodo, personal militar fue agredido mientras realizaba labores operativas y posteriormente aseguró un vehículo con blindaje, armas largas y equipo táctico.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En otro episodio, sobre la Culiacán–Mazatlán, fueron incendiados tráileres y la autopista permaneció bloqueada, generando largas filas y la suspensión temporal del transporte entre ambas ciudades.",
+					"La combinación es relevante porque permite ir más allá de una descripción genérica de “inseguridad”. En un mismo entorno territorial aparecen vehículos robados, armas, explosivos, ponchallantas y agresiones contra fuerzas de seguridad, elementos que pueden afectar directa o indirectamente la circulación aunque el conductor particular no constituya el objetivo original.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"También se documentaron bloqueos mediante vehículos de carga y ponchallantas, utilizados para dificultar tanto la circulación civil como el desplazamiento de fuerzas de seguridad.",
+					"La situación tampoco quedó circunscrita a Culiacán. En agosto de 2025, el Grupo Interinstitucional mantenía operaciones en Rosario, Elota, Escuinapa, Mazatlán y Concordia, además de otros municipios. En Rosario, por ejemplo, personal militar fue objeto de una agresión armada durante recorridos terrestres en las inmediaciones de Matatán.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Este último elemento es especialmente importante para un análisis preventivo. Un ponchallantas no necesita detener un convoy completo para generar consecuencias: basta con afectar algunos vehículos para producir congestionamiento y crear una zona de inmovilidad. Si simultáneamente existe un enfrentamiento entre grupos armados, la carretera deja de ser simplemente una vía de tránsito y se convierte en un espacio de exposición para quienes quedaron atrapados.",
+					"Por ello, más que etiquetar toda la Culiacán–Mazatlán como permanentemente peligrosa, resulta más preciso señalar puntos y conexiones que requieren seguimiento: salidas de Culiacán y Costa Rica; Navolato y Eldorado; La Cruz de Elota y sus accesos; Mazatlán y las conexiones hacia Concordia; y, hacia el sur, Rosario y Escuinapa. La exposición no es idéntica en todos ellos ni permanece constante durante todo el día.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Por ello, el riesgo en Sinaloa debe entenderse como dinámico y episódico. Un tramo puede permanecer operativo durante días y, después de un enfrentamiento, convertirse temporalmente en un punto de alta vulnerabilidad.",
+					"Además, el uso de ponchallantas merece atención particular. No porque su hallazgo demuestre que necesariamente serían empleados contra viajeros, sino porque las propias autoridades han documentado su posesión junto con vehículos robados, armas y equipo táctico. Eso convierte su presencia en un indicador relevante cuando existen simultáneamente enfrentamientos, bloqueos u operativos en una zona.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En agosto de 2025, por ejemplo, los municipios de Rosario y Escuinapa registraron bloqueos tanto en la carretera libre como en la autopista de cuota, después de que hombres armados despojaran a conductores de vehículos de carga para utilizarlos en la obstrucción de las vías.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Esto explica por qué una carretera no puede clasificarse simplemente como 'segura' o 'insegura'. La variable más importante puede ser qué está ocurriendo en el territorio ese mismo día.",
+					"La consecuencia para quien planea un viaje es clara: el antecedente histórico de una carretera importa, pero el contexto del mismo día puede ser todavía más relevante. Una ruta abierta y funcional durante la mañana puede experimentar una alteración horas después si ocurre una confrontación o una reacción criminal.",
 			},
 			{
 				tipo: "subtitulo",
-				texto: "Guanajuato: el riesgo de una criminalidad fragmentada",
+				texto:
+					"El verdadero riesgo no siempre es el asalto",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Guanajuato merece regresar al análisis porque combina dos elementos particularmente delicados: una de las redes industriales y logísticas más importantes del país y una disputa criminal altamente fragmentada.",
+					"Los corredores analizados muestran por qué hablar de “carreteras peligrosas” puede resultar engañosamente sencillo. No todas presentan el mismo riesgo, ni el riesgo permanece igual a lo largo de toda una carretera.",
+			},
+						{
+				tipo: "parrafo",
+				texto:
+					"En la México–Querétaro y los accesos del Estado de México existe evidencia reciente de robo al transporte y secuestro exprés relacionado con el despojo de unidades. En San Luis Potosí, los despliegues especializados, las unidades recuperadas y el aseguramiento de inhibidores muestran una problemática particularmente vinculada al autotransporte. En Michoacán y Sinaloa aparece una variable diferente: episodios de violencia organizada capaces de modificar temporalmente la circulación y exponer a personas que no eran el objetivo original de la confrontación.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La presencia histórica del Cártel Santa Rosa de Lima y el CJNG, acompañada por células y alianzas cambiantes, ha producido un entorno donde el control territorial tiene consecuencias directas sobre las rutas de movilidad. La propia autoridad federal ha señalado que el problema dejó de ser una confrontación simple entre dos organizaciones y pasó a involucrar múltiples células.",
+					"Esta diferencia es fundamental para la prevención. Una familia que viaja en automóvil, un conductor de autobús y un operador que transporta mercancía no tienen necesariamente la misma exposición aunque recorran exactamente la misma carretera. Tampoco enfrentan las mismas consecuencias ante un robo, un bloqueo o un enfrentamiento.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Esto significa que un mapa de riesgo basado únicamente en nombres de organizaciones puede quedarse corto. Lo verdaderamente importante es identificar qué células tienen capacidad de afectar determinada región y qué actividades intentan proteger o controlar.",
+					"Por ello, una reducción en las denuncias constituye información relevante, pero no basta por sí sola para determinar las condiciones de seguridad de un trayecto. Como vimos anteriormente, la cifra negra limita la capacidad de los registros administrativos para representar todos los delitos; además, existen acontecimientos que afectan la movilidad —bloqueos, confrontaciones, cierres derivados de operativos— que no necesariamente terminarán registrados estadísticamente como robo carretero.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En el corredor Celaya–Villagrán–Cortazar, por ejemplo, la importancia industrial convierte la infraestructura logística en un activo estratégico. Las investigaciones recientes han señalado la presencia del Cártel Santa Rosa de Lima en esta zona y su interés en actividades relacionadas con mercancías y corredores industriales.",
+					"La evaluación resulta más útil cuando combina varias preguntas: ¿qué tipo de incidentes se han documentado?, ¿en qué tramo ocurrieron?, ¿a quiénes afectaron?, ¿son recurrentes o extraordinarios?, ¿qué actores aparecen relacionados?, ¿existen operaciones de seguridad o confrontaciones activas y qué tan reciente es la información?",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Para el conductor, el riesgo puede manifestarse mediante robo, extorsión, presencia de vehículos sospechosos o interrupciones derivadas de enfrentamientos. Para una empresa, las consecuencias pueden ser todavía mayores: una carretera bloqueada durante varias horas puede alterar entregas, cadenas de suministro y compromisos de producción aunque ninguna unidad de la compañía haya sido atacada.",
+					"Eso permite abandonar dos conclusiones igualmente problemáticas: asumir que una carretera es segura porque disminuyeron las denuncias, o considerarla permanentemente peligrosa porque allí ocurrió un episodio grave.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Y aquí existe una distinción que conviene dejar clara: no todo bloqueo en Guanajuato es criminal. Durante 2025 también se registraron numerosos cierres protagonizados por agricultores y otros sectores sociales.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La diferencia está precisamente en el contexto y en el comportamiento observado. Un bloqueo social puede ser previsible, anunciarse previamente y tener una demanda pública identificable. Un bloqueo asociado a violencia criminal puede surgir de forma súbita, acompañarse de vehículos incendiados, hombres armados o enfrentamientos y utilizarse como mecanismo para impedir la intervención de las autoridades.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "El verdadero riesgo no siempre es el asalto",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La principal conclusión que se desprende de estos corredores es que la seguridad carretera mexicana ya no puede analizarse exclusivamente desde la perspectiva del robo.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Para una empresa, el riesgo puede comenzar con la pérdida de una unidad o mercancía, pero también puede aparecer cuando una carretera queda bloqueada durante horas, cuando un operador queda atrapado en medio de un conflicto o cuando una ruta alternativa obliga a circular por una zona de mayor exposición.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Para un particular, el escenario puede ser todavía más imprevisible. Una familia puede no ser el objetivo de ninguna organización y, aun así, quedar atrapada detrás de un tráiler incendiado, encontrarse con un enfrentamiento o verse obligada a detenerse porque la circulación fue interrumpida.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Por eso, en corredores como Michoacán, Sinaloa y Guanajuato, el bloqueo criminal debe considerarse una variable de riesgo por sí misma. No porque ocurra de manera permanente, sino precisamente porque su carácter eventual y reactivo dificulta anticiparlo mediante estadísticas tradicionales.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Una baja en las denuncias no necesariamente significa que una carretera sea menos peligrosa. La cifra oficial refleja los hechos que llegaron al conocimiento de las instituciones y fueron registrados bajo una determinada clasificación. No necesariamente incorpora todos los eventos que las empresas resuelven internamente, los hechos que las víctimas deciden no denunciar, los bloqueos que no derivan en una carpeta por robo o los incidentes donde el conductor logra escapar sin que exista una denuncia formal.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Por ello, la valoración del riesgo debe combinar incidencia documentada, contexto territorial, presencia y disputa de grupos criminales, modus operandi observado, condiciones geográficas y capacidad de respuesta.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Ese enfoque resulta mucho más útil que afirmar que una carretera es 'segura' porque las estadísticas oficiales disminuyeron o 'peligrosa' porque acumula determinado número de denuncias.",
+					"El riesgo carretero es territorial, temporal y específico para el tipo de usuario. Entender esas tres dimensiones permite pasar de una lista de carreteras peligrosas a algo mucho más útil para la población: comprender qué puede ocurrir, dónde se ha documentado y qué condiciones pueden modificar el riesgo antes de iniciar un viaje.",
 			},
 		],
 	},
