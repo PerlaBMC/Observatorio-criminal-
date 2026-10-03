@@ -976,48 +976,71 @@ export const articulos = [
 		],
 	},
 	{
+		schemaVersion: "1.1",
+
 		metadata: {
-			id: "art-005",
+			id: "ART-005",
+
 			slug: "reclutamiento-forzado",
+
 			titulo:
 				"Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes",
+
 			categoria: {
-				principal: "crimen-organizado",
-				label: "Crimen Organizado",
+				principal: "criminalidad",
+
+				label: "Criminalidad",
 			},
+
 			etiquetas: [
 				"narcotráfico",
+
 				"crimen organizado",
+
 				"cárteles",
+
 				"delincuente",
+
 				"sicario",
+
 				"reclutamiento",
+
 				"reclutamiento forzado",
 			],
+
 			fechaPublicacion: "2026-04-27",
+
 			autor: "Perla Mondragón",
+
 			tiempoLectura: 10,
+
 			estado: "publicado",
 		},
 
 		clasificacion: {
 			area: "Delincuencia en México",
+
 			subarea: "Crimen organizado",
+
 			nivel: "Divulgativo",
+
 			region: "México",
 		},
 
 		seo: {
 			metaTitle:
 				"Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes?",
+
 			metaDescription: "Cómo operan los grupos criminales",
 		},
 
 		media: {
 			imagenPrincipal:
-				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/Observatorio_criminal_7_iofyvz.png",
+				"https\://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/Observatorio_criminal_7_iofyvz.png",
+
 			banner:
-				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/BannerArtPage_4_zeuwaq.png",
+				"https\://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/BannerArtPage_4_zeuwaq.png",
+
 			altImagen: "Ilustración",
 		},
 
@@ -1026,378 +1049,552 @@ export const articulos = [
 
 		contenido: [
 			{
+				id: "BLO-005-001",
 				tipo: "subtitulo",
+
 				variante: "introduccion",
+
 				texto:
 					"En México, hablar de violencia e inseguridad ha dejado de ser una exageración para convertirse en una realidad que, en muchos casos, supera la ficción. ",
 			},
+
 			{
+				id: "BLO-005-002",
 				tipo: "parrafo",
+
 				texto:
 					"Entre estos fenómenos, el reclutamiento forzado por parte del crimen organizado se ha consolidado como uno de los más preocupantes y, al mismo tiempo, menos comprendidos.",
 			},
+
 			{
+				id: "BLO-005-003",
 				tipo: "parrafo",
+
 				texto:
 					"Detrás de las cifras existen historias que duelen: jóvenes que desaparecen tras acudir a una supuesta entrevista de trabajo, niños y adolescentes que son captados a través de videojuegos como Roblox o mediante redes sociales como TikTok, y comunidades enteras donde estas prácticas comienzan a volverse recurrentes. No se trata de casos aislados, sino de un patrón que evidencia la capacidad de adaptación de los grupos criminales y la vulnerabilidad de ciertos sectores de la población.",
 			},
+
 			{
+				id: "BLO-005-004",
 				tipo: "parrafo",
+
 				texto:
 					"Frente a este panorama, resulta inevitable cuestionarnos: ¿cómo funciona realmente el reclutamiento criminal en México?",
 			},
+
 			{
+				id: "BLO-005-005",
 				tipo: "subtitulo",
+
 				texto: "¿Qué es el reclutamiento forzado?",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"El reclutamiento criminal no comienza necesariamente cuando una persona recibe un arma o es trasladada a un lugar de adiestramiento. Puede existir un proceso previo de acercamiento, persuasión, engaño, aprovechamiento de vulnerabilidades o coerción que termina incorporando a una persona a actividades de una organización delictiva. Sin embargo, estas circunstancias no son equivalentes y distinguirlas resulta fundamental para comprender el fenómeno.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En México existe además una dificultad jurídica, durante los últimos años se han presentado distintas iniciativas para incorporar expresamente el reclutamiento forzado al Código Penal Federal. Una iniciativa publicada en el Sistema de Información Legislativa en marzo de 2026 propuso definirlo a partir del reclutamiento, inducción, coacción u obligación de una persona para colaborar con organizaciones delictivas mediante engaño, extorsión, maltrato, chantaje, intimidación o violencia física o psicológica. Otra propuesta, enfocada específicamente en niñas, niños y adolescentes, contempla conductas como captar, persuadir, incorporar, transportar, transferir o albergar a un menor para utilizarlo en actividades de una organización delictiva. Sin embargo, es importante presentarlas como propuestas legislativas y no como una definición penal vigente, considerando que al momento no hay un tipo penal definido.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"El reclutamiento forzado puede entenderse entonces como el proceso mediante el cual una persona es obligada, engañada o presionada a integrarse a una organización criminal, ya sea a través de amenazas, violencia, manipulación o falsas promesas. Sin embargo, reducirlo únicamente al uso de la fuerza sería simplificar un problema que, en muchos casos, se construye a partir de condiciones sociales previas.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En este sentido, es importante diferenciar tres formas principales de reclutamiento:",
-			},
-			{
-				tipo: "lista",
-				items: [
-					"Reclutamiento forzado directo, donde existe privación de la libertad, amenazas o violencia física.",
-					"Reclutamiento inducido, en el que la persona es manipulada mediante engaños, ofertas laborales falsas o promesas económicas.",
-					"Reclutamiento normalizado, donde la integración al crimen ocurre en contextos donde la violencia y la ilegalidad forman parte de la vida cotidiana.",
-				],
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Esta distinción permite entender que no todas las víctimas llegan al crimen organizado por las mismas vías, pero sí comparten un elemento en común: la vulnerabilidad frente a estructuras que saben identificar, explotar y convertir esas condiciones en oportunidades de captación.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "¿Dónde se ha documentado el reclutamiento criminal en México?",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La dimensión territorial del reclutamiento criminal sigue siendo difícil de medir. México no cuenta con una estadística nacional que permita conocer cuántas personas son reclutadas en cada entidad y, por esa razón, los datos sobre población vulnerable, desapariciones o adolescentes involucrados en delitos relacionados con la delincuencia organizada no pueden utilizarse como sustitutos de una incidencia que todavía no se registra directamente.",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"Sin embargo, durante los últimos años las investigaciones han permitido documentar casos concretos en diferentes estados. Al observarlos en conjunto aparece una característica particularmente relevante. El reclutamiento puede comenzar en una entidad y continuar en otra, de modo que el lugar donde una persona es captada no necesariamente coincide con aquel donde permanece, recibe adiestramiento o es utilizada posteriormente por una organización criminal.",
-			},		
-			{
-				tipo: "parrafo",
-				texto:
-					"Jalisco ofrece hasta ahora uno de los conjuntos de evidencia más completos. El Rancho Izaguirre, ubicado en Teuchitlán, dejó de ser únicamente un señalamiento derivado de testimonios cuando las investigaciones federales determinaron que el predio había sido utilizado como sitio de adiestramiento. En marzo de 2026, la FGR informó que allí se realizaban prácticas de tiro, acondicionamiento y ejercicios físicos.",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"La investigación había avanzado desde 2025 sobre la estructura encargada de captar personas. El Gabinete de Seguridad informó que José Gregorio “N” encabezaba operaciones de reclutamiento y que el análisis de perfiles en redes sociales permitió identificar páginas utilizadas para incorporar personas a actividades de la delincuencia organizada. Para marzo de ese año se habían dado de baja 39 páginas y habían sido detenidas 49 personas relacionadas con actividades de reclutamiento. ",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"El Rancho Izaguirre tampoco aparece como un hecho completamente aislado. En 2026, la FGR vinculó otra investigación con el predio conocido como La Galera, en la localidad de La Vega, también en Jalisco. Un juez federal vinculó a proceso a Fernando “N” por su posible participación en delincuencia organizada con fines de trata de personas, desaparición cometida por particulares y trata con fines de trabajos forzados. La investigación lo relaciona con posibles actividades de reclutamiento, adiestramiento, vigilancia, control y privación ilegal de la libertad. ",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"Estos casos permiten hablar de una dinámica documentada en Jalisco sin necesidad de inferirla a partir de desapariciones o indicadores indirectos. También muestran que el fenómeno no necesariamente se limita a un solo predio.",
-			},		
-			{
-				tipo: "parrafo",
-				texto:
-					"Otros casos revelan una dinámica interestatal. En julio de 2025 se documentó el caso de un adulto y un menor originarios de Jalisco que acudieron a la Nueva Central de Autobuses de Tlaquepaque después de recibir una falsa oferta laboral. De acuerdo con la información publicada sobre el caso, fueron trasladados mediante engaños a Sinaloa, donde permanecieron cerca de tres meses en un centro de reclutamiento contra su voluntad hasta conseguir escapar. ",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"En 2026 apareció evidencia todavía más clara de estos desplazamientos. Autoridades detectaron al menos siete adolescentes reportados como desaparecidos en Jalisco que habrían sido reclutados y capacitados en Zacatecas para posteriormente ser entregados a integrantes de una organización que operaba en Sinaloa. Tres consiguieron regresar a Jalisco y las autoridades tuvieron conocimiento de que otros tres murieron cuando intentaban escapar. La información fue atribuida a la Fiscalía de Jalisco. ",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"Otro caso permite incorporar a Guerrero con un grado de evidencia mayor. En agosto de 2026, el Gobierno de Guerrero informó oficialmente de la localización en Zirándaro de dos adolescentes originarios de Tlajomulco de Zúñiga, Jalisco. Ambos tenían reporte de desaparición y las investigaciones establecieron que habrían sido víctimas de reclutamiento forzado. La Guardia Nacional y las fiscalías participaron en su localización y resguardo.",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"En Guerrero existe además evidencia académica independiente. Una investigación publicada en 2026 analizó entrevistas realizadas entre 2019 y 2022 a familias desplazadas de ese estado y documentó modalidades de reclutamiento y utilización de menores por organizaciones criminales, así como familias que se desplazaron para proteger a sus hijos. Se trata de evidencia cualitativa y no permite calcular incidencia estatal, pero sí aporta evidencia sobre la existencia del fenómeno y sus consecuencias territoriales.",
-			},		
-			{
-				tipo: "parrafo",
-				texto:
-					"En Michoacán también se han documentado patrones de captación de adolescentes. Durante 2026, la Fiscalía estatal informó sobre casos de jóvenes contactados mediante redes sociales que recibían viajes pagados y eran dirigidos hacia municipios de Tierra Caliente. En junio se reportaron tres casos que involucraban a cuatro jóvenes localizados antes de llegar a su destino.",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"La propia Fiscalía señaló posteriormente que entre agosto de 2025 y junio de 2026 había judicializado casos de 40 menores por delitos de alto impacto y reconoció la existencia de reclutamiento tanto forzado como no forzado por células criminales. ",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"Otro episodio merece atención precisamente porque muestra lo difícil que puede resultar identificar el reclutamiento después de una intervención policial. En julio de 2025, autoridades desmantelaron un campamento en Rincón de Romos, Aguascalientes. Entre las personas detenidas fue identificado un joven que tenía reporte de desaparición después de haber aceptado una supuesta oferta de trabajo en Guadalajara. Las autoridades señalaron entonces que podría haber otros tres casos similares entre los detenidos.",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"El rastreo no permite construir un ranking de entidades, pero sí muestra una distribución territorial importante: ",
-			},		
-			{
-				tipo: "parrafo",
-				texto:
-					"Jalisco, Sinaloa, Zacatecas, Guerrero, Michoacán y Aguascalientes aparecen en casos con distintos grados de evidencia, pero no desempeñan necesariamente la misma función. Jalisco aparece repetidamente como lugar de captación y adiestramiento; Sinaloa y Zacatecas aparecen en casos de traslado, permanencia o capacitación; Guerrero cuenta tanto con casos recientes identificados oficialmente como con evidencia académica de reclutamiento de menores; Michoacán presenta casos recientes de captación dirigidos hacia Tierra Caliente; y Aguascalientes muestra un posible espacio de concentración o entrenamiento cuya relación individual con reclutamiento todavía requería esclarecimiento.",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"Esto hace que la pregunta “¿qué estado tiene más reclutamiento?” resulte, por ahora, imposible de responder responsablemente. Aunque abre una pregunta territorial más interesante: ¿qué papel desempeña cada territorio dentro del proceso?.",
-			},	
-			{
-				tipo: "parrafo",
-				texto:
-					"Una persona puede ser contactada en Jalisco, trasladada a Zacatecas, recibir adiestramiento y terminar posteriormente en Sinaloa. Si sólo contabilizáramos el lugar de desaparición, el de localización o el del centro de entrenamiento obtendríamos tres representaciones diferentes del mismo fenómeno.",
-			},			
-			{
-				tipo: "subtitulo",
-				texto: "¿Cómo recluta el crimen organizado en México?",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"El reclutamiento criminal en México no responde a un único método. Por el contrario, se trata de un proceso dinámico que se adapta al contexto social, tecnológico y económico de las víctimas. Lejos de la idea tradicional del secuestro como única vía, hoy los grupos criminales combinan estrategias que van desde el engaño hasta la manipulación digital.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La diferencia importa porque permite identificar en qué momento aparece la coerción y qué mecanismos utiliza la organización para obtener o conservar el control sobre una persona.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Las falsas oportunidades laborales son uno de los mecanismos mejor documentados. En la investigación relacionada con el Rancho Izaguirre, las autoridades identificaron publicaciones en redes sociales que ofrecían supuestos empleos de seguridad con remuneraciones de entre 4,000 y 12,000 pesos semanales. Las personas interesadas eran citadas en terminales de autobuses y posteriormente trasladadas al centro de adiestramiento.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Otra modalidad creciente es la captación mediante redes sociales y plataformas digitales. Aplicaciones como TikTok, Facebook o incluso espacios de interacción en videojuegos se han convertido en canales donde los reclutadores identifican perfiles vulnerables. A través de la construcción de confianza, promesas de dinero o sentido de pertenencia, logran establecer vínculos que posteriormente facilitan la incorporación al crimen organizado.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"También existe el reclutamiento por entorno social, donde amigos, familiares o conocidos que ya forman parte de estas estructuras funcionan como intermediarios. En comunidades donde la presencia del crimen organizado es constante, esta forma de captación tiende a normalizarse, diluyendo la percepción de riesgo.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En los casos más extremos, se mantiene el uso de la violencia directa, mediante secuestros, amenazas o desplazamiento forzado. Estas prácticas suelen emplearse cuando los grupos necesitan cubrir funciones específicas o reforzar sus filas en contextos de conflicto.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Lo que une a todas estas modalidades es su capacidad de adaptación. El crimen organizado no recluta al azar, identifica contextos de vulnerabilidad, detecta necesidades y construye estrategias a medida. Por ello, entender cómo operan estos mecanismos no solo permite dimensionar el problema, sino también visibilizar que detrás de cada caso existe una estructura que actúa de forma sistemática."	
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Pero la captación es solamente una parte del fenómeno. Una vez producido el contacto pueden aparecer otras formas de control como traslados, aislamiento, incomunicación, amenazas, violencia o adiestramiento. El Rancho Izaguirre resulta particularmente significativo porque permitió observar varias de esas etapas dentro de una misma investigación. La FGR mantiene acreditado el uso del predio para adiestramiento, mientras que otros elementos sobre las condiciones impuestas a las personas proceden de investigaciones y testimonios que deben conservar esa atribución."	
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Esta diversidad también explica por qué medir el reclutamiento criminal continúa siendo difícil. Los registros sobre páginas eliminadas, personas detenidas, desapariciones, ofertas falsas o centros de adiestramiento describen dimensiones distintas del problema; ninguno, por sí solo, equivale al número total de personas reclutadas. Por ello, sería metodológicamente incorrecto construir una “tendencia nacional” mezclando estos indicadores."	
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Lo que sí permite sostener la evidencia disponible es algo más preciso: las autoridades han documentado mecanismos de captación digital, ofertas laborales engañosas y espacios destinados al adiestramiento criminal. En consecuencia, el análisis del reclutamiento no debería limitarse al momento en que una persona aparece vinculada con una organización, también se debería indagar el cómo llegó hasta allí, qué información tenía, qué posibilidades reales tuvo de negarse o retirarse y qué mecanismos fueron utilizados para mantenerla bajo control."	
-			},
-			{
-				tipo: "subtitulo",
-				texto: "¿Por qué los jóvenes son el principal objetivo?",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"El reclutamiento criminal en México no es aleatorio. Los grupos delictivos no eligen a sus integrantes por casualidad, sino a partir de perfiles específicos que responden a condiciones de vulnerabilidad social, económica y emocional. En este contexto, los jóvenes se convierten en el principal objetivo.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Una de las razones más evidentes es la falta de oportunidades reales. En muchas regiones del país, el acceso a empleo digno, educación de calidad o movilidad social es limitado. Frente a este panorama, las promesas de dinero rápido y estabilidad económica que ofrece el crimen organizado pueden resultar especialmente atractivas, sobre todo cuando las alternativas legales parecen inexistentes.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"A esto se suma la búsqueda de identidad y pertenencia, una característica propia de la etapa juvenil. Los grupos criminales no solo ofrecen ingresos, sino también reconocimiento, estatus y una aparente “familia”. Para muchos jóvenes que crecen en entornos de abandono o desintegración familiar, esta estructura puede llenar vacíos emocionales importantes.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Otro factor clave es la normalización de la violencia. En comunidades donde la presencia del crimen organizado es constante, la ilegalidad deja de percibirse como una excepción y comienza a formar parte de la vida cotidiana. Esto reduce las barreras morales y facilita que la integración a estas dinámicas sea vista como una opción viable.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Además, existe una alta exposición a contenidos que glorifican el delito, desde música hasta redes sociales, donde se proyecta una imagen distorsionada del estilo de vida criminal: poder, dinero, respeto. Esta narrativa influye en la percepción de riesgo y contribuye a que el ingreso a estas estructuras no siempre se perciba como una amenaza inmediata.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Finalmente, los jóvenes representan un recurso funcional para el crimen organizado: son más fáciles de influir, tienen mayor capacidad de adaptación y, en muchos casos, son considerados reemplazables. Esta lógica utilitaria revela una de las dimensiones más crudas del problema: las personas no son vistas como individuos, sino como piezas dentro de una estructura.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Entender por qué los jóvenes son el principal objetivo no implica justificar su participación, sino reconocer que el reclutamiento criminal se construye sobre condiciones estructurales que van mucho más allá de una decisión individual.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "Factores que facilitan el reclutamiento criminal en México",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"El reclutamiento criminal no surge de manera aislada ni espontánea. Por el contrario, se sostiene sobre una serie de condiciones estructurales que crean el entorno propicio para que estas prácticas se desarrollen, se repitan y se perfeccionen con el tiempo.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Uno de los factores más determinantes es la desigualdad social y la exclusión económica. En contextos donde amplios sectores de la población carecen de acceso a empleo formal, educación o servicios básicos, el crimen organizado encuentra terreno fértil para ofrecer alternativas que, aunque ilegales, parecen resolver necesidades inmediatas. Esta lógica no solo facilita la captación, sino que también reduce la resistencia a integrarse a estas estructuras.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"A ello se suma la debilidad institucional. La falta de presencia efectiva del Estado en ciertas regiones, así como la desconfianza hacia las autoridades, limita la capacidad de prevención y respuesta. Cuando las instituciones no logran garantizar seguridad, justicia o desarrollo, el crimen organizado ocupa esos vacíos, no solo como actor delictivo, sino también como figura de control territorial.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Otro elemento clave es la desintegración del tejido social. Entornos marcados por violencia intrafamiliar, abandono, consumo de sustancias o falta de redes de apoyo generan condiciones de vulnerabilidad que pueden ser explotadas por los grupos criminales. En estos contextos, el reclutamiento no se percibe como una ruptura, sino como una continuidad del entorno.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La impunidad también juega un papel central. La baja probabilidad de sanción frente a delitos relacionados con el reclutamiento, desaparición o trata de personas envía un mensaje claro: estas prácticas pueden llevarse a cabo con consecuencias limitadas. Esto no solo incentiva su repetición, sino que permite su expansión.",
 			},
 
 			{
+				id: "BLO-005-006",
 				tipo: "parrafo",
+
 				texto:
-					"Asimismo, la adaptación tecnológica del crimen organizado ha transformado las formas de captación. El uso de redes sociales, plataformas digitales y espacios virtuales permite ampliar el alcance del reclutamiento, reducir riesgos para los perpetradores y acceder a perfiles cada vez más diversos.",
+					"El reclutamiento criminal no comienza necesariamente cuando una persona recibe un arma o es trasladada a un lugar de adiestramiento. Puede existir un proceso previo de acercamiento, persuasión, engaño, aprovechamiento de vulnerabilidades o coerción que termina incorporando a una persona a actividades de una organización delictiva. Sin embargo, estas circunstancias no son equivalentes y distinguirlas resulta fundamental para comprender el fenómeno.",
 			},
+
 			{
+				id: "BLO-005-007",
 				tipo: "parrafo",
+
 				texto:
-					"Finalmente, la normalización cultural de la violencia y la ilegalidad actúa como un factor transversal. Cuando el delito se integra en la vida cotidiana, ya sea a través de discursos, prácticas o representaciones sociales, se debilitan los mecanismos de rechazo colectivo y se facilita la reproducción de estas dinámicas.",
+					"En México existe además una dificultad jurídica, durante los últimos años se han presentado distintas iniciativas para incorporar expresamente el reclutamiento forzado al Código Penal Federal. Una iniciativa publicada en el Sistema de Información Legislativa en marzo de 2026 propuso definirlo a partir del reclutamiento, inducción, coacción u obligación de una persona para colaborar con organizaciones delictivas mediante engaño, extorsión, maltrato, chantaje, intimidación o violencia física o psicológica. Otra propuesta, enfocada específicamente en niñas, niños y adolescentes, contempla conductas como captar, persuadir, incorporar, transportar, transferir o albergar a un menor para utilizarlo en actividades de una organización delictiva. Sin embargo, es importante presentarlas como propuestas legislativas y no como una definición penal vigente, considerando que al momento no hay un tipo penal definido.",
 			},
+
 			{
+				id: "BLO-005-008",
 				tipo: "parrafo",
+
 				texto:
-					"En conjunto, estos factores no solo explican por qué ocurre el reclutamiento criminal, sino también por qué resulta tan difícil de erradicar. No se trata de un problema individual, sino de un fenómeno que se construye y se sostiene desde múltiples dimensiones.",
+					"El reclutamiento forzado puede entenderse entonces como el proceso mediante el cual una persona es obligada, engañada o presionada a integrarse a una organización criminal, ya sea a través de amenazas, violencia, manipulación o falsas promesas. Sin embargo, reducirlo únicamente al uso de la fuerza sería simplificar un problema que, en muchos casos, se construye a partir de condiciones sociales previas.",
 			},
+
 			{
+				id: "BLO-005-009",
+				tipo: "parrafo",
+
+				texto:
+					"En este sentido, es importante diferenciar tres formas principales de reclutamiento:",
+			},
+
+			{
+				id: "BLO-005-010",
+				tipo: "lista",
+
+				items: [
+					"Reclutamiento forzado directo, donde existe privación de la libertad, amenazas o violencia física.",
+
+					"Reclutamiento inducido, en el que la persona es manipulada mediante engaños, ofertas laborales falsas o promesas económicas.",
+
+					"Reclutamiento normalizado, donde la integración al crimen ocurre en contextos donde la violencia y la ilegalidad forman parte de la vida cotidiana.",
+				],
+			},
+
+			{
+				id: "BLO-005-011",
+				tipo: "parrafo",
+
+				texto:
+					"Esta distinción permite entender que no todas las víctimas llegan al crimen organizado por las mismas vías, pero sí comparten un elemento en común: la vulnerabilidad frente a estructuras que saben identificar, explotar y convertir esas condiciones en oportunidades de captación.",
+			},
+
+			{
+				id: "BLO-005-012",
 				tipo: "subtitulo",
+
+				texto: "¿Dónde se ha documentado el reclutamiento criminal en México?",
+			},
+
+			{
+				id: "BLO-005-013",
+				tipo: "parrafo",
+
+				texto:
+					"La dimensión territorial del reclutamiento criminal sigue siendo difícil de medir. México no cuenta con una estadística nacional que permita conocer cuántas personas son reclutadas en cada entidad y, por esa razón, los datos sobre población vulnerable, desapariciones o adolescentes involucrados en delitos relacionados con la delincuencia organizada no pueden utilizarse como sustitutos de una incidencia que todavía no se registra directamente.",
+			},
+
+			{
+				id: "BLO-005-014",
+				tipo: "parrafo",
+
+				texto:
+					"Sin embargo, durante los últimos años las investigaciones han permitido documentar casos concretos en diferentes estados. Al observarlos en conjunto aparece una característica particularmente relevante. El reclutamiento puede comenzar en una entidad y continuar en otra, de modo que el lugar donde una persona es captada no necesariamente coincide con aquel donde permanece, recibe adiestramiento o es utilizada posteriormente por una organización criminal.",
+			},
+
+			{
+				id: "BLO-005-015",
+				fuentes: ["REF-005-001"],
+				tipo: "parrafo",
+
+				texto:
+					"Jalisco ofrece hasta ahora uno de los conjuntos de evidencia más completos. El Rancho Izaguirre, ubicado en Teuchitlán, dejó de ser únicamente un señalamiento derivado de testimonios cuando las investigaciones federales determinaron que el predio había sido utilizado como sitio de adiestramiento. En marzo de 2026, la FGR informó que allí se realizaban prácticas de tiro, acondicionamiento y ejercicios físicos.",
+			},
+
+			{
+				id: "BLO-005-016",
+				fuentes: ["REF-005-002"],
+				tipo: "parrafo",
+
+				texto:
+					"La investigación había avanzado desde 2025 sobre la estructura encargada de captar personas. El Gabinete de Seguridad informó que José Gregorio “N” encabezaba operaciones de reclutamiento y que el análisis de perfiles en redes sociales permitió identificar páginas utilizadas para incorporar personas a actividades de la delincuencia organizada. Para marzo de ese año se habían dado de baja 39 páginas y habían sido detenidas 49 personas relacionadas con actividades de reclutamiento. ",
+			},
+
+			{
+				id: "BLO-005-017",
+				tipo: "parrafo",
+
+				texto:
+					"El Rancho Izaguirre tampoco aparece como un hecho completamente aislado. En 2026, la FGR vinculó otra investigación con el predio conocido como La Galera, en la localidad de La Vega, también en Jalisco. Un juez federal vinculó a proceso a Fernando “N” por su posible participación en delincuencia organizada con fines de trata de personas, desaparición cometida por particulares y trata con fines de trabajos forzados. La investigación lo relaciona con posibles actividades de reclutamiento, adiestramiento, vigilancia, control y privación ilegal de la libertad. ",
+			},
+
+			{
+				id: "BLO-005-018",
+				tipo: "parrafo",
+
+				texto:
+					"Estos casos permiten hablar de una dinámica documentada en Jalisco sin necesidad de inferirla a partir de desapariciones o indicadores indirectos. También muestran que el fenómeno no necesariamente se limita a un solo predio.",
+			},
+
+			{
+				id: "BLO-005-019",
+				tipo: "parrafo",
+
+				texto:
+					"Otros casos revelan una dinámica interestatal. En julio de 2025 se documentó el caso de un adulto y un menor originarios de Jalisco que acudieron a la Nueva Central de Autobuses de Tlaquepaque después de recibir una falsa oferta laboral. De acuerdo con la información publicada sobre el caso, fueron trasladados mediante engaños a Sinaloa, donde permanecieron cerca de tres meses en un centro de reclutamiento contra su voluntad hasta conseguir escapar. ",
+			},
+
+			{
+				id: "BLO-005-020",
+				tipo: "parrafo",
+
+				texto:
+					"En 2026 apareció evidencia todavía más clara de estos desplazamientos. Autoridades detectaron al menos siete adolescentes reportados como desaparecidos en Jalisco que habrían sido reclutados y capacitados en Zacatecas para posteriormente ser entregados a integrantes de una organización que operaba en Sinaloa. Tres consiguieron regresar a Jalisco y las autoridades tuvieron conocimiento de que otros tres murieron cuando intentaban escapar. La información fue atribuida a la Fiscalía de Jalisco. ",
+			},
+
+			{
+				id: "BLO-005-021",
+				fuentes: ["REF-005-003"],
+				tipo: "parrafo",
+
+				texto:
+					"Otro caso permite incorporar a Guerrero con un grado de evidencia mayor. En agosto de 2026, el Gobierno de Guerrero informó oficialmente de la localización en Zirándaro de dos adolescentes originarios de Tlajomulco de Zúñiga, Jalisco. Ambos tenían reporte de desaparición y las investigaciones establecieron que habrían sido víctimas de reclutamiento forzado. La Guardia Nacional y las fiscalías participaron en su localización y resguardo.",
+			},
+
+			{
+				id: "BLO-005-022",
+				fuentes: ["REF-005-004"],
+				tipo: "parrafo",
+
+				texto:
+					"En Guerrero existe además evidencia académica independiente. Una investigación publicada en 2026 analizó entrevistas realizadas entre 2019 y 2022 a familias desplazadas de ese estado y documentó modalidades de reclutamiento y utilización de menores por organizaciones criminales, así como familias que se desplazaron para proteger a sus hijos. Se trata de evidencia cualitativa y no permite calcular incidencia estatal, pero sí aporta evidencia sobre la existencia del fenómeno y sus consecuencias territoriales.",
+			},
+
+			{
+				id: "BLO-005-023",
+				tipo: "parrafo",
+
+				texto:
+					"En Michoacán también se han documentado patrones de captación de adolescentes. Durante 2026, la Fiscalía estatal informó sobre casos de jóvenes contactados mediante redes sociales que recibían viajes pagados y eran dirigidos hacia municipios de Tierra Caliente. En junio se reportaron tres casos que involucraban a cuatro jóvenes localizados antes de llegar a su destino.",
+			},
+
+			{
+				id: "BLO-005-024",
+				tipo: "parrafo",
+
+				texto:
+					"La propia Fiscalía señaló posteriormente que entre agosto de 2025 y junio de 2026 había judicializado casos de 40 menores por delitos de alto impacto y reconoció la existencia de reclutamiento tanto forzado como no forzado por células criminales. ",
+			},
+
+			{
+				id: "BLO-005-025",
+				tipo: "parrafo",
+
+				texto:
+					"Otro episodio merece atención precisamente porque muestra lo difícil que puede resultar identificar el reclutamiento después de una intervención policial. En julio de 2025, autoridades desmantelaron un campamento en Rincón de Romos, Aguascalientes. Entre las personas detenidas fue identificado un joven que tenía reporte de desaparición después de haber aceptado una supuesta oferta de trabajo en Guadalajara. Las autoridades señalaron entonces que podría haber otros tres casos similares entre los detenidos.",
+			},
+
+			{
+				id: "BLO-005-026",
+				tipo: "parrafo",
+
+				texto:
+					"El rastreo no permite construir un ranking de entidades, pero sí muestra una distribución territorial importante: ",
+			},
+
+			{
+				id: "BLO-005-027",
+				tipo: "parrafo",
+
+				texto:
+					"Jalisco, Sinaloa, Zacatecas, Guerrero, Michoacán y Aguascalientes aparecen en casos con distintos grados de evidencia, pero no desempeñan necesariamente la misma función. Jalisco aparece repetidamente como lugar de captación y adiestramiento; Sinaloa y Zacatecas aparecen en casos de traslado, permanencia o capacitación; Guerrero cuenta tanto con casos recientes identificados oficialmente como con evidencia académica de reclutamiento de menores; Michoacán presenta casos recientes de captación dirigidos hacia Tierra Caliente; y Aguascalientes muestra un posible espacio de concentración o entrenamiento cuya relación individual con reclutamiento todavía requería esclarecimiento.",
+			},
+
+			{
+				id: "BLO-005-028",
+				tipo: "parrafo",
+
+				texto:
+					"Esto hace que la pregunta “¿qué estado tiene más reclutamiento?” resulte, por ahora, imposible de responder responsablemente. Aunque abre una pregunta territorial más interesante: ¿qué papel desempeña cada territorio dentro del proceso?.",
+			},
+
+			{
+				id: "BLO-005-029",
+				tipo: "parrafo",
+
+				texto:
+					"Una persona puede ser contactada en Jalisco, trasladada a Zacatecas, recibir adiestramiento y terminar posteriormente en Sinaloa. Si sólo contabilizáramos el lugar de desaparición, el de localización o el del centro de entrenamiento obtendríamos tres representaciones diferentes del mismo fenómeno.",
+			},
+
+			{
+				id: "BLO-005-030",
+				tipo: "subtitulo",
+
+				texto: "¿Cómo recluta el crimen organizado en México?",
+			},
+
+			{
+				id: "BLO-005-031",
+				tipo: "parrafo",
+
+				texto:
+					"El reclutamiento criminal en México no responde a un único método. Por el contrario, se trata de un proceso dinámico que se adapta al contexto social, tecnológico y económico de las víctimas. Lejos de la idea tradicional del secuestro como única vía, hoy los grupos criminales combinan estrategias que van desde el engaño hasta la manipulación digital.",
+			},
+
+			{
+				id: "BLO-005-032",
+				tipo: "parrafo",
+
+				texto:
+					"La diferencia importa porque permite identificar en qué momento aparece la coerción y qué mecanismos utiliza la organización para obtener o conservar el control sobre una persona.",
+			},
+
+			{
+				id: "BLO-005-033",
+				fuentes: ["REF-005-002"],
+				tipo: "parrafo",
+
+				texto:
+					"Las falsas oportunidades laborales son uno de los mecanismos mejor documentados. En la investigación relacionada con el Rancho Izaguirre, las autoridades identificaron publicaciones en redes sociales que ofrecían supuestos empleos de seguridad con remuneraciones de entre 4,000 y 12,000 pesos semanales. Las personas interesadas eran citadas en terminales de autobuses y posteriormente trasladadas al centro de adiestramiento.",
+			},
+
+			{
+				id: "BLO-005-034",
+				tipo: "parrafo",
+
+				texto:
+					"Otra modalidad creciente es la captación mediante redes sociales y plataformas digitales. Aplicaciones como TikTok, Facebook o incluso espacios de interacción en videojuegos se han convertido en canales donde los reclutadores identifican perfiles vulnerables. A través de la construcción de confianza, promesas de dinero o sentido de pertenencia, logran establecer vínculos que posteriormente facilitan la incorporación al crimen organizado.",
+			},
+
+			{
+				id: "BLO-005-035",
+				tipo: "parrafo",
+
+				texto:
+					"También existe el reclutamiento por entorno social, donde amigos, familiares o conocidos que ya forman parte de estas estructuras funcionan como intermediarios. En comunidades donde la presencia del crimen organizado es constante, esta forma de captación tiende a normalizarse, diluyendo la percepción de riesgo.",
+			},
+
+			{
+				id: "BLO-005-036",
+				tipo: "parrafo",
+
+				texto:
+					"En los casos más extremos, se mantiene el uso de la violencia directa, mediante secuestros, amenazas o desplazamiento forzado. Estas prácticas suelen emplearse cuando los grupos necesitan cubrir funciones específicas o reforzar sus filas en contextos de conflicto.",
+			},
+
+			{
+				id: "BLO-005-037",
+				tipo: "parrafo",
+
+				texto:
+					"Lo que une a todas estas modalidades es su capacidad de adaptación. El crimen organizado no recluta al azar, identifica contextos de vulnerabilidad, detecta necesidades y construye estrategias a medida. Por ello, entender cómo operan estos mecanismos no solo permite dimensionar el problema, sino también visibilizar que detrás de cada caso existe una estructura que actúa de forma sistemática.",
+			},
+
+			{
+				id: "BLO-005-038",
+				fuentes: ["REF-005-001", "REF-005-002"],
+				tipo: "parrafo",
+
+				texto:
+					"Pero la captación es solamente una parte del fenómeno. Una vez producido el contacto pueden aparecer otras formas de control como traslados, aislamiento, incomunicación, amenazas, violencia o adiestramiento. El Rancho Izaguirre resulta particularmente significativo porque permitió observar varias de esas etapas dentro de una misma investigación. La FGR mantiene acreditado el uso del predio para adiestramiento, mientras que otros elementos sobre las condiciones impuestas a las personas proceden de investigaciones y testimonios que deben conservar esa atribución.",
+			},
+
+			{
+				id: "BLO-005-039",
+				tipo: "parrafo",
+
+				texto:
+					"Esta diversidad también explica por qué medir el reclutamiento criminal continúa siendo difícil. Los registros sobre páginas eliminadas, personas detenidas, desapariciones, ofertas falsas o centros de adiestramiento describen dimensiones distintas del problema; ninguno, por sí solo, equivale al número total de personas reclutadas. Por ello, sería metodológicamente incorrecto construir una “tendencia nacional” mezclando estos indicadores.",
+			},
+
+			{
+				id: "BLO-005-040",
+				tipo: "parrafo",
+
+				texto:
+					"Lo que sí permite sostener la evidencia disponible es algo más preciso: las autoridades han documentado mecanismos de captación digital, ofertas laborales engañosas y espacios destinados al adiestramiento criminal. En consecuencia, el análisis del reclutamiento no debería limitarse al momento en que una persona aparece vinculada con una organización, también se debería indagar el cómo llegó hasta allí, qué información tenía, qué posibilidades reales tuvo de negarse o retirarse y qué mecanismos fueron utilizados para mantenerla bajo control.",
+			},
+
+			{
+				id: "BLO-005-041",
+				tipo: "subtitulo",
+
+				texto: "Factores que pueden favorecer la captación",
+			},
+
+			{
+				id: "BLO-005-042",
+				tipo: "parrafo",
+
+				texto:
+					"El reclutamiento criminal no ocurre en un vacío. Las organizaciones encuentran personas con trayectorias, necesidades y entornos diferentes, por lo que no existe un perfil único que permita anticipar quién será reclutado. Sin embargo, distintas condiciones pueden ampliar las oportunidades de acercamiento o ser aprovechadas durante los procesos de captación.",
+			},
+
+			{
+				id: "BLO-005-043",
+				tipo: "parrafo",
+
+				texto:
+					"Las dificultades económicas forman parte de ese contexto. La búsqueda de empleo o de ingresos puede ser utilizada mediante ofertas laborales engañosas, particularmente cuando prometen remuneraciones elevadas, contratación inmediata o requisitos mínimos. Esto no significa que la pobreza conduzca al reclutamiento ni que las personas con menores ingresos tengan una predisposición hacia el crimen. El riesgo aparece cuando una necesidad concreta es identificada y utilizada por terceros como mecanismo de acercamiento.",
+			},
+
+			{
+				id: "BLO-005-044",
+				tipo: "parrafo",
+
+				texto:
+					"Algo similar ocurre con las relaciones personales y comunitarias. Familiares, amistades, conocidos o personas que ya mantienen vínculos con estructuras criminales pueden facilitar contactos y disminuir inicialmente la percepción de riesgo. En territorios donde estas organizaciones mantienen una presencia prolongada, la convivencia cotidiana con determinadas expresiones de violencia también puede modificar la manera en que algunos jóvenes interpretan esos grupos, sin que ello determine necesariamente su incorporación.",
+			},
+
+			{
+				id: "BLO-005-045",
+				tipo: "parrafo",
+
+				texto:
+					"Los entornos digitales han ampliado las posibilidades de contacto. Redes sociales, servicios de mensajería, plataformas de empleo y espacios de interacción en línea permiten establecer conversaciones sin necesidad de proximidad física. Su relevancia no radica en considerar estas plataformas como causantes del reclutamiento, sino en reconocer que pueden ser utilizadas para localizar personas, construir confianza, presentar ofertas engañosas o trasladar posteriormente la comunicación a canales privados.",
+			},
+
+			{
+				id: "BLO-005-046",
+				tipo: "parrafo",
+
+				texto:
+					"La edad también requiere cautela. Ni la juventud ni determinadas condiciones familiares deben tratarse como factores que expliquen automáticamente la incorporación a organizaciones criminales. En niñas, niños y adolescentes existen además condiciones particulares de desarrollo, dependencia y protección jurídica que pueden ser aprovechadas por adultos para ejercer influencia, engaño o coerción.",
+			},
+
+			{
+				id: "BLO-005-047",
+				tipo: "parrafo",
+
+				texto:
+					"Estas condiciones adquieren valor criminológico cuando se observan junto con el mecanismo utilizado en un caso concreto. La pregunta no debería limitarse a qué características tenía una víctima, sino también a qué hizo la organización para aproximarse a ella y de qué manera aprovechó una circunstancia determinada para establecer o mantener el control.",
+			},
+
+			{
+				id: "BLO-005-048",
+				tipo: "subtitulo",
+
+				texto: "¿Por qué niñas, niños y jóvenes requieren especial atención?",
+			},
+
+			{
+				id: "BLO-005-049",
+				tipo: "parrafo",
+
+				texto:
+					"La participación de adolescentes y jóvenes en estructuras criminales plantea un problema que no puede explicarse únicamente a partir de decisiones individuales. La edad puede coincidir con etapas de búsqueda de autonomía, incorporación al mercado laboral, construcción de identidad y ampliación de relaciones sociales, circunstancias que también pueden abrir nuevos espacios de contacto con terceros.",
+			},
+
+			{
+				id: "BLO-005-050",
+				tipo: "parrafo",
+
+				texto:
+					"En algunos casos documentados, las organizaciones criminales han aprovechado precisamente esos espacios. Las ofertas de empleo, las relaciones personales y los entornos digitales permiten iniciar acercamientos que no necesariamente revelan desde el principio una finalidad delictiva. Cuando se trata de menores de edad, además, el análisis debe considerar las obligaciones especiales de protección y evitar interpretar automáticamente su participación posterior como prueba de que existió una incorporación plenamente voluntaria.",
+			},
+
+			{
+				id: "BLO-005-051",
+				tipo: "parrafo",
+
+				texto:
+					"La búsqueda de ingresos, reconocimiento o pertenencia puede aparecer en algunas trayectorias, pero ninguna de estas circunstancias constituye por sí sola una explicación del reclutamiento. Tampoco existe un perfil que permita asumir que una persona será captada por vivir en condiciones de pobreza, crecer en un entorno violento o consumir contenidos relacionados con la narcocultura.",
+			},
+
+			{
+				id: "BLO-005-052",
+				tipo: "parrafo",
+
+				texto:
+					"Precisamente por ello resulta necesario observar cada caso como un proceso. Importa conocer cómo ocurrió el primer contacto, qué información recibió la persona, si existieron promesas o engaños, si podía retirarse libremente y en qué momento aparecieron amenazas, aislamiento, traslado o violencia.",
+			},
+
+			{
+				id: "BLO-005-053",
+				tipo: "parrafo",
+
+				texto:
+					"Así evitamos dos extremos. No presentamos a los jóvenes como personas pasivas inevitablemente determinadas por su entorno, pero tampoco atribuimos toda participación criminal a una decisión completamente libre sin investigar las circunstancias que pudieron antecederla.",
+			},
+
+			{
+				id: "BLO-005-054",
+				tipo: "subtitulo",
+
 				texto: "Consecuencias reales del reclutamiento criminal",
 			},
+
 			{
+				id: "BLO-005-055",
 				tipo: "parrafo",
+
 				texto:
 					"Hablar del reclutamiento criminal sin abordar sus consecuencias sería perpetuar una visión incompleta del fenómeno. Lejos de las narrativas que lo presentan como una vía rápida hacia el dinero o el poder, la realidad es considerablemente más cruda.",
 			},
+
 			{
+				id: "BLO-005-056",
 				tipo: "parrafo",
+
 				texto:
-					"Para quienes son reclutados, las posibilidades de salir de estas estructuras son mínimas. En muchos casos, las personas son utilizadas para realizar actividades de alto riesgo como vigilancia, transporte de drogas o participación directa en actos violentos. Esto las convierte en objetivos constantes, tanto de grupos rivales como de las propias organizaciones a las que pertenecen.",
+					"Una vez que una persona ha sido incorporada a una estructura criminal, abandonar el grupo puede representar nuevos riesgos. Los casos en los que se han documentado amenazas, retención, castigos o violencia contra quienes intentan escapar muestran que la coerción no necesariamente termina después del reclutamiento. En determinadas circunstancias puede convertirse en un mecanismo para mantener a la persona dentro de la organización.",
 			},
+
 			{
+				id: "BLO-005-057",
 				tipo: "parrafo",
+
 				texto:
-					"La violencia interna es otro elemento frecuente. El control dentro de estos grupos suele ejercerse mediante castigos extremos, amenazas o ejecuciones, especialmente cuando existe desobediencia, errores o intentos de escape. En este sentido, quienes son reclutados no solo enfrentan riesgos externos, sino también dentro de la propia estructura criminal.",
+					"Quienes son utilizados en actividades de vigilancia, traslado, venta de drogas o acciones violentas también pueden quedar expuestos a confrontaciones con grupos rivales, operativos de las autoridades y violencia dentro de la propia estructura. Las consecuencias pueden extenderse a sus familias mediante desaparición, desplazamiento, amenazas, estigmatización o ruptura de sus redes de apoyo.",
 			},
+
 			{
+				id: "BLO-005-058",
 				tipo: "parrafo",
+
 				texto:
-					"A ello se suma una lógica de reemplazo constante. Las personas reclutadas son vistas como recursos desechables, lo que implica que su vida útil dentro de la organización puede ser corta. Esta dinámica explica, en parte, la necesidad permanente de captar nuevos integrantes.",
+					"Esta dimensión permite entender el reclutamiento como un proceso que puede continuar después de la captación. El análisis no termina al identificar cómo ingresó una persona, sino que debe considerar las condiciones bajo las cuales permanece y las posibilidades reales que tiene de abandonar la organización.",
 			},
+
 			{
-				tipo: "parrafo",
-				texto:
-					"En el plano social, las consecuencias trascienden al individuo. Familias enteras quedan marcadas por la desaparición, la violencia o la estigmatización. Comunidades completas experimentan un deterioro progresivo del tejido social, donde el miedo, la desconfianza y la normalización del delito se vuelven parte de la vida cotidiana.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Así, el reclutamiento criminal no solo destruye trayectorias individuales, sino que reproduce ciclos de violencia que afectan de manera profunda y sostenida a la sociedad.",
-			},
-			{
+				id: "BLO-005-059",
 				tipo: "subtitulo",
+
 				texto: "¿Se puede prevenir el reclutamiento criminal?",
 			},
+
 			{
+				id: "BLO-005-060",
 				tipo: "parrafo",
+
 				texto:
-					"Abordar el reclutamiento criminal desde la prevención implica reconocer que no existe una solución única ni inmediata. Se trata de un fenómeno complejo que requiere estrategias integrales capaces de intervenir en los distintos niveles donde se origina y se reproduce.",
+					"La prevención requiere actuar sobre diferentes momentos del proceso. Las políticas educativas, laborales y comunitarias pueden ampliar alternativas y fortalecer redes de apoyo, mientras que las acciones de seguridad y procuración de justicia deben concentrarse en identificar los mecanismos concretos utilizados para captar, trasladar, retener o utilizar personas.",
 			},
+
 			{
+				id: "BLO-005-061",
 				tipo: "parrafo",
+
 				texto:
-					"En primer lugar, es fundamental fortalecer las condiciones sociales y económicas. El acceso a educación, empleo digno y oportunidades reales de desarrollo reduce significativamente la vulnerabilidad frente a las estrategias de captación del crimen organizado. No se trata solo de ofrecer alternativas, sino de hacerlas viables y sostenibles.",
+					"La prevención digital adquiere especial relevancia cuando existen ofertas laborales engañosas o contactos iniciados mediante plataformas en línea. Reconocer señales de alerta, verificar empleadores y puntos de encuentro, informar a familiares sobre traslados y contar con mecanismos accesibles de denuncia puede reducir determinadas formas de exposición, aunque ninguna medida individual elimina por completo el riesgo.",
 			},
+
 			{
+				id: "BLO-005-062",
 				tipo: "parrafo",
+
 				texto:
-					"La reconstrucción del tejido social es otro eje clave. Espacios comunitarios, redes de apoyo y entornos familiares estables funcionan como factores de protección frente al reclutamiento. Cuando existen vínculos sólidos, la probabilidad de que una persona sea captada disminuye considerablemente.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Asimismo, es necesario reforzar la presencia institucional y la confianza en las autoridades. Sin mecanismos efectivos de denuncia, protección y justicia, cualquier estrategia preventiva pierde fuerza. La impunidad no solo permite que el problema continúe, sino que lo normaliza.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En el ámbito digital, se vuelve urgente desarrollar estrategias de prevención y concientización. Informar sobre las formas de reclutamiento en redes sociales, identificar señales de riesgo y promover el uso seguro de plataformas digitales son medidas cada vez más necesarias, especialmente entre jóvenes.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Finalmente, la prevención también pasa por una transformación cultural. Cuestionar las narrativas que glorifican la violencia y el crimen, así como promover referentes alternativos, es fundamental para debilitar el atractivo simbólico de estas estructuras.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Prevenir el reclutamiento criminal no es una tarea sencilla ni de corto plazo. Sin embargo, entender cómo funciona, por qué ocurre y cuáles son sus consecuencias es un primer paso indispensable para enfrentarlo de manera más efectiva.",
+					"La respuesta tampoco puede descansar exclusivamente en las potenciales víctimas. Investigar las redes responsables de la captación, identificar los sitios utilizados para concentración o adiestramiento y reconocer cuándo una persona pudo haber sido sometida mediante engaño o coerción son componentes necesarios para evitar que el fenómeno sea tratado únicamente como un problema de decisiones individuales.",
 			},
 		],
 
 		referencias: [
 			{
-				autor: "Ressler, Robert",
-				titulo: "Whoever Fights Monsters",
-				año: 1992,
-				fuente: "Libro",
-				url: "",
+				id: "REF-005-001",
+				autor: "Fiscalía General de la República",
+				titulo:
+					"Comunicado FGR 122/26 — avances en la investigación del Rancho Izaguirre",
+				año: 2026,
+				tipo: "Fuente oficial",
+				url: "https://renadet.fgr.org.mx/es/FGR/Prensa/_rid/61/_mod/story?f=11&ord=desc&p=57&suri=http%3A%2F%2Fwww.FGR.swb%23fgr_Boletin%3A24480",
+			},
+			{
+				id: "REF-005-002",
+				autor: "Gabinete de Seguridad",
+				titulo:
+					"La detención de José Gregorio “N” representa un avance significativo en el esclarecimiento de los hechos en Teuchitlán, Jalisco",
+				año: 2025,
+				tipo: "Fuente oficial",
+				url: "https://gabinetedeseguridad.gob.mx/contenido/4668/la-detencion-de-jose-gregorio-n-representa-un-avance-significativo-en-el-esclarecimiento-de-los-hechos-en-teuchitlan-jalisco-ogh",
+			},
+			{
+				id: "REF-005-003",
+				autor: "Gobierno del Estado de Guerrero",
+				titulo:
+					"Coordinación de autoridades de Guerrero permite localizar con vida a dos adolescentes en Zirándaro",
+				año: 2026,
+				tipo: "Fuente oficial",
+				url: "https://www.guerrero.gob.mx/2026/08/177875/",
+			},
+			{
+				id: "REF-005-004",
+				autor:
+					"Niño Vega, Nohora; García-Figueroa, Gabriela; Torres, Rebecca Maria; Herrera Martínez, Edith",
+				titulo:
+					"Huir para protegerse: el reclutamiento forzado y el desplazamiento desde Guerrero, México",
+				año: 2026,
+				tipo: "Artículo académico",
+				url: "https://www.scielo.org.mx/scielo.php?lng=es&nrm=iso&pid=S1665-89062026000100111&script=sci_arttext_plus&tlng=es",
 			},
 		],
 
 		notas: [
 			{
 				id: 5,
+
 				texto: "En México no existe un protocolo único nacional.",
 			},
 		],
@@ -1711,34 +1908,40 @@ export const articulos = [
 			titulo:
 				"Extorsión en México: cómo funciona el cobro de piso y su impacto en la vida cotidiana",
 			categoria: {
-				principal: "seguridad-publica",
-				label: "Seguridad pública",
+				principal: "criminalidad",
+				label: "Criminalidad",
 			},
 			etiquetas: [
 				"extorsión",
 				"cobro de piso",
-				"gota a gota",
-				"derecho de piso",
+				"crimen organizado",
+				"control territorial",
+				"economías criminales",
+				"transporte público",
+				"comercio",
+				"riesgo empresarial",
+				"cifra oculta",
+				"coerción",
+				"mercados intervenidos",
+				"prevención de la extorsión",
 			],
 			fechaPublicacion: "2026-05-03",
-			autor: "Perla Mondragón",
+			autor: "Observatorio Criminal",
 			tiempoLectura: 12,
 			estado: "publicado",
 		},
-
 		clasificacion: {
-			area: "Delincuencia en México",
-			subarea: "Seguridad pública",
+			area: "Criminalidad",
+			subarea: "Extorsión y control criminal",
 			nivel: "Divulgativo",
 			region: "México",
 		},
-
 		seo: {
 			metaTitle:
 				"Extorsión en México: cómo funciona el cobro de piso y su impacto en la vida cotidiana",
-			metaDescription: "Cómo funciona el cobro de piso",
+			metaDescription:
+				"Cómo opera la extorsión y el cobro de piso en México, por qué permanece parcialmente oculto y cómo afecta actividades económicas y vida cotidiana.",
 		},
-
 		media: {
 			imagenPrincipal:
 				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777851111/Observatorio_criminal_9_vjoqcw.png",
@@ -1746,16 +1949,14 @@ export const articulos = [
 				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777851066/BannerArtPage_6_wjejro.png",
 			altImagen: "Ilustración",
 		},
-
 		resumen:
-			"La extorsión no es un evento aislado, sino una práctica que se integra en la rutina de quienes la padecen",
-
+			"Analiza la extorsión y el cobro de piso como mecanismos de presión con efectos sobre personas, actividades económicas y dinámicas territoriales.",
 		contenido: [
 			{
 				tipo: "subtitulo",
-				variante: "introduccion",
 				texto:
-					"En México, la violencia no siempre se manifiesta a través de hechos visibles o de alto impacto mediático. En muchos casos, opera de forma silenciosa, constante y profundamente invasiva. ",
+					"En México, la violencia no siempre se manifiesta a través de hechos visibles o de alto impacto mediático. En muchos casos, opera de forma silenciosa, constante y profundamente invasiva.",
+				variante: "introduccion",
 			},
 			{
 				tipo: "parrafo",
@@ -1849,7 +2050,7 @@ export const articulos = [
 				texto:
 					"En sus expresiones más complejas, las consecuencias pueden superar incluso el cobro de una cuota. Cuando una estructura tiene capacidad para condicionar proveedores, precios, horarios o actividades económicas, la extorsión comienza a funcionar como un mecanismo informal de regulación del mercado. Es precisamente en este punto donde el fenómeno deja de comprenderse únicamente como una afectación patrimonial individual y adquiere una dimensión territorial.",
 			},
-						{
+			{
 				tipo: "subtitulo",
 				texto: "¿Dónde se manifiesta con mayor intensidad la extorsión?",
 			},
@@ -1865,8 +2066,7 @@ export const articulos = [
 			},
 			{
 				tipo: "subtitulo",
-				texto:
-					"La amenaza dirigida a todo un gremio",
+				texto: "La amenaza dirigida a todo un gremio",
 			},
 			{
 				tipo: "parrafo",
@@ -1876,92 +2076,89 @@ export const articulos = [
 			{
 				tipo: "parrafo",
 				texto:
-					"La relevancia criminológica del hecho no se limita a la agresión contra una víctima. El mensaje estaba dirigido a otros transportistas y, por tanto, la violencia adquirió una función colectiva: mostrar las posibles consecuencias de resistirse al pago. Una amenaza de este tipo puede reducir la necesidad de intimidar individualmente a cada integrante del gremio, porque el daño ejercido contra una persona produce temor entre quienes comparten la misma actividad."			
+					"La relevancia criminológica del hecho no se limita a la agresión contra una víctima. El mensaje estaba dirigido a otros transportistas y, por tanto, la violencia adquirió una función colectiva: mostrar las posibles consecuencias de resistirse al pago. Una amenaza de este tipo puede reducir la necesidad de intimidar individualmente a cada integrante del gremio, porque el daño ejercido contra una persona produce temor entre quienes comparten la misma actividad.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"Reportes posteriores incorporaron además otra variable al contexto veracruzano: la posible disputa entre Grupo Sombra y el Cártel Jalisco Nueva Generación por rentas provenientes, entre otras actividades, del cobro de cuotas a comerciantes y transportistas. La extorsión aparece así no sólo como una fuente de ingresos, sino como una economía cuya apropiación puede formar parte de disputas criminales más amplias."			
+					"Reportes posteriores incorporaron además otra variable al contexto veracruzano: la posible disputa entre Grupo Sombra y el Cártel Jalisco Nueva Generación por rentas provenientes, entre otras actividades, del cobro de cuotas a comerciantes y transportistas. La extorsión aparece así no sólo como una fuente de ingresos, sino como una economía cuya apropiación puede formar parte de disputas criminales más amplias.",
 			},
-						{
+			{
 				tipo: "subtitulo",
-				texto:
-					"Cuando pagar condiciona la posibilidad de trabajar"			
+				texto: "Cuando pagar condiciona la posibilidad de trabajar",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"En Acapulco, la extorsión contra transportistas presenta una característica distinta: la víctima desarrolla su actividad todos los días en espacios previsibles. Un taxi, una Urvan o un autobús no pueden ocultar fácilmente dónde trabajan. Sus rutas, bases, horarios y unidades permiten identificar a quienes prestan el servicio y mantener sobre ellos una presión recurrente."			
+					"En Acapulco, la extorsión contra transportistas presenta una característica distinta: la víctima desarrolla su actividad todos los días en espacios previsibles. Un taxi, una Urvan o un autobús no pueden ocultar fácilmente dónde trabajan. Sus rutas, bases, horarios y unidades permiten identificar a quienes prestan el servicio y mantener sobre ellos una presión recurrente.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"Durante los primeros cuatro meses de 2025 se documentaron 27 homicidios de operadores: 25 taxistas y dos conductores de Urvan. Los episodios de violencia, las amenazas y los ataques contra unidades se han desarrollado en un contexto en el que transportistas han denunciado cobros de cuotas y en el que distintas organizaciones mantienen disputas por economías ilícitas y control territorial."			
+					"Durante los primeros cuatro meses de 2025 se documentaron 27 homicidios de operadores: 25 taxistas y dos conductores de Urvan. Los episodios de violencia, las amenazas y los ataques contra unidades se han desarrollado en un contexto en el que transportistas han denunciado cobros de cuotas y en el que distintas organizaciones mantienen disputas por economías ilícitas y control territorial.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"En este entorno, el daño potencial de la extorsión no termina en la pérdida económica del conductor. Cuando las amenazas provocan suspensión de rutas, reducción de horarios o negativa de operadores a prestar servicio, la presión ejercida sobre un gremio termina afectando la movilidad de comunidades completas. El fenómeno adquiere entonces una dimensión social: una actividad esencial para trabajadores, estudiantes y visitantes puede verse condicionada por la capacidad de grupos criminales para intimidar a quienes la hacen funcionar."			
+					"En este entorno, el daño potencial de la extorsión no termina en la pérdida económica del conductor. Cuando las amenazas provocan suspensión de rutas, reducción de horarios o negativa de operadores a prestar servicio, la presión ejercida sobre un gremio termina afectando la movilidad de comunidades completas. El fenómeno adquiere entonces una dimensión social: una actividad esencial para trabajadores, estudiantes y visitantes puede verse condicionada por la capacidad de grupos criminales para intimidar a quienes la hacen funcionar.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"Por ello, cuando las amenazas provocan reducción de horarios, suspensión de rutas o negativa de operadores a continuar trabajando, la afectación deja de pertenecer exclusivamente al transportista. La extorsión termina interfiriendo con una función cotidiana de la ciudad: la posibilidad de desplazarse."			
+					"Por ello, cuando las amenazas provocan reducción de horarios, suspensión de rutas o negativa de operadores a continuar trabajando, la afectación deja de pertenecer exclusivamente al transportista. La extorsión termina interfiriendo con una función cotidiana de la ciudad: la posibilidad de desplazarse.",
 			},
-						{
+			{
 				tipo: "subtitulo",
-				texto:
-					"Extorsión, proveedores y control de mercados"			
+				texto: "Extorsión, proveedores y control de mercados",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"El Estado de México permite observar una expresión todavía más compleja, el control criminal de una economía no comienza necesariamente cuando un grupo se apropia de un negocio; puede comenzar cuando consigue decidir bajo qué condiciones ese negocio puede operar."			
+					"El Estado de México permite observar una expresión todavía más compleja, el control criminal de una economía no comienza necesariamente cuando un grupo se apropia de un negocio; puede comenzar cuando consigue decidir bajo qué condiciones ese negocio puede operar.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"La Operación Liberación, desarrollada en julio de 2025 por autoridades estatales y federales, intervino 52 establecimientos en 14 municipios como parte de una investigación dirigida contra redes vinculadas con la extorsión. Las autoridades reportaron afectaciones en minas, carnicerías, distribución de materiales de construcción, productos cárnicos, alimentos para animales, forrajes y otras actividades económicas."			
+					"La Operación Liberación, desarrollada en julio de 2025 por autoridades estatales y federales, intervino 52 establecimientos en 14 municipios como parte de una investigación dirigida contra redes vinculadas con la extorsión. Las autoridades reportaron afectaciones en minas, carnicerías, distribución de materiales de construcción, productos cárnicos, alimentos para animales, forrajes y otras actividades económicas.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"Entre las personas detenidas se encontraba Yareli “N”, entonces tercera regidora de Ixtapan de la Sal. Posteriormente fue vinculada a proceso junto con otros detenidos por delitos relacionados con extorsión y secuestro exprés; las investigaciones señalaron presuntos vínculos de la estructura con La Familia Michoacana."			
+					"Entre las personas detenidas se encontraba Yareli “N”, entonces tercera regidora de Ixtapan de la Sal. Posteriormente fue vinculada a proceso junto con otros detenidos por delitos relacionados con extorsión y secuestro exprés; las investigaciones señalaron presuntos vínculos de la estructura con La Familia Michoacana.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"Lo significativo de este caso no es únicamente la existencia de cuotas. Las investigaciones describieron esquemas mediante los cuales la presión criminal alcanzaba la comercialización y distribución de determinados productos, lo que permite entender que algunas estructuras pueden utilizar la extorsión para intervenir en mercados locales."			
+					"Lo significativo de este caso no es únicamente la existencia de cuotas. Las investigaciones describieron esquemas mediante los cuales la presión criminal alcanzaba la comercialización y distribución de determinados productos, lo que permite entender que algunas estructuras pueden utilizar la extorsión para intervenir en mercados locales.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"En términos prácticos, una empresa podría no enfrentarse solamente a la exigencia de entregar una cantidad mensual. La coerción puede extenderse hacia quién puede vender, a quién debe comprarse, cuánto debe pagarse o bajo qué condiciones puede continuar una actividad económica. Cuando esto ocurre, el cobro de piso se integra a un sistema más amplio de extracción de rentas y control de la economía local."			
+					"En términos prácticos, una empresa podría no enfrentarse solamente a la exigencia de entregar una cantidad mensual. La coerción puede extenderse hacia quién puede vender, a quién debe comprarse, cuánto debe pagarse o bajo qué condiciones puede continuar una actividad económica. Cuando esto ocurre, el cobro de piso se integra a un sistema más amplio de extracción de rentas y control de la economía local.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"Esta característica tiene particular importancia para el análisis de riesgo empresarial. Una compañía puede ingresar a un territorio sin ser inicialmente víctima directa de una amenaza y, aun así, quedar expuesta a mercados o cadenas de suministro previamente intervenidos por actores criminales."			
+					"Esta característica tiene particular importancia para el análisis de riesgo empresarial. Una compañía puede ingresar a un territorio sin ser inicialmente víctima directa de una amenaza y, aun así, quedar expuesta a mercados o cadenas de suministro previamente intervenidos por actores criminales.",
 			},
-						{
+			{
 				tipo: "subtitulo",
-				texto:
-					"La extorsión no siempre proviene del crimen organizado"			
+				texto: "La extorsión no siempre proviene del crimen organizado",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"En Nuevo León, el caso de Julio Luna, fundador de Tacos del Julio, introduce un matiz diferente. El empresario fue asesinado el 8 de abril de 2025 durante una persecución armada en San Nicolás de los Garza. Antes de su muerte había presentado ante la Fiscalía una denuncia por una presunta exigencia económica atribuida a elementos municipales de San Pedro Garza García. La Fiscalía mantuvo separadas las investigaciones relacionadas con la presunta extorsión y con el homicidio, por lo que el antecedente no permite afirmar por sí mismo que ambos hechos hayan tenido una relación causal."			
+					"En Nuevo León, el caso de Julio Luna, fundador de Tacos del Julio, introduce un matiz diferente. El empresario fue asesinado el 8 de abril de 2025 durante una persecución armada en San Nicolás de los Garza. Antes de su muerte había presentado ante la Fiscalía una denuncia por una presunta exigencia económica atribuida a elementos municipales de San Pedro Garza García. La Fiscalía mantuvo separadas las investigaciones relacionadas con la presunta extorsión y con el homicidio, por lo que el antecedente no permite afirmar por sí mismo que ambos hechos hayan tenido una relación causal.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"El caso resulta relevante porque obliga a ampliar la comprensión del fenómeno. La extorsión no debe asociarse automáticamente con cárteles o grupos del crimen organizado. También puede involucrar delincuencia común, redes locales o presuntos actos cometidos desde posiciones de autoridad. La identidad del actor modifica además las condiciones de vulnerabilidad de la víctima: denunciar a un particular no plantea necesariamente los mismos obstáculos que denunciar a una persona que presuntamente utiliza una posición institucional para ejercer presión."			
+					"El caso resulta relevante porque obliga a ampliar la comprensión del fenómeno. La extorsión no debe asociarse automáticamente con cárteles o grupos del crimen organizado. También puede involucrar delincuencia común, redes locales o presuntos actos cometidos desde posiciones de autoridad. La identidad del actor modifica además las condiciones de vulnerabilidad de la víctima: denunciar a un particular no plantea necesariamente los mismos obstáculos que denunciar a una persona que presuntamente utiliza una posición institucional para ejercer presión.",
 			},
-						{
+			{
 				tipo: "parrafo",
 				texto:
-					"Los casos anteriores no pretenden establecer que Veracruz, Guerrero, Estado de México o Nuevo León concentren por sí solos el problema nacional. Su utilidad radica en mostrar que una misma figura delictiva puede adquirir funciones distintas según el territorio, el actor y la actividad afectada. La cuota exigida a un transportista, la imposición de un proveedor, la amenaza contra un establecimiento o una presunta exigencia realizada desde una posición de autoridad pertenecen a contextos diferentes, pero comparten una característica: utilizan la coerción para modificar la conducta de la víctima en beneficio de quien la ejerce. Reconocer esas diferencias también modifica la manera en que debe pensarse la prevención."			
+					"Los casos anteriores no pretenden establecer que Veracruz, Guerrero, Estado de México o Nuevo León concentren por sí solos el problema nacional. Su utilidad radica en mostrar que una misma figura delictiva puede adquirir funciones distintas según el territorio, el actor y la actividad afectada. La cuota exigida a un transportista, la imposición de un proveedor, la amenaza contra un establecimiento o una presunta exigencia realizada desde una posición de autoridad pertenecen a contextos diferentes, pero comparten una característica: utilizan la coerción para modificar la conducta de la víctima en beneficio de quien la ejerce. Reconocer esas diferencias también modifica la manera en que debe pensarse la prevención.",
 			},
 			{
 				tipo: "subtitulo",
@@ -6113,53 +6310,81 @@ export const articulos = [
 		],
 	},
 	{
+		schemaVersion: "1.2",
+
 		metadata: {
-			id: "art-019",
+			id: "ART-019",
+
 			slug: "inseguridad-en-carreteras-de-mexico",
+
 			titulo:
 				"¿Viajar por carretera en México sigue siendo seguro? Una guía para identificar riesgos y reducir la exposición durante tus traslados",
+
 			categoria: {
-				principal: "seguridad-publica",
-				label: "Seguridad pública",
+				principal: "seguridad",
+
+				label: "Seguridad",
 			},
+
 			etiquetas: [
 				"carreteras más peligrosas de México",
+
 				"seguridad carretera en México",
+
 				"riesgo carretero en México",
+
 				"asaltos en carreteras de México",
+
 				"robos en carreteras de México",
+
 				"bloqueos carreteros en México",
+
 				"violencia en carreteras de México",
+
 				"robo al transporte de carga",
+
 				"grupos criminales en carreteras",
+
 				"prevención de asaltos en carretera",
+
 				"seguridad para conductores",
+
 				"seguridad para viajeros en carretera",
 			],
+
 			fechaPublicacion: "2026-08-17",
+
 			autor: "BMC",
+
 			tiempoLectura: 12,
+
 			estado: "publicado",
 		},
 
 		clasificacion: {
 			area: "Delincuencia en México",
+
 			subarea: "Seguridad pública",
+
 			nivel: "Divulgativo",
+
 			region: "México",
 		},
 
 		seo: {
 			metaTitle:
 				"¿Viajar por carretera en México sigue siendo seguro? Una guía para identificar riesgos y reducir la exposición durante tus traslados",
+
 			metaDescription: "¿Todavía es seguro viajar por carretera en México? ",
 		},
 
 		media: {
 			imagenPrincipal:
 				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1787011773/Observatorio_criminal_20_h6o05m.png",
+
 			banner:
 				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1787011773/BannerArtPage_19_nv99rb.png",
+
 			altImagen: "Ilustración",
 		},
 
@@ -6168,501 +6393,843 @@ export const articulos = [
 
 		contenido: [
 			{
+				id: "BLO-019-001",
 				tipo: "subtitulo",
+
 				variante: "introduccion",
+
 				texto:
 					"Las carreteras mexicanas representan mucho más que una red de comunicación.",
 			},
+
 			{
+				id: "BLO-019-002",
 				tipo: "parrafo",
+
 				texto:
 					"Por ellas se desplazan diariamente millones de personas y circula una parte fundamental de la actividad económica del país: alimentos, medicamentos, combustibles, materias primas, productos industriales y mercancías de importación conectan ciudades, comunidades, centros productivos, puertos y cruces fronterizos. Esa concentración permanente de personas, vehículos y bienes también convierte a determinados corredores en espacios atractivos para distintas actividades delictivas.",
 			},
+
 			{
+				id: "BLO-019-003",
 				tipo: "parrafo",
+
 				texto:
 					"En los últimos años, la conversación sobre seguridad carretera ha estado marcada por imágenes de vehículos incendiados, bloqueos, asaltos violentos y enfrentamientos que rápidamente circulan por redes sociales. Cada nuevo episodio revive la misma pregunta: ¿todavía es seguro viajar por carretera en México? La respuesta no puede reducirse a un simple sí o no.",
 			},
+
 			{
+				id: "BLO-019-004",
 				tipo: "parrafo",
+
 				texto:
 					"México no enfrenta un escenario homogéneo. Miles de kilómetros de autopistas y carreteras son recorridos diariamente por familias, turistas, trabajadores y transportistas sin que ocurra ningún incidente. Al mismo tiempo, existen corredores donde se registran de manera recurrente robos de vehículos y mercancías, asaltos, interceptaciones de unidades, retenes ilegales, bloqueos, uso de ponchallantas y, en determinados contextos, episodios de violencia relacionados con confrontaciones u operaciones contra organizaciones criminales. El riesgo, por tanto, no depende únicamente de la carretera que se utiliza, sino también del tramo, el horario, las condiciones del entorno y lo que está ocurriendo en la región al momento del viaje.",
 			},
+
 			{
+				id: "BLO-019-005",
+				fuentes: ["REF-019-003"],
 				tipo: "parrafo",
+
 				texto:
 					"El robo al autotransporte permite observar una parte de este problema. De acuerdo con información presentada por el Gobierno federal en agosto de 2026, los casos registrados pasaron de 13,068 en 2018 a 6,263 durante 2025, mientras que en los meses transcurridos de 2026 se contabilizaban 2,519. La Guardia Nacional también reportó una reducción de 37.19 % mediante la Estrategia Balam. Las cifras muestran una disminución en los registros oficiales, pero deben interpretarse dentro de sus propios límites: permiten conocer los hechos denunciados o identificados por las autoridades y los resultados que éstas reportan, no necesariamente todo lo que ocurre en las carreteras.",
 			},
+
 			{
+				id: "BLO-019-006",
+				fuentes: ["REF-019-001"],
 				tipo: "parrafo",
+
 				texto:
 					"La concentración del problema en determinados corredores ayuda a entender por qué el riesgo no puede analizarse únicamente a escala nacional. En julio de 2025, la Guardia Nacional informó que las autopistas México–Querétaro y México–Puebla concentraban conjuntamente 29 % del robo de vehículos de carga registrado en el país, lo que llevó al despliegue del Plan Cero Robos y al reforzamiento de vigilancia, inteligencia y tecnología en ambas vías. La estrategia también se extendió a la Mazatlán–Culiacán ante las condiciones de seguridad que atravesaba Sinaloa.",
 			},
+
 			{
+				id: "BLO-019-007",
+				fuentes: ["REF-019-002"],
 				tipo: "parrafo",
+
 				texto:
 					"Pero la inseguridad carretera no afecta únicamente a quienes conducen un tráiler. Una familia que viaja en automóvil, una persona que se desplaza por trabajo, un autobús de pasajeros o un pequeño comerciante pueden enfrentarse a riesgos distintos dentro de los mismos corredores. El robo y despojo de vehículos particulares, los asaltos, la interceptación de unidades y las afectaciones provocadas por episodios de violencia organizada forman parte del mismo entorno, aunque no necesariamente respondan a las mismas dinámicas criminales. En la Mazatlán–Culiacán, por ejemplo, la Guardia Nacional informó en agosto de 2025 una reducción de 46.67 % en el robo de vehículos particulares después de reforzar la seguridad del corredor. Más que utilizar esa disminución para concluir que la carretera dejó de representar un riesgo, el dato muestra que el robo de carga y el despojo de vehículos particulares pueden coexistir en una misma vía y afectar a usuarios diferentes.",
 			},
+
 			{
+				id: "BLO-019-008",
 				tipo: "parrafo",
+
 				texto:
 					"Esta diversidad de amenazas ayuda también a explicar cómo ha cambiado la inseguridad carretera. Las vías de comunicación no sólo pueden utilizarse para trasladar mercancías ilícitas; la enorme cantidad de bienes que circula diariamente por ellas genera oportunidades para otras economías criminales. Un tráiler que transporta productos electrónicos, medicamentos, acero, alimentos o mercancías de importación puede ser atractivo tanto por la unidad como por el valor de su carga y la posibilidad de introducir posteriormente los productos robados en mercados ilícitos.",
 			},
+
 			{
+				id: "BLO-019-009",
 				tipo: "parrafo",
+
 				texto:
 					"Algunos hechos permiten observar cómo funcionan estas dinámicas sin necesidad de imaginar complejas operaciones criminales. En septiembre de 2025, la Guardia Nacional documentó el robo de dos tractocamiones en la autopista México–Querétaro. La última ubicación registrada por el sistema GPS permitió orientar el despliegue policial, recuperar las unidades y detener a tres personas. El caso muestra algo importante: detrás de las estadísticas nacionales existen acontecimientos concretos en los que vehículos, mercancías, tecnología, territorio y capacidad de respuesta se combinan de manera distinta.",
 			},
+
 			{
+				id: "BLO-019-010",
 				tipo: "parrafo",
+
 				texto:
 					"También existe otra dificultad para dimensionar el problema: no todo lo que ocurre termina registrado ante una autoridad. La Encuesta Nacional de Victimización de Empresas (ENVE 2024) de INEGI, última edición disponible sobre victimización empresarial, estimó que durante 2023 76.1 % de los robos de mercancía en tránsito permanecieron en cifra oculta, es decir, no fueron denunciados o no derivaron en una investigación. En el robo o asalto de mercancía, dinero, insumos o bienes, la proporción alcanzó 82.2 %.",
 			},
+
 			{
+				id: "BLO-019-011",
+				fuentes: ["REF-019-004"],
 				tipo: "parrafo",
+
 				texto:
 					"Y este problema no es exclusivo de las empresas. La ENVIPE 2026, que estudia la victimización de la población y corresponde a delitos ocurridos durante 2025, estimó que 93.4 % de los delitos no fueron denunciados o no derivaron en una carpeta de investigación. Las dos encuestas estudian poblaciones y delitos diferentes, por lo que sus porcentajes no deben compararse directamente; juntas, sin embargo, ayudan a entender por qué las estadísticas oficiales basadas exclusivamente en denuncias representan sólo una parte del fenómeno.",
 			},
-					{
+
+			{
+				id: "BLO-019-012",
 				tipo: "parrafo",
+
 				texto:
 					"Esto tampoco significa que cualquier reducción oficial deba descartarse. Si disminuyen los robos registrados, el dato es relevante y debe incorporarse al análisis. El problema aparece cuando esa disminución se interpreta automáticamente como prueba de que una carretera es segura. Para quien está por emprender un viaje, la pregunta importante no es únicamente cuántos delitos fueron registrados durante el último año, sino qué riesgos existen en el trayecto que recorrerá, en qué puntos se han manifestado, a quiénes afectan y qué está ocurriendo actualmente en esos territorios.",
 			},
-					{
+
+			{
+				id: "BLO-019-013",
 				tipo: "parrafo",
+
 				texto:
 					"Frente a este escenario, la prevención va mucho más allá de recomendaciones tradicionales como “no viajar de noche” o “utilizar autopistas de cuota”. Reducir la exposición comienza antes de arrancar el motor: implica revisar las condiciones de la ruta, conocer alternativas, identificar zonas donde se han presentado incidentes, mantenerse atento a cierres o bloqueos y distinguir una alerta verificable de un rumor que circula en redes sociales.",
 			},
-					{
+
+			{
+				id: "BLO-019-014",
 				tipo: "parrafo",
+
 				texto:
 					"Por esa razón, este artículo no pretende elaborar otra lista de “las carreteras más peligrosas de México”. Una clasificación de ese tipo puede cambiar rápidamente y, sobre todo, oculta diferencias importantes dentro de una misma vía. Una carretera de cientos de kilómetros puede atravesar municipios con condiciones de seguridad muy diferentes, y un corredor relativamente estable puede experimentar un cambio abrupto como consecuencia de una confrontación, un bloqueo o una operación de seguridad.",
 			},
-					{
+
+			{
+				id: "BLO-019-015",
 				tipo: "parrafo",
+
 				texto:
 					"El propósito es otro: comprender por qué determinados corredores concentran ciertos riesgos, cómo se manifiestan esas amenazas y qué puede hacer una persona antes y durante un viaje para reducir su exposición. A lo largo del análisis revisaremos carreteras concretas, pero no para etiquetarlas permanentemente como “seguras” o “peligrosas”, sino para identificar los factores que modifican las condiciones de un trayecto.",
 			},
-					{
+
+			{
+				id: "BLO-019-016",
 				tipo: "parrafo",
+
 				texto:
 					"Porque viajar informado no elimina todos los riesgos. Lo que sí permite es tomar mejores decisiones: saber cuándo conviene modificar una ruta, cuándo esperar, qué señales requieren atención y cuándo una situación extraordinaria puede transformar en cuestión de horas las condiciones habituales de una carretera.",
 			},
+
 			{
+				id: "BLO-019-017",
 				tipo: "subtitulo",
+
 				texto:
 					"¿Por qué algunas carreteras se convierten en objetivos del crimen organizado?",
 			},
+
 			{
+				id: "BLO-019-018",
 				tipo: "parrafo",
+
 				texto:
-					"La percepción de que determinadas carreteras “son peligrosas” suele construirse a partir de noticias sobre asaltos, bloqueos, vehículos incendiados o enfrentamientos armados. Sin embargo, detrás de esos acontecimientos existe una pregunta más importante: ¿por qué ciertos hechos se repiten en unos corredores y no en otros?"			
+					"La percepción de que determinadas carreteras “son peligrosas” suele construirse a partir de noticias sobre asaltos, bloqueos, vehículos incendiados o enfrentamientos armados. Sin embargo, detrás de esos acontecimientos existe una pregunta más importante: ¿por qué ciertos hechos se repiten en unos corredores y no en otros?",
 			},
+
 			{
+				id: "BLO-019-019",
 				tipo: "parrafo",
+
 				texto:
 					"La respuesta no depende únicamente de que exista una organización criminal en determinado estado. Desde una perspectiva criminológica, una carretera adquiere mayor interés cuando reúne varias condiciones: conecta territorios estratégicos, concentra un flujo constante de mercancías y personas, permite acceder a mercados importantes o atraviesa zonas donde diferentes grupos buscan obtener recursos, movilizarse o ejercer control.",
 			},
+
 			{
+				id: "BLO-019-020",
 				tipo: "parrafo",
+
 				texto:
 					"Por eso, dos carreteras dentro de una misma entidad pueden presentar escenarios completamente diferentes. Incluso dentro de una misma autopista pueden existir tramos con condiciones de seguridad distintas dependiendo de los municipios que atraviesa, la cercanía con centros urbanos, la disponibilidad de caminos secundarios, la presencia de instalaciones industriales o logísticas y las dinámicas criminales existentes en el territorio.",
 			},
+
 			{
+				id: "BLO-019-021",
 				tipo: "parrafo",
+
 				texto:
 					"Durante décadas, algunos corredores mexicanos adquirieron importancia para las organizaciones dedicadas al narcotráfico por su utilidad para conectar zonas de producción, ciudades, puertos y regiones fronterizas. Pero el escenario criminal se volvió progresivamente más complejo. La fragmentación de organizaciones, la aparición de estructuras regionales y la diversificación de las economías ilícitas hicieron que el control territorial pudiera estar relacionado no sólo con el traslado de drogas, sino también con actividades como la extorsión, el robo de vehículos, el robo de mercancías y otras formas de obtención de recursos.",
 			},
+
 			{
+				id: "BLO-019-022",
 				tipo: "parrafo",
+
 				texto:
 					"Esto no significa que cada robo cometido en una carretera sea responsabilidad del crimen organizado. En un mismo corredor pueden operar desde delincuentes oportunistas hasta grupos especializados en el robo de carga y organizaciones con una presencia territorial mucho mayor. Distinguir entre estos actores es importante, porque el tipo de amenaza y la forma en que afecta a quienes utilizan la carretera también son diferentes.",
 			},
+
 			{
+				id: "BLO-019-023",
 				tipo: "parrafo",
+
 				texto:
 					"La ubicación geográfica desempeña entonces un papel fundamental. Los corredores que conectan puertos con centros industriales, zonas agrícolas con mercados nacionales, ciudades fronterizas con el interior del país o grandes centros de distribución mantienen un movimiento continuo de vehículos y mercancías. Esa actividad genera oportunidades para el delito, pero también hace prácticamente imposible mantener vigilancia permanente sobre cada kilómetro.",
 			},
+
 			{
+				id: "BLO-019-024",
 				tipo: "parrafo",
+
 				texto:
 					"Las propias características del camino pueden aumentar la exposición. Tramos alejados de poblaciones, zonas montañosas con poca visibilidad, segmentos con cobertura limitada de telefonía, horarios con menor circulación y caminos secundarios que permiten abandonar rápidamente una vía principal pueden modificar las condiciones en las que ocurre un robo o una interceptación.",
 			},
+
 			{
+				id: "BLO-019-025",
 				tipo: "parrafo",
+
 				texto:
 					"Sin embargo, existe otro riesgo cuya naturaleza es diferente y que resulta mucho más difícil de anticipar: una carretera puede dejar de ser solamente el lugar donde ocurre un delito y convertirse temporalmente en parte de una confrontación criminal.",
 			},
+
 			{
+				id: "BLO-019-026",
 				tipo: "subtitulo",
-				texto:
-					"El riesgo de que una carretera forme parte de la confrontación",
+
+				texto: "El riesgo de que una carretera forme parte de la confrontación",
 			},
-						{
+
+			{
+				id: "BLO-019-027",
 				tipo: "parrafo",
+
 				texto:
 					"Los bloqueos mediante vehículos incendiados, el despojo de automóviles o tractocamiones para cerrar una vía, la instalación de objetos para impedir el tránsito y otras formas de interrupción de la circulación han aparecido en diferentes episodios de violencia organizada en México. En estas circunstancias, quienes viajan por la carretera no necesariamente son el objetivo principal, pero pueden convertirse en víctimas indirectas de una situación que comenzó por razones completamente ajenas a su trayecto.",
 			},
+
 			{
+				id: "BLO-019-028",
 				tipo: "parrafo",
+
 				texto:
 					"Una persona puede encontrarse repentinamente frente a una carretera bloqueada, ser obligada a entregar su vehículo, quedar detenida durante horas en una zona de confrontación o verse obligada a buscar una ruta alternativa mientras continúan operativos de seguridad. Esta diferencia es importante: el riesgo ya no proviene únicamente de la posibilidad de sufrir un robo, sino de quedar expuesto a una crisis de seguridad que modifica rápidamente las condiciones del territorio.",
 			},
+
 			{
+				id: "BLO-019-029",
 				tipo: "parrafo",
+
 				texto:
 					"Sinaloa ofrece antecedentes claros de esta dinámica. Durante el operativo para detener a Ovidio Guzmán en enero de 2023 se registraron bloqueos y el robo e incendio de vehículos y tractocamiones utilizados para cerrar accesos y obstaculizar la circulación en Culiacán y otros puntos del estado. Las afectaciones mostraron cómo una operación dirigida contra un integrante de una organización criminal podía extender sus consecuencias mucho más allá del lugar donde se desarrollaba la intervención.",
 			},
-						{
+
+			{
+				id: "BLO-019-030",
 				tipo: "parrafo",
+
 				texto:
 					"La dinámica volvió a hacerse visible durante la confrontación entre facciones criminales que comenzó en septiembre de 2024. El 9 de septiembre, autoridades estatales confirmaron un bloqueo sobre la carretera México 15, a la salida sur de Culiacán, donde fueron localizados un tráiler y una camioneta. Ese mismo día se reportó otro bloqueo sobre la vía Quilá–Eldorado y 12 despojos de vehículos en distintos puntos. Dos días después se confirmó otra interrupción en la Maxipista. La recurrencia de estos episodios llevó posteriormente a establecer posiciones antibloqueos en puntos como Costa Rica, Quilá, La Cruz de Elota, Mármol y el Túnel El Sinaloense de la Mazatlán–Durango.",
 			},
-						{
+
+			{
+				id: "BLO-019-031",
 				tipo: "parrafo",
+
 				texto:
 					"Lo ocurrido permite observar una característica que será importante a lo largo de este análisis: un vehículo puede dejar de ser únicamente el objetivo de un robo y convertirse en un instrumento dentro de una confrontación. Automóviles, autobuses y unidades de carga pueden ser despojados para cerrar una vía, dificultar el desplazamiento de las autoridades o alterar temporalmente la movilidad de una región. La finalidad concreta debe determinarse en cada caso y no puede suponerse únicamente por la existencia del bloqueo.",
 			},
-						{
+
+			{
+				id: "BLO-019-032",
 				tipo: "parrafo",
+
 				texto:
 					"Un episodio de una escala mucho mayor ocurrió el 22 de febrero de 2026, después de la operación federal realizada en Tapalpa, Jalisco, en la que murió Nemesio Oseguera Cervantes, líder del Cártel Jalisco Nueva Generación. La respuesta criminal incluyó bloqueos, incendios de vehículos y ataques en distintos puntos del país. En el balance presentado posteriormente por el Gabinete de Seguridad se contabilizaron 85 bloqueos en carreteras federales distribuidos en 11 entidades, además de vehículos incendiados, agresiones contra autoridades y ataques contra establecimientos.",
 			},
-						{
+
+			{
+				id: "BLO-019-033",
 				tipo: "parrafo",
+
 				texto:
 					"El alcance territorial de aquella reacción resulta especialmente relevante para comprender el riesgo carretero. La operación que desencadenó los acontecimientos ocurrió en una zona específica de Jalisco, pero sus efectos sobre la movilidad aparecieron simultáneamente en lugares considerablemente alejados. Una persona no necesitaba encontrarse cerca de Tapalpa para quedar expuesta a las consecuencias del operativo. Bastaba con circular por alguno de los corredores donde se produjo una reacción.",
 			},
-						{
+
+			{
+				id: "BLO-019-034",
 				tipo: "parrafo",
+
 				texto:
 					"En Jalisco, las afectaciones fueron suficientes para que el Tribunal de Justicia Administrativa estatal declarara inhábil el 23 de febrero ante los bloqueos registrados en calles y carreteras, las detonaciones de armas de fuego y las condiciones extraordinarias de seguridad del día anterior.",
 			},
-						{
+
+			{
+				id: "BLO-019-035",
 				tipo: "parrafo",
+
 				texto:
 					"Los acontecimientos de Sinaloa y Jalisco muestran además por qué resulta insuficiente evaluar una carretera únicamente mediante estadísticas anuales. El número de robos registrados durante los últimos doce meses puede ayudar a identificar tendencias y zonas recurrentes, pero no permite anticipar por sí mismo una alteración repentina del entorno.",
 			},
-						{
+
+			{
+				id: "BLO-019-036",
 				tipo: "parrafo",
+
 				texto:
 					"Una carretera que durante semanas mantiene condiciones relativamente estables puede cambiar en cuestión de horas después de una captura, la muerte de un liderazgo criminal, una confrontación entre organizaciones o una operación de seguridad de gran escala. Del mismo modo, una afectación ocurrida en un municipio puede extenderse hacia corredores conectados con otros estados.",
 			},
-						{
+
+			{
+				id: "BLO-019-037",
 				tipo: "parrafo",
+
 				texto:
 					"Esto obliga a introducir una variable que suele quedar fuera de las listas tradicionales de “carreteras peligrosas”: el tiempo. El riesgo de una ruta no es permanente ni permanece siempre en el mismo nivel. Tiene una dimensión territorial, pero también una dimensión temporal.",
 			},
-						{
+
+			{
+				id: "BLO-019-038",
 				tipo: "parrafo",
+
 				texto:
 					"Para quien está planeando un viaje, esto significa que conocer los antecedentes de una carretera es útil, pero no suficiente. También importa saber qué está ocurriendo en las horas previas a salir: si existen cierres confirmados, bloqueos, enfrentamientos, operaciones de seguridad o incidentes en municipios conectados con la ruta prevista.",
 			},
-						{
+
+			{
+				id: "BLO-019-039",
 				tipo: "parrafo",
+
 				texto:
 					"De esta manera, la pregunta deja de ser únicamente “¿esta carretera es peligrosa?” y se vuelve mucho más útil:",
 			},
-						{
+
+			{
+				id: "BLO-019-040",
 				tipo: "parrafo",
+
 				texto:
 					"¿Qué riesgos presenta este trayecto, en qué puntos se concentran y qué está ocurriendo actualmente en los territorios que voy a atravesar?",
 			},
+
 			{
+				id: "BLO-019-041",
 				tipo: "subtitulo",
+
 				texto:
 					"Los corredores carreteros que actualmente concentran mayor riesgo: un análisis de las principales rutas de México",
 			},
+
 			{
+				id: "BLO-019-042",
 				tipo: "parrafo",
+
 				texto:
 					"México cuenta con más de 170 mil kilómetros de carreteras federales, estatales y caminos rurales que conectan prácticamente todos los centros económicos del país. Sin embargo, la incidencia delictiva no se distribuye de manera uniforme. Mientras algunos corredores mantienen niveles relativamente estables de seguridad, otros concentran desde hace años robos al autotransporte, asaltos a vehículos particulares, bloqueos armados, retenes ilegales y episodios de violencia derivados de disputas entre organizaciones criminales.",
 			},
+
 			{
+				id: "BLO-019-043",
 				tipo: "parrafo",
+
 				texto:
 					"Esta diferencia responde a factores muy específicos. La mayoría de las rutas consideradas de alto riesgo coinciden con corredores industriales, accesos a puertos marítimos, cruces fronterizos o zonas donde convergen mercados ilícitos altamente rentables. Comprender esa lógica permite entender por qué determinadas autopistas aparecen recurrentemente en reportes de autoridades, aseguradoras y empresas de transporte.",
 			},
+
 			{
+				id: "BLO-019-044",
 				tipo: "subtitulo",
+
 				texto: "Del Valle de México hacia el Bajío",
 			},
+
 			{
+				id: "BLO-019-045",
 				tipo: "parrafo",
+
 				texto:
 					"El corredor que comunica al Valle de México con Querétaro y posteriormente con Guanajuato constituye una de las rutas logísticas más importantes del centro del país. La autopista México–Querétaro concentra una elevada circulación de transporte de carga y conecta con la carretera 45D hacia Celaya, Salamanca, Irapuato y León. Esta importancia económica también explica por qué algunos de sus segmentos requieren una atención particular desde el punto de vista de la seguridad.",
 			},
+
 			{
+				id: "BLO-019-046",
 				tipo: "parrafo",
+
 				texto:
 					"Como señalamos anteriormente, la Guardia Nacional incluyó la México–Querétaro entre los corredores prioritarios del Plan Cero Robos debido a su participación en los robos de vehículos de carga registrados en el país. Sin embargo, al ingresar a Guanajuato aparece una variable adicional: la violencia relacionada con organizaciones criminales y su capacidad para afectar temporalmente la movilidad.",
 			},
+
 			{
+				id: "BLO-019-047",
 				tipo: "parrafo",
+
 				texto:
 					"Durante una conferencia federal de seguridad se informó, por ejemplo, de la detención de cuatro integrantes del Cártel Santa Rosa de Lima (CSRL), entre ellos un presunto líder de células operativas con actividad en Salamanca, Irapuato, Celaya y municipios cercanos. Las investigaciones señalaron además la participación de integrantes encargados de vigilar y alertar sobre la presencia de las autoridades. En declaraciones anteriores, el secretario de Seguridad y Protección Ciudadana, Omar García Harfuch, había explicado que el CSRL, aunque debilitado respecto de años anteriores, había buscado fortalecerse mediante la incorporación de otras células criminales y que las disputas entre algunas de ellas contribuían a la violencia en Guanajuato.",
 			},
+
 			{
+				id: "BLO-019-048",
 				tipo: "parrafo",
+
 				texto:
 					"Por ello, ya no resulta suficiente describir el escenario de Guanajuato únicamente como una confrontación estable entre dos grandes organizaciones. En distintas zonas operan células con capacidad y actividades diferentes, mientras persiste la confrontación entre estructuras vinculadas al CSRL y al CJNG. Para un análisis carretero, esta distinción es relevante porque el riesgo no necesariamente se distribuye de manera uniforme por todo el estado.",
 			},
+
 			{
+				id: "BLO-019-049",
 				tipo: "parrafo",
+
 				texto:
 					"Y existe evidencia reciente de que una crisis criminal puede alterar la movilidad en cuestión de horas.",
 			},
+
 			{
+				id: "BLO-019-050",
 				tipo: "parrafo",
+
 				texto:
 					"El 22 de febrero de 2026, después del operativo federal realizado en Jalisco contra Nemesio Oseguera Cervantes, Guanajuato registró incidentes en 23 municipios, entre ellos Irapuato, Salamanca, León, Pénjamo, Abasolo, Silao y Acámbaro. El Gobierno estatal confirmó la movilización de fuerzas estatales y federales y señaló que se logró impedir la quema de varios vehículos; una vez contenidos los hechos, informó que las carreteras estatales y federales habían quedado libres. ",
 			},
+
 			{
+				id: "BLO-019-051",
 				tipo: "parrafo",
+
 				texto:
 					"Durante esa jornada, sin embargo, las afectaciones alcanzaron corredores directamente relacionados con el Bajío. En la carretera federal Irapuato–Abasolo, un autobús fue incendiado y atravesado sobre la vía a la altura del puente de La Soledad. En la Irapuato–Romita, un tractocamión cargado con semillas fue incendiado y provocó el cierre total de la circulación; también se reportó el incendio de otro autobús en la carretera Irapuato–León. Ante los incidentes, el transporte público fue suspendido temporalmente en Irapuato y las salidas de autobuses fueron canceladas en Celaya. ",
 			},
+
 			{
+				id: "BLO-019-052",
 				tipo: "parrafo",
+
 				texto:
 					"El balance conocido posteriormente mostró la extensión de aquella jornada: la Fiscalía estatal reportó 43 vehículos y 36 comercios incendiados, además de otros daños, distribuidos en 23 de los 46 municipios de Guanajuato. Irapuato y Salamanca estuvieron entre los municipios con mayor número de incendios registrados.",
 			},
-						{
+
+			{
+				id: "BLO-019-053",
 				tipo: "parrafo",
+
 				texto:
 					"Estos acontecimientos permiten describir el riesgo sin recurrir a una hipótesis sobre lo que podría suceder. La interrupción violenta de la movilidad ya se ha producido en corredores del Bajío. Para una persona que viajaba por la zona, el problema no era necesariamente ser el objetivo directo de una organización criminal: podía encontrarse con un vehículo incendiado atravesado sobre la carretera, una suspensión del transporte o una vía temporalmente cerrada como consecuencia de una crisis originada fuera de su recorrido.",
 			},
-						{
+
+			{
+				id: "BLO-019-054",
 				tipo: "parrafo",
+
 				texto:
 					"Esto tampoco significa que tales condiciones sean permanentes. De hecho, el propio Gobierno de Guanajuato informó ese mismo día que los incidentes habían sido contenidos y que las carreteras estaban nuevamente libres. El dato importante para el viajero es precisamente la rapidez con la que puede cambiar el escenario: un corredor puede operar normalmente y experimentar horas después una afectación extraordinaria asociada con acontecimientos criminales u operativos de seguridad.",
 			},
+
 			{
+				id: "BLO-019-055",
 				tipo: "subtitulo",
+
 				texto: "San Luis Potosí: un corredor logístico hacia el norte",
 			},
+
 			{
+				id: "BLO-019-056",
 				tipo: "parrafo",
+
 				texto:
 					"Después de Querétaro, la carretera federal 57 continúa hacia San Luis Potosí y posteriormente hacia Matehuala, Saltillo y Monterrey. Su importancia no deriva únicamente de la distancia recorrida: constituye uno de los grandes ejes de transporte entre el centro industrial del país y el norte de México.",
 			},
+
 			{
+				id: "BLO-019-057",
 				tipo: "parrafo",
+
 				texto:
 					"En este corredor, el robo al autotransporte constituye un riesgo suficientemente relevante como para haber generado estrategias específicas durante 2026. Información oficial presentada ante el Congreso de la Unión señala que San Luis Potosí implementó la Estrategia Balam para atender el robo al autotransporte, con puestos de inspección en el Aeropuerto Ponciano Arriaga, Matehuala y Rioverde, además del Operativo Escalón para acompañar vehículos de carga y un operativo especializado contra el robo al autotransporte en la Zona Industrial de la capital. También se acordó reforzar la presencia de la Guardia Nacional sobre la carretera federal 57 hacia Zacatecas.",
 			},
+
 			{
+				id: "BLO-019-058",
 				tipo: "parrafo",
+
 				texto:
 					"Los resultados operativos ayudan a dimensionar la persistencia del fenómeno. Entre abril y mayo de 2026, la Secretaría de Seguridad y Protección Ciudadana estatal informó de la detención de al menos seis células presuntamente vinculadas con actividades ilícitas, el aseguramiento de diez inhibidores de señal y la recuperación de 56 unidades y equipos de carga, entre tractocamiones, cajas secas, plataformas, remolques y contenedores. La dependencia relacionó expresamente parte de estas acciones con la prevención y combate del robo al autotransporte.",
 			},
+
 			{
+				id: "BLO-019-059",
 				tipo: "parrafo",
+
 				texto:
 					"La presencia de inhibidores de señal resulta particularmente relevante para comprender el riesgo. Estos dispositivos pueden interferir con determinados sistemas de comunicación o localización y su aseguramiento dentro de operativos contra el robo al autotransporte aporta evidencia de que algunos hechos trascienden el despojo improvisado de una unidad.",
 			},
-						{
+
+			{
+				id: "BLO-019-060",
 				tipo: "parrafo",
+
 				texto:
 					"Por ello, el corredor Querétaro–San Luis Potosí–Matehuala debe analizarse principalmente desde la exposición del transporte de carga, sin extender automáticamente ese riesgo a todos los usuarios. Para una familia que recorre la 57, los antecedentes de robo a transportistas no significan que tenga la misma probabilidad de ser víctima; para una empresa logística, en cambio, el tipo de unidad, la carga, el horario, los puntos de descanso y la capacidad",
 			},
+
 			{
+				id: "BLO-019-061",
 				tipo: "subtitulo",
+
 				texto:
 					"De Puebla a Veracruz: un corredor donde el riesgo cambia con el territorio",
 			},
+
 			{
+				id: "BLO-019-062",
 				tipo: "parrafo",
+
 				texto:
 					"La México–Puebla–Veracruz presenta una dinámica diferente. El corredor 150D conecta el centro del país con Puebla y posteriormente con Veracruz, por lo que mantiene una circulación constante de pasajeros y mercancías. Dentro de esta extensa ruta, el eje Amozoc–Acatzingo–Esperanza–Ciudad Mendoza merece una atención particular por la recurrencia de hechos relacionados con el transporte de carga y por las condiciones geográficas que aparecen conforme la autopista se aproxima a las Cumbres de Maltrata.",
 			},
+
 			{
+				id: "BLO-019-063",
 				tipo: "parrafo",
+
 				texto:
 					"La respuesta de las propias autoridades permite identificar dónde se ha concentrado parte de la vigilancia. En junio de 2026, el Gobierno de Puebla informó que mantenía 30 Puntos de Monitoreo Inteligente y 116 cámaras en el tramo Amozoc–Esperanza de la autopista 150D, además de operativos para recuperar tractocamiones robados y combatir el uso de accesos clandestinos. La autoridad estatal reportó una tendencia descendente en los robos registrados mediante llamadas al 911 durante ese año, pero la continuidad de incidentes posteriores muestra por qué una reducción estadística no debe interpretarse como desaparición del riesgo.",
 			},
+
 			{
+				id: "BLO-019-064",
 				tipo: "parrafo",
+
 				texto:
 					"El 19 de marzo de 2026, un conductor de transporte de carga murió y dos acompañantes resultaron heridos durante un intento de asalto en el kilómetro 164+800, a la altura de Acatzingo. De acuerdo con los reportes, hombres armados intentaron detener el tractocamión y, cuando el operador continuó su marcha, dispararon contra la unidad.",
 			},
+
 			{
+				id: "BLO-019-065",
 				tipo: "parrafo",
+
 				texto:
 					"En mayo aparecieron incidentes con mecanismos distintos. Cerca de Esperanza se documentó el robo de dos tráileres después de que los agresores aparentemente utilizaran un vehículo detenido para hacer que los operadores redujeran la velocidad. Días después, en las Cumbres de Maltrata, un video registró a varios individuos colocados sobre la autopista intentando detener un tractocamión durante la noche mientras utilizaban luces de alta intensidad; el conductor continuó su marcha y atravesó el bloqueo. ",
 			},
+
 			{
+				id: "BLO-019-066",
 				tipo: "parrafo",
+
 				texto:
 					"Los hechos continuaron durante los meses siguientes. El 12 de junio se reportó otro intento de asalto alrededor del kilómetro 165, en Acatzingo, donde el conductor logró continuar su marcha pero resultó herido por disparos. Y el 5 de septiembre otro transportista fue atacado en el kilómetro 178+500 del tramo Acatzingo–Quecholac, después de que sujetos armados intentaran obligarlo a detener la unidad para apoderarse del vehículo y la mercancía. ",
 			},
+
 			{
+				id: "BLO-019-067",
 				tipo: "parrafo",
+
 				texto:
 					"Más importante todavía para comprender la dinámica del corredor es lo que encontraron las autoridades federales. En agosto de 2026, el Gabinete de Seguridad informó de la identificación de una célula delictiva con presencia en Esperanza, Puebla, vinculada con robos de unidades de carga y secuestros exprés de operadores en tramos de la carretera federal 150D Puebla–Veracruz. La investigación también señaló la utilización de una red de vigilancia y la presunta cooptación de autoridades locales. Tres personas relacionadas con esa estructura fueron detenidas en Cuitláhuac, Veracruz.",
 			},
+
 			{
+				id: "BLO-019-068",
 				tipo: "parrafo",
+
 				texto:
 					"La investigación continuó. El 7 de septiembre, autoridades federales ejecutaron 23 cateos en Esperanza y detuvieron a nueve personas, entre ellas al presidente municipal en funciones. Durante los operativos fueron aseguradas armas largas, vehículos blindados, mercancía robada e inhibidores de señal. El comunicado federal relacionó las acciones específicamente con las investigaciones sobre robo al autotransporte de carga y otros delitos cometidos en carreteras federales.",
 			},
+
 			{
+				id: "BLO-019-069",
 				tipo: "parrafo",
+
 				texto:
 					"Esta secuencia permite caracterizar el riesgo con mucha mayor precisión que simplemente llamar a la Puebla–Veracruz una “carretera peligrosa”. Entre Acatzingo y Esperanza existen incidentes recientes de interceptación y ataques armados contra transportistas; hacia Ciudad Mendoza y las Cumbres de Maltrata aparecen además condiciones topográficas que pueden dificultar la visibilidad y la reacción; y las investigaciones federales de 2026 han documentado estructuras dedicadas específicamente al robo de autotransporte en la 150D.",
 			},
+
 			{
+				id: "BLO-019-070",
 				tipo: "parrafo",
+
 				texto:
 					"Para la población civil esto también importa, aunque buena parte de los casos documentados tenga como objetivo vehículos de carga. Los métodos empleados para detener unidades —vehículos atravesados, personas sobre la carpeta asfáltica, reducción forzada de velocidad o presencia de individuos armados— pueden generar situaciones de exposición para cualquier conductor que coincida con el incidente, incluso cuando no sea el objetivo del robo.",
 			},
+
 			{
+				id: "BLO-019-071",
 				tipo: "subtitulo",
+
 				texto:
 					"Estado de México: los accesos metropolitanos y el robo al transporte",
 			},
+
 			{
+				id: "BLO-019-072",
 				tipo: "parrafo",
+
 				texto:
 					"Los corredores que atraviesan el Estado de México constituyen una zona particular dentro del sistema carretero nacional. Las autopistas México–Querétaro y México–Pachuca, junto con otros accesos a la Zona Metropolitana del Valle de México, combinan una circulación intensa de vehículos particulares con uno de los flujos de transporte de mercancías más importantes del centro del país. Esa concentración genera una exposición diferente a la observada en carreteras rurales: los incidentes pueden ocurrir en zonas densamente transitadas y próximas a áreas urbanas.",
 			},
+
 			{
+				id: "BLO-019-073",
 				tipo: "parrafo",
+
 				texto:
 					"La México–Querétaro constituye uno de los ejemplos más claros. Como vimos anteriormente, la Guardia Nacional la incluyó entre los corredores prioritarios de la Operación Cero Robos y reportó posteriormente una reducción de 55 % en el robo al transporte de carga durante los primeros 49 días de implementación. La reducción es relevante, pero la existencia misma de una intervención específica muestra la concentración previa del problema y no permite asumir que el riesgo haya desaparecido.",
 			},
+
 			{
+				id: "BLO-019-074",
 				tipo: "parrafo",
+
 				texto:
 					"Los incidentes recientes ayudan a identificar con mayor precisión dónde se manifiesta. El 1 de abril de 2026, en Axotlán, Cuautitlán Izcalli, una persona que circulaba en una camioneta fue interceptada y privada de la libertad. Dos personas fueron posteriormente vinculadas a proceso por secuestro exprés con fines de robo; de acuerdo con información de la Fiscalía mexiquense difundida por el gobierno municipal, los investigados podrían formar parte de una banda denominada El Animal, señalada como dedicada al robo de transporte de carga en municipios colindantes con la autopista México–Querétaro.",
 			},
+
 			{
+				id: "BLO-019-075",
 				tipo: "parrafo",
+
 				texto:
 					"La México–Pachuca también presenta antecedentes recientes. El 24 de julio de 2025, sobre la autopista a la altura de Ojo de Agua, Tecámac, tres personas despojaron violentamente a un transportista de un tractocamión Kenworth. La Secretaría de Seguridad del Estado de México informó que, mediante el análisis de videovigilancia del C5, identificó posteriormente un vehículo presuntamente utilizado en el robo y detuvo a dos personas para determinar su participación. ",
 			},
+
 			{
+				id: "BLO-019-076",
 				tipo: "parrafo",
+
 				texto:
 					"Estos hechos permiten caracterizar mejor el riesgo que atribuirlo únicamente a la congestión. El problema documentado en los accesos del norte del Valle de México es la coexistencia de grandes flujos logísticos con grupos dedicados al robo de unidades y mercancías, particularmente en zonas como Cuautitlán Izcalli, Tepotzotlán, Tecámac y los municipios conectados con las salidas hacia Querétaro y Pachuca.",
 			},
-						{
+
+			{
+				id: "BLO-019-077",
 				tipo: "parrafo",
+
 				texto:
 					"La saturación vehicular puede agravar las consecuencias de un incidente al reducir las posibilidades de maniobra o generar largas filas, pero no conviene presentarla como causa del delito sin evidencia que lo demuestre. Para un conductor, la conclusión preventiva es más concreta: la presencia de muchos vehículos no necesariamente elimina la oportunidad criminal. Algunos robos documentados han ocurrido precisamente dentro de zonas metropolitanas y corredores intensamente transitados.",
 			},
+
 			{
+				id: "BLO-019-078",
 				tipo: "subtitulo",
+
 				texto:
 					"Michoacán: cuando la carretera se convierte en una extensión del conflicto territorial",
 			},
+
 			{
+				id: "BLO-019-079",
 				tipo: "parrafo",
+
 				texto:
 					"Michoacán presenta un escenario distinto. Aquí existen corredores donde el riesgo no puede explicarse únicamente mediante el robo de vehículos o mercancías, porque las carreteras han sido utilizadas de manera reiterada durante episodios de confrontación y reacción frente a operativos de seguridad.",
 			},
+
 			{
+				id: "BLO-019-080",
 				tipo: "parrafo",
+
 				texto:
 					"Un caso particularmente claro ocurrió el 17 de noviembre de 2025. La Secretaría de Seguridad Pública de Michoacán informó que, durante un operativo dirigido contra un objetivo prioritario, se produjeron bloqueos en las regiones de La Piedad, Zamora y Pátzcuaro. Civiles armados atravesaron vehículos particulares y unidades de carga sobre distintos puntos carreteros y, en algunos casos, los incendiaron. La autoridad confirmó afectaciones en municipios como Ecuandureo, Ixtlán, Tangamandapio, Zamora y Numarán, mientras que la Morelia–Quiroga, a la altura de Tzintzuntzan, tuvo que ser liberada por las fuerzas de seguridad.",
 			},
+
 			{
+				id: "BLO-019-081",
 				tipo: "parrafo",
+
 				texto:
 					"Tierra Caliente añade otra dimensión. En enero de 2026, durante las acciones contra la estructura relacionada con César Alejandro “N”, El Botox, autoridades estatales y federales localizaron 48 artefactos explosivos improvisados en las inmediaciones de Cenobio Moreno, Apatzingán, algunos modificados para su utilización mediante drones. El mismo despliegue derivó en cateos y aseguramientos relacionados con una célula investigada por homicidio y extorsión contra productores agrícolas. ",
 			},
+
 			{
+				id: "BLO-019-082",
 				tipo: "parrafo",
+
 				texto:
 					"Estos hechos justifican que corredores de las regiones de Pátzcuaro–Quiroga, Zamora–La Piedad y Tierra Caliente alrededor de Apatzingán sean evaluados no sólo por incidencia patrimonial, sino también por la posibilidad de alteraciones repentinas de la movilidad asociadas con operaciones de seguridad y confrontaciones.",
 			},
+
 			{
+				id: "BLO-019-083",
 				tipo: "parrafo",
-				texto: "Para quien conduce por la zona, la amenaza puede cambiar rápidamente. Una carretera abierta al iniciar el viaje puede experimentar horas después un cierre relacionado con un acontecimiento ocurrido en otro municipio. Éste es precisamente el tipo de riesgo que una estadística anual de robos difícilmente puede representar.",
+
+				texto:
+					"Para quien conduce por la zona, la amenaza puede cambiar rápidamente. Una carretera abierta al iniciar el viaje puede experimentar horas después un cierre relacionado con un acontecimiento ocurrido en otro municipio. Éste es precisamente el tipo de riesgo que una estadística anual de robos difícilmente puede representar.",
 			},
+
 			{
+				id: "BLO-019-084",
 				tipo: "subtitulo",
+
 				texto: "Sinaloa: movilidad dentro de un escenario de confrontación",
 			},
+
 			{
+				id: "BLO-019-085",
 				tipo: "parrafo",
+
 				texto:
 					"En Sinaloa, especialmente sobre el eje Culiacán–Mazatlán y sus conexiones con la México 15, la evaluación tampoco puede limitarse al robo carretero. La confrontación criminal iniciada en septiembre de 2024 ha coincidido con despojos de vehículos, enfrentamientos, presencia de explosivos, ponchallantas y episodios de bloqueo, haciendo que las condiciones de movilidad puedan cambiar con rapidez.",
 			},
+
 			{
+				id: "BLO-019-086",
 				tipo: "parrafo",
+
 				texto:
 					"Los hechos que ya revisamos al explicar el uso táctico de las carreteras muestran cómo comenzó a manifestarse esta dinámica. Pero durante 2025 continuaron apareciendo elementos relevantes para quienes circulaban por los corredores del centro y sur del estado.",
 			},
+
 			{
+				id: "BLO-019-087",
 				tipo: "parrafo",
+
 				texto:
 					"En mayo, por ejemplo, las autoridades estatales reportaron operativos simultáneos en Culiacán, Navolato y Elota, además de otros municipios. El 14 de mayo informaron del aseguramiento de vehículos robados, armamento, explosivos y puntas de acero utilizadas como ponchallantas; al día siguiente localizaron otro vehículo con reporte de robo e impactos de bala que también contenía ponchallantas. En Elota, durante ese mismo periodo, personal militar fue agredido mientras realizaba labores operativas y posteriormente aseguró un vehículo con blindaje, armas largas y equipo táctico.",
 			},
+
 			{
+				id: "BLO-019-088",
 				tipo: "parrafo",
+
 				texto:
 					"La combinación es relevante porque permite ir más allá de una descripción genérica de “inseguridad”. En un mismo entorno territorial aparecen vehículos robados, armas, explosivos, ponchallantas y agresiones contra fuerzas de seguridad, elementos que pueden afectar directa o indirectamente la circulación aunque el conductor particular no constituya el objetivo original.",
 			},
+
 			{
+				id: "BLO-019-089",
 				tipo: "parrafo",
+
 				texto:
 					"La situación tampoco quedó circunscrita a Culiacán. En agosto de 2025, el Grupo Interinstitucional mantenía operaciones en Rosario, Elota, Escuinapa, Mazatlán y Concordia, además de otros municipios. En Rosario, por ejemplo, personal militar fue objeto de una agresión armada durante recorridos terrestres en las inmediaciones de Matatán.",
 			},
+
 			{
+				id: "BLO-019-090",
 				tipo: "parrafo",
+
 				texto:
 					"Por ello, más que etiquetar toda la Culiacán–Mazatlán como permanentemente peligrosa, resulta más preciso señalar puntos y conexiones que requieren seguimiento: salidas de Culiacán y Costa Rica; Navolato y Eldorado; La Cruz de Elota y sus accesos; Mazatlán y las conexiones hacia Concordia; y, hacia el sur, Rosario y Escuinapa. La exposición no es idéntica en todos ellos ni permanece constante durante todo el día.",
 			},
+
 			{
+				id: "BLO-019-091",
 				tipo: "parrafo",
+
 				texto:
 					"Además, el uso de ponchallantas merece atención particular. No porque su hallazgo demuestre que necesariamente serían empleados contra viajeros, sino porque las propias autoridades han documentado su posesión junto con vehículos robados, armas y equipo táctico. Eso convierte su presencia en un indicador relevante cuando existen simultáneamente enfrentamientos, bloqueos u operativos en una zona.",
 			},
+
 			{
+				id: "BLO-019-092",
 				tipo: "parrafo",
+
 				texto:
 					"La consecuencia para quien planea un viaje es clara: el antecedente histórico de una carretera importa, pero el contexto del mismo día puede ser todavía más relevante. Una ruta abierta y funcional durante la mañana puede experimentar una alteración horas después si ocurre una confrontación o una reacción criminal.",
 			},
+
 			{
+				id: "BLO-019-093",
 				tipo: "subtitulo",
-				texto:
-					"El verdadero riesgo no siempre es el asalto",
+
+				texto: "El verdadero riesgo no siempre es el asalto",
 			},
+
 			{
+				id: "BLO-019-094",
 				tipo: "parrafo",
+
 				texto:
 					"Los corredores analizados muestran por qué hablar de “carreteras peligrosas” puede resultar engañosamente sencillo. No todas presentan el mismo riesgo, ni el riesgo permanece igual a lo largo de toda una carretera.",
 			},
-						{
+
+			{
+				id: "BLO-019-095",
 				tipo: "parrafo",
+
 				texto:
 					"En la México–Querétaro y los accesos del Estado de México existe evidencia reciente de robo al transporte y secuestro exprés relacionado con el despojo de unidades. En San Luis Potosí, los despliegues especializados, las unidades recuperadas y el aseguramiento de inhibidores muestran una problemática particularmente vinculada al autotransporte. En Michoacán y Sinaloa aparece una variable diferente: episodios de violencia organizada capaces de modificar temporalmente la circulación y exponer a personas que no eran el objetivo original de la confrontación.",
 			},
+
 			{
+				id: "BLO-019-096",
 				tipo: "parrafo",
+
 				texto:
 					"Esta diferencia es fundamental para la prevención. Una familia que viaja en automóvil, un conductor de autobús y un operador que transporta mercancía no tienen necesariamente la misma exposición aunque recorran exactamente la misma carretera. Tampoco enfrentan las mismas consecuencias ante un robo, un bloqueo o un enfrentamiento.",
 			},
+
 			{
+				id: "BLO-019-097",
 				tipo: "parrafo",
+
 				texto:
 					"Por ello, una reducción en las denuncias constituye información relevante, pero no basta por sí sola para determinar las condiciones de seguridad de un trayecto. Como vimos anteriormente, la cifra negra limita la capacidad de los registros administrativos para representar todos los delitos; además, existen acontecimientos que afectan la movilidad —bloqueos, confrontaciones, cierres derivados de operativos— que no necesariamente terminarán registrados estadísticamente como robo carretero.",
 			},
+
 			{
+				id: "BLO-019-098",
 				tipo: "parrafo",
+
 				texto:
 					"La evaluación resulta más útil cuando combina varias preguntas: ¿qué tipo de incidentes se han documentado?, ¿en qué tramo ocurrieron?, ¿a quiénes afectaron?, ¿son recurrentes o extraordinarios?, ¿qué actores aparecen relacionados?, ¿existen operaciones de seguridad o confrontaciones activas y qué tan reciente es la información?",
 			},
+
 			{
+				id: "BLO-019-099",
 				tipo: "parrafo",
+
 				texto:
 					"Eso permite abandonar dos conclusiones igualmente problemáticas: asumir que una carretera es segura porque disminuyeron las denuncias, o considerarla permanentemente peligrosa porque allí ocurrió un episodio grave.",
 			},
+
 			{
+				id: "BLO-019-100",
 				tipo: "parrafo",
+
 				texto:
 					"El riesgo carretero es territorial, temporal y específico para el tipo de usuario. Entender esas tres dimensiones permite pasar de una lista de carreteras peligrosas a algo mucho más útil para la población: comprender qué puede ocurrir, dónde se ha documentado y qué condiciones pueden modificar el riesgo antes de iniciar un viaje.",
+			},
+		],
+
+		referencias: [
+			{
+				id: "REF-019-001",
+				autor: "Presidencia de la República / Guardia Nacional",
+				titulo:
+					"Gobierno de México presenta estrategia especial Cero Robos para carreteras México-Puebla, México-Querétaro y Culiacán-Mazatlán",
+				año: 2025,
+				tipo: "Fuente oficial",
+				url: "https://www.gob.mx/presidencia/prensa/gobierno-de-mexico-presenta-estrategia-especial-cero-robos-para-carreteras-mexico-puebla-mexico-queretaro-y-culiacan-mazatlan",
+			},
+			{
+				id: "REF-019-002",
+				autor: "Presidencia de la República / Guardia Nacional",
+				titulo:
+					"Guardia Nacional disminuye 27% el robo en carreteras y en más del 50% en las autopistas México-Querétaro y México-Puebla",
+				año: 2025,
+				tipo: "Fuente oficial",
+				url: "https://www.gob.mx/presidencia/prensa/guardia-nacional-disminuye-27-el-robo-en-carreteras-y-en-mas-del-50-en-las-autopistas-mexico-queretaro-y-mexico-puebla",
+			},
+			{
+				id: "REF-019-003",
+				autor: "Presidencia de la República / Guardia Nacional",
+				titulo:
+					"Conferencia de prensa del 11 de agosto de 2026 — resultados de seguridad carretera",
+				año: 2026,
+				tipo: "Fuente oficial",
+				url: "https://www.gob.mx/presidencia/es/articulos/version-estenografica-conferencia-de-prensa-de-la-presidenta-claudia-sheinbaum-pardo-del-11-de-agosto-de-2026",
+			},
+			{
+				id: "REF-019-004",
+				autor: "INEGI",
+				titulo:
+					"Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública (ENVIPE) 2026",
+				año: 2026,
+				tipo: "Encuesta oficial",
+				url: "https://www.inegi.org.mx/programas/envipe/2026/",
 			},
 		],
 	},
