@@ -976,629 +976,310 @@ export const articulos = [
 		],
 	},
 	{
-		schemaVersion: "1.1",
-
-		metadata: {
-			id: "ART-005",
-
-			slug: "reclutamiento-forzado",
-
-			titulo:
-				"Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes",
-
-			categoria: {
-				principal: "criminalidad",
-
-				label: "Criminalidad",
-			},
-
-			etiquetas: [
-				"narcotráfico",
-
-				"crimen organizado",
-
-				"cárteles",
-
-				"delincuente",
-
-				"sicario",
-
-				"reclutamiento",
-
-				"reclutamiento forzado",
-			],
-
-			fechaPublicacion: "2026-04-27",
-
-			autor: "Perla Mondragón",
-
-			tiempoLectura: 10,
-
-			estado: "publicado",
-		},
-
-		clasificacion: {
-			area: "Delincuencia en México",
-
-			subarea: "Crimen organizado",
-
-			nivel: "Divulgativo",
-
-			region: "México",
-		},
-
-		seo: {
-			metaTitle:
-				"Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes?",
-
-			metaDescription: "Cómo operan los grupos criminales",
-		},
-
-		media: {
-			imagenPrincipal:
-				"https\://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/Observatorio_criminal_7_iofyvz.png",
-
-			banner:
-				"https\://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/BannerArtPage_4_zeuwaq.png",
-
-			altImagen: "Ilustración",
-		},
-
-		resumen:
-			"El reclutamiento criminal no responde a un único método, detrás de las cifras existen historias que duelen",
-
-		contenido: [
-			{
-				id: "BLO-005-001",
-				tipo: "subtitulo",
-
-				variante: "introduccion",
-
-				texto:
-					"En México, hablar de violencia e inseguridad ha dejado de ser una exageración para convertirse en una realidad que, en muchos casos, supera la ficción. ",
-			},
-
-			{
-				id: "BLO-005-002",
-				tipo: "parrafo",
-
-				texto:
-					"Entre estos fenómenos, el reclutamiento forzado por parte del crimen organizado se ha consolidado como uno de los más preocupantes y, al mismo tiempo, menos comprendidos.",
-			},
-
-			{
-				id: "BLO-005-003",
-				tipo: "parrafo",
-
-				texto:
-					"Detrás de las cifras existen historias que duelen: jóvenes que desaparecen tras acudir a una supuesta entrevista de trabajo, niños y adolescentes que son captados a través de videojuegos como Roblox o mediante redes sociales como TikTok, y comunidades enteras donde estas prácticas comienzan a volverse recurrentes. No se trata de casos aislados, sino de un patrón que evidencia la capacidad de adaptación de los grupos criminales y la vulnerabilidad de ciertos sectores de la población.",
-			},
-
-			{
-				id: "BLO-005-004",
-				tipo: "parrafo",
-
-				texto:
-					"Frente a este panorama, resulta inevitable cuestionarnos: ¿cómo funciona realmente el reclutamiento criminal en México?",
-			},
-
-			{
-				id: "BLO-005-005",
-				tipo: "subtitulo",
-
-				texto: "¿Qué es el reclutamiento forzado?",
-			},
-
-			{
-				id: "BLO-005-006",
-				tipo: "parrafo",
-
-				texto:
-					"El reclutamiento criminal no comienza necesariamente cuando una persona recibe un arma o es trasladada a un lugar de adiestramiento. Puede existir un proceso previo de acercamiento, persuasión, engaño, aprovechamiento de vulnerabilidades o coerción que termina incorporando a una persona a actividades de una organización delictiva. Sin embargo, estas circunstancias no son equivalentes y distinguirlas resulta fundamental para comprender el fenómeno.",
-			},
-
-			{
-				id: "BLO-005-007",
-				tipo: "parrafo",
-
-				texto:
-					"En México existe además una dificultad jurídica, durante los últimos años se han presentado distintas iniciativas para incorporar expresamente el reclutamiento forzado al Código Penal Federal. Una iniciativa publicada en el Sistema de Información Legislativa en marzo de 2026 propuso definirlo a partir del reclutamiento, inducción, coacción u obligación de una persona para colaborar con organizaciones delictivas mediante engaño, extorsión, maltrato, chantaje, intimidación o violencia física o psicológica. Otra propuesta, enfocada específicamente en niñas, niños y adolescentes, contempla conductas como captar, persuadir, incorporar, transportar, transferir o albergar a un menor para utilizarlo en actividades de una organización delictiva. Sin embargo, es importante presentarlas como propuestas legislativas y no como una definición penal vigente, considerando que al momento no hay un tipo penal definido.",
-			},
-
-			{
-				id: "BLO-005-008",
-				tipo: "parrafo",
-
-				texto:
-					"El reclutamiento forzado puede entenderse entonces como el proceso mediante el cual una persona es obligada, engañada o presionada a integrarse a una organización criminal, ya sea a través de amenazas, violencia, manipulación o falsas promesas. Sin embargo, reducirlo únicamente al uso de la fuerza sería simplificar un problema que, en muchos casos, se construye a partir de condiciones sociales previas.",
-			},
-
-			{
-				id: "BLO-005-009",
-				tipo: "parrafo",
-
-				texto:
-					"En este sentido, es importante diferenciar tres formas principales de reclutamiento:",
-			},
-
-			{
-				id: "BLO-005-010",
-				tipo: "lista",
-
-				items: [
-					"Reclutamiento forzado directo, donde existe privación de la libertad, amenazas o violencia física.",
-
-					"Reclutamiento inducido, en el que la persona es manipulada mediante engaños, ofertas laborales falsas o promesas económicas.",
-
-					"Reclutamiento normalizado, donde la integración al crimen ocurre en contextos donde la violencia y la ilegalidad forman parte de la vida cotidiana.",
-				],
-			},
-
-			{
-				id: "BLO-005-011",
-				tipo: "parrafo",
-
-				texto:
-					"Esta distinción permite entender que no todas las víctimas llegan al crimen organizado por las mismas vías, pero sí comparten un elemento en común: la vulnerabilidad frente a estructuras que saben identificar, explotar y convertir esas condiciones en oportunidades de captación.",
-			},
-
-			{
-				id: "BLO-005-012",
-				tipo: "subtitulo",
-
-				texto: "¿Dónde se ha documentado el reclutamiento criminal en México?",
-			},
-
-			{
-				id: "BLO-005-013",
-				tipo: "parrafo",
-
-				texto:
-					"La dimensión territorial del reclutamiento criminal sigue siendo difícil de medir. México no cuenta con una estadística nacional que permita conocer cuántas personas son reclutadas en cada entidad y, por esa razón, los datos sobre población vulnerable, desapariciones o adolescentes involucrados en delitos relacionados con la delincuencia organizada no pueden utilizarse como sustitutos de una incidencia que todavía no se registra directamente.",
-			},
-
-			{
-				id: "BLO-005-014",
-				tipo: "parrafo",
-
-				texto:
-					"Sin embargo, durante los últimos años las investigaciones han permitido documentar casos concretos en diferentes estados. Al observarlos en conjunto aparece una característica particularmente relevante. El reclutamiento puede comenzar en una entidad y continuar en otra, de modo que el lugar donde una persona es captada no necesariamente coincide con aquel donde permanece, recibe adiestramiento o es utilizada posteriormente por una organización criminal.",
-			},
-
-			{
-				id: "BLO-005-015",
-				fuentes: ["REF-005-001"],
-				tipo: "parrafo",
-
-				texto:
-					"Jalisco ofrece hasta ahora uno de los conjuntos de evidencia más completos. El Rancho Izaguirre, ubicado en Teuchitlán, dejó de ser únicamente un señalamiento derivado de testimonios cuando las investigaciones federales determinaron que el predio había sido utilizado como sitio de adiestramiento. En marzo de 2026, la FGR informó que allí se realizaban prácticas de tiro, acondicionamiento y ejercicios físicos.",
-			},
-
-			{
-				id: "BLO-005-016",
-				fuentes: ["REF-005-002"],
-				tipo: "parrafo",
-
-				texto:
-					"La investigación había avanzado desde 2025 sobre la estructura encargada de captar personas. El Gabinete de Seguridad informó que José Gregorio “N” encabezaba operaciones de reclutamiento y que el análisis de perfiles en redes sociales permitió identificar páginas utilizadas para incorporar personas a actividades de la delincuencia organizada. Para marzo de ese año se habían dado de baja 39 páginas y habían sido detenidas 49 personas relacionadas con actividades de reclutamiento. ",
-			},
-
-			{
-				id: "BLO-005-017",
-				tipo: "parrafo",
-
-				texto:
-					"El Rancho Izaguirre tampoco aparece como un hecho completamente aislado. En 2026, la FGR vinculó otra investigación con el predio conocido como La Galera, en la localidad de La Vega, también en Jalisco. Un juez federal vinculó a proceso a Fernando “N” por su posible participación en delincuencia organizada con fines de trata de personas, desaparición cometida por particulares y trata con fines de trabajos forzados. La investigación lo relaciona con posibles actividades de reclutamiento, adiestramiento, vigilancia, control y privación ilegal de la libertad. ",
-			},
-
-			{
-				id: "BLO-005-018",
-				tipo: "parrafo",
-
-				texto:
-					"Estos casos permiten hablar de una dinámica documentada en Jalisco sin necesidad de inferirla a partir de desapariciones o indicadores indirectos. También muestran que el fenómeno no necesariamente se limita a un solo predio.",
-			},
-
-			{
-				id: "BLO-005-019",
-				tipo: "parrafo",
-
-				texto:
-					"Otros casos revelan una dinámica interestatal. En julio de 2025 se documentó el caso de un adulto y un menor originarios de Jalisco que acudieron a la Nueva Central de Autobuses de Tlaquepaque después de recibir una falsa oferta laboral. De acuerdo con la información publicada sobre el caso, fueron trasladados mediante engaños a Sinaloa, donde permanecieron cerca de tres meses en un centro de reclutamiento contra su voluntad hasta conseguir escapar. ",
-			},
-
-			{
-				id: "BLO-005-020",
-				tipo: "parrafo",
-
-				texto:
-					"En 2026 apareció evidencia todavía más clara de estos desplazamientos. Autoridades detectaron al menos siete adolescentes reportados como desaparecidos en Jalisco que habrían sido reclutados y capacitados en Zacatecas para posteriormente ser entregados a integrantes de una organización que operaba en Sinaloa. Tres consiguieron regresar a Jalisco y las autoridades tuvieron conocimiento de que otros tres murieron cuando intentaban escapar. La información fue atribuida a la Fiscalía de Jalisco. ",
-			},
-
-			{
-				id: "BLO-005-021",
-				fuentes: ["REF-005-003"],
-				tipo: "parrafo",
-
-				texto:
-					"Otro caso permite incorporar a Guerrero con un grado de evidencia mayor. En agosto de 2026, el Gobierno de Guerrero informó oficialmente de la localización en Zirándaro de dos adolescentes originarios de Tlajomulco de Zúñiga, Jalisco. Ambos tenían reporte de desaparición y las investigaciones establecieron que habrían sido víctimas de reclutamiento forzado. La Guardia Nacional y las fiscalías participaron en su localización y resguardo.",
-			},
-
-			{
-				id: "BLO-005-022",
-				fuentes: ["REF-005-004"],
-				tipo: "parrafo",
-
-				texto:
-					"En Guerrero existe además evidencia académica independiente. Una investigación publicada en 2026 analizó entrevistas realizadas entre 2019 y 2022 a familias desplazadas de ese estado y documentó modalidades de reclutamiento y utilización de menores por organizaciones criminales, así como familias que se desplazaron para proteger a sus hijos. Se trata de evidencia cualitativa y no permite calcular incidencia estatal, pero sí aporta evidencia sobre la existencia del fenómeno y sus consecuencias territoriales.",
-			},
-
-			{
-				id: "BLO-005-023",
-				tipo: "parrafo",
-
-				texto:
-					"En Michoacán también se han documentado patrones de captación de adolescentes. Durante 2026, la Fiscalía estatal informó sobre casos de jóvenes contactados mediante redes sociales que recibían viajes pagados y eran dirigidos hacia municipios de Tierra Caliente. En junio se reportaron tres casos que involucraban a cuatro jóvenes localizados antes de llegar a su destino.",
-			},
-
-			{
-				id: "BLO-005-024",
-				tipo: "parrafo",
-
-				texto:
-					"La propia Fiscalía señaló posteriormente que entre agosto de 2025 y junio de 2026 había judicializado casos de 40 menores por delitos de alto impacto y reconoció la existencia de reclutamiento tanto forzado como no forzado por células criminales. ",
-			},
-
-			{
-				id: "BLO-005-025",
-				tipo: "parrafo",
-
-				texto:
-					"Otro episodio merece atención precisamente porque muestra lo difícil que puede resultar identificar el reclutamiento después de una intervención policial. En julio de 2025, autoridades desmantelaron un campamento en Rincón de Romos, Aguascalientes. Entre las personas detenidas fue identificado un joven que tenía reporte de desaparición después de haber aceptado una supuesta oferta de trabajo en Guadalajara. Las autoridades señalaron entonces que podría haber otros tres casos similares entre los detenidos.",
-			},
-
-			{
-				id: "BLO-005-026",
-				tipo: "parrafo",
-
-				texto:
-					"El rastreo no permite construir un ranking de entidades, pero sí muestra una distribución territorial importante: ",
-			},
-
-			{
-				id: "BLO-005-027",
-				tipo: "parrafo",
-
-				texto:
-					"Jalisco, Sinaloa, Zacatecas, Guerrero, Michoacán y Aguascalientes aparecen en casos con distintos grados de evidencia, pero no desempeñan necesariamente la misma función. Jalisco aparece repetidamente como lugar de captación y adiestramiento; Sinaloa y Zacatecas aparecen en casos de traslado, permanencia o capacitación; Guerrero cuenta tanto con casos recientes identificados oficialmente como con evidencia académica de reclutamiento de menores; Michoacán presenta casos recientes de captación dirigidos hacia Tierra Caliente; y Aguascalientes muestra un posible espacio de concentración o entrenamiento cuya relación individual con reclutamiento todavía requería esclarecimiento.",
-			},
-
-			{
-				id: "BLO-005-028",
-				tipo: "parrafo",
-
-				texto:
-					"Esto hace que la pregunta “¿qué estado tiene más reclutamiento?” resulte, por ahora, imposible de responder responsablemente. Aunque abre una pregunta territorial más interesante: ¿qué papel desempeña cada territorio dentro del proceso?.",
-			},
-
-			{
-				id: "BLO-005-029",
-				tipo: "parrafo",
-
-				texto:
-					"Una persona puede ser contactada en Jalisco, trasladada a Zacatecas, recibir adiestramiento y terminar posteriormente en Sinaloa. Si sólo contabilizáramos el lugar de desaparición, el de localización o el del centro de entrenamiento obtendríamos tres representaciones diferentes del mismo fenómeno.",
-			},
-
-			{
-				id: "BLO-005-030",
-				tipo: "subtitulo",
-
-				texto: "¿Cómo recluta el crimen organizado en México?",
-			},
-
-			{
-				id: "BLO-005-031",
-				tipo: "parrafo",
-
-				texto:
-					"El reclutamiento criminal en México no responde a un único método. Por el contrario, se trata de un proceso dinámico que se adapta al contexto social, tecnológico y económico de las víctimas. Lejos de la idea tradicional del secuestro como única vía, hoy los grupos criminales combinan estrategias que van desde el engaño hasta la manipulación digital.",
-			},
-
-			{
-				id: "BLO-005-032",
-				tipo: "parrafo",
-
-				texto:
-					"La diferencia importa porque permite identificar en qué momento aparece la coerción y qué mecanismos utiliza la organización para obtener o conservar el control sobre una persona.",
-			},
-
-			{
-				id: "BLO-005-033",
-				fuentes: ["REF-005-002"],
-				tipo: "parrafo",
-
-				texto:
-					"Las falsas oportunidades laborales son uno de los mecanismos mejor documentados. En la investigación relacionada con el Rancho Izaguirre, las autoridades identificaron publicaciones en redes sociales que ofrecían supuestos empleos de seguridad con remuneraciones de entre 4,000 y 12,000 pesos semanales. Las personas interesadas eran citadas en terminales de autobuses y posteriormente trasladadas al centro de adiestramiento.",
-			},
-
-			{
-				id: "BLO-005-034",
-				tipo: "parrafo",
-
-				texto:
-					"Otra modalidad creciente es la captación mediante redes sociales y plataformas digitales. Aplicaciones como TikTok, Facebook o incluso espacios de interacción en videojuegos se han convertido en canales donde los reclutadores identifican perfiles vulnerables. A través de la construcción de confianza, promesas de dinero o sentido de pertenencia, logran establecer vínculos que posteriormente facilitan la incorporación al crimen organizado.",
-			},
-
-			{
-				id: "BLO-005-035",
-				tipo: "parrafo",
-
-				texto:
-					"También existe el reclutamiento por entorno social, donde amigos, familiares o conocidos que ya forman parte de estas estructuras funcionan como intermediarios. En comunidades donde la presencia del crimen organizado es constante, esta forma de captación tiende a normalizarse, diluyendo la percepción de riesgo.",
-			},
-
-			{
-				id: "BLO-005-036",
-				tipo: "parrafo",
-
-				texto:
-					"En los casos más extremos, se mantiene el uso de la violencia directa, mediante secuestros, amenazas o desplazamiento forzado. Estas prácticas suelen emplearse cuando los grupos necesitan cubrir funciones específicas o reforzar sus filas en contextos de conflicto.",
-			},
-
-			{
-				id: "BLO-005-037",
-				tipo: "parrafo",
-
-				texto:
-					"Lo que une a todas estas modalidades es su capacidad de adaptación. El crimen organizado no recluta al azar, identifica contextos de vulnerabilidad, detecta necesidades y construye estrategias a medida. Por ello, entender cómo operan estos mecanismos no solo permite dimensionar el problema, sino también visibilizar que detrás de cada caso existe una estructura que actúa de forma sistemática.",
-			},
-
-			{
-				id: "BLO-005-038",
-				fuentes: ["REF-005-001", "REF-005-002"],
-				tipo: "parrafo",
-
-				texto:
-					"Pero la captación es solamente una parte del fenómeno. Una vez producido el contacto pueden aparecer otras formas de control como traslados, aislamiento, incomunicación, amenazas, violencia o adiestramiento. El Rancho Izaguirre resulta particularmente significativo porque permitió observar varias de esas etapas dentro de una misma investigación. La FGR mantiene acreditado el uso del predio para adiestramiento, mientras que otros elementos sobre las condiciones impuestas a las personas proceden de investigaciones y testimonios que deben conservar esa atribución.",
-			},
-
-			{
-				id: "BLO-005-039",
-				tipo: "parrafo",
-
-				texto:
-					"Esta diversidad también explica por qué medir el reclutamiento criminal continúa siendo difícil. Los registros sobre páginas eliminadas, personas detenidas, desapariciones, ofertas falsas o centros de adiestramiento describen dimensiones distintas del problema; ninguno, por sí solo, equivale al número total de personas reclutadas. Por ello, sería metodológicamente incorrecto construir una “tendencia nacional” mezclando estos indicadores.",
-			},
-
-			{
-				id: "BLO-005-040",
-				tipo: "parrafo",
-
-				texto:
-					"Lo que sí permite sostener la evidencia disponible es algo más preciso: las autoridades han documentado mecanismos de captación digital, ofertas laborales engañosas y espacios destinados al adiestramiento criminal. En consecuencia, el análisis del reclutamiento no debería limitarse al momento en que una persona aparece vinculada con una organización, también se debería indagar el cómo llegó hasta allí, qué información tenía, qué posibilidades reales tuvo de negarse o retirarse y qué mecanismos fueron utilizados para mantenerla bajo control.",
-			},
-
-			{
-				id: "BLO-005-041",
-				tipo: "subtitulo",
-
-				texto: "Factores que pueden favorecer la captación",
-			},
-
-			{
-				id: "BLO-005-042",
-				tipo: "parrafo",
-
-				texto:
-					"El reclutamiento criminal no ocurre en un vacío. Las organizaciones encuentran personas con trayectorias, necesidades y entornos diferentes, por lo que no existe un perfil único que permita anticipar quién será reclutado. Sin embargo, distintas condiciones pueden ampliar las oportunidades de acercamiento o ser aprovechadas durante los procesos de captación.",
-			},
-
-			{
-				id: "BLO-005-043",
-				tipo: "parrafo",
-
-				texto:
-					"Las dificultades económicas forman parte de ese contexto. La búsqueda de empleo o de ingresos puede ser utilizada mediante ofertas laborales engañosas, particularmente cuando prometen remuneraciones elevadas, contratación inmediata o requisitos mínimos. Esto no significa que la pobreza conduzca al reclutamiento ni que las personas con menores ingresos tengan una predisposición hacia el crimen. El riesgo aparece cuando una necesidad concreta es identificada y utilizada por terceros como mecanismo de acercamiento.",
-			},
-
-			{
-				id: "BLO-005-044",
-				tipo: "parrafo",
-
-				texto:
-					"Algo similar ocurre con las relaciones personales y comunitarias. Familiares, amistades, conocidos o personas que ya mantienen vínculos con estructuras criminales pueden facilitar contactos y disminuir inicialmente la percepción de riesgo. En territorios donde estas organizaciones mantienen una presencia prolongada, la convivencia cotidiana con determinadas expresiones de violencia también puede modificar la manera en que algunos jóvenes interpretan esos grupos, sin que ello determine necesariamente su incorporación.",
-			},
-
-			{
-				id: "BLO-005-045",
-				tipo: "parrafo",
-
-				texto:
-					"Los entornos digitales han ampliado las posibilidades de contacto. Redes sociales, servicios de mensajería, plataformas de empleo y espacios de interacción en línea permiten establecer conversaciones sin necesidad de proximidad física. Su relevancia no radica en considerar estas plataformas como causantes del reclutamiento, sino en reconocer que pueden ser utilizadas para localizar personas, construir confianza, presentar ofertas engañosas o trasladar posteriormente la comunicación a canales privados.",
-			},
-
-			{
-				id: "BLO-005-046",
-				tipo: "parrafo",
-
-				texto:
-					"La edad también requiere cautela. Ni la juventud ni determinadas condiciones familiares deben tratarse como factores que expliquen automáticamente la incorporación a organizaciones criminales. En niñas, niños y adolescentes existen además condiciones particulares de desarrollo, dependencia y protección jurídica que pueden ser aprovechadas por adultos para ejercer influencia, engaño o coerción.",
-			},
-
-			{
-				id: "BLO-005-047",
-				tipo: "parrafo",
-
-				texto:
-					"Estas condiciones adquieren valor criminológico cuando se observan junto con el mecanismo utilizado en un caso concreto. La pregunta no debería limitarse a qué características tenía una víctima, sino también a qué hizo la organización para aproximarse a ella y de qué manera aprovechó una circunstancia determinada para establecer o mantener el control.",
-			},
-
-			{
-				id: "BLO-005-048",
-				tipo: "subtitulo",
-
-				texto: "¿Por qué niñas, niños y jóvenes requieren especial atención?",
-			},
-
-			{
-				id: "BLO-005-049",
-				tipo: "parrafo",
-
-				texto:
-					"La participación de adolescentes y jóvenes en estructuras criminales plantea un problema que no puede explicarse únicamente a partir de decisiones individuales. La edad puede coincidir con etapas de búsqueda de autonomía, incorporación al mercado laboral, construcción de identidad y ampliación de relaciones sociales, circunstancias que también pueden abrir nuevos espacios de contacto con terceros.",
-			},
-
-			{
-				id: "BLO-005-050",
-				tipo: "parrafo",
-
-				texto:
-					"En algunos casos documentados, las organizaciones criminales han aprovechado precisamente esos espacios. Las ofertas de empleo, las relaciones personales y los entornos digitales permiten iniciar acercamientos que no necesariamente revelan desde el principio una finalidad delictiva. Cuando se trata de menores de edad, además, el análisis debe considerar las obligaciones especiales de protección y evitar interpretar automáticamente su participación posterior como prueba de que existió una incorporación plenamente voluntaria.",
-			},
-
-			{
-				id: "BLO-005-051",
-				tipo: "parrafo",
-
-				texto:
-					"La búsqueda de ingresos, reconocimiento o pertenencia puede aparecer en algunas trayectorias, pero ninguna de estas circunstancias constituye por sí sola una explicación del reclutamiento. Tampoco existe un perfil que permita asumir que una persona será captada por vivir en condiciones de pobreza, crecer en un entorno violento o consumir contenidos relacionados con la narcocultura.",
-			},
-
-			{
-				id: "BLO-005-052",
-				tipo: "parrafo",
-
-				texto:
-					"Precisamente por ello resulta necesario observar cada caso como un proceso. Importa conocer cómo ocurrió el primer contacto, qué información recibió la persona, si existieron promesas o engaños, si podía retirarse libremente y en qué momento aparecieron amenazas, aislamiento, traslado o violencia.",
-			},
-
-			{
-				id: "BLO-005-053",
-				tipo: "parrafo",
-
-				texto:
-					"Así evitamos dos extremos. No presentamos a los jóvenes como personas pasivas inevitablemente determinadas por su entorno, pero tampoco atribuimos toda participación criminal a una decisión completamente libre sin investigar las circunstancias que pudieron antecederla.",
-			},
-
-			{
-				id: "BLO-005-054",
-				tipo: "subtitulo",
-
-				texto: "Consecuencias reales del reclutamiento criminal",
-			},
-
-			{
-				id: "BLO-005-055",
-				tipo: "parrafo",
-
-				texto:
-					"Hablar del reclutamiento criminal sin abordar sus consecuencias sería perpetuar una visión incompleta del fenómeno. Lejos de las narrativas que lo presentan como una vía rápida hacia el dinero o el poder, la realidad es considerablemente más cruda.",
-			},
-
-			{
-				id: "BLO-005-056",
-				tipo: "parrafo",
-
-				texto:
-					"Una vez que una persona ha sido incorporada a una estructura criminal, abandonar el grupo puede representar nuevos riesgos. Los casos en los que se han documentado amenazas, retención, castigos o violencia contra quienes intentan escapar muestran que la coerción no necesariamente termina después del reclutamiento. En determinadas circunstancias puede convertirse en un mecanismo para mantener a la persona dentro de la organización.",
-			},
-
-			{
-				id: "BLO-005-057",
-				tipo: "parrafo",
-
-				texto:
-					"Quienes son utilizados en actividades de vigilancia, traslado, venta de drogas o acciones violentas también pueden quedar expuestos a confrontaciones con grupos rivales, operativos de las autoridades y violencia dentro de la propia estructura. Las consecuencias pueden extenderse a sus familias mediante desaparición, desplazamiento, amenazas, estigmatización o ruptura de sus redes de apoyo.",
-			},
-
-			{
-				id: "BLO-005-058",
-				tipo: "parrafo",
-
-				texto:
-					"Esta dimensión permite entender el reclutamiento como un proceso que puede continuar después de la captación. El análisis no termina al identificar cómo ingresó una persona, sino que debe considerar las condiciones bajo las cuales permanece y las posibilidades reales que tiene de abandonar la organización.",
-			},
-
-			{
-				id: "BLO-005-059",
-				tipo: "subtitulo",
-
-				texto: "¿Se puede prevenir el reclutamiento criminal?",
-			},
-
-			{
-				id: "BLO-005-060",
-				tipo: "parrafo",
-
-				texto:
-					"La prevención requiere actuar sobre diferentes momentos del proceso. Las políticas educativas, laborales y comunitarias pueden ampliar alternativas y fortalecer redes de apoyo, mientras que las acciones de seguridad y procuración de justicia deben concentrarse en identificar los mecanismos concretos utilizados para captar, trasladar, retener o utilizar personas.",
-			},
-
-			{
-				id: "BLO-005-061",
-				tipo: "parrafo",
-
-				texto:
-					"La prevención digital adquiere especial relevancia cuando existen ofertas laborales engañosas o contactos iniciados mediante plataformas en línea. Reconocer señales de alerta, verificar empleadores y puntos de encuentro, informar a familiares sobre traslados y contar con mecanismos accesibles de denuncia puede reducir determinadas formas de exposición, aunque ninguna medida individual elimina por completo el riesgo.",
-			},
-
-			{
-				id: "BLO-005-062",
-				tipo: "parrafo",
-
-				texto:
-					"La respuesta tampoco puede descansar exclusivamente en las potenciales víctimas. Investigar las redes responsables de la captación, identificar los sitios utilizados para concentración o adiestramiento y reconocer cuándo una persona pudo haber sido sometida mediante engaño o coerción son componentes necesarios para evitar que el fenómeno sea tratado únicamente como un problema de decisiones individuales.",
-			},
-		],
-
-		referencias: [
-			{
-				id: "REF-005-001",
-				autor: "Fiscalía General de la República",
-				titulo:
-					"Comunicado FGR 122/26 — avances en la investigación del Rancho Izaguirre",
-				año: 2026,
-				tipo: "Fuente oficial",
-				url: "https://renadet.fgr.org.mx/es/FGR/Prensa/_rid/61/_mod/story?f=11&ord=desc&p=57&suri=http%3A%2F%2Fwww.FGR.swb%23fgr_Boletin%3A24480",
-			},
-			{
-				id: "REF-005-002",
-				autor: "Gabinete de Seguridad",
-				titulo:
-					"La detención de José Gregorio “N” representa un avance significativo en el esclarecimiento de los hechos en Teuchitlán, Jalisco",
-				año: 2025,
-				tipo: "Fuente oficial",
-				url: "https://gabinetedeseguridad.gob.mx/contenido/4668/la-detencion-de-jose-gregorio-n-representa-un-avance-significativo-en-el-esclarecimiento-de-los-hechos-en-teuchitlan-jalisco-ogh",
-			},
-			{
-				id: "REF-005-003",
-				autor: "Gobierno del Estado de Guerrero",
-				titulo:
-					"Coordinación de autoridades de Guerrero permite localizar con vida a dos adolescentes en Zirándaro",
-				año: 2026,
-				tipo: "Fuente oficial",
-				url: "https://www.guerrero.gob.mx/2026/08/177875/",
-			},
-			{
-				id: "REF-005-004",
-				autor:
-					"Niño Vega, Nohora; García-Figueroa, Gabriela; Torres, Rebecca Maria; Herrera Martínez, Edith",
-				titulo:
-					"Huir para protegerse: el reclutamiento forzado y el desplazamiento desde Guerrero, México",
-				año: 2026,
-				tipo: "Artículo académico",
-				url: "https://www.scielo.org.mx/scielo.php?lng=es&nrm=iso&pid=S1665-89062026000100111&script=sci_arttext_plus&tlng=es",
-			},
-		],
-
-		notas: [
-			{
-				id: 5,
-
-				texto: "En México no existe un protocolo único nacional.",
-			},
-		],
-	},
+  metadata: {
+    id: "art-005",
+    slug: "reclutamiento-forzado",
+    titulo: "Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes",
+    categoria: {
+      principal: "criminalidad",
+      label: "Criminalidad",
+    },
+    etiquetas: [
+      "narcotráfico",
+      "crimen organizado",
+      "cárteles",
+      "delincuente",
+      "sicario",
+      "reclutamiento",
+      "reclutamiento forzado",
+    ],
+    fechaPublicacion: "2026-04-27",
+    autor: "Perla Mondragón",
+    tiempoLectura: 10,
+    estado: "publicado",
+  },
+  clasificacion: {
+    area: "Delincuencia en México",
+    subarea: "Crimen organizado",
+    nivel: "Divulgativo",
+    region: "México",
+  },
+  seo: {
+    metaTitle: "Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes?",
+    metaDescription: "Cómo operan los grupos criminales",
+  },
+  media: {
+    imagenPrincipal: "https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/Observatorio_criminal_7_iofyvz.png",
+    banner: "https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/BannerArtPage_4_zeuwaq.png",
+    altImagen: "Ilustración",
+  },
+  resumen: "El reclutamiento criminal no responde a un único método, detrás de las cifras existen historias que duelen",
+  contenido: [
+    {
+      tipo: "subtitulo",
+      variante: "introduccion",
+      texto: "En México, hablar de violencia e inseguridad ha dejado de ser una exageración para convertirse en una realidad que, en muchos casos, supera la ficción. ",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Entre estos fenómenos, el reclutamiento forzado por parte del crimen organizado se ha consolidado como uno de los más preocupantes y, al mismo tiempo, menos comprendidos.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Detrás de las cifras existen historias que duelen: jóvenes que desaparecen tras acudir a una supuesta entrevista de trabajo, niñas, niños y adolescentes captados mediante falsas ofertas laborales, redes sociales y otros espacios digitales, y familias que descubren el riesgo cuando ya se ha producido un traslado o una desaparición. Los casos documentados muestran que el reclutamiento puede adoptar mecanismos distintos y que las organizaciones criminales adaptan sus formas de acercamiento y control a diferentes contextos.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Frente a este panorama, resulta inevitable cuestionarnos: ¿cómo funciona realmente el reclutamiento criminal en México?",
+    },
+    {
+      tipo: "subtitulo",
+      texto: "¿Qué es el reclutamiento forzado?",
+    },
+    {
+      tipo: "parrafo",
+      texto: "El reclutamiento criminal no comienza necesariamente cuando una persona recibe un arma o es trasladada a un lugar de adiestramiento. Puede existir un proceso previo de acercamiento, persuasión, engaño, aprovechamiento de vulnerabilidades o coerción que termina incorporando a una persona a actividades de una organización delictiva. Sin embargo, estas circunstancias no son equivalentes y distinguirlas resulta fundamental para comprender el fenómeno.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "En México, el tratamiento jurídico del reclutamiento criminal continúa en construcción. Durante 2025 y 2026 se presentaron distintas iniciativas para reconocer de manera expresa estas conductas en el Código Penal Federal. En marzo de 2026, la Cámara de Diputados aprobó una reforma al artículo 201 para tipificar con penas específicas el reclutamiento de menores para actividades relacionadas con la delincuencia organizada; la minuta fue turnada al Senado y, de acuerdo con el Sistema de Información Legislativa, permanece pendiente en comisiones de la cámara revisora. Paralelamente, otras propuestas legislativas han planteado crear figuras específicas de reclutamiento forzado. Por ello, estas iniciativas y reformas en trámite deben distinguirse del marco penal vigente y no presentarse como si existiera ya un tipo penal autónomo y general de reclutamiento forzado aplicable a todos estos supuestos.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "El reclutamiento forzado puede entenderse entonces como el proceso mediante el cual una persona es obligada, engañada o presionada a integrarse a una organización criminal, ya sea a través de amenazas, violencia, manipulación o falsas promesas. Sin embargo, reducirlo únicamente al uso de la fuerza sería simplificar un problema que, en muchos casos, se construye a partir de condiciones sociales previas.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Los casos documentados muestran que no existe una sola vía de incorporación. Para comprenderlas resulta más útil distinguir el mecanismo utilizado para aproximarse o ejercer control sobre una persona del canal empleado para contactarla y de las condiciones sociales que pueden ser aprovechadas durante el proceso.",
+    },
+    {
+      tipo: "lista",
+      items: [
+        "Captación mediante engaño, cuando el acercamiento oculta su finalidad real mediante falsas ofertas laborales, promesas económicas u otras propuestas que inducen a la persona a establecer contacto o trasladarse.",
+        "Coacción directa, cuando aparecen amenazas, violencia, privación de la libertad u otras formas de sometimiento utilizadas para obligar a una persona a incorporarse, permanecer o realizar determinadas actividades.",
+        "Captación mediante relaciones de confianza o proximidad, cuando familiares, amistades, conocidos u otras personas cercanas funcionan como intermediarios para establecer el contacto o reducir inicialmente la percepción de riesgo.",
+      ],
+    },
+    {
+      tipo: "parrafo",
+      texto: "Estas formas pueden combinarse dentro de un mismo caso y no constituyen necesariamente categorías excluyentes. Una persona puede ser contactada mediante alguien conocido, aceptar posteriormente una oferta engañosa y enfrentar coerción después del traslado. Las redes sociales, plataformas digitales o servicios de mensajería funcionan en estos casos como canales de contacto y comunicación, mientras que las condiciones económicas, familiares o comunitarias pueden formar parte del contexto de vulnerabilidad. Ninguno de estos elementos debe confundirse por sí mismo con el mecanismo de reclutamiento.",
+    },
+    {
+      tipo: "subtitulo",
+      texto: "¿Dónde se ha documentado el reclutamiento criminal en México?",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La dimensión territorial del reclutamiento criminal sigue siendo difícil de medir. México no cuenta con una estadística nacional que permita conocer cuántas personas son reclutadas en cada entidad y, por esa razón, los datos sobre población vulnerable, desapariciones o adolescentes involucrados en delitos relacionados con la delincuencia organizada no pueden utilizarse como sustitutos de una incidencia que todavía no se registra directamente.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Sin embargo, durante los últimos años las investigaciones han permitido documentar casos concretos en diferentes estados. Al observarlos en conjunto aparece una característica particularmente relevante. El reclutamiento puede comenzar en una entidad y continuar en otra, de modo que el lugar donde una persona es captada no necesariamente coincide con aquel donde permanece, recibe adiestramiento o es utilizada posteriormente por una organización criminal.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Jalisco ofrece hasta ahora uno de los conjuntos de evidencia más completos. El Rancho Izaguirre, ubicado en Teuchitlán, dejó de ser únicamente un señalamiento derivado de testimonios cuando las investigaciones federales determinaron que el predio había sido utilizado como sitio de adiestramiento. En marzo de 2026, la FGR informó que allí se realizaban prácticas de tiro, acondicionamiento y ejercicios físicos.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La investigación había avanzado desde 2025 sobre la estructura encargada de captar personas. El Gabinete de Seguridad informó que José Gregorio “N” encabezaba operaciones de reclutamiento y que el análisis de perfiles en redes sociales permitió identificar páginas utilizadas para incorporar personas a actividades de la delincuencia organizada. Para marzo de ese año se habían dado de baja 39 páginas y habían sido detenidas 49 personas relacionadas con actividades de reclutamiento. ",
+    },
+    {
+      tipo: "parrafo",
+      texto: "El Rancho Izaguirre tampoco aparece como un hecho completamente aislado. En 2026, la FGR vinculó otra investigación con el predio conocido como La Galera, en la localidad de La Vega, también en Jalisco. Un juez federal vinculó a proceso a Fernando “N” por su posible participación en delincuencia organizada con fines de trata de personas, desaparición cometida por particulares y trata con fines de trabajos forzados. La investigación lo relaciona con posibles actividades de reclutamiento, adiestramiento, vigilancia, control y privación ilegal de la libertad. ",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Estos casos permiten hablar de una dinámica documentada en Jalisco sin necesidad de inferirla a partir de desapariciones o indicadores indirectos. También muestran que el fenómeno no necesariamente se limita a un solo predio.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Otros casos revelan una dinámica interestatal. En julio de 2025, N+ documentó el caso de un adulto y un menor originarios de Jalisco que acudieron a la Nueva Central de Autobuses de Tlaquepaque después de recibir una falsa oferta laboral. De acuerdo con la información publicada, fueron trasladados mediante engaños a Sinaloa, donde permanecieron cerca de tres meses contra su voluntad en un centro de reclutamiento hasta conseguir escapar. El caso permite identificar una posible secuencia de engaño, traslado y retención, aunque su incorporación al análisis debe conservar la atribución a la fuente mientras no se disponga de documentación primaria equivalente.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Otros casos permiten reconstruir con mayor detalle la movilidad asociada al reclutamiento. En enero de 2026 se informó de tres adolescentes originarios de Jalisco que habían desaparecido en momentos distintos. Según información atribuida a la Fiscalía estatal, uno fue contactado mediante una supuesta oferta laboral difundida en redes sociales y otros dos fueron convencidos por un conocido. Tras salir de Jalisco, permanecieron algunos días en Zacatecas y posteriormente fueron trasladados a Sinaloa, donde fueron obligados a permanecer en un centro de entrenamiento criminal hasta que consiguieron escapar.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Otro caso permite incorporar a Guerrero con un grado de evidencia mayor. En agosto de 2026, el Gobierno de Guerrero informó oficialmente de la localización en Zirándaro de dos adolescentes originarios de Tlajomulco de Zúñiga, Jalisco. Ambos tenían reporte de desaparición y las investigaciones establecieron que habrían sido víctimas de reclutamiento forzado. La Guardia Nacional y las fiscalías participaron en su localización y resguardo.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "En Guerrero existe además evidencia académica independiente. Una investigación publicada en 2026 analizó entrevistas realizadas entre 2019 y 2022 a familias desplazadas de ese estado y documentó modalidades de reclutamiento y utilización de menores por organizaciones criminales, así como familias que se desplazaron para proteger a sus hijos. Se trata de evidencia cualitativa y no permite calcular incidencia estatal, pero sí aporta evidencia sobre la existencia del fenómeno y sus consecuencias territoriales.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Un caso documentado en septiembre de 2026 permite observar con mayor claridad cómo una oferta aparentemente legítima puede convertirse posteriormente en un mecanismo de sometimiento. La Fiscalía General del Estado de Oaxaca informó del rescate en Jalisco de un adolescente originario de Santa María Atzompa que había buscado empleo mediante TikTok. De acuerdo con la investigación, fue contactado con una oferta para trabajar como guardia de seguridad por 4,000 pesos semanales y aceptó trasladarse a Jalisco. Al llegar a Guadalajara fue llevado a Puerto Vallarta, donde permaneció privado de la libertad, fue obligado a realizar trabajos para un grupo de delincuencia organizada y sufrió maltrato físico. El caso muestra que aceptar una oferta laboral o un traslado no equivale a consentir la incorporación a una organización criminal y permite distinguir entre el canal de contacto, el engaño inicial, el traslado y los mecanismos posteriores de control.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "En Michoacán también se han documentado patrones de captación de adolescentes. Durante 2026, la Fiscalía estatal informó sobre casos de jóvenes contactados mediante redes sociales que recibían viajes pagados y eran dirigidos hacia municipios de Tierra Caliente. En junio se reportaron tres casos que involucraban a cuatro jóvenes localizados antes de llegar a su destino.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La propia Fiscalía señaló posteriormente que entre agosto de 2025 y junio de 2026 había judicializado casos de 40 menores por delitos de alto impacto y reconoció la existencia de reclutamiento tanto forzado como no forzado por células criminales. ",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Otro episodio merece atención precisamente porque muestra lo difícil que puede resultar identificar el reclutamiento después de una intervención policial. En julio de 2025, autoridades desmantelaron un campamento en Rincón de Romos, Aguascalientes. Entre las personas detenidas fue identificado un joven que tenía reporte de desaparición después de haber aceptado una supuesta oferta de trabajo en Guadalajara. Las autoridades señalaron entonces que podría haber otros tres casos similares entre los detenidos.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "El rastreo no permite construir un ranking de entidades, pero sí muestra una distribución territorial importante: ",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Los casos revisados no permiten construir un ranking de entidades ni medir dónde existe mayor reclutamiento. Lo que sí muestran es que diferentes territorios pueden intervenir en distintas etapas del proceso. Un estado puede aparecer como lugar de contacto o desaparición, otro como punto de tránsito y otro como espacio de retención, adiestramiento, utilización o localización. Por ello, contabilizar únicamente el lugar donde una persona desapareció o fue encontrada puede ofrecer una representación incompleta del fenómeno.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Esto hace que la pregunta “¿qué estado tiene más reclutamiento?” resulte, por ahora, imposible de responder responsablemente. Aunque abre una pregunta territorial más interesante: ¿qué papel desempeña cada territorio dentro del proceso?.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Una persona puede ser contactada en Jalisco, trasladada a Zacatecas, recibir adiestramiento y terminar posteriormente en Sinaloa. Si sólo contabilizáramos el lugar de desaparición, el de localización o el del centro de entrenamiento obtendríamos tres representaciones diferentes del mismo fenómeno.",
+    },
+    {
+      tipo: "subtitulo",
+      texto: "¿Cómo recluta el crimen organizado en México?",
+    },
+    {
+      tipo: "parrafo",
+      texto: "El reclutamiento criminal en México no responde a un único método. Por el contrario, se trata de un proceso dinámico que se adapta al contexto social, tecnológico y económico de las víctimas. Lejos de la idea tradicional del secuestro como única vía, hoy los grupos criminales combinan estrategias que van desde el engaño hasta la manipulación digital.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La diferencia importa porque permite identificar en qué momento aparece la coerción y qué mecanismos utiliza la organización para obtener o conservar el control sobre una persona.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Las falsas oportunidades laborales son uno de los mecanismos mejor documentados. En la investigación relacionada con el Rancho Izaguirre, las autoridades identificaron publicaciones en redes sociales que ofrecían supuestos empleos de seguridad con remuneraciones de entre 4,000 y 12,000 pesos semanales. Las personas interesadas eran citadas en terminales de autobuses y posteriormente trasladadas al centro de adiestramiento.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Los entornos digitales también funcionan como canales de contacto. Redes sociales, servicios de mensajería y otros espacios de interacción en línea pueden utilizarse para presentar ofertas engañosas, iniciar conversaciones, construir confianza o trasladar posteriormente la comunicación a canales privados. Su presencia en un caso no convierte a la plataforma en la causa del reclutamiento; lo relevante es identificar qué mecanismo utilizó la organización a través de ella.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "También existe el reclutamiento por entorno social, donde amigos, familiares o conocidos que ya forman parte de estas estructuras funcionan como intermediarios. En comunidades donde la presencia del crimen organizado es constante, esta forma de captación tiende a normalizarse, diluyendo la percepción de riesgo.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "En los casos más extremos, se mantiene el uso de la violencia directa, mediante secuestros, amenazas o desplazamiento forzado. Estas prácticas suelen emplearse cuando los grupos necesitan cubrir funciones específicas o reforzar sus filas en contextos de conflicto.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Lo que une a todas estas modalidades es su capacidad de adaptación. El crimen organizado no recluta al azar, identifica contextos de vulnerabilidad, detecta necesidades y construye estrategias a medida. Por ello, entender cómo operan estos mecanismos no solo permite dimensionar el problema, sino también visibilizar que detrás de cada caso existe una estructura que actúa de forma sistemática.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Pero la captación es solamente una parte del fenómeno. Una vez producido el contacto pueden aparecer otras formas de control como traslados, aislamiento, incomunicación, amenazas, violencia o adiestramiento. El Rancho Izaguirre resulta particularmente significativo porque permitió observar varias de esas etapas dentro de una misma investigación. La FGR mantiene acreditado el uso del predio para adiestramiento, mientras que otros elementos sobre las condiciones impuestas a las personas proceden de investigaciones y testimonios que deben conservar esa atribución.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Esta diversidad también explica por qué medir el reclutamiento criminal continúa siendo difícil. Los registros sobre páginas eliminadas, personas detenidas, desapariciones, ofertas falsas o centros de adiestramiento describen dimensiones distintas del problema; ninguno, por sí solo, equivale al número total de personas reclutadas. Por ello, sería metodológicamente incorrecto construir una “tendencia nacional” mezclando estos indicadores.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Lo que sí permite sostener la evidencia disponible es algo más preciso: las autoridades han documentado mecanismos de captación digital, ofertas laborales engañosas y espacios destinados al adiestramiento criminal. En consecuencia, el análisis del reclutamiento no debería limitarse al momento en que una persona aparece vinculada con una organización, también se debería indagar el cómo llegó hasta allí, qué información tenía, qué posibilidades reales tuvo de negarse o retirarse y qué mecanismos fueron utilizados para mantenerla bajo control.",
+    },
+    {
+      tipo: "subtitulo",
+      texto: "Factores que pueden favorecer la captación",
+    },
+    {
+      tipo: "parrafo",
+      texto: "El reclutamiento criminal no ocurre en un vacío. Las organizaciones encuentran personas con trayectorias, necesidades y entornos diferentes, por lo que no existe un perfil único que permita anticipar quién será reclutado. Sin embargo, distintas condiciones pueden ampliar las oportunidades de acercamiento o ser aprovechadas durante los procesos de captación.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Las dificultades económicas forman parte de ese contexto. La búsqueda de empleo o de ingresos puede ser utilizada mediante ofertas laborales engañosas, particularmente cuando prometen remuneraciones elevadas, contratación inmediata o requisitos mínimos. Esto no significa que la pobreza conduzca al reclutamiento ni que las personas con menores ingresos tengan una predisposición hacia el crimen. El riesgo aparece cuando una necesidad concreta es identificada y utilizada por terceros como mecanismo de acercamiento.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Algo similar ocurre con las relaciones personales y comunitarias. Familiares, amistades, conocidos o personas que ya mantienen vínculos con estructuras criminales pueden facilitar contactos y disminuir inicialmente la percepción de riesgo. En territorios donde estas organizaciones mantienen una presencia prolongada, la convivencia cotidiana con determinadas expresiones de violencia también puede modificar la manera en que algunos jóvenes interpretan esos grupos, sin que ello determine necesariamente su incorporación.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Los entornos digitales han ampliado las posibilidades de contacto. Redes sociales, servicios de mensajería, plataformas de empleo y espacios de interacción en línea permiten establecer conversaciones sin necesidad de proximidad física. Su relevancia no radica en considerar estas plataformas como causantes del reclutamiento, sino en reconocer que pueden ser utilizadas para localizar personas, construir confianza, presentar ofertas engañosas o trasladar posteriormente la comunicación a canales privados.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La edad también requiere cautela. Ni la juventud ni determinadas condiciones familiares deben tratarse como factores que expliquen automáticamente la incorporación a organizaciones criminales. En niñas, niños y adolescentes existen además condiciones particulares de desarrollo, dependencia y protección jurídica que pueden ser aprovechadas por adultos para ejercer influencia, engaño o coerción.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Estas condiciones adquieren valor criminológico cuando se observan junto con el mecanismo utilizado en un caso concreto. La pregunta no debería limitarse a qué características tenía una víctima, sino también a qué hizo la organización para aproximarse a ella y de qué manera aprovechó una circunstancia determinada para establecer o mantener el control.",
+    },
+    {
+      tipo: "subtitulo",
+      texto: "¿Por qué niñas, niños y jóvenes requieren especial atención?",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La participación de adolescentes y jóvenes en estructuras criminales plantea un problema que no puede explicarse únicamente a partir de decisiones individuales. La edad puede coincidir con etapas de búsqueda de autonomía, incorporación al mercado laboral, construcción de identidad y ampliación de relaciones sociales, circunstancias que también pueden abrir nuevos espacios de contacto con terceros.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "En algunos casos documentados, las organizaciones criminales han aprovechado precisamente esos espacios. Las ofertas de empleo, las relaciones personales y los entornos digitales permiten iniciar acercamientos que no necesariamente revelan desde el principio una finalidad delictiva. Cuando se trata de menores de edad, además, el análisis debe considerar las obligaciones especiales de protección y evitar interpretar automáticamente su participación posterior como prueba de que existió una incorporación plenamente voluntaria.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La búsqueda de ingresos, reconocimiento o pertenencia puede aparecer en algunas trayectorias, pero ninguna de estas circunstancias constituye por sí sola una explicación del reclutamiento. Tampoco existe un perfil que permita asumir que una persona será captada por vivir en condiciones de pobreza, crecer en un entorno violento o consumir contenidos relacionados con la narcocultura.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Precisamente por ello resulta necesario observar cada caso como un proceso. Importa conocer cómo ocurrió el primer contacto, qué información recibió la persona, si existieron promesas o engaños, si podía retirarse libremente y en qué momento aparecieron amenazas, aislamiento, traslado o violencia.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Así evitamos dos extremos. No presentamos a los jóvenes como personas pasivas inevitablemente determinadas por su entorno, pero tampoco atribuimos toda participación criminal a una decisión completamente libre sin investigar las circunstancias que pudieron antecederla.",
+    },
+    {
+      tipo: "subtitulo",
+      texto: "Consecuencias reales del reclutamiento criminal",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Hablar del reclutamiento criminal sin abordar sus consecuencias sería perpetuar una visión incompleta del fenómeno. Lejos de las narrativas que lo presentan como una vía rápida hacia el dinero o el poder, la realidad es considerablemente más cruda.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Una vez que una persona ha sido incorporada a una estructura criminal, abandonar el grupo puede representar nuevos riesgos. Los casos en los que se han documentado amenazas, retención, castigos o violencia contra quienes intentan escapar muestran que la coerción no necesariamente termina después del reclutamiento. En determinadas circunstancias puede convertirse en un mecanismo para mantener a la persona dentro de la organización.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Quienes son utilizados en actividades de vigilancia, traslado, venta de drogas o acciones violentas también pueden quedar expuestos a confrontaciones con grupos rivales, operativos de las autoridades y violencia dentro de la propia estructura. Las consecuencias pueden extenderse a sus familias mediante desaparición, desplazamiento, amenazas, estigmatización o ruptura de sus redes de apoyo.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "Esta dimensión permite entender el reclutamiento como un proceso que puede continuar después de la captación. El análisis no termina al identificar cómo ingresó una persona, sino que debe considerar las condiciones bajo las cuales permanece y las posibilidades reales que tiene de abandonar la organización.",
+    },
+    {
+      tipo: "subtitulo",
+      texto: "¿Se puede prevenir el reclutamiento criminal?",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La prevención requiere actuar sobre diferentes momentos del proceso. Las políticas educativas, laborales y comunitarias pueden ampliar alternativas y fortalecer redes de apoyo, mientras que las acciones de seguridad y procuración de justicia deben concentrarse en identificar los mecanismos concretos utilizados para captar, trasladar, retener o utilizar personas.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La prevención digital adquiere especial relevancia cuando existen ofertas laborales engañosas o contactos iniciados mediante plataformas en línea. Reconocer señales de alerta, verificar empleadores y puntos de encuentro, informar a familiares sobre traslados y contar con mecanismos accesibles de denuncia puede reducir determinadas formas de exposición, aunque ninguna medida individual elimina por completo el riesgo.",
+    },
+    {
+      tipo: "parrafo",
+      texto: "La respuesta tampoco puede descansar exclusivamente en las potenciales víctimas. Investigar las redes responsables de la captación, identificar los sitios utilizados para concentración o adiestramiento y reconocer cuándo una persona pudo haber sido sometida mediante engaño o coerción son componentes necesarios para evitar que el fenómeno sea tratado únicamente como un problema de decisiones individuales.",
+    },
+  ],
+  notas: [
+    {
+      id: 5,
+      texto: "En México no existe un protocolo único nacional.",
+    },
+  ],
+},
 	{
 		metadata: {
 			id: "art-006",
