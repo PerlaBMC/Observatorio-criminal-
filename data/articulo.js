@@ -976,310 +976,364 @@ export const articulos = [
 		],
 	},
 	{
-  metadata: {
-    id: "art-005",
-    slug: "reclutamiento-forzado",
-    titulo: "Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes",
-    categoria: {
-      principal: "criminalidad",
-      label: "Criminalidad",
-    },
-    etiquetas: [
-      "narcotráfico",
-      "crimen organizado",
-      "cárteles",
-      "delincuente",
-      "sicario",
-      "reclutamiento",
-      "reclutamiento forzado",
-    ],
-    fechaPublicacion: "2026-04-27",
-    autor: "Perla Mondragón",
-    tiempoLectura: 10,
-    estado: "publicado",
-  },
-  clasificacion: {
-    area: "Delincuencia en México",
-    subarea: "Crimen organizado",
-    nivel: "Divulgativo",
-    region: "México",
-  },
-  seo: {
-    metaTitle: "Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes?",
-    metaDescription: "Cómo operan los grupos criminales",
-  },
-  media: {
-    imagenPrincipal: "https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/Observatorio_criminal_7_iofyvz.png",
-    banner: "https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/BannerArtPage_4_zeuwaq.png",
-    altImagen: "Ilustración",
-  },
-  resumen: "El reclutamiento criminal no responde a un único método, detrás de las cifras existen historias que duelen",
-  contenido: [
-    {
-      tipo: "subtitulo",
-      variante: "introduccion",
-      texto: "En México, hablar de violencia e inseguridad ha dejado de ser una exageración para convertirse en una realidad que, en muchos casos, supera la ficción. ",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Entre estos fenómenos, el reclutamiento forzado por parte del crimen organizado se ha consolidado como uno de los más preocupantes y, al mismo tiempo, menos comprendidos.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Detrás de las cifras existen historias que duelen: jóvenes que desaparecen tras acudir a una supuesta entrevista de trabajo, niñas, niños y adolescentes captados mediante falsas ofertas laborales, redes sociales y otros espacios digitales, y familias que descubren el riesgo cuando ya se ha producido un traslado o una desaparición. Los casos documentados muestran que el reclutamiento puede adoptar mecanismos distintos y que las organizaciones criminales adaptan sus formas de acercamiento y control a diferentes contextos.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Frente a este panorama, resulta inevitable cuestionarnos: ¿cómo funciona realmente el reclutamiento criminal en México?",
-    },
-    {
-      tipo: "subtitulo",
-      texto: "¿Qué es el reclutamiento forzado?",
-    },
-    {
-      tipo: "parrafo",
-      texto: "El reclutamiento criminal no comienza necesariamente cuando una persona recibe un arma o es trasladada a un lugar de adiestramiento. Puede existir un proceso previo de acercamiento, persuasión, engaño, aprovechamiento de vulnerabilidades o coerción que termina incorporando a una persona a actividades de una organización delictiva. Sin embargo, estas circunstancias no son equivalentes y distinguirlas resulta fundamental para comprender el fenómeno.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "En México, el tratamiento jurídico del reclutamiento criminal continúa en construcción. Durante 2025 y 2026 se presentaron distintas iniciativas para reconocer de manera expresa estas conductas en el Código Penal Federal. En marzo de 2026, la Cámara de Diputados aprobó una reforma al artículo 201 para tipificar con penas específicas el reclutamiento de menores para actividades relacionadas con la delincuencia organizada; la minuta fue turnada al Senado y, de acuerdo con el Sistema de Información Legislativa, permanece pendiente en comisiones de la cámara revisora. Paralelamente, otras propuestas legislativas han planteado crear figuras específicas de reclutamiento forzado. Por ello, estas iniciativas y reformas en trámite deben distinguirse del marco penal vigente y no presentarse como si existiera ya un tipo penal autónomo y general de reclutamiento forzado aplicable a todos estos supuestos.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "El reclutamiento forzado puede entenderse entonces como el proceso mediante el cual una persona es obligada, engañada o presionada a integrarse a una organización criminal, ya sea a través de amenazas, violencia, manipulación o falsas promesas. Sin embargo, reducirlo únicamente al uso de la fuerza sería simplificar un problema que, en muchos casos, se construye a partir de condiciones sociales previas.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Los casos documentados muestran que no existe una sola vía de incorporación. Para comprenderlas resulta más útil distinguir el mecanismo utilizado para aproximarse o ejercer control sobre una persona del canal empleado para contactarla y de las condiciones sociales que pueden ser aprovechadas durante el proceso.",
-    },
-    {
-      tipo: "lista",
-      items: [
-        "Captación mediante engaño, cuando el acercamiento oculta su finalidad real mediante falsas ofertas laborales, promesas económicas u otras propuestas que inducen a la persona a establecer contacto o trasladarse.",
-        "Coacción directa, cuando aparecen amenazas, violencia, privación de la libertad u otras formas de sometimiento utilizadas para obligar a una persona a incorporarse, permanecer o realizar determinadas actividades.",
-        "Captación mediante relaciones de confianza o proximidad, cuando familiares, amistades, conocidos u otras personas cercanas funcionan como intermediarios para establecer el contacto o reducir inicialmente la percepción de riesgo.",
-      ],
-    },
-    {
-      tipo: "parrafo",
-      texto: "Estas formas pueden combinarse dentro de un mismo caso y no constituyen necesariamente categorías excluyentes. Una persona puede ser contactada mediante alguien conocido, aceptar posteriormente una oferta engañosa y enfrentar coerción después del traslado. Las redes sociales, plataformas digitales o servicios de mensajería funcionan en estos casos como canales de contacto y comunicación, mientras que las condiciones económicas, familiares o comunitarias pueden formar parte del contexto de vulnerabilidad. Ninguno de estos elementos debe confundirse por sí mismo con el mecanismo de reclutamiento.",
-    },
-    {
-      tipo: "subtitulo",
-      texto: "¿Dónde se ha documentado el reclutamiento criminal en México?",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La dimensión territorial del reclutamiento criminal sigue siendo difícil de medir. México no cuenta con una estadística nacional que permita conocer cuántas personas son reclutadas en cada entidad y, por esa razón, los datos sobre población vulnerable, desapariciones o adolescentes involucrados en delitos relacionados con la delincuencia organizada no pueden utilizarse como sustitutos de una incidencia que todavía no se registra directamente.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Sin embargo, durante los últimos años las investigaciones han permitido documentar casos concretos en diferentes estados. Al observarlos en conjunto aparece una característica particularmente relevante. El reclutamiento puede comenzar en una entidad y continuar en otra, de modo que el lugar donde una persona es captada no necesariamente coincide con aquel donde permanece, recibe adiestramiento o es utilizada posteriormente por una organización criminal.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Jalisco ofrece hasta ahora uno de los conjuntos de evidencia más completos. El Rancho Izaguirre, ubicado en Teuchitlán, dejó de ser únicamente un señalamiento derivado de testimonios cuando las investigaciones federales determinaron que el predio había sido utilizado como sitio de adiestramiento. En marzo de 2026, la FGR informó que allí se realizaban prácticas de tiro, acondicionamiento y ejercicios físicos.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La investigación había avanzado desde 2025 sobre la estructura encargada de captar personas. El Gabinete de Seguridad informó que José Gregorio “N” encabezaba operaciones de reclutamiento y que el análisis de perfiles en redes sociales permitió identificar páginas utilizadas para incorporar personas a actividades de la delincuencia organizada. Para marzo de ese año se habían dado de baja 39 páginas y habían sido detenidas 49 personas relacionadas con actividades de reclutamiento. ",
-    },
-    {
-      tipo: "parrafo",
-      texto: "El Rancho Izaguirre tampoco aparece como un hecho completamente aislado. En 2026, la FGR vinculó otra investigación con el predio conocido como La Galera, en la localidad de La Vega, también en Jalisco. Un juez federal vinculó a proceso a Fernando “N” por su posible participación en delincuencia organizada con fines de trata de personas, desaparición cometida por particulares y trata con fines de trabajos forzados. La investigación lo relaciona con posibles actividades de reclutamiento, adiestramiento, vigilancia, control y privación ilegal de la libertad. ",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Estos casos permiten hablar de una dinámica documentada en Jalisco sin necesidad de inferirla a partir de desapariciones o indicadores indirectos. También muestran que el fenómeno no necesariamente se limita a un solo predio.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Otros casos revelan una dinámica interestatal. En julio de 2025, N+ documentó el caso de un adulto y un menor originarios de Jalisco que acudieron a la Nueva Central de Autobuses de Tlaquepaque después de recibir una falsa oferta laboral. De acuerdo con la información publicada, fueron trasladados mediante engaños a Sinaloa, donde permanecieron cerca de tres meses contra su voluntad en un centro de reclutamiento hasta conseguir escapar. El caso permite identificar una posible secuencia de engaño, traslado y retención, aunque su incorporación al análisis debe conservar la atribución a la fuente mientras no se disponga de documentación primaria equivalente.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Otros casos permiten reconstruir con mayor detalle la movilidad asociada al reclutamiento. En enero de 2026 se informó de tres adolescentes originarios de Jalisco que habían desaparecido en momentos distintos. Según información atribuida a la Fiscalía estatal, uno fue contactado mediante una supuesta oferta laboral difundida en redes sociales y otros dos fueron convencidos por un conocido. Tras salir de Jalisco, permanecieron algunos días en Zacatecas y posteriormente fueron trasladados a Sinaloa, donde fueron obligados a permanecer en un centro de entrenamiento criminal hasta que consiguieron escapar.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Otro caso permite incorporar a Guerrero con un grado de evidencia mayor. En agosto de 2026, el Gobierno de Guerrero informó oficialmente de la localización en Zirándaro de dos adolescentes originarios de Tlajomulco de Zúñiga, Jalisco. Ambos tenían reporte de desaparición y las investigaciones establecieron que habrían sido víctimas de reclutamiento forzado. La Guardia Nacional y las fiscalías participaron en su localización y resguardo.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "En Guerrero existe además evidencia académica independiente. Una investigación publicada en 2026 analizó entrevistas realizadas entre 2019 y 2022 a familias desplazadas de ese estado y documentó modalidades de reclutamiento y utilización de menores por organizaciones criminales, así como familias que se desplazaron para proteger a sus hijos. Se trata de evidencia cualitativa y no permite calcular incidencia estatal, pero sí aporta evidencia sobre la existencia del fenómeno y sus consecuencias territoriales.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Un caso documentado en septiembre de 2026 permite observar con mayor claridad cómo una oferta aparentemente legítima puede convertirse posteriormente en un mecanismo de sometimiento. La Fiscalía General del Estado de Oaxaca informó del rescate en Jalisco de un adolescente originario de Santa María Atzompa que había buscado empleo mediante TikTok. De acuerdo con la investigación, fue contactado con una oferta para trabajar como guardia de seguridad por 4,000 pesos semanales y aceptó trasladarse a Jalisco. Al llegar a Guadalajara fue llevado a Puerto Vallarta, donde permaneció privado de la libertad, fue obligado a realizar trabajos para un grupo de delincuencia organizada y sufrió maltrato físico. El caso muestra que aceptar una oferta laboral o un traslado no equivale a consentir la incorporación a una organización criminal y permite distinguir entre el canal de contacto, el engaño inicial, el traslado y los mecanismos posteriores de control.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "En Michoacán también se han documentado patrones de captación de adolescentes. Durante 2026, la Fiscalía estatal informó sobre casos de jóvenes contactados mediante redes sociales que recibían viajes pagados y eran dirigidos hacia municipios de Tierra Caliente. En junio se reportaron tres casos que involucraban a cuatro jóvenes localizados antes de llegar a su destino.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La propia Fiscalía señaló posteriormente que entre agosto de 2025 y junio de 2026 había judicializado casos de 40 menores por delitos de alto impacto y reconoció la existencia de reclutamiento tanto forzado como no forzado por células criminales. ",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Otro episodio merece atención precisamente porque muestra lo difícil que puede resultar identificar el reclutamiento después de una intervención policial. En julio de 2025, autoridades desmantelaron un campamento en Rincón de Romos, Aguascalientes. Entre las personas detenidas fue identificado un joven que tenía reporte de desaparición después de haber aceptado una supuesta oferta de trabajo en Guadalajara. Las autoridades señalaron entonces que podría haber otros tres casos similares entre los detenidos.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "El rastreo no permite construir un ranking de entidades, pero sí muestra una distribución territorial importante: ",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Los casos revisados no permiten construir un ranking de entidades ni medir dónde existe mayor reclutamiento. Lo que sí muestran es que diferentes territorios pueden intervenir en distintas etapas del proceso. Un estado puede aparecer como lugar de contacto o desaparición, otro como punto de tránsito y otro como espacio de retención, adiestramiento, utilización o localización. Por ello, contabilizar únicamente el lugar donde una persona desapareció o fue encontrada puede ofrecer una representación incompleta del fenómeno.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Esto hace que la pregunta “¿qué estado tiene más reclutamiento?” resulte, por ahora, imposible de responder responsablemente. Aunque abre una pregunta territorial más interesante: ¿qué papel desempeña cada territorio dentro del proceso?.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Una persona puede ser contactada en Jalisco, trasladada a Zacatecas, recibir adiestramiento y terminar posteriormente en Sinaloa. Si sólo contabilizáramos el lugar de desaparición, el de localización o el del centro de entrenamiento obtendríamos tres representaciones diferentes del mismo fenómeno.",
-    },
-    {
-      tipo: "subtitulo",
-      texto: "¿Cómo recluta el crimen organizado en México?",
-    },
-    {
-      tipo: "parrafo",
-      texto: "El reclutamiento criminal en México no responde a un único método. Por el contrario, se trata de un proceso dinámico que se adapta al contexto social, tecnológico y económico de las víctimas. Lejos de la idea tradicional del secuestro como única vía, hoy los grupos criminales combinan estrategias que van desde el engaño hasta la manipulación digital.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La diferencia importa porque permite identificar en qué momento aparece la coerción y qué mecanismos utiliza la organización para obtener o conservar el control sobre una persona.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Las falsas oportunidades laborales son uno de los mecanismos mejor documentados. En la investigación relacionada con el Rancho Izaguirre, las autoridades identificaron publicaciones en redes sociales que ofrecían supuestos empleos de seguridad con remuneraciones de entre 4,000 y 12,000 pesos semanales. Las personas interesadas eran citadas en terminales de autobuses y posteriormente trasladadas al centro de adiestramiento.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Los entornos digitales también funcionan como canales de contacto. Redes sociales, servicios de mensajería y otros espacios de interacción en línea pueden utilizarse para presentar ofertas engañosas, iniciar conversaciones, construir confianza o trasladar posteriormente la comunicación a canales privados. Su presencia en un caso no convierte a la plataforma en la causa del reclutamiento; lo relevante es identificar qué mecanismo utilizó la organización a través de ella.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "También existe el reclutamiento por entorno social, donde amigos, familiares o conocidos que ya forman parte de estas estructuras funcionan como intermediarios. En comunidades donde la presencia del crimen organizado es constante, esta forma de captación tiende a normalizarse, diluyendo la percepción de riesgo.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "En los casos más extremos, se mantiene el uso de la violencia directa, mediante secuestros, amenazas o desplazamiento forzado. Estas prácticas suelen emplearse cuando los grupos necesitan cubrir funciones específicas o reforzar sus filas en contextos de conflicto.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Lo que une a todas estas modalidades es su capacidad de adaptación. El crimen organizado no recluta al azar, identifica contextos de vulnerabilidad, detecta necesidades y construye estrategias a medida. Por ello, entender cómo operan estos mecanismos no solo permite dimensionar el problema, sino también visibilizar que detrás de cada caso existe una estructura que actúa de forma sistemática.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Pero la captación es solamente una parte del fenómeno. Una vez producido el contacto pueden aparecer otras formas de control como traslados, aislamiento, incomunicación, amenazas, violencia o adiestramiento. El Rancho Izaguirre resulta particularmente significativo porque permitió observar varias de esas etapas dentro de una misma investigación. La FGR mantiene acreditado el uso del predio para adiestramiento, mientras que otros elementos sobre las condiciones impuestas a las personas proceden de investigaciones y testimonios que deben conservar esa atribución.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Esta diversidad también explica por qué medir el reclutamiento criminal continúa siendo difícil. Los registros sobre páginas eliminadas, personas detenidas, desapariciones, ofertas falsas o centros de adiestramiento describen dimensiones distintas del problema; ninguno, por sí solo, equivale al número total de personas reclutadas. Por ello, sería metodológicamente incorrecto construir una “tendencia nacional” mezclando estos indicadores.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Lo que sí permite sostener la evidencia disponible es algo más preciso: las autoridades han documentado mecanismos de captación digital, ofertas laborales engañosas y espacios destinados al adiestramiento criminal. En consecuencia, el análisis del reclutamiento no debería limitarse al momento en que una persona aparece vinculada con una organización, también se debería indagar el cómo llegó hasta allí, qué información tenía, qué posibilidades reales tuvo de negarse o retirarse y qué mecanismos fueron utilizados para mantenerla bajo control.",
-    },
-    {
-      tipo: "subtitulo",
-      texto: "Factores que pueden favorecer la captación",
-    },
-    {
-      tipo: "parrafo",
-      texto: "El reclutamiento criminal no ocurre en un vacío. Las organizaciones encuentran personas con trayectorias, necesidades y entornos diferentes, por lo que no existe un perfil único que permita anticipar quién será reclutado. Sin embargo, distintas condiciones pueden ampliar las oportunidades de acercamiento o ser aprovechadas durante los procesos de captación.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Las dificultades económicas forman parte de ese contexto. La búsqueda de empleo o de ingresos puede ser utilizada mediante ofertas laborales engañosas, particularmente cuando prometen remuneraciones elevadas, contratación inmediata o requisitos mínimos. Esto no significa que la pobreza conduzca al reclutamiento ni que las personas con menores ingresos tengan una predisposición hacia el crimen. El riesgo aparece cuando una necesidad concreta es identificada y utilizada por terceros como mecanismo de acercamiento.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Algo similar ocurre con las relaciones personales y comunitarias. Familiares, amistades, conocidos o personas que ya mantienen vínculos con estructuras criminales pueden facilitar contactos y disminuir inicialmente la percepción de riesgo. En territorios donde estas organizaciones mantienen una presencia prolongada, la convivencia cotidiana con determinadas expresiones de violencia también puede modificar la manera en que algunos jóvenes interpretan esos grupos, sin que ello determine necesariamente su incorporación.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Los entornos digitales han ampliado las posibilidades de contacto. Redes sociales, servicios de mensajería, plataformas de empleo y espacios de interacción en línea permiten establecer conversaciones sin necesidad de proximidad física. Su relevancia no radica en considerar estas plataformas como causantes del reclutamiento, sino en reconocer que pueden ser utilizadas para localizar personas, construir confianza, presentar ofertas engañosas o trasladar posteriormente la comunicación a canales privados.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La edad también requiere cautela. Ni la juventud ni determinadas condiciones familiares deben tratarse como factores que expliquen automáticamente la incorporación a organizaciones criminales. En niñas, niños y adolescentes existen además condiciones particulares de desarrollo, dependencia y protección jurídica que pueden ser aprovechadas por adultos para ejercer influencia, engaño o coerción.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Estas condiciones adquieren valor criminológico cuando se observan junto con el mecanismo utilizado en un caso concreto. La pregunta no debería limitarse a qué características tenía una víctima, sino también a qué hizo la organización para aproximarse a ella y de qué manera aprovechó una circunstancia determinada para establecer o mantener el control.",
-    },
-    {
-      tipo: "subtitulo",
-      texto: "¿Por qué niñas, niños y jóvenes requieren especial atención?",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La participación de adolescentes y jóvenes en estructuras criminales plantea un problema que no puede explicarse únicamente a partir de decisiones individuales. La edad puede coincidir con etapas de búsqueda de autonomía, incorporación al mercado laboral, construcción de identidad y ampliación de relaciones sociales, circunstancias que también pueden abrir nuevos espacios de contacto con terceros.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "En algunos casos documentados, las organizaciones criminales han aprovechado precisamente esos espacios. Las ofertas de empleo, las relaciones personales y los entornos digitales permiten iniciar acercamientos que no necesariamente revelan desde el principio una finalidad delictiva. Cuando se trata de menores de edad, además, el análisis debe considerar las obligaciones especiales de protección y evitar interpretar automáticamente su participación posterior como prueba de que existió una incorporación plenamente voluntaria.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La búsqueda de ingresos, reconocimiento o pertenencia puede aparecer en algunas trayectorias, pero ninguna de estas circunstancias constituye por sí sola una explicación del reclutamiento. Tampoco existe un perfil que permita asumir que una persona será captada por vivir en condiciones de pobreza, crecer en un entorno violento o consumir contenidos relacionados con la narcocultura.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Precisamente por ello resulta necesario observar cada caso como un proceso. Importa conocer cómo ocurrió el primer contacto, qué información recibió la persona, si existieron promesas o engaños, si podía retirarse libremente y en qué momento aparecieron amenazas, aislamiento, traslado o violencia.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Así evitamos dos extremos. No presentamos a los jóvenes como personas pasivas inevitablemente determinadas por su entorno, pero tampoco atribuimos toda participación criminal a una decisión completamente libre sin investigar las circunstancias que pudieron antecederla.",
-    },
-    {
-      tipo: "subtitulo",
-      texto: "Consecuencias reales del reclutamiento criminal",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Hablar del reclutamiento criminal sin abordar sus consecuencias sería perpetuar una visión incompleta del fenómeno. Lejos de las narrativas que lo presentan como una vía rápida hacia el dinero o el poder, la realidad es considerablemente más cruda.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Una vez que una persona ha sido incorporada a una estructura criminal, abandonar el grupo puede representar nuevos riesgos. Los casos en los que se han documentado amenazas, retención, castigos o violencia contra quienes intentan escapar muestran que la coerción no necesariamente termina después del reclutamiento. En determinadas circunstancias puede convertirse en un mecanismo para mantener a la persona dentro de la organización.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Quienes son utilizados en actividades de vigilancia, traslado, venta de drogas o acciones violentas también pueden quedar expuestos a confrontaciones con grupos rivales, operativos de las autoridades y violencia dentro de la propia estructura. Las consecuencias pueden extenderse a sus familias mediante desaparición, desplazamiento, amenazas, estigmatización o ruptura de sus redes de apoyo.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "Esta dimensión permite entender el reclutamiento como un proceso que puede continuar después de la captación. El análisis no termina al identificar cómo ingresó una persona, sino que debe considerar las condiciones bajo las cuales permanece y las posibilidades reales que tiene de abandonar la organización.",
-    },
-    {
-      tipo: "subtitulo",
-      texto: "¿Se puede prevenir el reclutamiento criminal?",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La prevención requiere actuar sobre diferentes momentos del proceso. Las políticas educativas, laborales y comunitarias pueden ampliar alternativas y fortalecer redes de apoyo, mientras que las acciones de seguridad y procuración de justicia deben concentrarse en identificar los mecanismos concretos utilizados para captar, trasladar, retener o utilizar personas.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La prevención digital adquiere especial relevancia cuando existen ofertas laborales engañosas o contactos iniciados mediante plataformas en línea. Reconocer señales de alerta, verificar empleadores y puntos de encuentro, informar a familiares sobre traslados y contar con mecanismos accesibles de denuncia puede reducir determinadas formas de exposición, aunque ninguna medida individual elimina por completo el riesgo.",
-    },
-    {
-      tipo: "parrafo",
-      texto: "La respuesta tampoco puede descansar exclusivamente en las potenciales víctimas. Investigar las redes responsables de la captación, identificar los sitios utilizados para concentración o adiestramiento y reconocer cuándo una persona pudo haber sido sometida mediante engaño o coerción son componentes necesarios para evitar que el fenómeno sea tratado únicamente como un problema de decisiones individuales.",
-    },
-  ],
-  notas: [
-    {
-      id: 5,
-      texto: "En México no existe un protocolo único nacional.",
-    },
-  ],
-},
+		metadata: {
+			id: "art-005",
+			slug: "reclutamiento-forzado",
+			titulo:
+				"Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes",
+			categoria: {
+				principal: "criminalidad",
+				label: "Criminalidad",
+			},
+			etiquetas: [
+				"narcotráfico",
+				"crimen organizado",
+				"cárteles",
+				"delincuente",
+				"sicario",
+				"reclutamiento",
+				"reclutamiento forzado",
+			],
+			fechaPublicacion: "2026-04-27",
+			autor: "Perla Mondragón",
+			tiempoLectura: 10,
+			estado: "publicado",
+		},
+		clasificacion: {
+			area: "Delincuencia en México",
+			subarea: "Crimen organizado",
+			nivel: "Divulgativo",
+			region: "México",
+		},
+		seo: {
+			metaTitle:
+				"Reclutamiento forzado en México: cómo operan los grupos criminales y por qué atraen a jóvenes?",
+			metaDescription: "Cómo operan los grupos criminales",
+		},
+		media: {
+			imagenPrincipal:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/Observatorio_criminal_7_iofyvz.png",
+			banner:
+				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1777310184/BannerArtPage_4_zeuwaq.png",
+			altImagen: "Ilustración",
+		},
+		resumen:
+			"El reclutamiento criminal no responde a un único método, detrás de las cifras existen historias que duelen",
+		contenido: [
+			{
+				tipo: "subtitulo",
+				variante: "introduccion",
+				texto:
+					"En México, hablar de violencia e inseguridad ha dejado de ser una exageración para convertirse en una realidad que, en muchos casos, supera la ficción. ",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Entre estos fenómenos, el reclutamiento forzado por parte del crimen organizado se ha consolidado como uno de los más preocupantes y, al mismo tiempo, menos comprendidos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Detrás de las cifras existen historias que duelen: jóvenes que desaparecen tras acudir a una supuesta entrevista de trabajo, niñas, niños y adolescentes captados mediante falsas ofertas laborales, redes sociales y otros espacios digitales, y familias que descubren el riesgo cuando ya se ha producido un traslado o una desaparición. Los casos documentados muestran que el reclutamiento puede adoptar mecanismos distintos y que las organizaciones criminales adaptan sus formas de acercamiento y control a diferentes contextos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Frente a este panorama, resulta inevitable cuestionarnos: ¿cómo funciona realmente el reclutamiento criminal en México?",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Qué es el reclutamiento forzado?",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El reclutamiento criminal no comienza necesariamente cuando una persona recibe un arma o es trasladada a un lugar de adiestramiento. Puede existir un proceso previo de acercamiento, persuasión, engaño, aprovechamiento de vulnerabilidades o coerción que termina incorporando a una persona a actividades de una organización delictiva. Sin embargo, estas circunstancias no son equivalentes y distinguirlas resulta fundamental para comprender el fenómeno.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En México, el tratamiento jurídico del reclutamiento criminal continúa en construcción. Durante 2025 y 2026 se presentaron distintas iniciativas para reconocer de manera expresa estas conductas en el Código Penal Federal. En marzo de 2026, la Cámara de Diputados aprobó una reforma al artículo 201 para tipificar con penas específicas el reclutamiento de menores para actividades relacionadas con la delincuencia organizada; la minuta fue turnada al Senado y, de acuerdo con el Sistema de Información Legislativa, permanece pendiente en comisiones de la cámara revisora. Paralelamente, otras propuestas legislativas han planteado crear figuras específicas de reclutamiento forzado. Por ello, estas iniciativas y reformas en trámite deben distinguirse del marco penal vigente y no presentarse como si existiera ya un tipo penal autónomo y general de reclutamiento forzado aplicable a todos estos supuestos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El reclutamiento forzado puede entenderse entonces como el proceso mediante el cual una persona es obligada, engañada o presionada a integrarse a una organización criminal, ya sea a través de amenazas, violencia, manipulación o falsas promesas. Sin embargo, reducirlo únicamente al uso de la fuerza sería simplificar un problema que, en muchos casos, se construye a partir de condiciones sociales previas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los casos documentados muestran que no existe una sola vía de incorporación. Para comprenderlas resulta más útil distinguir el mecanismo utilizado para aproximarse o ejercer control sobre una persona del canal empleado para contactarla y de las condiciones sociales que pueden ser aprovechadas durante el proceso.",
+			},
+			{
+				tipo: "lista",
+				items: [
+					"Captación mediante engaño, cuando el acercamiento oculta su finalidad real mediante falsas ofertas laborales, promesas económicas u otras propuestas que inducen a la persona a establecer contacto o trasladarse.",
+					"Coacción directa, cuando aparecen amenazas, violencia, privación de la libertad u otras formas de sometimiento utilizadas para obligar a una persona a incorporarse, permanecer o realizar determinadas actividades.",
+					"Captación mediante relaciones de confianza o proximidad, cuando familiares, amistades, conocidos u otras personas cercanas funcionan como intermediarios para establecer el contacto o reducir inicialmente la percepción de riesgo.",
+				],
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Estas formas pueden combinarse dentro de un mismo caso y no constituyen necesariamente categorías excluyentes. Una persona puede ser contactada mediante alguien conocido, aceptar posteriormente una oferta engañosa y enfrentar coerción después del traslado. Las redes sociales, plataformas digitales o servicios de mensajería funcionan en estos casos como canales de contacto y comunicación, mientras que las condiciones económicas, familiares o comunitarias pueden formar parte del contexto de vulnerabilidad. Ninguno de estos elementos debe confundirse por sí mismo con el mecanismo de reclutamiento.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Dónde se ha documentado el reclutamiento criminal en México?",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La dimensión territorial del reclutamiento criminal sigue siendo difícil de medir. México no cuenta con una estadística nacional que permita conocer cuántas personas son reclutadas en cada entidad y, por esa razón, los datos sobre población vulnerable, desapariciones o adolescentes involucrados en delitos relacionados con la delincuencia organizada no pueden utilizarse como sustitutos de una incidencia que todavía no se registra directamente.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Sin embargo, durante los últimos años las investigaciones han permitido documentar casos concretos en diferentes estados. Al observarlos en conjunto aparece una característica particularmente relevante. El reclutamiento puede comenzar en una entidad y continuar en otra, de modo que el lugar donde una persona es captada no necesariamente coincide con aquel donde permanece, recibe adiestramiento o es utilizada posteriormente por una organización criminal.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Jalisco ofrece hasta ahora uno de los conjuntos de evidencia más completos. El Rancho Izaguirre, ubicado en Teuchitlán, dejó de ser únicamente un señalamiento derivado de testimonios cuando las investigaciones federales determinaron que el predio había sido utilizado como sitio de adiestramiento. En marzo de 2026, la FGR informó que allí se realizaban prácticas de tiro, acondicionamiento y ejercicios físicos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La investigación había avanzado desde 2025 sobre la estructura encargada de captar personas. El Gabinete de Seguridad informó que José Gregorio “N” encabezaba operaciones de reclutamiento y que el análisis de perfiles en redes sociales permitió identificar páginas utilizadas para incorporar personas a actividades de la delincuencia organizada. Para marzo de ese año se habían dado de baja 39 páginas y habían sido detenidas 49 personas relacionadas con actividades de reclutamiento. ",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El Rancho Izaguirre tampoco aparece como un hecho completamente aislado. En 2026, la FGR vinculó otra investigación con el predio conocido como La Galera, en la localidad de La Vega, también en Jalisco. Un juez federal vinculó a proceso a Fernando “N” por su posible participación en delincuencia organizada con fines de trata de personas, desaparición cometida por particulares y trata con fines de trabajos forzados. La investigación lo relaciona con posibles actividades de reclutamiento, adiestramiento, vigilancia, control y privación ilegal de la libertad. ",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Estos casos permiten hablar de una dinámica documentada en Jalisco sin necesidad de inferirla a partir de desapariciones o indicadores indirectos. También muestran que el fenómeno no necesariamente se limita a un solo predio.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Otros casos revelan una dinámica interestatal. En julio de 2025, N+ documentó el caso de un adulto y un menor originarios de Jalisco que acudieron a la Nueva Central de Autobuses de Tlaquepaque después de recibir una falsa oferta laboral. De acuerdo con la información publicada, fueron trasladados mediante engaños a Sinaloa, donde permanecieron cerca de tres meses contra su voluntad en un centro de reclutamiento hasta conseguir escapar. El caso permite identificar una posible secuencia de engaño, traslado y retención, aunque su incorporación al análisis debe conservar la atribución a la fuente mientras no se disponga de documentación primaria equivalente.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Otros casos permiten reconstruir con mayor detalle la movilidad asociada al reclutamiento. En enero de 2026 se informó de tres adolescentes originarios de Jalisco que habían desaparecido en momentos distintos. Según información atribuida a la Fiscalía estatal, uno fue contactado mediante una supuesta oferta laboral difundida en redes sociales y otros dos fueron convencidos por un conocido. Tras salir de Jalisco, permanecieron algunos días en Zacatecas y posteriormente fueron trasladados a Sinaloa, donde fueron obligados a permanecer en un centro de entrenamiento criminal hasta que consiguieron escapar.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Otro caso permite incorporar a Guerrero con un grado de evidencia mayor. En agosto de 2026, el Gobierno de Guerrero informó oficialmente de la localización en Zirándaro de dos adolescentes originarios de Tlajomulco de Zúñiga, Jalisco. Ambos tenían reporte de desaparición y las investigaciones establecieron que habrían sido víctimas de reclutamiento forzado. La Guardia Nacional y las fiscalías participaron en su localización y resguardo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En Guerrero existe además evidencia académica independiente. Una investigación publicada en 2026 analizó entrevistas realizadas entre 2019 y 2022 a familias desplazadas de ese estado y documentó modalidades de reclutamiento y utilización de menores por organizaciones criminales, así como familias que se desplazaron para proteger a sus hijos. Se trata de evidencia cualitativa y no permite calcular incidencia estatal, pero sí aporta evidencia sobre la existencia del fenómeno y sus consecuencias territoriales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Un caso documentado en septiembre de 2026 permite observar con mayor claridad cómo una oferta aparentemente legítima puede convertirse posteriormente en un mecanismo de sometimiento. La Fiscalía General del Estado de Oaxaca informó del rescate en Jalisco de un adolescente originario de Santa María Atzompa que había buscado empleo mediante TikTok. De acuerdo con la investigación, fue contactado con una oferta para trabajar como guardia de seguridad por 4,000 pesos semanales y aceptó trasladarse a Jalisco. Al llegar a Guadalajara fue llevado a Puerto Vallarta, donde permaneció privado de la libertad, fue obligado a realizar trabajos para un grupo de delincuencia organizada y sufrió maltrato físico. El caso muestra que aceptar una oferta laboral o un traslado no equivale a consentir la incorporación a una organización criminal y permite distinguir entre el canal de contacto, el engaño inicial, el traslado y los mecanismos posteriores de control.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En Michoacán también se han documentado patrones de captación de adolescentes. Durante 2026, la Fiscalía estatal informó sobre casos de jóvenes contactados mediante redes sociales que recibían viajes pagados y eran dirigidos hacia municipios de Tierra Caliente. En junio se reportaron tres casos que involucraban a cuatro jóvenes localizados antes de llegar a su destino.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La propia Fiscalía señaló posteriormente que entre agosto de 2025 y junio de 2026 había judicializado casos de 40 menores por delitos de alto impacto y reconoció la existencia de reclutamiento tanto forzado como no forzado por células criminales. ",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Otro episodio merece atención precisamente porque muestra lo difícil que puede resultar identificar el reclutamiento después de una intervención policial. En julio de 2025, autoridades desmantelaron un campamento en Rincón de Romos, Aguascalientes. Entre las personas detenidas fue identificado un joven que tenía reporte de desaparición después de haber aceptado una supuesta oferta de trabajo en Guadalajara. Las autoridades señalaron entonces que podría haber otros tres casos similares entre los detenidos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El rastreo no permite construir un ranking de entidades, pero sí muestra una distribución territorial importante: ",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los casos revisados no permiten construir un ranking de entidades ni medir dónde existe mayor reclutamiento. Lo que sí muestran es que diferentes territorios pueden intervenir en distintas etapas del proceso. Un estado puede aparecer como lugar de contacto o desaparición, otro como punto de tránsito y otro como espacio de retención, adiestramiento, utilización o localización. Por ello, contabilizar únicamente el lugar donde una persona desapareció o fue encontrada puede ofrecer una representación incompleta del fenómeno.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esto hace que la pregunta “¿qué estado tiene más reclutamiento?” resulte, por ahora, imposible de responder responsablemente. Aunque abre una pregunta territorial más interesante: ¿qué papel desempeña cada territorio dentro del proceso?.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Una persona puede ser contactada en Jalisco, trasladada a Zacatecas, recibir adiestramiento y terminar posteriormente en Sinaloa. Si sólo contabilizáramos el lugar de desaparición, el de localización o el del centro de entrenamiento obtendríamos tres representaciones diferentes del mismo fenómeno.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Cómo recluta el crimen organizado en México?",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El reclutamiento criminal en México no responde a un único método. Por el contrario, se trata de un proceso dinámico que se adapta al contexto social, tecnológico y económico de las víctimas. Lejos de la idea tradicional del secuestro como única vía, hoy los grupos criminales combinan estrategias que van desde el engaño hasta la manipulación digital.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La diferencia importa porque permite identificar en qué momento aparece la coerción y qué mecanismos utiliza la organización para obtener o conservar el control sobre una persona.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Las falsas oportunidades laborales son uno de los mecanismos mejor documentados. En la investigación relacionada con el Rancho Izaguirre, las autoridades identificaron publicaciones en redes sociales que ofrecían supuestos empleos de seguridad con remuneraciones de entre 4,000 y 12,000 pesos semanales. Las personas interesadas eran citadas en terminales de autobuses y posteriormente trasladadas al centro de adiestramiento.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los entornos digitales también funcionan como canales de contacto. Redes sociales, servicios de mensajería y otros espacios de interacción en línea pueden utilizarse para presentar ofertas engañosas, iniciar conversaciones, construir confianza o trasladar posteriormente la comunicación a canales privados. Su presencia en un caso no convierte a la plataforma en la causa del reclutamiento; lo relevante es identificar qué mecanismo utilizó la organización a través de ella.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"También existe el reclutamiento por entorno social, donde amigos, familiares o conocidos que ya forman parte de estas estructuras funcionan como intermediarios. En comunidades donde la presencia del crimen organizado es constante, esta forma de captación tiende a normalizarse, diluyendo la percepción de riesgo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En los casos más extremos, se mantiene el uso de la violencia directa, mediante secuestros, amenazas o desplazamiento forzado. Estas prácticas suelen emplearse cuando los grupos necesitan cubrir funciones específicas o reforzar sus filas en contextos de conflicto.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Lo que une a todas estas modalidades es su capacidad de adaptación. El crimen organizado no recluta al azar, identifica contextos de vulnerabilidad, detecta necesidades y construye estrategias a medida. Por ello, entender cómo operan estos mecanismos no solo permite dimensionar el problema, sino también visibilizar que detrás de cada caso existe una estructura que actúa de forma sistemática.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Pero la captación es solamente una parte del fenómeno. Una vez producido el contacto pueden aparecer otras formas de control como traslados, aislamiento, incomunicación, amenazas, violencia o adiestramiento. El Rancho Izaguirre resulta particularmente significativo porque permitió observar varias de esas etapas dentro de una misma investigación. La FGR mantiene acreditado el uso del predio para adiestramiento, mientras que otros elementos sobre las condiciones impuestas a las personas proceden de investigaciones y testimonios que deben conservar esa atribución.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esta diversidad también explica por qué medir el reclutamiento criminal continúa siendo difícil. Los registros sobre páginas eliminadas, personas detenidas, desapariciones, ofertas falsas o centros de adiestramiento describen dimensiones distintas del problema; ninguno, por sí solo, equivale al número total de personas reclutadas. Por ello, sería metodológicamente incorrecto construir una “tendencia nacional” mezclando estos indicadores.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Lo que sí permite sostener la evidencia disponible es algo más preciso: las autoridades han documentado mecanismos de captación digital, ofertas laborales engañosas y espacios destinados al adiestramiento criminal. En consecuencia, el análisis del reclutamiento no debería limitarse al momento en que una persona aparece vinculada con una organización, también se debería indagar el cómo llegó hasta allí, qué información tenía, qué posibilidades reales tuvo de negarse o retirarse y qué mecanismos fueron utilizados para mantenerla bajo control.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Factores que pueden favorecer la captación",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El reclutamiento criminal no ocurre en un vacío. Las organizaciones encuentran personas con trayectorias, necesidades y entornos diferentes, por lo que no existe un perfil único que permita anticipar quién será reclutado. Sin embargo, distintas condiciones pueden ampliar las oportunidades de acercamiento o ser aprovechadas durante los procesos de captación.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Las dificultades económicas forman parte de ese contexto. La búsqueda de empleo o de ingresos puede ser utilizada mediante ofertas laborales engañosas, particularmente cuando prometen remuneraciones elevadas, contratación inmediata o requisitos mínimos. Esto no significa que la pobreza conduzca al reclutamiento ni que las personas con menores ingresos tengan una predisposición hacia el crimen. El riesgo aparece cuando una necesidad concreta es identificada y utilizada por terceros como mecanismo de acercamiento.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Algo similar ocurre con las relaciones personales y comunitarias. Familiares, amistades, conocidos o personas que ya mantienen vínculos con estructuras criminales pueden facilitar contactos y disminuir inicialmente la percepción de riesgo. En territorios donde estas organizaciones mantienen una presencia prolongada, la convivencia cotidiana con determinadas expresiones de violencia también puede modificar la manera en que algunos jóvenes interpretan esos grupos, sin que ello determine necesariamente su incorporación.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los entornos digitales han ampliado las posibilidades de contacto. Redes sociales, servicios de mensajería, plataformas de empleo y espacios de interacción en línea permiten establecer conversaciones sin necesidad de proximidad física. Su relevancia no radica en considerar estas plataformas como causantes del reclutamiento, sino en reconocer que pueden ser utilizadas para localizar personas, construir confianza, presentar ofertas engañosas o trasladar posteriormente la comunicación a canales privados.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La edad también requiere cautela. Ni la juventud ni determinadas condiciones familiares deben tratarse como factores que expliquen automáticamente la incorporación a organizaciones criminales. En niñas, niños y adolescentes existen además condiciones particulares de desarrollo, dependencia y protección jurídica que pueden ser aprovechadas por adultos para ejercer influencia, engaño o coerción.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Estas condiciones adquieren valor criminológico cuando se observan junto con el mecanismo utilizado en un caso concreto. La pregunta no debería limitarse a qué características tenía una víctima, sino también a qué hizo la organización para aproximarse a ella y de qué manera aprovechó una circunstancia determinada para establecer o mantener el control.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Por qué niñas, niños y jóvenes requieren especial atención?",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La participación de adolescentes y jóvenes en estructuras criminales plantea un problema que no puede explicarse únicamente a partir de decisiones individuales. La edad puede coincidir con etapas de búsqueda de autonomía, incorporación al mercado laboral, construcción de identidad y ampliación de relaciones sociales, circunstancias que también pueden abrir nuevos espacios de contacto con terceros.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En algunos casos documentados, las organizaciones criminales han aprovechado precisamente esos espacios. Las ofertas de empleo, las relaciones personales y los entornos digitales permiten iniciar acercamientos que no necesariamente revelan desde el principio una finalidad delictiva. Cuando se trata de menores de edad, además, el análisis debe considerar las obligaciones especiales de protección y evitar interpretar automáticamente su participación posterior como prueba de que existió una incorporación plenamente voluntaria.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La búsqueda de ingresos, reconocimiento o pertenencia puede aparecer en algunas trayectorias, pero ninguna de estas circunstancias constituye por sí sola una explicación del reclutamiento. Tampoco existe un perfil que permita asumir que una persona será captada por vivir en condiciones de pobreza, crecer en un entorno violento o consumir contenidos relacionados con la narcocultura.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Precisamente por ello resulta necesario observar cada caso como un proceso. Importa conocer cómo ocurrió el primer contacto, qué información recibió la persona, si existieron promesas o engaños, si podía retirarse libremente y en qué momento aparecieron amenazas, aislamiento, traslado o violencia.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Así evitamos dos extremos. No presentamos a los jóvenes como personas pasivas inevitablemente determinadas por su entorno, pero tampoco atribuimos toda participación criminal a una decisión completamente libre sin investigar las circunstancias que pudieron antecederla.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Consecuencias reales del reclutamiento criminal",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Hablar del reclutamiento criminal sin abordar sus consecuencias sería perpetuar una visión incompleta del fenómeno. Lejos de las narrativas que lo presentan como una vía rápida hacia el dinero o el poder, la realidad es considerablemente más cruda.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Una vez que una persona ha sido incorporada a una estructura criminal, abandonar el grupo puede representar nuevos riesgos. Los casos en los que se han documentado amenazas, retención, castigos o violencia contra quienes intentan escapar muestran que la coerción no necesariamente termina después del reclutamiento. En determinadas circunstancias puede convertirse en un mecanismo para mantener a la persona dentro de la organización.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Quienes son utilizados en actividades de vigilancia, traslado, venta de drogas o acciones violentas también pueden quedar expuestos a confrontaciones con grupos rivales, operativos de las autoridades y violencia dentro de la propia estructura. Las consecuencias pueden extenderse a sus familias mediante desaparición, desplazamiento, amenazas, estigmatización o ruptura de sus redes de apoyo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esta dimensión permite entender el reclutamiento como un proceso que puede continuar después de la captación. El análisis no termina al identificar cómo ingresó una persona, sino que debe considerar las condiciones bajo las cuales permanece y las posibilidades reales que tiene de abandonar la organización.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "¿Se puede prevenir el reclutamiento criminal?",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La prevención requiere actuar sobre diferentes momentos del proceso. Las políticas educativas, laborales y comunitarias pueden ampliar alternativas y fortalecer redes de apoyo, mientras que las acciones de seguridad y procuración de justicia deben concentrarse en identificar los mecanismos concretos utilizados para captar, trasladar, retener o utilizar personas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La prevención digital adquiere especial relevancia cuando existen ofertas laborales engañosas o contactos iniciados mediante plataformas en línea. Reconocer señales de alerta, verificar empleadores y puntos de encuentro, informar a familiares sobre traslados y contar con mecanismos accesibles de denuncia puede reducir determinadas formas de exposición, aunque ninguna medida individual elimina por completo el riesgo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La respuesta tampoco puede descansar exclusivamente en las potenciales víctimas. Investigar las redes responsables de la captación, identificar los sitios utilizados para concentración o adiestramiento y reconocer cuándo una persona pudo haber sido sometida mediante engaño o coerción son componentes necesarios para evitar que el fenómeno sea tratado únicamente como un problema de decisiones individuales.",
+			},
+		],
+	},
 	{
 		metadata: {
 			id: "art-006",
@@ -2764,37 +2818,39 @@ export const articulos = [
 			titulo:
 				"Fragmentación criminal: cuando la caída de un liderazgo empeora el conflicto",
 			categoria: {
-				principal: "crimen-organizado",
-				label: "Crimen organizado",
+				principal: "criminalidad",
+				label: "Criminalidad",
 			},
 			etiquetas: [
-				"victimas",
-				"Carteles mexicanos",
-				"celulas criminales",
-				"fragmentación de grupos criminales",
-				"Mencho",
-				"El Mayo",
-				"El Chapo",
+				"fragmentación criminal",
+				"crimen organizado",
+				"cárteles",
+				"Sinaloa",
+				"Los Chapitos",
+				"La Mayiza",
+				"Cártel del Golfo",
+				"Los Zetas",
+				"CJNG",
+				"Culiacanazo",
+				"disputas territoriales",
 			],
 			fechaPublicacion: "2026-05-13",
-			autor: "Perla Mondragón",
-			tiempoLectura: 12,
-			estado: "publicado",
+			autor: "Observatorio Criminal",
+			tiempoLectura: 25,
+			estado: "revision",
 		},
-
 		clasificacion: {
 			area: "Delincuencia en México",
-			subarea: "Seguridad pública",
-			nivel: "Divulgativo",
+			subarea: "Crimen organizado",
+			nivel: "Analítico",
 			region: "México",
 		},
-
 		seo: {
 			metaTitle:
 				"Fragmentación criminal: cuando la caída de un liderazgo empeora el conflicto",
-			metaDescription: "Qué pasa después de la captura de líderes criminales",
+			metaDescription:
+				"Cómo la pérdida de liderazgos y las rupturas internas transforman organizaciones criminales y afectan la seguridad en México.",
 		},
-
 		media: {
 			imagenPrincipal:
 				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1778718951/Observatorio_criminal_11_iwlgmg.png",
@@ -2802,315 +2858,365 @@ export const articulos = [
 				"https://res.cloudinary.com/dwzbls5ib/image/upload/v1778718951/BannerArtPage_8_nnm5zw.png",
 			altImagen: "Ilustración",
 		},
-
 		resumen:
-			"El vacío de poder se convierte en un factor criminógeno por sí mismo",
-
+			"Análisis histórico y criminológico de la fragmentación de organizaciones criminales, las disputas entre facciones y las reacciones armadas ante operaciones contra sus dirigentes.",
 		contenido: [
 			{
-				tipo: "subtitulo",
-				variante: "introduccion",
+				tipo: "parrafo",
 				texto:
-					"Cada vez que un gobierno anuncia la captura o muerte de un líder criminal, el discurso público suele construirse alrededor de una narrativa de triunfo. ",
+					"La detención de un dirigente criminal suele representar uno de los resultados más visibles de las estrategias de seguridad. La captura de personajes que durante años han encabezado organizaciones dedicadas al narcotráfico, la extorsión y otras actividades ilícitas puede debilitar sus estructuras de mando, interrumpir operaciones y facilitar nuevas investigaciones. Sin embargo, la experiencia mexicana muestra que la desaparición de un liderazgo no siempre produce una reducción inmediata de la violencia. En determinadas circunstancias, puede alterar los acuerdos que mantenían cohesionada a una organización y desencadenar disputas entre quienes buscan apropiarse de sus recursos, mercados y territorios.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Las imágenes de operativos, los comunicados institucionales y la cobertura mediática presentan el hecho como un golpe decisivo contra una organización delictiva. La lógica parece sencilla: si se elimina a la figura que dirige una estructura criminal, dicha estructura inevitablemente se debilitará.",
+					"El problema adquiere especial relevancia cuando las organizaciones criminales han desarrollado estructuras capaces de operar con relativa autonomía. Sus dirigentes pueden conservar influencia sobre distintas células, pero no necesariamente controlan cada actividad que realizan. Los grupos regionales administran rutas, mantienen relaciones con actores locales, disponen de recursos económicos y desarrollan mecanismos propios de reclutamiento y violencia. Cuando desaparece la figura que coordinaba o equilibraba esos intereses, las diferencias que anteriormente podían resolverse mediante acuerdos internos comienzan a expresarse como disputas abiertas.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Sin embargo, la experiencia acumulada en distintos contextos de violencia organizada ha demostrado que la realidad rara vez es tan lineal. En numerosas regiones, la caída de un liderazgo no produce estabilidad inmediata, sino una etapa de incertidumbre caracterizada por reacomodos internos, disputas territoriales y aumento de violencia. Lo que aparenta ser el cierre de un conflicto puede convertirse, en realidad, en el inicio de una fase más fragmentada y difícil de contener.",
+					"La fragmentación criminal describe precisamente ese proceso de pérdida de cohesión y redistribución del poder. No implica necesariamente la desaparición de una organización, sino su transformación en estructuras que pueden competir, establecer nuevas alianzas o conservar vínculos parciales con antiguos integrantes. Sus consecuencias dependen de múltiples factores, entre ellos la fortaleza de los mandos regionales, la existencia de sucesores reconocidos, los intereses económicos en disputa y la capacidad de otras organizaciones para intervenir en los territorios afectados.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Esta contradicción constituye uno de los fenómenos más relevantes dentro de la criminología contemporánea: la fragmentación criminal.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Lejos de representar únicamente una ruptura organizativa, la fragmentación implica la transformación completa de las dinámicas de poder dentro del ecosistema criminal. Cambian las alianzas, se redefinen las jerarquías y emergen nuevos actores cuya prioridad inmediata no es necesariamente consolidar estabilidad, sino sobrevivir, expandirse y demostrar fuerza.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En este escenario, el vacío de poder se convierte en un factor criminógeno por sí mismo.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "Cuando una estructura pierde cohesión",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Las organizaciones criminales suelen analizarse desde el exterior como bloques homogéneos y perfectamente coordinados. Sin embargo, internamente operan mediante equilibrios complejos sostenidos por liderazgos, incentivos económicos, pactos de lealtad y mecanismos de control disciplinario.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Aunque estas estructuras desarrollan actividades ilícitas profundamente lesivas, muchas de ellas requieren cierto grado de estabilidad interna para mantener operaciones sostenidas. El tráfico de mercancías ilegales, las redes financieras clandestinas, la corrupción institucional o el control territorial dependen, en buena medida, de la capacidad de coordinación entre distintos niveles operativos.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Cuando la figura que centraliza autoridad desaparece, ese equilibrio comienza a deteriorarse.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La fragmentación criminal ocurre precisamente en ese punto: cuando la organización pierde cohesión y múltiples actores intentan ocupar espacios de poder antes subordinados a una sola autoridad. Mandos regionales, operadores financieros, jefes armados y células locales empiezan a competir entre sí por recursos, influencia y control territorial.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La disputa no siempre responde a una ideología o a un proyecto común. En muchos casos, se trata simplemente de sobrevivencia criminal.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La ausencia de una autoridad capaz de contener conflictos internos genera un ambiente donde la violencia adquiere un nuevo significado. Ya no sólo se utiliza contra enemigos externos o instituciones del Estado; ahora funciona también como mecanismo de legitimación interna.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Quien demuestra mayor capacidad de intimidación, control armado o generación de ingresos puede posicionarse como nuevo referente de poder.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "El vacío de poder como detonante de violencia",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Uno de los principales errores dentro del debate público sobre seguridad consiste en asumir que la violencia criminal depende exclusivamente de la existencia de grandes estructuras organizadas. La realidad demuestra que, en muchos casos, la fragmentación puede producir escenarios todavía más agresivos.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Cuando un liderazgo desaparece, el territorio previamente controlado entra en disputa. Ninguna facción posee legitimidad absoluta ni control total, por lo que cada grupo intenta consolidarse rápidamente antes de ser desplazado por rivales internos o externos.",
-			},
-			{
-				tipo: "parrafo",
-				texto: "En este contexto, la violencia se acelera.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Los enfrentamientos dejan de responder únicamente a estrategias de largo plazo y comienzan a desarrollarse bajo lógicas inmediatas e impulsivas. La prioridad ya no es administrar estabilidad operativa, sino impedir la pérdida de influencia.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Esto genera múltiples efectos simultáneos: aumento de homicidios, desplazamientos forzados, presión sobre comunidades locales y expansión de delitos de impacto cotidiano.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La población civil suele convertirse en el principal espacio de presión.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Comerciantes, transportistas, pequeños negocios y habitantes de zonas vulnerables quedan atrapados entre facciones que buscan financiarse rápidamente o demostrar capacidad de control territorial. La extorsión y el cobro de piso adquieren entonces un papel central, no sólo como fuente económica, sino como mecanismo simbólico de dominación.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La fragmentación transforma el paisaje de violencia. Lo que antes podía operar mediante estructuras relativamente centralizadas comienza a dispersarse en múltiples focos de conflicto simultáneo.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "La mutación de las economías criminales",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Otro efecto importante de la fragmentación criminal es la transformación de las actividades ilícitas.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Las organizaciones consolidadas suelen desarrollar economías criminales complejas que requieren logística, financiamiento y redes de corrupción relativamente sofisticadas. Sin embargo, cuando una estructura se divide, muchas de sus células pierden acceso a esos recursos.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La consecuencia inmediata es la diversificación forzada hacia delitos más inmediatos y depredatorios.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Las células fragmentadas necesitan mantener ingresos rápidos para financiar armamento, operadores y expansión territorial. Ante la pérdida de capacidad financiera, recurren con mayor frecuencia a actividades que afectan directamente a la población local.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Esto explica por qué algunas regiones experimentan incrementos repentinos en extorsión, secuestro, robo violento o control coercitivo de actividades económicas después de procesos de ruptura interna.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La violencia deja de estar parcialmente concentrada en disputas estratégicas y comienza a infiltrarse en la vida cotidiana.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Desde una perspectiva social, este cambio resulta profundamente significativo. La ciudadanía no percibe únicamente un incremento abstracto de violencia; percibe la expansión tangible de mecanismos de control criminal sobre espacios comunitarios.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La fragmentación no sólo altera el equilibrio entre grupos delictivos. También modifica la relación entre violencia y sociedad.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "El problema de las “victorias” incompletas",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Desde el ámbito institucional, la captura de un liderazgo representa un logro operativo importante. Negar su relevancia sería simplificar el problema en sentido contrario. Sin embargo, el verdadero desafío aparece después del operativo.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La pregunta central no es únicamente si el Estado logró neutralizar a una figura criminal, sino si posee la capacidad suficiente para administrar las consecuencias posteriores.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"En numerosos casos, las instituciones consiguen desarticular parcialmente una estructura sin contar con mecanismos sólidos para estabilizar el territorio afectado. Esto genera vacíos de autoridad que pueden ser aprovechados por nuevas facciones o grupos rivales.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La ausencia de estrategias posteriores permite que el conflicto se reconfigure.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Por ello, diversos especialistas en seguridad han advertido que las acciones enfocadas exclusivamente en “descabezar” organizaciones criminales pueden producir resultados limitados cuando no van acompañadas de inteligencia financiera, fortalecimiento institucional local y recuperación sostenida del tejido social.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La seguridad no depende únicamente de capturas espectaculares. Depende también de la capacidad del Estado para impedir que cada fractura criminal produzca nuevas formas de violencia.",
-			},
-			{
-				tipo: "subtitulo",
-				texto: "Fragmentación y adaptación criminal",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Uno de los aspectos más inquietantes de este fenómeno es la capacidad adaptativa de las organizaciones criminales.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Con frecuencia, el debate público asume que estas estructuras funcionan como sistemas rígidos cuya supervivencia depende exclusivamente de sus líderes visibles. Sin embargo, muchas organizaciones poseen redes flexibles capaces de mutar rápidamente ante escenarios de presión institucional.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"La fragmentación no siempre significa desaparición. En ocasiones representa transformación.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Algunas células se independizan, otras se reorganizan bajo nuevos liderazgos y otras terminan fusionándose con actores externos. El ecosistema criminal se vuelve más disperso, menos predecible y mucho más difícil de contener.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Paradójicamente, la desarticulación parcial puede generar un entorno donde existen más actores violentos compitiendo simultáneamente.",
-			},
-			{
-				tipo: "parrafo",
-				texto:
-					"Este escenario complica tanto la respuesta institucional como la percepción social del conflicto. La ciudadanía deja de enfrentar una estructura identificable y comienza a convivir con múltiples expresiones fragmentadas de violencia que operan bajo dinámicas cambiantes.",
+					"En México, estos procesos forman parte de la historia del crimen organizado desde hace varias décadas. Algunas de las organizaciones que posteriormente dominaron distintas regiones del país se consolidaron a partir de redes criminales anteriores, mientras que otras desarrollaron escisiones que terminaron enfrentándose a sus propias estructuras de origen. La continuidad de estas transformaciones permite comprender por qué la detención de un liderazgo puede representar simultáneamente un avance institucional y el inicio de un nuevo periodo de inestabilidad.",
 			},
 			{
 				tipo: "subtitulo",
 				texto:
-					"México y la fragmentación criminal: lecciones históricas y riesgos contemporáneos",
+					"Del Cártel de Guadalajara a la reorganización del narcotráfico mexicano",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La historia reciente de México ofrece múltiples ejemplos de cómo la desarticulación de estructuras criminales puede derivar en escenarios de violencia más complejos. Lejos de tratarse únicamente de un fenómeno teórico, la fragmentación criminal ha moldeado buena parte de la evolución de la seguridad pública en el país durante las últimas décadas.",
+					"Durante la década de 1980, el Cártel de Guadalajara articuló una red de operadores vinculados con el tráfico de drogas hacia Estados Unidos. Bajo figuras como Miguel Ángel Félix Gallardo, Rafael Caro Quintero y Ernesto Fonseca Carrillo, la organización desarrolló relaciones comerciales, territoriales y de protección que facilitaron su expansión. Aunque frecuentemente se describe como una estructura centralizada, su funcionamiento dependía también de operadores que administraban actividades y corredores específicos.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Uno de los antecedentes más significativos ocurrió tras la desintegración del antiguo Cártel de Guadalajara durante los años ochenta. Aunque su debilitamiento representó un punto de quiebre importante dentro de la estrategia estatal contra el narcotráfico, la caída de aquella estructura no produjo una disminución inmediata de las dinámicas criminales. Por el contrario, abrió paso a una reconfiguración territorial y operativa que transformó profundamente el mapa de la delincuencia organizada en México.",
+					"La detención de Félix Gallardo en 1989 aceleró una reorganización que modificó la distribución del poder entre esos grupos. Los vínculos comerciales y las capacidades operativas construidas durante los años anteriores no desaparecieron con su captura. Por el contrario, distintos actores consolidaron posiciones propias y adquirieron mayor autonomía en territorios estratégicos para el tráfico internacional de drogas.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La fragmentación de esa organización dio origen al fortalecimiento de distintos grupos regionales que comenzaron a disputar rutas, corredores estratégicos y espacios de influencia. La violencia dejó de concentrarse alrededor de una estructura relativamente centralizada y comenzó a dispersarse entre múltiples actores con intereses propios.",
+					"En el noroeste del país, las redes asociadas con Joaquín Guzmán Loera, Héctor Luis Palma Salazar y otros operadores contribuyeron al desarrollo de la organización que posteriormente sería conocida como Cártel de Sinaloa. En Baja California, la familia Arellano Félix consolidó su influencia sobre Tijuana y los cruces fronterizos de la región, mientras que en Chihuahua la Organización Carrillo Fuentes adquirió una posición determinante en el corredor de Ciudad Juárez. Estas estructuras no surgieron de manera idéntica ni como resultado exclusivo de la detención de Félix Gallardo, pero su consolidación estuvo vinculada con la transformación de las redes criminales que anteriormente coexistían en torno a Guadalajara.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Aquella transición marcó el inicio de una etapa donde las organizaciones criminales adquirieron mayor autonomía regional y diversificaron tanto sus métodos operativos como sus fuentes de financiamiento. El fenómeno no sólo modificó las dinámicas del narcotráfico; también alteró la relación entre violencia, territorio y gobernabilidad local.",
+					"La reorganización produjo un cambio significativo. Los operadores que habían compartido intereses dentro de una red más amplia comenzaron a administrar sus propios espacios de influencia y a competir por corredores comerciales que representaban ingresos extraordinarios. La frontera con Estados Unidos adquirió un valor todavía mayor conforme las organizaciones desarrollaron capacidades independientes para transportar, almacenar y distribuir drogas. Los desacuerdos dejaron de ser exclusivamente internos y comenzaron a manifestarse mediante enfrentamientos entre grupos con estructuras de mando diferenciadas.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Con el paso de los años, México experimentó un proceso progresivo de atomización criminal. Las disputas entre organizaciones, sumadas a fracturas internas y estrategias de “descabezamiento”, contribuyeron a la aparición de células más pequeñas, más flexibles y, en muchos casos, más violentas.",
+					"Las rivalidades entre Sinaloa y los Arellano Félix ilustran las consecuencias de esta transformación. Durante los años noventa, las disputas por el control de rutas y mercados contribuyeron a episodios de violencia que involucraron a operadores de ambas organizaciones. La consolidación de grupos independientes no produjo un equilibrio permanente, sino un escenario en el que las alianzas podían modificarse conforme cambiaban las condiciones del negocio criminal y las relaciones entre sus dirigentes.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Esa lógica continúa siendo visible en escenarios contemporáneos.",
+					"Con el paso del tiempo, las organizaciones surgidas o fortalecidas durante aquella reconfiguración también experimentaron nuevas divisiones. Las detenciones, los enfrentamientos internos y la competencia entre generaciones de operadores alteraron sus estructuras. El Cártel de Sinaloa, por ejemplo, logró mantener durante décadas una red de liderazgos con intereses diferenciados, pero esa coexistencia no eliminó las tensiones entre sus principales facciones. La confrontación iniciada en 2024 demuestra hasta qué punto un equilibrio prolongado puede deteriorarse cuando desaparece una de las figuras que contribuían a sostenerlo.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"El Cártel del Golfo y Los Zetas: la ruptura entre antiguos aliados",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Uno de los casos más recientes puede observarse en el contexto de violencia registrado en Sinaloa tras la detención de Ismael 'El Mayo' Zambada. Más allá del impacto operativo de la captura, distintos sectores han advertido que el principal riesgo posterior radica en los procesos de reacomodo interno y disputa entre facciones vinculadas a la estructura sinaloense.",
+					"La trayectoria del Cártel del Golfo permite observar otra manifestación de la fragmentación criminal. A diferencia de las organizaciones vinculadas con la reorganización del Cártel de Guadalajara, el Golfo desarrolló una historia propia en el noreste de México. Su transformación durante las últimas décadas del siglo XX estuvo relacionada con el fortalecimiento de las operaciones de narcotráfico en Tamaulipas y con la expansión de su influencia sobre los corredores fronterizos.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"El problema no se limita a la ausencia de un liderazgo histórico. Lo verdaderamente delicado es la incertidumbre que emerge cuando una organización con amplias redes territoriales pierde uno de sus principales puntos de equilibrio interno.",
+					"Bajo el liderazgo de Osiel Cárdenas Guillén, la organización incorporó a un grupo armado que posteriormente sería conocido como Los Zetas. Integrado inicialmente por antiguos militares y otros operadores especializados en funciones de seguridad y coerción, el grupo adquirió un papel relevante en la protección de dirigentes, la confrontación con organizaciones rivales y el control de actividades criminales. Su capacidad operativa aumentó conforme el Cártel del Golfo extendía su presencia territorial.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En contextos de esta naturaleza, los grupos subordinados comienzan a redefinir alianzas, medir capacidades y disputar espacios de poder. La violencia se intensifica no únicamente como confrontación armada, sino también como mecanismo de presión territorial y demostración de fuerza.",
+					"Sin embargo, la relación entre ambas estructuras comenzó a deteriorarse después de la captura de Cárdenas Guillén en 2003 y de los posteriores cambios en la conducción de la organización. Los Zetas habían desarrollado recursos, mandos y redes territoriales que les permitían actuar con creciente autonomía. La ruptura, que desembocó en una confrontación abierta alrededor de 2010, convirtió a antiguos aliados en competidores por el control de ciudades, corredores fronterizos y mercados ilícitos.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Las consecuencias para la población civil suelen ser inmediatas: incremento en percepción de inseguridad, interrupción de actividades económicas, desplazamientos temporales y debilitamiento de la estabilidad cotidiana.",
+					"La violencia derivada de esa separación afectó especialmente a Tamaulipas y otras regiones del noreste. Los enfrentamientos entre ambas organizaciones se sumaron a disputas por extorsión, secuestro, tráfico de personas y otras actividades que permitían financiar sus operaciones. La población quedó expuesta a una confrontación en la que el control territorial adquirió una importancia que trascendía las rutas tradicionales del narcotráfico.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"La situación refleja una constante dentro de los procesos de fragmentación criminal: la captura de una figura relevante puede representar simultáneamente un éxito institucional y el inicio de una etapa particularmente inestable para el territorio afectado.",
+					"La expansión de Los Zetas también estuvo asociada con formas extremas de violencia. Su participación en graves agresiones contra civiles, entre ellas la masacre de migrantes ocurrida en San Fernando, Tamaulipas, en 2010, mostró cómo las capacidades coercitivas de una organización podían dirigirse contra personas ajenas a las disputas por el tráfico de drogas. La diversificación criminal y la utilización del terror como mecanismo de control ampliaron las consecuencias sociales de su presencia.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Bajo esa misma lógica, diversos especialistas en seguridad han comenzado a plantear escenarios hipotéticos sobre las posibles consecuencias que podría generar una eventual desarticulación del Cártel Jalisco Nueva Generación tras la muerte o captura de Nemesio Oseguera Cervantes.",
+					"La independencia de Los Zetas tampoco garantizó la estabilidad de la nueva organización. Las capturas y muertes de dirigentes, junto con las disputas entre mandos regionales, favorecieron nuevas divisiones. Entre las estructuras que adquirieron relevancia se encuentra el Cártel del Noreste, vinculado históricamente con integrantes y redes provenientes de Los Zetas y particularmente asociado con Nuevo Laredo.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"El interés alrededor de este escenario no responde únicamente al peso actual de dicha organización, sino a la magnitud territorial y operativa que ha desarrollado durante los últimos años. A diferencia de estructuras regionales más limitadas, el grupo mantiene presencia en múltiples entidades, redes financieras complejas y capacidad de adaptación operativa.",
+					"El propio Cártel del Golfo experimentó divisiones internas entre facciones que conservaron presencia en distintas zonas de Tamaulipas. De esta manera, una organización que había desarrollado un brazo armado para fortalecer su capacidad de control terminó enfrentándose a él, mientras ambas estructuras atravesaban posteriores procesos de fragmentación. Las redes criminales sobrevivieron a sus dirigentes originales, pero la competencia entre quienes heredaron sus capacidades contribuyó a prolongar la inestabilidad territorial.",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"En escenarios de fragmentación profunda, el principal desafío para el Estado no consiste únicamente en ejecutar operativos de alto impacto, sino en impedir que el vacío posterior derive en una multiplicación de actores violentos difíciles de contener.",
+					"Estos antecedentes muestran que la fragmentación no responde únicamente a la captura de un dirigente. También puede producirse cuando una estructura subordinada acumula suficiente autonomía para cuestionar a sus mandos, cuando los acuerdos entre grupos dejan de ser rentables o cuando distintas facciones consideran que pueden obtener mayores beneficios actuando de manera independiente. En tales circunstancias, la violencia puede intensificarse incluso sin que exista una intervención estatal inmediata que provoque la ruptura.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"Los Culiacanazos y la respuesta criminal frente a las operaciones de captura",
 			},
 			{
 				tipo: "parrafo",
 				texto:
-					"Ese es, precisamente, uno de los aprendizajes más importantes que ha dejado la evolución de la violencia organizada en México: desarticular una estructura criminal no equivale automáticamente a pacificar un territorio.",
+					"La historia de las escisiones criminales explica cómo se redistribuye el poder después de una ruptura, pero existe otra dimensión que resulta fundamental para comprender sus consecuencias: la capacidad de las organizaciones para responder cuando las autoridades intentan detener a sus principales dirigentes. En esos momentos, la confrontación puede extenderse más allá de los integrantes directamente involucrados y alcanzar a una población que no tiene participación alguna en las actividades delictivas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El 17 de octubre de 2019, Culiacán se convirtió en escenario de uno de los episodios más significativos de la relación entre el Estado mexicano y el crimen organizado. Fuerzas federales realizaron una operación para detener a Ovidio Guzmán López, hijo de Joaquín Guzmán Loera e integrante de la estructura conocida como Los Chapitos. La intervención provocó una reacción armada que se extendió por distintos puntos de la ciudad, donde integrantes de la organización establecieron bloqueos, incendiaron vehículos y realizaron agresiones que pusieron en riesgo a habitantes, automovilistas y personal de seguridad.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La situación escaló hasta comprometer la capacidad de las autoridades para mantener el control de la operación. Ante la posibilidad de que los enfrentamientos provocaran mayores pérdidas humanas, el Gobierno federal decidió suspender la detención y liberar a Ovidio Guzmán. La decisión abrió un debate sobre la planeación del operativo, la capacidad de respuesta institucional y las consecuencias de enfrentar a una organización con suficiente presencia territorial para alterar simultáneamente la movilidad y la seguridad de una ciudad.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El episodio, conocido como el primer Culiacanazo, tuvo una consecuencia que merece especial atención. La violencia desplegada por la organización no sólo produjo daños inmediatos, sino que coincidió con un resultado favorable para quienes buscaban impedir la captura. La liberación del detenido dejó un precedente observable: mediante una reacción armada suficientemente amplia, una estructura criminal había conseguido generar condiciones que influyeron en la decisión de las autoridades.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Este antecedente permite examinar una característica del comportamiento criminal que no siempre recibe suficiente atención: las organizaciones también observan, aprenden y adaptan sus prácticas. Los resultados de una operación, las decisiones institucionales y las respuestas de la población pueden convertirse en información relevante para grupos que buscan preservar sus liderazgos o dificultar futuras intervenciones. No obstante, sería impreciso afirmar que el Culiacanazo originó una estrategia adoptada deliberadamente por todas las organizaciones del país. Lo que sí puede sostenerse es que el acontecimiento mostró públicamente la capacidad de la violencia territorial para ejercer presión durante una operación estatal de alto impacto.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La oportunidad de observar nuevamente esta dinámica llegó el 5 de enero de 2023, cuando las autoridades federales consiguieron detener a Ovidio Guzmán en Sinaloa. La respuesta criminal presentó similitudes con la registrada cuatro años antes. Se establecieron bloqueos, ocurrieron enfrentamientos y se produjeron agresiones en distintos puntos de Culiacán, incluidos los alrededores del aeropuerto y de instalaciones militares. La Secretaría de Seguridad y Protección Ciudadana reportó 19 bloqueos y agresiones durante la jornada, mientras que las afectaciones obligaron a modificar actividades y operaciones aeroportuarias.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para los habitantes, el resultado inmediato volvió a ser una ciudad sometida a restricciones de movilidad y a la incertidumbre sobre la evolución de los enfrentamientos. La violencia alteró actividades cotidianas y extendió sus efectos hacia personas que no tenían relación con el objetivo de la operación. Sin embargo, el desenlace institucional fue diferente. Esta vez, las fuerzas federales consiguieron trasladar al detenido fuera de Sinaloa y completar su puesta a disposición de las autoridades competentes.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La comparación entre 2019 y 2023 resulta relevante porque demuestra que una respuesta criminal semejante no garantiza el mismo resultado. Las organizaciones pueden intentar reproducir mecanismos de presión utilizados anteriormente, pero su efectividad depende de las circunstancias de cada intervención, la preparación institucional y la capacidad de las autoridades para sostener el operativo. Al mismo tiempo, ambos acontecimientos evidencian que la violencia desplegada para impedir una captura puede generar consecuencias sociales independientemente de que la organización alcance o no su objetivo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Un escenario de mayor extensión territorial se presentó el 22 de febrero de 2026, durante el operativo federal realizado en Tapalpa, Jalisco, en el que murió Nemesio Oseguera Cervantes, conocido como El Mencho, principal dirigente del Cártel Jalisco Nueva Generación. La intervención estuvo seguida de una reacción criminal que alcanzó numerosas entidades del país mediante bloqueos carreteros, incendios de vehículos, ataques contra establecimientos y agresiones a las autoridades.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"El Gabinete de Seguridad informó que se registraron 85 bloqueos en carreteras federales de 11 entidades. La respuesta institucional permitió retirar las obstrucciones y restablecer la circulación, pero la extensión de los acontecimientos mostró la capacidad de la organización para generar afectaciones simultáneas en territorios alejados del lugar donde había ocurrido el operativo.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La diferencia con los Culiacanazos no fue únicamente geográfica. Mientras los acontecimientos de 2019 y 2023 estuvieron relacionados con intentos de impedir o revertir la detención de Ovidio Guzmán, la reacción de febrero de 2026 ocurrió después de la muerte del dirigente del CJNG. En este último caso, los bloqueos y ataques también pueden analizarse como expresiones de represalia, demostración de capacidad operativa e intimidación, aunque establecer las motivaciones específicas de cada célula exige evidencia adicional.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"No existe fundamento suficiente para afirmar que la respuesta del CJNG haya sido una reproducción directa de lo ocurrido en Culiacán. Sin embargo, los tres episodios muestran que las organizaciones criminales pueden trasladar una confrontación con el Estado hacia espacios civiles mediante la interrupción de carreteras, la afectación de servicios y la generación de condiciones de temor. La población termina enfrentando parte de las consecuencias de operaciones en las que no participa, mientras las autoridades deben atender simultáneamente el objetivo policial y la protección de comunidades e infraestructura.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Estos acontecimientos también plantean una dificultad para las estrategias centradas en dirigentes de alto perfil. Una operación puede cumplir su objetivo inmediato y, aun así, desencadenar una reacción que exija recursos extraordinarios para recuperar la movilidad, proteger a la población y contener posibles disputas posteriores. Por ello, evaluar sus resultados requiere observar no sólo si el objetivo fue detenido o neutralizado, sino también qué capacidades conserva la organización y cuáles pueden activarse después de la intervención.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Sinaloa: de una ruptura interna a una confrontación prolongada",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Durante décadas, el Cártel de Sinaloa consiguió mantener una estructura en la que coexistían distintos liderazgos, intereses económicos y redes territoriales. La organización no funcionaba como un grupo completamente uniforme, pero las diferencias entre sus principales operadores no habían impedido la continuidad de sus actividades. La permanencia de figuras como Joaquín Guzmán Loera e Ismael Zambada García, junto con los acuerdos entre sus respectivos círculos de influencia, contribuyó a sostener un equilibrio que sobrevivió a capturas, extradiciones y reacomodos anteriores.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Ese equilibrio comenzó a fracturarse de manera más profunda después del 25 de julio de 2024, cuando Ismael Zambada fue trasladado a Estados Unidos y quedó bajo custodia de las autoridades de ese país. Las circunstancias de su llegada generaron controversias desde el primer momento. Zambada sostuvo que había sido llevado contra su voluntad, mientras las investigaciones y versiones públicas sobre la participación de otros integrantes del Cártel de Sinaloa alimentaron las tensiones entre las estructuras asociadas con su familia y los hijos de Joaquín Guzmán.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La detención no produjo inmediatamente una confrontación abierta en todos los territorios, pero alteró las relaciones de confianza entre grupos que durante años habían compartido espacios de influencia. En septiembre de 2024 comenzaron a intensificarse los enfrentamientos entre las facciones conocidas como Los Chapitos y La Mayiza, encabezadas por operadores vinculados, respectivamente, con los hijos de Joaquín Guzmán y con la familia Zambada. La violencia se manifestó inicialmente en Culiacán y sus alrededores, aunque con el paso de los meses alcanzó otras regiones del estado.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La disputa no se limitó a determinar quién ocuparía el lugar de un dirigente ausente. Ambas estructuras contaban con recursos, operadores armados, relaciones territoriales y capacidades para sostener sus actividades de manera independiente. El conflicto involucró el control de corredores, mercados criminales y redes locales que anteriormente habían coexistido bajo acuerdos más amplios. Conforme esos acuerdos se rompieron, la pertenencia a una misma organización dejó de garantizar cooperación y se convirtió en motivo de sospecha entre antiguos aliados.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La confrontación también produjo cambios de lealtad. Operadores y células que habían mantenido vínculos con una facción comenzaron a modificar sus alianzas, mientras otros grupos aprovecharon el debilitamiento de sus competidores para ampliar su presencia. Estas transformaciones dificultaron que el conflicto pudiera entenderse únicamente como una guerra entre dos familias criminales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En julio de 2026, International Crisis Group publicó la investigación La guerra de los herederos en Sinaloa: combatir el crimen en México bajo presión de EE. UU., en la que describió un escenario integrado por cuatro grandes estructuras y al menos veinte células con distintos grados de autonomía. Además de Los Chapitos y Los Mayos, el estudio identificó la presencia de grupos vinculados con Aureliano Guzmán Loera, conocido como El Guano, y Fausto Isidro Meza Flores, El Chapo Isidro, cuya trayectoria está relacionada con las redes históricas de los Beltrán Leyva.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La presencia de estos actores amplía las dimensiones de la disputa. Las organizaciones que no pertenecen directamente a los dos bloques principales pueden aprovechar las confrontaciones para recuperar territorios, establecer acuerdos temporales o fortalecer su posición frente a rivales debilitados. Los cambios de lealtad y las alianzas coyunturales hacen que el control territorial sea inestable, pues una célula puede perder presencia en determinada zona y posteriormente intentar recuperarla mediante nuevos ataques o acuerdos con otros grupos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Dentro de este escenario también han surgido reportes sobre acercamientos entre integrantes de Los Chapitos y el Cártel Jalisco Nueva Generación. La posible intervención de una organización externa de esa dimensión representa un factor relevante para comprender la evolución de la competencia criminal, aunque las características y permanencia de esas relaciones no deben considerarse plenamente establecidas. Las alianzas dentro del crimen organizado pueden responder a intereses temporales y modificarse cuando cambian las condiciones territoriales o la correlación de fuerzas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La participación de la estructura de El Chapo Isidro también exige una distinción. No se trata simplemente de una nueva facción creada por la detención de Zambada, sino de una organización con antecedentes propios que ha adquirido relevancia dentro del escenario de competencia. Su presencia demuestra cómo una ruptura interna puede ofrecer oportunidades a actores que ya operaban en el territorio y que buscan modificar el equilibrio entre organizaciones rivales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"A más de dos años de la detención de Zambada, la confrontación continúa sin una resolución definitiva. Los reacomodos territoriales no han significado necesariamente el restablecimiento de condiciones de seguridad, y la pérdida de posiciones por parte de una facción puede ir acompañada de nuevas agresiones, represalias o disputas por los espacios que quedan disponibles. La investigación de International Crisis Group también advierte que el conflicto ha favorecido la multiplicación de células y la incorporación de jóvenes a estructuras armadas, ampliando las consecuencias de una ruptura que inicialmente se relacionaba con los principales liderazgos del cártel.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Las consecuencias de la fragmentación para la población",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La violencia que atraviesa Sinaloa desde septiembre de 2024 ha demostrado que una disputa entre organizaciones criminales puede modificar profundamente las condiciones de vida de una entidad. Los enfrentamientos y homicidios representan sus manifestaciones más visibles, pero el conflicto también ha afectado la movilidad, las actividades económicas, la convivencia comunitaria y la percepción de seguridad de quienes habitan las regiones donde operan las facciones.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"En Culiacán, la posibilidad de enfrentamientos y bloqueos ha condicionado las actividades cotidianas durante distintos periodos de la confrontación. La incertidumbre sobre los lugares y momentos en que puede registrarse un episodio violento modifica decisiones aparentemente ordinarias, como desplazarse hacia el trabajo, mantener abierto un establecimiento o permitir que los integrantes de una familia realicen determinadas actividades fuera del hogar. Estas alteraciones no siempre aparecen reflejadas en los registros de incidencia delictiva, pero forman parte de las consecuencias sociales del conflicto.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Las afectaciones económicas tampoco se limitan a los establecimientos que sufren directamente un delito. La reducción de movilidad, la suspensión temporal de actividades y el temor de trabajadores o consumidores pueden disminuir la actividad comercial incluso en zonas donde no se registra un enfrentamiento específico. Cuando estas condiciones se prolongan, la incertidumbre deja de ser una reacción temporal ante un incidente y se convierte en un factor que influye sobre decisiones de inversión, contratación y continuidad de los negocios.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La confrontación también ha provocado desplazamientos de población en comunidades expuestas a disputas territoriales. Abandonar una vivienda o una localidad puede representar la pérdida de ingresos, redes de apoyo, actividades productivas y vínculos comunitarios construidos durante años. Para las familias desplazadas, el impacto de la violencia continúa después de salir del territorio, especialmente cuando no existen condiciones para regresar o mecanismos suficientes de atención y protección.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La prolongación del conflicto también plantea interrogantes sobre la participación de adolescentes y jóvenes en las estructuras criminales. Las organizaciones que pierden integrantes durante una confrontación pueden buscar nuevos operadores para sostener sus actividades, especialmente cuando mantienen disputas simultáneas en diferentes territorios.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La disputa también ha alcanzado a trabajadores y actividades productivas ajenas al narcotráfico. En enero de 2026 desaparecieron trabajadores vinculados con una empresa minera en Concordia, Sinaloa; posteriormente, varios fueron encontrados sin vida. Aunque las investigaciones deben determinar las responsabilidades y motivaciones específicas, el caso evidencia la vulnerabilidad de personas que desarrollan actividades económicas en territorios sometidos a una competencia criminal prolongada.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La dimensión de las desapariciones requiere una atención particular. En contextos de confrontación entre facciones, las personas pueden quedar expuestas a privaciones de libertad relacionadas con sospechas de colaboración con grupos rivales, disputas territoriales u otras dinámicas criminales. Sin embargo, no resulta metodológicamente correcto atribuir automáticamente todas las desapariciones registradas durante el conflicto a una sola organización o motivación. Cada caso requiere investigación individual y la identificación de los elementos que permitan establecer responsabilidades.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La persistencia de estas condiciones revela que el costo de la fragmentación no depende exclusivamente de la intensidad de los enfrentamientos armados. Una región puede experimentar periodos con menor número de agresiones visibles y, aun así, conservar restricciones de movilidad, temor comunitario, desplazamiento y afectaciones económicas. La recuperación de la seguridad exige, por tanto, observar la evolución de las condiciones de vida de la población y no únicamente la reducción temporal de incidentes.",
+			},
+			{
+				tipo: "subtitulo",
+				texto:
+					"La captura de un dirigente y los límites de la desarticulación criminal",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los casos del Cártel de Guadalajara, el Cártel del Golfo, Los Zetas y las facciones de Sinaloa muestran que la pérdida de un liderazgo puede producir consecuencias muy diferentes. Algunas organizaciones conservan su cohesión mediante mecanismos de sucesión relativamente estables; otras se dividen entre mandos regionales que buscan administrar sus actividades de manera independiente. También existen situaciones en las que una estructura subordinada adquiere suficiente capacidad para separarse y competir con la organización que contribuyó a su formación.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Estas diferencias impiden establecer una relación automática entre la captura de un dirigente y el incremento de la violencia. La fragmentación depende de las condiciones que existían antes de la intervención, de las relaciones entre los principales operadores y de los recursos que permanecen disponibles. Cuando las disputas internas ya estaban presentes, la desaparición de una figura de autoridad puede acelerar un conflicto que llevaba tiempo desarrollándose. En otros casos, la operación puede debilitar suficientemente a la organización como para reducir su capacidad de actuación.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Por ello, las capturas de alto impacto no deben interpretarse como intervenciones necesariamente contraproducentes. La detención de dirigentes criminales constituye una función legítima del Estado y puede producir resultados importantes para la investigación y persecución de delitos. El problema aparece cuando se considera que la neutralización de una persona equivale a la desaparición de toda la estructura que dirigía.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Las organizaciones criminales consolidadas suelen disponer de recursos que trascienden a sus principales líderes. Sus operaciones dependen de redes financieras, operadores territoriales, mecanismos de reclutamiento, contactos comerciales y relaciones que pueden mantenerse incluso después de una detención. Cuando esas capacidades quedan distribuidas entre diferentes mandos, la intervención puede modificar la organización sin eliminar necesariamente sus actividades.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La experiencia de Sinaloa resulta especialmente relevante porque permite observar las consecuencias de esa continuidad. La detención de Ismael Zambada no significó el desmantelamiento inmediato de las redes criminales asociadas con el Cártel de Sinaloa. En cambio, contribuyó a modificar las relaciones entre sus principales facciones y abrió un periodo de confrontación durante el cual diferentes actores han intentado conservar o ampliar su influencia. La persistencia de mercados ilícitos y estructuras armadas ha permitido que la disputa continúe pese a las pérdidas sufridas por los grupos involucrados.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Esto plantea la necesidad de complementar las operaciones contra objetivos prioritarios con investigaciones sobre las capacidades que permanecen después de su captura. Identificar a los posibles sucesores, comprender las relaciones entre facciones y reconocer los territorios donde pueden surgir disputas permite anticipar escenarios de violencia y orientar acciones de prevención. La intervención estatal no termina necesariamente cuando el detenido queda bajo custodia o cuando concluye el enfrentamiento; sus consecuencias pueden desarrollarse durante meses o años.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"También es necesario distinguir entre la fragmentación de una organización y la transformación del mercado criminal. Una estructura puede perder cohesión mientras sus antiguos integrantes continúan participando en actividades ilícitas. Incluso cuando las facciones enfrentadas sufren pérdidas importantes, otras organizaciones pueden aprovechar el debilitamiento de sus competidores para ocupar los espacios disponibles. En estas circunstancias, la reducción de capacidad de un grupo no siempre se traduce en una disminución equivalente de la actividad criminal dentro del territorio.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La evaluación de las estrategias de seguridad requiere considerar ambas dimensiones. Las detenciones, aseguramientos y desarticulaciones son resultados institucionales relevantes, pero deben analizarse junto con la evolución de los homicidios, las desapariciones, el desplazamiento, las extorsiones y otras afectaciones que experimenta la población. Sólo mediante esa perspectiva es posible determinar si el debilitamiento de una organización ha contribuido efectivamente a mejorar las condiciones de seguridad o si ha sido seguido por un nuevo proceso de competencia criminal.",
+			},
+			{
+				tipo: "subtitulo",
+				texto: "Una violencia que puede sobrevivir a sus dirigentes",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La evolución del crimen organizado mexicano muestra que las organizaciones no permanecen inalteradas. Sus estructuras se transforman conforme cambian los liderazgos, las relaciones entre operadores, los mercados ilícitos y las condiciones de seguridad. Algunas rupturas dan origen a organizaciones independientes; otras producen facciones que conservan vínculos parciales con sus antiguos aliados. Cuando esos reacomodos involucran territorios estratégicos y grupos con capacidad armada, la competencia puede extenderse mucho más allá de quienes originalmente protagonizaron la disputa.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La reorganización posterior al Cártel de Guadalajara contribuyó a configurar un nuevo escenario de organizaciones regionales que terminaron enfrentándose por rutas y mercados. Décadas después, la ruptura entre el Cártel del Golfo y Los Zetas mostró cómo una estructura creada para fortalecer a una organización podía adquirir autonomía y convertirse en uno de sus principales adversarios. Las divisiones posteriores de ambos grupos confirmaron que la fragmentación puede repetirse conforme cambian las relaciones de poder.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Los acontecimientos de Culiacán en 2019 y 2023, así como la reacción criminal posterior al operativo contra El Mencho en febrero de 2026, añadieron otra dimensión a este problema. Las organizaciones no sólo compiten entre sí, también pueden movilizar sus capacidades para responder a intervenciones estatales mediante acciones que afectan carreteras, infraestructura, servicios y espacios civiles. Aunque cada episodio respondió a circunstancias distintas, todos evidenciaron las consecuencias que puede tener una confrontación cuando la población queda expuesta a los mecanismos de presión utilizados por los grupos criminales.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Sinaloa representa actualmente una de las expresiones más complejas de estas dinámicas. La ruptura entre Los Chapitos y La Mayiza no ha permanecido como una disputa limitada a dos estructuras. La participación de otras facciones, los cambios de lealtad y la competencia por territorios han prolongado una confrontación cuyas consecuencias se extienden hacia comunidades, trabajadores, actividades productivas y familias que no forman parte de las organizaciones involucradas.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La historia de estas rupturas también demuestra que la violencia no depende exclusivamente de la permanencia de un dirigente. Puede continuar después de su captura porque los intereses económicos, las capacidades operativas y las disputas territoriales permanecen activos. En ocasiones, la desaparición de una figura que mantenía acuerdos entre diferentes grupos elimina precisamente uno de los mecanismos que contenían sus diferencias.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Comprender la fragmentación criminal exige, por ello, observar a las organizaciones como estructuras cambiantes y no únicamente como agrupaciones encabezadas por personajes identificables. La captura de un líder puede modificar el equilibrio de poder, pero las consecuencias posteriores dependen de quienes conservan los recursos, de las alianzas que sobreviven y de los actores que encuentran oportunidades para intervenir.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"Para las instituciones de seguridad, el desafío consiste en impedir que esas transformaciones se traduzcan en nuevos periodos de violencia. Para las comunidades que habitan los territorios en disputa, las consecuencias son mucho más inmediatas: la posibilidad de desplazarse, trabajar, mantener sus actividades económicas y desarrollar su vida cotidiana sin quedar expuestas a una confrontación que puede continuar incluso después de que sus principales protagonistas han sido detenidos.",
+			},
+			{
+				tipo: "parrafo",
+				texto:
+					"La verdadera dimensión de una intervención contra el crimen organizado no se conoce únicamente al concluir el operativo. También se manifiesta en lo que ocurre después, cuando las estructuras restantes deben reorganizarse y las autoridades enfrentan la responsabilidad de evitar que la disputa por el poder criminal se convierta en una nueva amenaza para la población.",
 			},
 		],
 	},
