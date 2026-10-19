@@ -2834,7 +2834,7 @@ export const articulos = [
 				"Culiacanazo",
 				"disputas territoriales",
 			],
-			fechaPublicacion: "2026-05-13",
+			fechaPublicacion: "2026-10-26",
 			autor: "Observatorio Criminal",
 			tiempoLectura: 25,
 			estado: "revision",
